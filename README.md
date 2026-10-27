@@ -6,5 +6,6 @@ Ideas de juegos que todavía no tienen plataforma ni repositorio propio. Cada id
 |------|---------|--------|
 | Mediador de monstruos (provisional) | [mediador-de-monstruos/](mediador-de-monstruos/) | Idea |
 | Diario encantado (provisional) | [diario-encantado/](diario-encantado/) | Idea |
+| Drakulin (provisional) | [drakulin/](drakulin/) | Idea |
 
 Cuando una idea pase a desarrollarse, se mueve al repositorio de su plataforma (por ejemplo, [gameboy](https://github.com/Manzupas/gameboy)).
