@@ -1,6 +1,11 @@
 # Drakulin (título provisional)
 
-> Estado: **idea**. Solo el concepto, todavía sin especificar.
+| Ficha | |
+|-------|---|
+| Estado | semilla |
+| Plataforma candidata | Por decidir (estaba en el repo gameboy) |
+| Origen | Port de *Drakulin*, juego para móviles Symbian |
+| Año | Por apuntar |
 
 ## Concepto
 
