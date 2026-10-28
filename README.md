@@ -14,6 +14,9 @@ Cuando una idea empieza a desarrollarse, se mueve al repositorio de su plataform
 | [Shmup matemático](shmup-matematico/diseno.md) | Por decidir | Prototipo en Unity (2025) |
 | [Juegos de palabras](juegos-de-palabras/diseno.md) | Por decidir | Prototipos web (2024) |
 | [Castle](castillo/diseno.md) | Por decidir | Prototipo en Unity (2025) |
+| [Buscaminas](buscaminas/diseno.md) | Por decidir | Prototipo en Unity (código perdido) |
+| [Reversi de cartas](reversi-de-cartas/diseno.md) | Por decidir | Idea nueva |
+| [Mundo idílico](mundo-idilico/diseno.md) | Por decidir | Idea nueva |
 
 ## Definiendo
 
