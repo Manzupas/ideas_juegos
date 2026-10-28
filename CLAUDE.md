@@ -9,6 +9,7 @@ Aquí viven las ideas de juegos que todavía no se están desarrollando: concept
   - `diseno.md`: la especificación de la idea. Empieza con la **ficha** (ver abajo), y después el concepto, lo decidido y las preguntas abiertas.
   - `material/` (opcional, se crea cuando haga falta): material antiguo o de referencia, como código de prototipos viejos, bocetos, capturas o notas. Se guarda tal cual; lo que se decida a partir de él se apunta en `diseno.md`.
 - Las ideas nuevas se crean copiando [_plantilla/diseno.md](_plantilla/diseno.md).
+- `_entrada/` es una bandeja local que no se commitea (está en `.gitignore`): ahí se deja material sin organizar, como prototipos viejos o notas sueltas. Al organizarlo, lo que sirva se mueve a `material/` de su idea y se apunta en su `diseno.md`.
 - El [README.md](README.md) es el índice: una fila por idea, agrupadas por estado. Hay que actualizarlo al crear una idea o al cambiarle el estado.
 
 ## Ficha

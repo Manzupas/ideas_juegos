@@ -1,0 +1,10 @@
+sarten
+tenedor
+cuchillo
+plato
+cuchara
+salero
+azucarero
+batidora
+olla
+grifo

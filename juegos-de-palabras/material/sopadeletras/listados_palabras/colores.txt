@@ -1,0 +1,10 @@
+Rojo
+Azul
+Verde
+Naranja
+Amarillo
+Morado
+Violeta
+Negro
+Blanco
+Gris

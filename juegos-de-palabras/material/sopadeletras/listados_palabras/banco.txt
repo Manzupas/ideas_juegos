@@ -1,0 +1,17 @@
+Cuentacorriente
+Tarjetadébito
+Tarjetacrédito
+Extracto
+Saldo
+Transferencia
+Préstamo
+Interés
+Hipoteca
+Depósito
+Cheque
+Sucursal
+Cajero
+IBAN
+Nómina
+Comisión
+Fondos

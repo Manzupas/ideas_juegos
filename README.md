@@ -11,6 +11,9 @@ Cuando una idea empieza a desarrollarse, se mueve al repositorio de su plataform
 | [Mediador de monstruos](mediador-de-monstruos/diseno.md) | Por decidir | Por apuntar |
 | [Diario encantado](diario-encantado/diseno.md) | Por decidir | Por apuntar |
 | [Drakulin](drakulin/diseno.md) | Por decidir | Port de *Drakulin* (Symbian) |
+| [Shmup matemático](shmup-matematico/diseno.md) | Por decidir | Prototipo en Unity (2025) |
+| [Juegos de palabras](juegos-de-palabras/diseno.md) | Por decidir | Prototipos web (2024) |
+| [Castle](castillo/diseno.md) | Por decidir | Prototipo en Unity (2025) |
 
 ## Definiendo
 

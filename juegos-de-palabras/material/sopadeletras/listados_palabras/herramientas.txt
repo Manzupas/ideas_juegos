@@ -1,0 +1,10 @@
+tornillo
+tuerca
+martillo
+escuadra
+escalera
+cable
+sierra
+alicates
+metro
+taladro

@@ -3,7 +3,7 @@
 | Ficha | |
 |-------|---|
 | Estado | semilla |
-| Plataforma candidata | Por decidir (estaba en el repo gameboy) |
+| Plataforma candidata | Por decidir (estaba en el repo gameboy; en abril de 2025 se creó un proyecto vacío de Godot llamado `drakulin`, sin código) |
 | Origen | Port de *Drakulin*, juego para móviles Symbian |
 | Año | Por apuntar |
 
