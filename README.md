@@ -28,4 +28,6 @@ Ninguna todavía.
 
 ## Movidas
 
-Ninguna todavía.
+| Idea | Plataforma | Dónde |
+|------|------------|-------|
+| [Batalla de Genios](batalla-genios/diseno.md) | Game Boy | [gameboy/juegos/batalla-genios](https://github.com/Manzupas/gameboy/tree/main/juegos/batalla-genios) |
