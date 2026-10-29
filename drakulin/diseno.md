@@ -5,7 +5,12 @@
 | Estado | semilla |
 | Plataforma candidata | Por decidir (estaba en el repo gameboy; en abril de 2025 se creó un proyecto vacío de Godot llamado `drakulin`, sin código) |
 | Origen | Port de *Drakulin*, juego para móviles Symbian |
-| Año | Por apuntar |
+| Año | 2023 o antes: hay un cartucho de PICO-8 llamado `drakulin_first_level` de abril de 2023 |
+
+## Prototipos
+
+- **PICO-8 (abril de 2023)**: `OneDrive - Gobierno de La Rioja\pico8\carts\drakulin_first_level\`, con `main.lua`, `player.lua`, `objects.lua`, `map.lua` y `utils.lua`. Todavía no se ha revisado porque los archivos solo están en la nube de OneDrive. Cuando se puedan leer, se guardan en `material/`.
+- **Godot (abril de 2025)**: un proyecto vacío, sin código.
 
 ## Concepto
 
