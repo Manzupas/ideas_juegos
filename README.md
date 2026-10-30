@@ -22,7 +22,7 @@ Cuando una idea empieza a desarrollarse, se mueve al repositorio de su plataform
 | [Robot espía](robot-espia/diseno.md) | Por decidir | Prototipo en GameMaker (código no localizado) |
 | [Daredevil](daredevil/diseno.md) | Por decidir | Idea nueva |
 | [Henry Hatsworth y la aventura rompecabezas](henry-hatsworth/diseno.md) | Por decidir | Port de *Henry Hatsworth in the Puzzling Adventure* (DS) |
-| [Salvar el poblado](salvar-el-poblado/diseno.md) | Por decidir | Inspirado en *Star Wars* (Boba Fett con los tusken; capítulos de *The Mandalorian* y *The Clone Wars*) |
+| [Salvar el poblado](salvar-el-poblado/diseno.md) | Por decidir | Original, inspirado en *Star Wars* (Boba Fett con los tusken; capítulos de *The Mandalorian* y *The Clone Wars*) |
 
 ## Definiendo
 

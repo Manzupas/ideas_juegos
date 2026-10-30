@@ -4,12 +4,18 @@
 |-------|---|
 | Estado | semilla |
 | Plataforma candidata | Por decidir |
-| Origen | Inspirado en *Star Wars*: dos capítulos sobre salvar un poblado (*The Mandalorian* y *The Clone Wars*) y la historia de Boba Fett con los tusken (*El libro de Boba Fett*) |
+| Origen | Idea original, inspirada en *Star Wars*: dos capítulos sobre salvar un poblado (*The Mandalorian* y *The Clone Wars*) y la historia de Boba Fett con los tusken (*El libro de Boba Fett*) |
 | Año | Por apuntar |
 
 ## Concepto
 
-Un juego sobre un cazarrecompensas que ha "muerto". Lo recogen los tusken, que le enseñan otra manera de vivir, y la historia termina con él defendiendo un poblado.
+Un juego sobre un cazarrecompensas que ha "muerto". Lo recoge un pueblo nómada, que le enseña otra manera de vivir, y la historia termina con él defendiendo un poblado.
+
+## Decidido
+
+- **Todo original**: el mundo, los personajes y la historia son propios. *Star Wars* es solo la inspiración; no aparecen ni Boba Fett, ni los tusken, ni nada de la saga.
+
+## Inspiración
 
 Junta dos cosas de *Star Wars*:
 
@@ -20,11 +26,13 @@ Junta dos cosas de *Star Wars*:
 
 ## Preguntas abiertas
 
-- ¿El protagonista es Boba Fett o un cazarrecompensas propio con una historia parecida?
-- ¿Cómo se reparte el juego? Por ejemplo: una parte con los tusken, en la que se aprende su forma de vida (y quizá habilidades que sirven después), y un final defendiendo el poblado.
-- ¿El poblado que se defiende es de los tusken, de granjeros o de otra gente? ¿Ayudan los tusken en la defensa?
+- Título definitivo.
+- Mundo: ¿ciencia ficción como la inspiración, fantasía, western, otro?
+- El protagonista: ¿quién es, cómo "muere" y por qué le dan por muerto?
+- El pueblo que lo recoge (el equivalente a los tusken): ¿cómo es y qué le enseña?
+- ¿Cómo se reparte el juego? Por ejemplo: una parte con ese pueblo, en la que se aprende su forma de vida (y quizá habilidades que sirven después), y un final defendiendo el poblado.
+- ¿El poblado que se defiende es el de ese pueblo, de granjeros o de otra gente? ¿Le ayudan en la defensa?
 - ¿Qué significa "otra manera de vivir" en el juego? ¿Cambia cómo juega el protagonista (de cazar por dinero a proteger)?
-- Título definitivo. Star Wars es de Lucasfilm/Disney: para un proyecto personal no importa, pero para publicarlo harían falta un mundo y unos personajes propios.
 - Género y mecánica principal: ¿defensa de torres, estrategia por turnos, acción, gestión?
 - ¿Se entrena a los aldeanos antes del ataque, como en los capítulos? ¿Hay una fase de preparación (trampas, defensas, reclutar) y otra de combate?
 - ¿Un solo poblado o varios? ¿Cuándo se gana y cuándo se pierde?
