@@ -21,6 +21,7 @@ Cuando una idea empieza a desarrollarse, se mueve al repositorio de su plataform
 | [Shmup de PICO-8](shmup-pico8/diseno.md) | Por decidir | Prototipo en PICO-8 (código no localizado) |
 | [Robot espía](robot-espia/diseno.md) | Por decidir | Prototipo en GameMaker (código no localizado) |
 | [Daredevil](daredevil/diseno.md) | Por decidir | Idea nueva |
+| [Henry Hatsworth y la aventura rompecabezas](henry-hatsworth/diseno.md) | Por decidir | Port de *Henry Hatsworth in the Puzzling Adventure* (DS) |
 
 ## Definiendo
 
