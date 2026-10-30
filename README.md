@@ -20,6 +20,7 @@ Cuando una idea empieza a desarrollarse, se mueve al repositorio de su plataform
 | [Plataformas de PICO-8](plataformas-pico8/diseno.md) | Por decidir | Prototipo en PICO-8 (código no localizado) |
 | [Shmup de PICO-8](shmup-pico8/diseno.md) | Por decidir | Prototipo en PICO-8 (código no localizado) |
 | [Robot espía](robot-espia/diseno.md) | Por decidir | Prototipo en GameMaker (código no localizado) |
+| [Daredevil](daredevil/diseno.md) | Por decidir | Idea nueva |
 
 ## Definiendo
 
