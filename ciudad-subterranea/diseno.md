@@ -11,6 +11,10 @@
 
 El protagonista es un niño o joven que vive en una ciudad subterránea. Allí mantienen el orden unos golems de barro, y no lo hacen de forma amigable. El protagonista consigue escapar y sale a una montaña nevada, donde descubre que un mago muy viejo es quien controla a los golems.
 
+## Decidido
+
+- **Estética de la ciudad**: como la de *City of Ember* (*Ember: la ciudad perdida*, 2008), una ciudad subterránea iluminada con bombillas y faroles.
+
 ## Preguntas abiertas
 
 - Título definitivo.
