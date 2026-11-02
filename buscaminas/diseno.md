@@ -2,24 +2,13 @@
 
 | Ficha | |
 |-------|---|
-| Estado | semilla |
-| Plataforma candidata | Por decidir (el prototipo estaba en Unity 6) |
-| Origen | Prototipo antiguo en Unity: `Minesweeper`. El código no se ha guardado: se borró al limpiar la bandeja de entrada |
+| Estado | movida |
+| Plataforma candidata | Game Boy |
+| Origen | Prototipo antiguo en Unity: `Minesweeper`. Su código se borró al limpiar la bandeja de entrada |
 | Año | Por apuntar |
 
-## Concepto
+Un buscaminas clásico. Del prototipo de Unity gustaron mucho **el algoritmo de generación de mapas** y **el de resolución**, que estaban en su `GameManager.cs` (unos 38 KB).
 
-Un buscaminas. Lo que interesa conservar del prototipo son dos cosas:
+Ya se desarrolla en el repo [gameboy](https://github.com/Manzupas/gameboy). La especificación (tablero de 9×9 con 10 minas, controles y menús) está en la rama [buscaminas/plan](https://github.com/Manzupas/gameboy/blob/buscaminas/plan/juegos/buscaminas/diseno.md), todavía sin juntar con `main`.
 
-- **El algoritmo de generación de mapas**, que gustó mucho.
-- **El algoritmo de resolución.**
-
-Estaban en el `GameManager.cs` del prototipo, un script de unos 38 KB.
-
-## Preguntas abiertas
-
-- Título definitivo.
-- ¿Queda alguna copia del prototipo en otro sitio? Si aparece, guardar `GameManager.cs` en `material/`.
-- ¿Qué tenía de especial la generación? ¿Tableros que se pueden resolver sin adivinar?
-- ¿Para qué se usaba el resolvedor: para comprobar los tableros generados, para dar pistas o para que juegue la máquina?
-- ¿Es un buscaminas clásico o se le añade algo propio?
+**Ojo**: esa especificación deja los algoritmos pendientes «de los de Unity del usuario», y ese código ya no está. Si aparece otra copia del prototipo, hay que llevar su `GameManager.cs` al repo gameboy. Si no, habrá que decidir los algoritmos de nuevo.

@@ -14,7 +14,6 @@ Cuando una idea empieza a desarrollarse, se mueve al repositorio de su plataform
 | [Shmup matemático](shmup-matematico/diseno.md) | Por decidir | Prototipo en Unity (2025) |
 | [Juegos de palabras](juegos-de-palabras/diseno.md) | Por decidir | Prototipos web (2024) |
 | [Castle](castillo/diseno.md) | Por decidir | Prototipo en Unity (2025) |
-| [Buscaminas](buscaminas/diseno.md) | Por decidir | Prototipo en Unity (código perdido) |
 | [Reversi de cartas](reversi-de-cartas/diseno.md) | Por decidir | Idea nueva |
 | [Mundo idílico](mundo-idilico/diseno.md) | Por decidir | Idea nueva |
 | [Plataformas de PICO-8](plataformas-pico8/diseno.md) | Por decidir | Prototipo en PICO-8 (código no localizado) |
@@ -39,3 +38,6 @@ Ninguna todavía.
 | Idea | Plataforma | Dónde |
 |------|------------|-------|
 | [Batalla de Genios](batalla-genios/diseno.md) | Game Boy | [gameboy/juegos/batalla-genios](https://github.com/Manzupas/gameboy/tree/main/juegos/batalla-genios) |
+| [Sokoban](sokoban/diseno.md) | Game Boy | [gameboy/juegos/sokoban](https://github.com/Manzupas/gameboy/tree/main/juegos/sokoban) |
+| [Puzle Hatsworth](puzle-hatsworth/diseno.md) | Game Boy | [gameboy/juegos/puzle-hatsworth](https://github.com/Manzupas/gameboy/tree/main/juegos/puzle-hatsworth) |
+| [Buscaminas](buscaminas/diseno.md) | Game Boy | [gameboy, rama buscaminas/plan](https://github.com/Manzupas/gameboy/tree/buscaminas/plan/juegos/buscaminas) |
