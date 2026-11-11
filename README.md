@@ -40,4 +40,5 @@ Ninguna todavía.
 | [Batalla de Genios](batalla-genios/diseno.md) | Game Boy | [gameboy/juegos/batalla-genios](https://github.com/Manzupas/gameboy/tree/main/juegos/batalla-genios) |
 | [Sokoban](sokoban/diseno.md) | Game Boy | [gameboy/juegos/sokoban](https://github.com/Manzupas/gameboy/tree/main/juegos/sokoban) |
 | [Puzle Hatsworth](puzle-hatsworth/diseno.md) | Game Boy | [gameboy/juegos/puzle-hatsworth](https://github.com/Manzupas/gameboy/tree/main/juegos/puzle-hatsworth) |
-| [Buscaminas](buscaminas/diseno.md) | Game Boy | [gameboy, rama buscaminas/plan](https://github.com/Manzupas/gameboy/tree/buscaminas/plan/juegos/buscaminas) |
+| [Buscaminas](buscaminas/diseno.md) | Game Boy | [gameboy/juegos/buscaminas](https://github.com/Manzupas/gameboy/tree/main/juegos/buscaminas) |
+| [Atasco](atasco/diseno.md) | Game Boy | [gameboy/juegos/atasco](https://github.com/Manzupas/gameboy/tree/main/juegos/atasco) |
