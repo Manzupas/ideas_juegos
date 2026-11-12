@@ -34,7 +34,7 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 **Decidido, a partir de la época**:
 
 - **El efecto 2000**: el reloj del ordenador nunca llega al 1 de enero de 2000; el tiempo del purgatorio está atascado en el final del milenio. Trevor, el informático, puede usar el «efecto 2000» como excusa para cosas raras del ordenador.
-- **La aplicación del hacker**: un programa de chat de la época, estilo ICQ o IRC, que aparece instalado sin que nadie lo haya instalado.
+- **La aplicación del hacker**: un cliente de **IRC** de la época (canales, apodos, la ventana de texto con la lista de usuarios a un lado), que aparece instalado sin que nadie lo haya instalado.
 - **«Vender secretos» en los 90**: sacar disquetes, fotocopias o faxes de la gestoría y pasárselos a un periódico. Puede dar pistas y objetos para los Murdokus.
 - **Pendiente en el prototipo**: fechas de 1999 en facturas, correos y «Ejercicio»; expediente de Reginald como prestamista; Agatha como dueña.
 
