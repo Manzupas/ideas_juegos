@@ -5,7 +5,7 @@
 ## Planteamiento
 
 - **Doce personajes**, todos con nombre clásico inglés y una inicial distinta (la ficha del tablero muestra solo la inicial).
-- Vivieron en la **Inglaterra contemporánea** y murieron entre 2010 y 2022. Los casos los pueden poner en cualquier época de la historia inglesa, pero sus vidas reales son de ahora: lo que se va descubriendo en los expedientes es su vida de verdad.
+- **[fijado]** El juego está ambientado a **finales de los 90** (el ordenador del contable es de 1998-1999). Los personajes vivieron en la Inglaterra de la segunda mitad del siglo XX y **murieron entre 1990 y 1999**. Los casos los pueden poner en cualquier época de la historia inglesa, pero sus vidas reales son de esa época: lo que se va descubriendo en los expedientes es su vida de verdad.
 - Se agrupan en **tres círculos de cuatro**. En cada círculo hubo una barbaridad hecha entre varios, y cada uno puso su parte. Así, caso a caso, el jugador ve primero a personas sueltas y luego cómo encajan.
 - **[fijado]** La gestoría del contable es **inglesa**. No todos los personajes son clientes, pero **en cada círculo al menos uno sí lo es**: la gestoría tramitó los papeles de esa barbaridad.
 - En los casos, **los asesinatos repiten rencores reales**: quien mata a alguien en un Murdoku tenía motivos para odiarle en vida.
@@ -20,72 +20,72 @@ Los tres clientes coinciden con las tres facturas que ya hay en el prototipo.
 
 ## Las deudas
 
-### Reginald Ashcombe (R) · 1951–2019
-- **[fijado]** Dueño de una empresa de préstamos rápidos. Se quedó con las casas de tres familias que no pudieron pagarle. Víctima del caso 0001 (lo mata Desmond). Fallecimientos registrados: 3. Reaparece vivo en el caso 0003. Debe la factura A/0141 a la gestoría («No pienso pagar esto»).
-- **Vida**: empezó prestando dinero en el pub de su barrio y acabó con una cadena de tiendas, *Ashcombe Easy Credit*, con intereses de más del mil por cien. Buscaba a clientes que ya no podían pagar otro préstamo.
+### Reginald Ashcombe (R) · 1931–1997
+- **[fijado]** Prestamista (antes «dueño de una empresa de préstamos rápidos», que es de los 2010; pendiente de cambiar en el expediente del prototipo). Se quedó con las casas de tres familias que no pudieron pagarle. Víctima del caso 0001 (lo mata Desmond). Fallecimientos registrados: 3. Reaparece vivo en el caso 0003. Debe la factura A/0141 a la gestoría («No pienso pagar esto»).
+- **Vida**: empezó prestando dinero en el pub de su barrio en los años 60 y acabó con una cadena de tiendas de crédito, *Ashcombe Credit*, y una red de cobradores que pasaban por las casas cada viernes, con intereses abusivos. Buscaba a clientes que ya no podían pagar otro préstamo.
 - **Muerte real**: un infarto en su despacho, mientras firmaba una orden de embargo.
 - **En los casos**: arrogante, siempre cree que la culpa es de otro. Nunca paga nada, ni en vida ni en el purgatorio.
 
-### Frederick Bellamy (F) · 1970–2015
+### Frederick Bellamy (F) · 1950–1994
 - **Vida**: el cobrador de Reginald. Iba a las casas de noche, rompía cosas, esperaba a los niños a la salida del colegio para que los padres le vieran.
 - **Muerte real**: atropellado delante de una de las casas que había ido a «visitar». Nadie llamó a la ambulancia enseguida.
 - **En los casos**: siempre está de pie, cerca de las puertas. Es el que más veces aparece junto a la víctima y casi nunca es el asesino.
 
-### Desmond Crowley (D) · 1960–2012
+### Desmond Crowley (D) · 1940–1992
 - **[fijado]** Asesino del caso 0001.
 - **Vida**: el abogado de Reginald. Redactaba los contratos con letra pequeña y llevaba los desahucios al juzgado. También trabajó para Bernard Thorne con la compra del terreno.
 - **Muerte real**: ahogado al caer de su barco, borracho, la noche en que celebraba un juicio ganado.
 - **Por qué mata a Reginald**: Reginald nunca le pagó lo que le debía. Mismo «no pienso pagar».
 
-### Gertrude Fairfax (G) · 1942–2010
+### Gertrude Fairfax (G) · 1922–1990
 - **Vida**: jueza del juzgado del condado. Firmaba los desahucios de Reginald casi sin leerlos, a cambio de regalos: vino, viajes, la matrícula del colegio de un nieto.
 - **Muerte real**: de vieja, en su cama, tranquila. Es la que más años vivió sin consecuencias.
 - **En los casos**: la más serena; suele estar sentada. Habla de los demás como si los juzgara.
 
 ## La residencia
 
-### Agatha Pembroke (A) · 1948–2016
+### Agatha Pembroke (A) · 1928–1996
 - **[fijado]** Dueña de una residencia de mayores en Brighton (antes «directora»: la directora es su hija Cecily). Cobraba a las familias cuidados que los residentes nunca recibieron. Víctima del caso 0002 (la mata Cecily). Fallecimientos registrados: 5. El expediente del prototipo todavía dice «directora»: pendiente de cambiar.
 - **Vida**: la residencia era de su familia. Reducía el personal cada año y cobraba más cada año. Los residentes pasaban días sin que nadie entrase en su habitación.
 - **Muerte real**: sola en su casa; nadie la encontró en tres semanas.
 - **En los casos**: manda sobre todos, aunque no esté en su casa. Es la que más veces ha muerto.
 
-### Cecily Pembroke (C) · 1975–2018
+### Cecily Pembroke (C) · 1955–1998
 - **[fijado]** Asesina del caso 0002.
 - **Vida**: **[fijado]** hija de Agatha y directora de la residencia. Su madre, la dueña, decidía los recortes; ella los aplicaba y cambiaba los registros antes de cada inspección para que pareciese que todo estaba en orden.
 - **Muerte real**: accidente de coche, volviendo de una cena, con demasiado alcohol.
 - **Por qué mata a Agatha**: su madre la hizo cómplice desde los veinte años y nunca la dejó irse.
 
-### Mildred Hale (M) · 1953–2020
+### Mildred Hale (M) · 1933–1999
 - **Vida**: enfermera jefe de la residencia. Se quedaba con la medicación de los residentes y la revendía; a los que se quejaban les daba calmantes de más para que no molestaran.
 - **Muerte real**: en la misma residencia, ya jubilada, como residente. Con el mismo trato.
 - **En los casos**: siempre junto a la cama o la mesilla.
 
-### Harriet Lockwood (H) · 1965–2017
+### Harriet Lockwood (H) · 1945–1995
 - **Vida**: inspectora de sanidad. Aprobó la residencia de Agatha cuatro años seguidos sin entrar en las habitaciones, a cambio de sobres.
 - **Muerte real**: una caída por las escaleras de su casa. Su marido dijo que nadie había revisado nunca la barandilla.
 - **En los casos**: siempre «junto a» algo y nunca dentro de nada; mira, pero no entra.
 
 ## El terreno
 
-### Bernard Thorne (B) · 1955–2021
+### Bernard Thorne (B) · 1935–1998
 - **[fijado]** Promotor inmobiliario. Vendió cuarenta pisos sobre un terreno que sabía contaminado. Víctima del caso 0003 (lo mata Edith). Fallecimientos registrados: 2. «Juraría» que ya le habían mandado la factura (recuerda cosas que no deberían haber pasado).
 - **Vida**: compró barato un terreno de una antigua fábrica química, pagó para que lo recalificaran y tapó el informe del suelo. Los vecinos empezaron a enfermar a los pocos años.
 - **Muerte real**: cayó desde un andamio de una de sus propias obras, que no cumplía las normas.
 - **En los casos**: el más nervioso; es el que más «recuerda» de otras muertes.
 
-### Edith Thorne (E) · 1958–2022
+### Edith Thorne (E) · 1938–1999
 - **[fijado]** Asesina del caso 0003.
 - **Vida**: mujer de Bernard y la cara amable del negocio: vendía los pisos a familias jóvenes y presidía una fundación benéfica que servía para mover el dinero.
 - **Muerte real**: un ictus en la gala anual de su fundación.
 - **Por qué mata a Bernard**: él la dejó sola ante la prensa cuando salió lo del terreno; ella dijo que no sabía nada, y sí sabía.
 
-### Nigel Harcourt (N) · 1949–2014
+### Nigel Harcourt (N) · 1929–1993
 - **Vida**: concejal de urbanismo. Recalificó el terreno de Bernard y luego, cuando los vecinos se quejaron, archivó sus quejas.
 - **Muerte real**: en el campo de golf, de un golpe de calor; jugaba con Bernard.
 - **En los casos**: siempre en el jardín, el patio o el exterior.
 
-### Oswald Finch (O) · 1946–2013
+### Oswald Finch (O) · 1926–1997
 - **Vida**: el asesor financiero que lo unía todo. Movió el dinero de Reginald, de Agatha y de Bernard a cuentas fuera del país. No conocía a las víctimas de nadie y nunca preguntó. **[fijado]** Es el socio fundador de la gestoría del contable (ver abajo).
 - **Muerte real**: en su despacho de la gestoría, a última hora, solo, delante de una hoja de cálculo.
 - **En los casos**: aparece en casos de los tres círculos; es el puente entre ellos. Es el reflejo más cercano del contable.

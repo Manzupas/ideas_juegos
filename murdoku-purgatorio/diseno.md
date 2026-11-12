@@ -28,7 +28,15 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 - **Posible título**: *Office Work*.
 - **Los personajes tienen nombres clásicos ingleses** (los torturados).
 - **La gestoría del contable también es inglesa**: se llama Finch & Limbrick, y su socio fundador es Oswald Finch, uno de los personajes. No todos los personajes son clientes suyos, pero en cada «relación» (cada círculo de personajes que comparten una barbaridad) al menos uno sí lo es. Ver [personajes.md](personajes.md). La compañera de los correos se llama Rosemary Vale. El prototipo todavía usa la gestoría española (Gestoría Lindero, Rosario Montes, euros): está pendiente de cambiar.
-- **Temática de los casos**: en general, relacionada con la historia inglesa. Los primeros casos (los del prototipo) son de la Inglaterra contemporánea.
+- **Temática de los casos**: en general, relacionada con la historia inglesa. Los primeros casos (los del prototipo) son de la Inglaterra «contemporánea» para el contable: los años 90.
+- **Época: finales de los 90.** El ordenador es de Windows 98 (Limbrick 98) y todo cuadra con eso: los personajes murieron entre 1990 y 1999, y el presente del contable es 1999. Se descartó pasar a estética de Windows 7.
+
+**Propuestas que salen de la época** (por revisar):
+
+- **El efecto 2000**: el reloj del ordenador nunca llega al 1 de enero de 2000; el tiempo del purgatorio está atascado en el final del milenio. Trevor, el informático, puede usar el «efecto 2000» como excusa para cosas raras del ordenador.
+- **La aplicación del hacker**: un programa de chat de la época, estilo ICQ o IRC, que aparece instalado sin que nadie lo haya instalado.
+- **«Vender secretos» en los 90**: sacar disquetes, fotocopias o faxes de la gestoría y pasárselos a un periódico. Puede dar pistas y objetos para los Murdokus.
+- **Pendiente en el prototipo**: fechas de 1999 en facturas, correos y «Ejercicio»; expediente de Reginald como prestamista; Agatha como dueña.
 
 ## Correos de los compañeros
 
@@ -102,7 +110,7 @@ Es el ordenador del contable, con estética de Windows 98 (sistema «Lindero 98�
 
   | Caso | Escenario | Víctima | Asesino | Expediente | Llega |
   |------|-----------|---------|---------|------------|-------|
-  | 0001 | Una casa en Hampstead, Londres | Reginald | Desmond | Dueño de una empresa de préstamos rápidos; se quedó con las casas de tres familias. Fallecimientos: 3 | Correo de Rosario al guardar una factura (o con «Enviar y recibir») |
+  | 0001 | Una casa en Hampstead, Londres | Reginald | Desmond | Dueño de una empresa de préstamos rápidos (pendiente: prestamista, por la época); se quedó con las casas de tres familias. Fallecimientos: 3 | Correo de Rosario al guardar una factura (o con «Enviar y recibir») |
   | 0002 | La residencia Pembroke, Brighton | Agatha | Cecily | Directora de una residencia de mayores; cobraba cuidados que nunca se daban. Fallecimientos: 5 (pendiente: Agatha pasa a ser la dueña y Cecily la directora, ver [personajes.md](personajes.md)) | Correo de Rosario («¿Ya? Hay otro») al resolver el 0001 |
   | 0003 | Una casa en las afueras de Manchester | Bernard | Edith | Promotor; vendió cuarenta pisos sobre un terreno que sabía contaminado. Fallecimientos: 2 | Correo «(sin remitente)» al resolver el 0002 |
 
