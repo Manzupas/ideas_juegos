@@ -22,7 +22,9 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 - **El papel del jugador**: sin saberlo, se dedica a torturarlos.
 - **Cómo es la tortura**: en los casos, cada personaje va muriendo varias veces.
 - **No pueden salir del purgatorio.**
-- **El jugador, posible planteamiento**: eres un oficinista haciendo trabajo burocrático; alguien te manda un enlace y ya no puedes parar de resolver *Murdokus*. Podría ser un demonio sin saberlo.
+- **El jugador**: eres un oficinista haciendo trabajo burocrático; te llega un correo electrónico con un enlace y ya no puedes parar de resolver *Murdokus*.
+- **Quién es en realidad el oficinista**: una persona que también está en el purgatorio. Su papel allí es torturar a los demás, sin saberlo.
+- **Estética**: la oficina es solo estilo, no se juega. La interfaz recuerda a un programa de facturación o algo parecido.
 - **Posible título**: *Office Work*.
 
 ## Referencia
@@ -36,9 +38,9 @@ En un *Murdoku* hay un plano de una casa dividido en cuadrícula y unos sospecho
 - ¿Qué barbaridad hizo cada uno? ¿Están relacionadas entre ellas?
 - ¿Cómo se cuenta la vida de cada personaje? ¿En las pistas, en textos entre casos, en objetos de los planos?
 - ¿Cómo se va notando el giro? ¿Detalles raros en las pistas o en los planos, víctimas que reaparecen, personajes que recuerdan casos anteriores?
-- El oficinista: ¿es un demonio sin saberlo, un humano que trabaja para el purgatorio, otra cosa? ¿Cómo y cuándo descubre que los está torturando?
-- ¿Cómo se juega la parte de oficina? ¿Hay trabajo burocrático jugable, o es solo el marco (un escritorio, un ordenador, el enlace)?
-- ¿Quién le manda el enlace y por qué?
+- ¿Qué hizo el oficinista en vida para estar en el purgatorio? ¿Se descubre al final?
+- ¿Quién manda el correo? ¿Es otra persona del purgatorio, el propio purgatorio, alguien de la oficina?
+- ¿Cómo y cuándo descubre el oficinista que los está torturando, y que él también está allí?
 - ¿Qué pasa cuando el jugador lo descubre? ¿Puede seguir o parar? ¿Cambia algo según lo que decida?
 - ¿Cuántos casos? ¿Hay un final o varios?
 - ¿Los puzles se diseñan a mano o se generan? Hay que comprobar que cada uno tiene una única solución.
