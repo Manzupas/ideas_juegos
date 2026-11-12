@@ -3,7 +3,7 @@
 | Ficha | |
 |-------|---|
 | Estado | semilla |
-| Plataforma candidata | Por decidir |
+| Plataforma candidata | Godot, para PC |
 | Origen | Idea nueva, basada en los puzles *Murdoku* |
 | Año | 2026 |
 
