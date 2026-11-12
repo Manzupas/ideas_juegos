@@ -362,6 +362,14 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
 
   /* El equipo tarda en hacer caso: cada acción pesada pone el reloj de arena, ignora los clics y se ejecuta al rato. */
   let busyN = 0;
+  /* Cuánto tarda cada cosa, en milisegundos [mínimo, máximo]: depende de lo pesada que sea. */
+  const DELAY = {
+    dialog: [100, 250], window: [500, 900], startMenu: [150, 300],
+    gesta: [700, 1200], invoiceOpen: [150, 350], invoiceNew: [150, 300], invoiceSave: [300, 600],
+    explorer: [500, 900], folder: [200, 500], notepad: [300, 600],
+    mail: [900, 1500], compose: [300, 500], mailSync: [1500, 2500],
+    browser: [1800, 2800]
+  };
   const rnd = (a, b) => a + Math.random() * (b - a);
   function busy(ms, fn) {
     busyN++; document.documentElement.classList.add("busy");
@@ -369,8 +377,13 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
   }
   function openWin(key, def, arg) {
     const w = WM.wins.get(key);
-    if (w) { w.el.hidden = false; w.min = false; focusWin(w); if (def.update) def.update(w, arg); renderTasks(); return; }
-    busy(def.dialog ? rnd(150, 350) : rnd(600, 1500), () => { if (!WM.wins.get(key)) openWinNow(key, def, arg); });
+    if (w) {
+      w.el.hidden = false; w.min = false; focusWin(w); renderTasks();
+      if (def.update) { if (def.updateDelay && arg != null) busy(rnd(...def.updateDelay), () => def.update(w, arg)); else def.update(w, arg); }
+      return;
+    }
+    const d = def.delay || (def.dialog ? DELAY.dialog : DELAY.window);
+    busy(rnd(...d), () => { if (!WM.wins.get(key)) openWinNow(key, def, arg); });
   }
   function openWinNow(key, def, arg) {
     let w;
@@ -520,7 +533,7 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
   function saveInvoices() { store.set("ow.facturas", invoices); refreshExplorers(); }
 
   const GESTA = {
-    title: "GESTA 2000 · Facturación", icon: "gesta", w: 860, h: 560,
+    title: "GESTA 2000 · Facturación", icon: "gesta", w: 860, h: 560, delay: DELAY.gesta, updateDelay: DELAY.invoiceOpen,
     create(w, arg) {
       if (typeof arg === "number") cur = arg;
       w.body.innerHTML = `
@@ -573,7 +586,7 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
       it.children[0].textContent = `${f.serie || "-"}/${f.num || "----"}`;
       it.children[1].textContent = eur.format(invTotal(f));
       it.children[2].textContent = f.cliente || "(sin cliente)";
-      it.onclick = () => { cur = i; renderGesta(WM.wins.get("gesta")); };
+      it.onclick = () => { if (i === cur) return; busy(rnd(...DELAY.invoiceOpen), () => { cur = i; renderGesta(WM.wins.get("gesta")); }); };
       it.onkeydown = (e) => { if (e.key === "Enter") it.click(); };
       box.appendChild(it);
     });
@@ -611,9 +624,9 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
     const w = WM.wins.get("gesta");
     const nextNum = () => String(invoices.reduce((m, f) => Math.max(m, parseInt(f.num, 10) || 0), 0) + 1).padStart(4, "0");
     if (a === "linea") { invoices[cur].lineas.push({ cod: "", con: "", cant: 1, precio: 0, dto: 0, iva: 21 }); renderGLines(); renderGTotals(); const el = $(`gl${invoices[cur].lineas.length - 1}_con`); if (el) el.focus(); gStatus("Línea añadida"); }
-    if (a === "nueva") { invoices.push({ serie: "A", num: nextNum(), fecha: new Date().toISOString().slice(0, 10), pago: "Transferencia 30 días", cliente: "", nif: "", cp: "", dir: "", obs: "", lineas: [{ cod: "", con: "", cant: 1, precio: 0, dto: 0, iva: 21 }] }); cur = invoices.length - 1; renderGesta(w); $("gCliente").focus(); gStatus("Factura nueva (sin guardar)"); }
-    if (a === "duplicar") { const c = JSON.parse(JSON.stringify(invoices[cur])); c.num = nextNum(); invoices.push(c); cur = invoices.length - 1; renderGesta(w); gStatus("Factura duplicada (sin guardar)"); }
-    if (a === "guardar") { gStatus("Guardando…"); busy(rnd(900, 1600), () => { saveInvoices(); const f = invoices[cur]; gStatus(`Factura ${f.serie}/${f.num} guardada en Mis documentos\\Facturas`); if (MAIL.unlocked < 0) { MAIL.unlocked = 0; setTimeout(deliverNext, 1400); } }); }
+    if (a === "nueva") busy(rnd(...DELAY.invoiceNew), () => { invoices.push({ serie: "A", num: nextNum(), fecha: new Date().toISOString().slice(0, 10), pago: "Transferencia 30 días", cliente: "", nif: "", cp: "", dir: "", obs: "", lineas: [{ cod: "", con: "", cant: 1, precio: 0, dto: 0, iva: 21 }] }); cur = invoices.length - 1; renderGesta(w); $("gCliente").focus(); gStatus("Factura nueva (sin guardar)"); });
+    if (a === "duplicar") busy(rnd(...DELAY.invoiceNew), () => { const c = JSON.parse(JSON.stringify(invoices[cur])); c.num = nextNum(); invoices.push(c); cur = invoices.length - 1; renderGesta(w); gStatus("Factura duplicada (sin guardar)"); });
+    if (a === "guardar") { gStatus("Guardando…"); busy(rnd(...DELAY.invoiceSave), () => { saveInvoices(); const f = invoices[cur]; gStatus(`Factura ${f.serie}/${f.num} guardada en Mis documentos\\Facturas`); if (MAIL.unlocked < 0) { MAIL.unlocked = 0; setTimeout(deliverNext, 1400); } }); }
   }
 
   /* ---------------- Sistema de archivos ---------------- */
@@ -648,7 +661,7 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
     const existing = [...WM.wins.values()].find((w) => w.explorer && w.node === node);
     if (existing) { existing.el.hidden = false; existing.min = false; focusWin(existing); return; }
     openWin("ex" + (exN++), {
-      title: FS[node].name, icon: FS[node].icon, w: 520, h: 360,
+      title: FS[node].name, icon: FS[node].icon, w: 520, h: 360, delay: DELAY.explorer,
       create(w) {
         w.explorer = true; w.node = node;
         w.body.innerHTML = `<div class="menubar"><button>Archivo</button><button>Edición</button><button>Ver</button><button>Ayuda</button></div>
@@ -656,7 +669,7 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
           <div class="addr"><span>Dirección</span><input class="in" readonly aria-label="Dirección"></div>
           <div class="files in" role="list"></div>
           <div class="statusbar"><span class="grow"></span></div>`;
-        w.body.querySelector('[data-x="up"]').onclick = () => { const p = FS[w.node].parent; if (p) busy(rnd(300, 800), () => { w.node = p; renderExplorer(w); }); };
+        w.body.querySelector('[data-x="up"]').onclick = () => { const p = FS[w.node].parent; if (p) busy(rnd(...DELAY.folder), () => { w.node = p; renderExplorer(w); }); };
         renderExplorer(w);
       }
     });
@@ -669,7 +682,7 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
     const box = w.body.querySelector(".files"); box.innerHTML = "";
     const kids = n.kids();
     kids.forEach((it) => {
-      const b = iconButton(it, () => { if (it.go) busy(rnd(300, 900), () => { w.node = it.go; renderExplorer(w); }); else openItem(it); }, (el) => { box.querySelectorAll(".sel").forEach((x) => x.classList.remove("sel")); el.classList.add("sel"); });
+      const b = iconButton(it, () => { if (it.go) busy(rnd(...DELAY.folder), () => { w.node = it.go; renderExplorer(w); }); else openItem(it); }, (el) => { box.querySelectorAll(".sel").forEach((x) => x.classList.remove("sel")); el.classList.add("sel"); });
       b.setAttribute("role", "listitem"); box.appendChild(b);
     });
     if (!kids.length) box.innerHTML = '<div class="empty">Esta carpeta está vacía.</div>';
@@ -680,7 +693,7 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
   /* ---------------- Bloc de notas ---------------- */
   function openNote(name) {
     openWin("note:" + (name || "nuevo"), {
-      title: (name || "Sin título") + " - Bloc de notas", icon: "notepad", w: 460, h: 320,
+      title: (name || "Sin título") + " - Bloc de notas", icon: "notepad", w: 460, h: 320, delay: DELAY.notepad,
       create(w) {
         w.body.innerHTML = `<div class="menubar"><button data-n="save">Archivo › Guardar</button><button>Edición</button><button>Buscar</button><button>Ayuda</button></div><textarea class="in notepad" spellcheck="false" aria-label="Texto"></textarea>`;
         const ta = w.body.querySelector("textarea"); ta.id = "np" + Math.random().toString(36).slice(2, 7);
@@ -732,7 +745,7 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
   function openMail(selectId) {
     if (selectId) { MAIL.folder = "entrada"; MAIL.sel = selectId; }
     openWin("mail", {
-      title: mailTitle(), icon: "mail", w: 760, h: 480,
+      title: mailTitle(), icon: "mail", w: 760, h: 480, delay: DELAY.mail,
       create(w) {
         w.body.innerHTML = `<div class="menubar"><button>Archivo</button><button>Edición</button><button>Ver</button><button>Herramientas</button><button>Mensaje</button><button>Ayuda</button></div>
           <div class="toolbar">
@@ -792,14 +805,14 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
   function updateTrayOnly() { $("trayMail").hidden = unread() === 0; const w = WM.wins.get("mail"); if (w && w.title !== mailTitle()) setTitle(w, mailTitle()); }
   function mailAction(a) {
     const list = MAIL.folders[MAIL.folder], m = list.find((x) => x.id === MAIL.sel);
-    if (a === "sync") { $("mStatus").textContent = "Enviando y recibiendo…"; busy(rnd(1200, 2200), () => { if (MAIL.unlocked < 0) MAIL.unlocked = 0; if (!deliverNext()) { $("mStatus").textContent = "No hay mensajes nuevos."; } }); }
+    if (a === "sync") { $("mStatus").textContent = "Enviando y recibiendo…"; busy(rnd(...DELAY.mailSync), () => { if (MAIL.unlocked < 0) MAIL.unlocked = 0; if (!deliverNext()) { $("mStatus").textContent = "No hay mensajes nuevos."; } }); }
     if (a === "del") { if (!m) return; list.splice(list.indexOf(m), 1); if (MAIL.folder !== "eliminados") MAIL.folders.eliminados.unshift(m); MAIL.sel = null; renderMail(); }
     if (a === "new" || a === "reply") compose(a === "reply" && m ? { to: m.from.replace(/^Para: /, ""), subject: "Re: " + m.subject } : {});
   }
   let cN = 0;
   function compose(pre) {
     openWin("compose" + (cN++), {
-      title: "Mensaje nuevo", icon: "mail", w: 480, h: 340,
+      title: "Mensaje nuevo", icon: "mail", w: 480, h: 340, delay: DELAY.compose,
       create(w) {
         w.body.innerHTML = `<div class="toolbar"><button class="btn out" data-c="send" style="font-weight:bold">Enviar</button></div>
           <div class="compose"><div class="row"><label>Para:</label><input class="in" aria-label="Para"></div><div class="row"><label>Asunto:</label><input class="in" aria-label="Asunto"></div><textarea class="in" aria-label="Mensaje"></textarea></div>`;
@@ -819,7 +832,7 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
   const WEB = { url: "about:inicio", back: [] };
   function openWeb(url) {
     openWin("web", {
-      title: "Navegador", icon: "web", w: 900, h: 600,
+      title: "Navegador", icon: "web", w: 900, h: 600, delay: DELAY.browser,
       create(w) {
         w.body.innerHTML = `<div class="menubar"><button>Archivo</button><button>Edición</button><button>Ver</button><button>Favoritos</button><button>Ayuda</button></div>
           <div class="toolbar"><button class="btn out" data-w="back">← Atrás</button><button class="btn out" data-w="home">Inicio</button></div>
@@ -1200,7 +1213,7 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
     m.hidden = !show; m.style.zIndex = 9500; $("startBtn").classList.toggle("pressed", show); $("startBtn").setAttribute("aria-expanded", show);
     if (show) { const f = m.querySelector("button:not([disabled])"); if (f) f.focus(); }
   }
-  $("startBtn").onclick = (e) => { e.stopPropagation(); if (!$("startmenu").hidden) toggleStart(false); else busy(rnd(200, 500), () => toggleStart(true)); };
+  $("startBtn").onclick = (e) => { e.stopPropagation(); if (!$("startmenu").hidden) toggleStart(false); else busy(rnd(...DELAY.startMenu), () => toggleStart(true)); };
   document.addEventListener("pointerdown", (e) => { if (!e.target.closest("#startmenu") && !e.target.closest("#startBtn")) toggleStart(false); });
   document.addEventListener("keydown", (e) => { if (e.key === "Escape") toggleStart(false); });
 

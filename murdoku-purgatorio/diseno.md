@@ -79,7 +79,20 @@ Es el ordenador del contable, con estética de Windows 98 (sistema «Lindero 98�
 - **GESTA 2000** (facturación de la Gestoría Lindero): lista de facturas, cabecera, líneas que se añaden y se borran, totales con el IVA desglosado; Nueva, Guardar, Añadir línea y Duplicar. Las facturas se guardan en el navegador. En pantallas grandes está abierto al empezar.
 - **Explorador de carpetas**: Mi PC, Disco local (C:), Mis documentos, Archivos de programa y **Facturas**, donde cada factura es un archivo `.fac` que se abre en GESTA. Disquete y carpeta Windows dan sus avisos clásicos.
 - **Correo**: carpetas (entrada, enviados, borradores, eliminados), lista, vista previa, Crear correo, Responder, Eliminar y Enviar y recibir.
-- **El ordenador va lento**: abrir ventanas, carpetas y el menú Inicio, guardar facturas o enviar y recibir correo tarda un poco; mientras tanto sale el reloj de arena y se ignoran los clics. Dentro del Murdoku, colocar fichas es instantáneo.
+- **El ordenador va lento**, y cuánto depende de lo que se hace. Mientras tanto sale el reloj de arena y se ignoran los clics. Dentro del Murdoku, colocar fichas es instantáneo. Tiempos del prototipo (constante `DELAY` en `index.html`):
+
+  | Acción | Espera |
+  |--------|--------|
+  | Cambiar de factura, abrir un `.fac`, factura nueva o duplicada | 0,15–0,35 s |
+  | Guardar factura | 0,3–0,6 s |
+  | Avisos, menú Inicio | 0,1–0,3 s |
+  | Bloc de notas, mensaje nuevo, entrar en una carpeta | 0,2–0,6 s |
+  | Abrir una ventana del explorador | 0,5–0,9 s |
+  | Abrir GESTA 2000 | 0,7–1,2 s |
+  | Abrir el Correo | 0,9–1,5 s |
+  | Enviar y recibir | 1,5–2,5 s |
+  | Abrir el Navegador | 1,8–2,8 s |
+  | Cargar un caso por primera vez | unos 9 s (con barra de progreso) |
 - **Las páginas cargan como con módem**: la primera vez que se abre cada caso, la barra de estado va diciendo «Buscando…», «Conectando…», «Transfiriendo datos…», con barra de progreso; primero llega el texto, luego las pistas una a una y el plano baja poco a poco de arriba abajo, como una imagen antigua. Tarda unos 9 segundos; las veces siguientes sale al momento. Mientras carga, el puntero es la flecha con reloj de arena y no se puede jugar.
 - **La ventana del caso se ajusta** para que el Murdoku se vea entero (si cabe en la pantalla). Las pistas y las reglas van pegadas al tablero con anchos fijos: al agrandar la ventana, el hueco queda a la derecha.
 - **El enganche**: la primera vez que se guarda una factura (o con «Enviar y recibir») llega un correo de Rosario Montes, una compañera: «esto engancha, ya verás». Sale un globo de aviso en la bandeja; al pulsarlo se abre el correo, y su enlace abre el caso en el **Navegador**.
