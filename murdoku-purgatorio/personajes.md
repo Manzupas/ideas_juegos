@@ -96,11 +96,20 @@ Los tres clientes coinciden con las tres facturas que ya hay en el prototipo.
 - **[fijado]** Se llama **Finch & Limbrick**. *Limbrick* es un apellido inglés real que recuerda a *limbo*. Sustituye a «Gestoría Lindero», y el sistema del ordenador pasa de «Lindero 98» a **«Limbrick 98»**. Ciudad por decidir (por ejemplo, una ciudad mediana como Reading).
 - **[fijado]** **Oswald Finch, el socio fundador**: el asesor financiero del círculo del terreno fundó la gestoría y era el jefe del contable. Él movía el dinero de los tres círculos; el contable hacía el papeleo. Así Oswald es el reflejo directo del contable.
 - **[fijado]** **El jugador es «el contable»** (antes «el oficinista»), sin nombre propio. La gestoría tramitó los papeles de todos y él lo sellaba todo sin leerlo: los embargos, las cuentas de la residencia, las escrituras de los pisos. Propuesta de pecado: no preguntar nunca, «yo solo hacía mi trabajo».
-- **[fijado]** **La compañera de los correos se llama Rosemary Mount** (antes Rosario Montes). Sigue abierto quién es: una compañera que también está en el purgatorio, la que le recluta o el propio purgatorio con una cara amable. Sus correos dejan de llegar a partir del caso 0003, que ya viene «(sin remitente)».
+- **[fijado]** **La compañera de los correos se llama Rosemary Vale** (antes Rosario Montes). *Vale* es «valle» y también un «adiós» antiguo (*vale of tears*, el valle de lágrimas). Sigue abierto quién es: una compañera que también está en el purgatorio, la que le recluta o el propio purgatorio con una cara amable. Sus correos dejan de llegar a partir del caso 0003, que ya viene «(sin remitente)».
 
-### Qué cambiaría en el prototipo (cuando se decida implementar)
+### Los compañeros de la gestoría (propuesta)
 
-- Nombre de la gestoría (Finch & Limbrick), del sistema (Limbrick 98) y de la compañera (Rosemary Mount).
+Además de Rosemary, otros compañeros mandan correos de trabajo (ver «Correos de los compañeros» en [diseno.md](diseno.md)). Nombres ingleses, gente corriente de oficina:
+
+- **Douglas Limbrick**, el otro socio, el jefe actual. Correos secos sobre plazos: el cierre del trimestre, facturas pendientes.
+- **Maureen Clegg**, administración y recepción. Correos de todo un poco: un cliente que ha llamado, la colecta para un cumpleaños, quién se ha dejado la cafetera encendida.
+- **Trevor Hobbs**, el informático (va dos días por semana). Correos sobre el ordenador: una actualización, la copia de seguridad, «lo del equipo que no se apaga ya lo miro».
+
+ (cuando se decida implementar)
+
+- Nombre de la gestoría (Finch & Limbrick), del sistema (Limbrick 98) y de la compañera (Rosemary Vale).
+- Más compañeros que mandan correos, con respuestas predefinidas (ver [diseno.md](diseno.md), «Correos de los compañeros»).
 - Facturas en libras (£) y con el IVA británico (*VAT*, 20 %); direcciones inglesas y número de IVA británico en vez de NIF.
 - Las notas y los correos antiguos, con nombres y lugares ingleses. El juego sigue en castellano.
 

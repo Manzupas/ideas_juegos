@@ -27,8 +27,29 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 - **Estética**: la oficina es solo estilo, no se juega. La interfaz recuerda a un programa de facturación o algo parecido.
 - **Posible título**: *Office Work*.
 - **Los personajes tienen nombres clásicos ingleses** (los torturados).
-- **La gestoría del contable también es inglesa**: se llama Finch & Limbrick, y su socio fundador es Oswald Finch, uno de los personajes. No todos los personajes son clientes suyos, pero en cada «relación» (cada círculo de personajes que comparten una barbaridad) al menos uno sí lo es. Ver [personajes.md](personajes.md). La compañera de los correos se llama Rosemary Mount. El prototipo todavía usa la gestoría española (Gestoría Lindero, Rosario Montes, euros): está pendiente de cambiar.
+- **La gestoría del contable también es inglesa**: se llama Finch & Limbrick, y su socio fundador es Oswald Finch, uno de los personajes. No todos los personajes son clientes suyos, pero en cada «relación» (cada círculo de personajes que comparten una barbaridad) al menos uno sí lo es. Ver [personajes.md](personajes.md). La compañera de los correos se llama Rosemary Vale. El prototipo todavía usa la gestoría española (Gestoría Lindero, Rosario Montes, euros): está pendiente de cambiar.
 - **Temática de los casos**: en general, relacionada con la historia inglesa. Los primeros casos (los del prototipo) son de la Inglaterra contemporánea.
+
+## Correos de los compañeros
+
+**Decidido**:
+
+- Además de Rosemary, hay **más compañeros de trabajo que mandan correos** al contable.
+- El jugador **les puede contestar con respuestas predefinidas** (elige una entre varias; no escribe).
+- **Al rato de contestar, el compañero responde que no sabe de qué le está hablando.**
+
+**Propuesta** (por revisar):
+
+- Compañeros: Douglas Limbrick (el jefe), Maureen Clegg (administración) y Trevor Hobbs (informática). Detalle en [personajes.md](personajes.md).
+- Cada correo de trabajo trae dos o tres respuestas. Ejemplo, de Douglas: «Necesito las facturas de octubre cerradas para el viernes.» Respuestas: «Ya están hechas» / «Las tendrás el jueves» / «Voy con retraso, lo siento». Unos minutos después: «¿Qué facturas? No te he pedido nada. ¿Estás bien?»
+- Las respuestas de «no sé de qué me hablas» se pueden ir volviendo más raras a medida que avanzan los casos: primero confusión, luego el correo original ya no está en la bandeja, y al final la respuesta llega de una dirección que no existe.
+- Rosemary es la excepción: ella sí recuerda lo que le has dicho. O al revés, es la única que nunca contesta.
+
+**Preguntas abiertas**:
+
+- ¿Las respuestas que elige el jugador cambian algo (la historia, el final), o solo dan ambiente?
+- ¿Los correos de los compañeros llegan con el tiempo, al guardar facturas, o al resolver casos?
+- ¿Por qué no recuerdan nada? ¿Nunca los mandaron, o son otros que también están en el purgatorio y lo olvidan todo?
 
 ## Personajes
 
