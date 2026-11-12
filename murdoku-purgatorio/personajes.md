@@ -100,7 +100,7 @@ Los tres clientes coinciden con las tres facturas que ya hay en el prototipo.
 
 ### Los compañeros de la gestoría (propuesta)
 
-Además de Rosemary, otros compañeros mandan correos de trabajo (ver «Correos de los compañeros» en [diseno.md](diseno.md)). Nombres ingleses, gente corriente de oficina:
+Además de Rosemary, otros compañeros mandan correos de trabajo (ver «Correos de los compañeros» en [diseno.md](diseno.md)). **[fijado]** En realidad son otros contables que están como el contable, también en el purgatorio, y no recuerdan haber mandado nada: los correos los manda un «hacker». Propuesta de nombres, gente corriente de oficina:
 
 - **Douglas Limbrick**, el otro socio, el jefe actual. Correos secos sobre plazos: el cierre del trimestre, facturas pendientes.
 - **Maureen Clegg**, administración y recepción. Correos de todo un poco: un cliente que ha llamado, la colecta para un cumpleaños, quién se ha dejado la cafetera encendida.

@@ -35,21 +35,26 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 **Decidido**:
 
 - Además de Rosemary, hay **más compañeros de trabajo que mandan correos** al contable.
-- El jugador **les puede contestar con respuestas predefinidas** (elige una entre varias; no escribe).
+- El jugador **les puede contestar con respuestas predefinidas** (elige una entre varias; no escribe). **Las respuestas podrían cambiar algo** (qué cambian, por decidir).
 - **Al rato de contestar, el compañero responde que no sabe de qué le está hablando.**
+- **Cuándo llegan**: a medida que se resuelven Murdokus y que se generan facturas. El flujo de trabajo de las facturas está pendiente de hablar.
+- **Por qué no recuerdan nada**: los compañeros son **otros contables que están como tú**, también en el purgatorio. No mandaron esos correos.
+- **Quién los manda de verdad**: **un «hacker»**. Más adelante el contable tiene **línea directa con él mediante una aplicación** del ordenador.
 
 **Propuesta** (por revisar):
 
 - Compañeros: Douglas Limbrick (el jefe), Maureen Clegg (administración) y Trevor Hobbs (informática). Detalle en [personajes.md](personajes.md).
 - Cada correo de trabajo trae dos o tres respuestas. Ejemplo, de Douglas: «Necesito las facturas de octubre cerradas para el viernes.» Respuestas: «Ya están hechas» / «Las tendrás el jueves» / «Voy con retraso, lo siento». Unos minutos después: «¿Qué facturas? No te he pedido nada. ¿Estás bien?»
-- Las respuestas de «no sé de qué me hablas» se pueden ir volviendo más raras a medida que avanzan los casos: primero confusión, luego el correo original ya no está en la bandeja, y al final la respuesta llega de una dirección que no existe.
-- Rosemary es la excepción: ella sí recuerda lo que le has dicho. O al revés, es la única que nunca contesta.
+- Las respuestas de «no sé de qué me hablas» se pueden ir volviendo más raras a medida que avanzan los casos: primero confusión, luego el correo original ya no está en la bandeja.
+- La aplicación del hacker podría ser un programa de mensajería de la época (estilo chat de finales de los noventa) que aparece instalado un día en el escritorio, sin que nadie lo haya instalado.
 
 **Preguntas abiertas**:
 
-- ¿Las respuestas que elige el jugador cambian algo (la historia, el final), o solo dan ambiente?
-- ¿Los correos de los compañeros llegan con el tiempo, al guardar facturas, o al resolver casos?
-- ¿Por qué no recuerdan nada? ¿Nunca los mandaron, o son otros que también están en el purgatorio y lo olvidan todo?
+- ¿Qué pueden cambiar las respuestas: la historia, el final, qué casos llegan, la relación con el hacker?
+- ¿Quién es el hacker? ¿Otra alma del purgatorio que intenta ayudar o sacar al contable, alguien de fuera, o parte del propio purgatorio? ¿Qué quiere?
+- ¿Los correos de los Murdokus (los de Rosemary y el «sin remitente») también los manda el hacker? ¿Rosemary existe?
+- ¿Cuándo aparece la aplicación y qué se puede hacer con ella?
+- ¿Los compañeros saben que están en el purgatorio? ¿El contable puede llegar a hablar con ellos de verdad?
 
 ## Personajes
 
