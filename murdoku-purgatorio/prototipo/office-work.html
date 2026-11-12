@@ -103,6 +103,16 @@ input.in, select.in, textarea.in { border: 0; padding: 3px 5px; min-height: 22px
 .addr { display: flex; gap: 6px; align-items: center; padding: 3px 4px; flex: none; border-bottom: 1px solid var(--lo); }
 .addr input { flex: 1; min-width: 0; font-family: var(--mono); }
 
+/* El ordenador va lento: reloj de arena mientras «piensa» y clics ignorados */
+#shield { position: fixed; inset: 0; z-index: 99999; display: none; }
+html.busy #shield { display: block; }
+html.busy, html.busy * { cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Cpath d='M9 3h14v3h-2v3l-4 6 4 6v5h2v3H9v-3h2v-5l4-6-4-6V6H9z' fill='white' stroke='black'/%3E%3Cpath d='M13 9h6l-3 4.5zM12.5 26l3.5-6 3.5 6z' fill='%23b08a00'/%3E%3C/svg%3E") 16 16, wait !important; }
+.web.loading, .web.loading * { cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Cpath d='M1 1v17l4-4 3 7 3-1-3-7h6z' fill='white' stroke='black'/%3E%3Cpath d='M15 14h10v2h-1v3l-3 3 3 3v3h1v2H15v-2h1v-3l3-3-3-3v-3h-1z' fill='white' stroke='black'/%3E%3Cpath d='M18 17h4l-2 3zM17.5 28l2.5-4 2.5 4z' fill='%23b08a00'/%3E%3C/svg%3E") 1 1, progress !important; }
+.mdk.loading { pointer-events: none; }
+.mdk .pend { visibility: hidden; }
+.wprog { width: 110px; padding: 3px !important; }
+.wprog i { display: block; height: 100%; min-height: 10px; width: 0; background: repeating-linear-gradient(90deg, var(--sel) 0 7px, transparent 7px 9px); }
+
 /* Barra de tareas */
 .taskbar { position: fixed; left: 0; right: 0; bottom: 0; height: calc(var(--tbh) + env(safe-area-inset-bottom, 0px)); padding: 3px max(3px, env(safe-area-inset-right, 0px)) calc(3px + env(safe-area-inset-bottom, 0px)) max(3px, env(safe-area-inset-left, 0px)); display: flex; gap: 4px; align-items: stretch; z-index: 9000; box-shadow: inset 0 1px var(--lo2), inset 0 2px var(--hi); background: var(--face); }
 .start { font-weight: bold; padding: 2px 6px; }
@@ -212,11 +222,14 @@ table.lines td.del button { border: 0; background: none; padding: 4px 6px; color
 .webpage h1 { font: bold 22px/1.2 Georgia, "Times New Roman", serif; margin: 0 0 8px; text-wrap: balance; }
 .webpage a { color: var(--link); text-decoration: underline; cursor: pointer; }
 .err h1 { font: bold 16px var(--ui); }
-.mdk { padding: 14px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 290px); gap: 16px; }
+/* Columnas de ancho fijo y pegadas: al agrandar la ventana, el hueco queda a la derecha. */
+.mdk { padding: 14px; display: flex; flex-wrap: wrap; align-items: flex-start; gap: 16px; }
+.mdk > div:first-child { flex: 0 0 380px; max-width: 100%; }
+.mdk .side { flex: 0 0 290px; max-width: 100%; }
 .mdk h1 { font: bold 20px/1.2 Georgia, "Times New Roman", serif; margin: 0 0 4px; text-wrap: balance; }
-.mdk .lead { margin: 0 0 10px; max-width: 60ch; font-size: 13px; }
+.mdk .lead { margin: 0 0 10px; font-size: 12.5px; line-height: 1.35; }
 .case-no { font: 11px var(--mono); color: var(--muted); letter-spacing: .08em; text-transform: uppercase; }
-.board { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); grid-template-rows: repeat(6, minmax(0, 1fr)); width: 100%; max-width: 420px; aspect-ratio: 1; border: 3px solid #2b2b2b; background: #2b2b2b; user-select: none; -webkit-user-select: none; touch-action: manipulation; }
+.board { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); grid-template-rows: repeat(6, minmax(0, 1fr)); width: 100%; max-width: 360px; aspect-ratio: 1; border: 3px solid #2b2b2b; background: #2b2b2b; user-select: none; -webkit-user-select: none; touch-action: manipulation; }
 .cell { position: relative; border: 0 solid #2b2b2b; background: var(--room); display: grid; place-items: center; padding: 0; }
 .cell:focus-visible { outline: 2px dotted #000; outline-offset: -4px; }
 .cell .obj { position: absolute; inset: 14%; color: #5c5346; pointer-events: none; }
@@ -226,11 +239,11 @@ table.lines td.del button { border: 0; background: none; padding: 4px 6px; color
 .cell.conflict::after { content: ""; position: absolute; inset: 2px; border: 2px solid var(--warn); pointer-events: none; }
 .token { position: relative; z-index: 1; width: 64%; aspect-ratio: 1; border-radius: 50%; display: grid; place-items: center; color: #fff; font: bold 15px/1 var(--ui); background: var(--pc); border: 2px solid rgba(0,0,0,.55); box-shadow: 1px 2px 0 rgba(0,0,0,.25); }
 .token.victim { background: #fff; color: #000; border-style: dashed; }
-.tools { display: flex; flex-direction: column; gap: 10px; margin-top: 10px; max-width: 420px; }
+.tools { display: flex; flex-direction: column; gap: 8px; margin-top: 8px; }
 .mode { display: inline-flex; gap: 2px; }
 .chips { display: flex; flex-wrap: wrap; gap: 6px; }
-.chip { padding: 3px 8px 3px 3px; min-height: 30px; }
-.chip .dot { width: 22px; height: 22px; border-radius: 50%; display: grid; place-items: center; color: #fff; font: bold 11px/1 var(--ui); background: var(--pc); border: 1px solid rgba(0,0,0,.5); }
+.chip { padding: 2px 7px 2px 2px; min-height: 26px; }
+.chip .dot { width: 20px; height: 20px; border-radius: 50%; display: grid; place-items: center; color: #fff; font: bold 11px/1 var(--ui); background: var(--pc); border: 1px solid rgba(0,0,0,.5); }
 .chip.victim .dot { background: #fff; color: #000; border-style: dashed; }
 .chip.on { background: var(--sel); color: var(--sel-ink); }
 .chip.placed { opacity: .55; }
@@ -278,7 +291,9 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
   .mfolders { display: flex; overflow-x: auto; }
   .mfolders button { width: auto; white-space: nowrap; }
   .mlist td.d, .mlist th.d { display: none; }
-  .mdk { grid-template-columns: minmax(0, 1fr); padding: 10px; }
+  .mdk { padding: 10px; }
+  .mdk > div:first-child, .mdk .side { flex: 1 1 100%; }
+  .board { max-width: 420px; }
   .task { flex-basis: 40px; }
   .task span:last-child { display: none; }
   .icons { grid-auto-flow: row; grid-template-columns: repeat(auto-fill, 84px); grid-template-rows: none; grid-auto-rows: 84px; justify-content: start; }
@@ -289,6 +304,7 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
   <div class="icons" id="dicons"></div>
 </div>
 <div id="layer"></div>
+<div id="shield" aria-hidden="true"></div>
 
 <div class="startmenu out" id="startmenu" hidden>
   <div class="banner"><span>Lindero <b>98</b></span></div>
@@ -352,9 +368,20 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
   /* ---------------- Gestor de ventanas ---------------- */
   const WM = { wins: new Map(), z: 100, active: null, count: 0 };
 
+  /* El equipo tarda en hacer caso: cada acción pesada pone el reloj de arena, ignora los clics y se ejecuta al rato. */
+  let busyN = 0;
+  const rnd = (a, b) => a + Math.random() * (b - a);
+  function busy(ms, fn) {
+    busyN++; document.documentElement.classList.add("busy");
+    setTimeout(() => { busyN--; if (!busyN) document.documentElement.classList.remove("busy"); if (fn) fn(); }, ms);
+  }
   function openWin(key, def, arg) {
-    let w = WM.wins.get(key);
-    if (w) { w.el.hidden = false; w.min = false; focusWin(w); if (def.update) def.update(w, arg); renderTasks(); return w; }
+    const w = WM.wins.get(key);
+    if (w) { w.el.hidden = false; w.min = false; focusWin(w); if (def.update) def.update(w, arg); renderTasks(); return; }
+    busy(def.dialog ? rnd(150, 350) : rnd(600, 1500), () => { if (!WM.wins.get(key)) openWinNow(key, def, arg); });
+  }
+  function openWinNow(key, def, arg) {
+    let w;
     const el = document.createElement("div");
     el.className = "win out" + (def.dialog ? " dlg" : "");
     el.setAttribute("role", def.dialog ? "alertdialog" : "dialog");
@@ -594,7 +621,7 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
     if (a === "linea") { invoices[cur].lineas.push({ cod: "", con: "", cant: 1, precio: 0, dto: 0, iva: 21 }); renderGLines(); renderGTotals(); const el = $(`gl${invoices[cur].lineas.length - 1}_con`); if (el) el.focus(); gStatus("Línea añadida"); }
     if (a === "nueva") { invoices.push({ serie: "A", num: nextNum(), fecha: new Date().toISOString().slice(0, 10), pago: "Transferencia 30 días", cliente: "", nif: "", cp: "", dir: "", obs: "", lineas: [{ cod: "", con: "", cant: 1, precio: 0, dto: 0, iva: 21 }] }); cur = invoices.length - 1; renderGesta(w); $("gCliente").focus(); gStatus("Factura nueva (sin guardar)"); }
     if (a === "duplicar") { const c = JSON.parse(JSON.stringify(invoices[cur])); c.num = nextNum(); invoices.push(c); cur = invoices.length - 1; renderGesta(w); gStatus("Factura duplicada (sin guardar)"); }
-    if (a === "guardar") { saveInvoices(); const f = invoices[cur]; gStatus(`Factura ${f.serie}/${f.num} guardada en Mis documentos\\Facturas`); if (MAIL.unlocked < 0) { MAIL.unlocked = 0; setTimeout(deliverNext, 1400); } }
+    if (a === "guardar") { gStatus("Guardando…"); busy(rnd(900, 1600), () => { saveInvoices(); const f = invoices[cur]; gStatus(`Factura ${f.serie}/${f.num} guardada en Mis documentos\\Facturas`); if (MAIL.unlocked < 0) { MAIL.unlocked = 0; setTimeout(deliverNext, 1400); } }); }
   }
 
   /* ---------------- Sistema de archivos ---------------- */
@@ -637,7 +664,7 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
           <div class="addr"><span>Dirección</span><input class="in" readonly aria-label="Dirección"></div>
           <div class="files in" role="list"></div>
           <div class="statusbar"><span class="grow"></span></div>`;
-        w.body.querySelector('[data-x="up"]').onclick = () => { const p = FS[w.node].parent; if (p) { w.node = p; renderExplorer(w); } };
+        w.body.querySelector('[data-x="up"]').onclick = () => { const p = FS[w.node].parent; if (p) busy(rnd(300, 800), () => { w.node = p; renderExplorer(w); }); };
         renderExplorer(w);
       }
     });
@@ -650,7 +677,7 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
     const box = w.body.querySelector(".files"); box.innerHTML = "";
     const kids = n.kids();
     kids.forEach((it) => {
-      const b = iconButton(it, () => { if (it.go) { w.node = it.go; renderExplorer(w); } else openItem(it); }, (el) => { box.querySelectorAll(".sel").forEach((x) => x.classList.remove("sel")); el.classList.add("sel"); });
+      const b = iconButton(it, () => { if (it.go) busy(rnd(300, 900), () => { w.node = it.go; renderExplorer(w); }); else openItem(it); }, (el) => { box.querySelectorAll(".sel").forEach((x) => x.classList.remove("sel")); el.classList.add("sel"); });
       b.setAttribute("role", "listitem"); box.appendChild(b);
     });
     if (!kids.length) box.innerHTML = '<div class="empty">Esta carpeta está vacía.</div>';
@@ -773,7 +800,7 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
   function updateTrayOnly() { $("trayMail").hidden = unread() === 0; const w = WM.wins.get("mail"); if (w && w.title !== mailTitle()) setTitle(w, mailTitle()); }
   function mailAction(a) {
     const list = MAIL.folders[MAIL.folder], m = list.find((x) => x.id === MAIL.sel);
-    if (a === "sync") { $("mStatus").textContent = "Enviando y recibiendo…"; setTimeout(() => { if (MAIL.unlocked < 0) MAIL.unlocked = 0; if (!deliverNext()) { $("mStatus").textContent = "No hay mensajes nuevos."; } }, 800); }
+    if (a === "sync") { $("mStatus").textContent = "Enviando y recibiendo…"; busy(rnd(1200, 2200), () => { if (MAIL.unlocked < 0) MAIL.unlocked = 0; if (!deliverNext()) { $("mStatus").textContent = "No hay mensajes nuevos."; } }); }
     if (a === "del") { if (!m) return; list.splice(list.indexOf(m), 1); if (MAIL.folder !== "eliminados") MAIL.folders.eliminados.unshift(m); MAIL.sel = null; renderMail(); }
     if (a === "new" || a === "reply") compose(a === "reply" && m ? { to: m.from.replace(/^Para: /, ""), subject: "Re: " + m.subject } : {});
   }
@@ -806,7 +833,7 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
           <div class="toolbar"><button class="btn out" data-w="back">← Atrás</button><button class="btn out" data-w="home">Inicio</button></div>
           <form class="addr" id="webForm"><label for="webUrl">Dirección</label><input class="in" id="webUrl" spellcheck="false" autocomplete="off"><button class="btn out" type="submit">Ir</button></form>
           <div class="web in" id="webBody"></div>
-          <div class="statusbar"><span class="grow" id="webStatus">Listo</span><span>Intranet local</span></div>`;
+          <div class="statusbar"><span class="grow" id="webStatus">Listo</span><span class="wprog" id="webProg" hidden><i></i></span><span>Intranet local</span></div>`;
         w.body.querySelector('[data-w="back"]').onclick = () => { if (WEB.back.length) { WEB.url = WEB.back.pop(); renderWeb(); } };
         w.body.querySelector('[data-w="home"]').onclick = () => go("about:inicio");
         $("webForm").addEventListener("submit", (e) => { e.preventDefault(); go($("webUrl").value.trim()); });
@@ -817,23 +844,85 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
     }, url);
   }
   function go(u) { if (u && u !== WEB.url) { WEB.back.push(WEB.url); WEB.url = u; } renderWeb(); }
+  /* La página no aparece de golpe: se conecta, llega el texto y las imágenes bajan poco a poco,
+     como con un módem. Cada caso tarda solo la primera vez (luego está «en caché»). */
+  const WLOAD = { token: 0 };
+  function webStatus(text, pct) {
+    $("webStatus").textContent = text;
+    const p = $("webProg"); p.hidden = pct == null; if (pct != null) p.firstChild.style.width = Math.min(100, pct) + "%";
+  }
+  function runSteps(tok, steps) {
+    let i = 0;
+    const next = () => { if (tok !== WLOAD.token || i >= steps.length) return; const [ms, fn] = steps[i++]; setTimeout(() => { if (tok !== WLOAD.token) return; fn(); next(); }, ms); };
+    next();
+  }
+  /* Ajusta la ventana del navegador para que el caso se vea entero (si cabe en el escritorio). */
+  function fitWeb(w) {
+    if (!w || narrow() || w.max) return;
+    const L = $("layer"), body = $("webBody");
+    const chromeW = w.el.offsetWidth - body.clientWidth;
+    const wd = Math.min(716 + chromeW, L.clientWidth); /* 14 + 380 + 16 + 290 + 14 de contenido */
+    w.el.style.width = wd + "px";
+    const chromeH = w.el.offsetHeight - body.clientHeight;
+    const ht = Math.min(body.scrollHeight + chromeH, L.clientHeight);
+    w.el.style.height = ht + "px";
+    w.el.style.left = Math.max(0, Math.min(w.el.offsetLeft, L.clientWidth - wd)) + "px";
+    w.el.style.top = Math.max(0, Math.min(w.el.offsetTop, L.clientHeight - ht)) + "px";
+  }
   function renderWeb() {
     const box = $("webBody"); if (!box) return;
+    const tok = ++WLOAD.token;
     $("webUrl").value = WEB.url;
+    box.classList.remove("loading");
     const w = WM.wins.get("web");
     const u = WEB.url.replace(/\/+$/, "");
     const ci = CASES.findIndex((c, k) => caseUrl(k) === u && k <= MAIL.delivered);
-    if (ci >= 0) { setTitle(w, `Caso nº ${CASES[ci].no} - Navegador`); box.innerHTML = ""; box.appendChild(caseEl(ci)); box.scrollTop = 0; $("webStatus").textContent = "Listo"; return; }
+    if (ci >= 0) {
+      setTitle(w, `Caso nº ${CASES[ci].no} - Navegador`);
+      box.innerHTML = ""; const el = caseEl(ci); box.appendChild(el); box.scrollTop = 0;
+      if (ST[ci].loaded) { fitWeb(w); webStatus("Listo"); return; }
+      loadCase(el, ci, tok); fitWeb(w); return;
+    }
+    box.innerHTML = ""; box.classList.add("loading");
+    webStatus("Buscando " + (u.split("/")[2] || u) + "…", 10);
+    runSteps(tok, [[rnd(500, 900), () => webStatus("Abriendo página " + WEB.url + "…", 45)], [rnd(400, 800), () => { box.classList.remove("loading"); showPage(w, u, box); }]]);
+  }
+  function showPage(w, u, box) {
     if (u === "about:inicio") {
       setTitle(w, "Página de inicio - Navegador");
       box.innerHTML = `<div class="webpage"><h1>Intranet · Gestoría Lindero</h1><p>Bienvenido. Hoy es ${esc(new Date().toLocaleDateString("es-ES", { weekday: "long", day: "numeric", month: "long", year: "numeric" }))}.</p>
         <ul><li>Calendario fiscal: el día 20 se cierra el trimestre.</li><li>Recuerde apagar el equipo al salir.</li>${CASES.map((c, k) => k <= MAIL.delivered ? `<li>Historial: <a data-u="${caseUrl(k)}">${caseUrl(k)}</a></li>` : "").join("")}</ul></div>`;
       box.querySelectorAll("a[data-u]").forEach((a) => a.onclick = () => go(a.dataset.u));
-      $("webStatus").textContent = "Listo"; return;
+      webStatus("Listo"); return;
     }
     setTitle(w, "No se puede mostrar la página - Navegador");
     box.innerHTML = `<div class="webpage err">${ico("error", 32)}<h1>No se puede mostrar la página</h1><p>La página que busca no está disponible. Puede que el servidor no responda o que la dirección sea incorrecta.</p><p>Compruebe que la dirección <b>${esc(WEB.url)}</b> está bien escrita.</p></div>`;
-    $("webStatus").textContent = "Error";
+    webStatus("Error");
+  }
+  function loadCase(el, ci, tok) {
+    const box = $("webBody"), q1 = (s) => el.querySelector(s), qa = (s) => [...el.querySelectorAll(s)];
+    const parts = ".case-no, h1, .lead, .board, .mode, .chip, .side h2, .clue, details.rules, .legend span, .actions";
+    qa(parts).forEach((x) => x.classList.add("pend"));
+    el.classList.add("loading"); box.classList.add("loading");
+    const show = (x) => x.classList.remove("pend");
+    const host = caseUrl(ci).split("/")[2], board = q1(".board");
+    const S = [
+      [rnd(400, 700), () => webStatus(`Buscando ${host}…`, 4)],
+      [rnd(600, 1000), () => webStatus(`Conectando con ${host}…`, 10)],
+      [rnd(700, 1100), () => webStatus(`Abriendo página ${caseUrl(ci)}…`, 18)],
+      [300, () => { show(q1(".case-no")); show(q1("h1")); webStatus("Transfiriendo datos…", 24); }],
+      [450, () => show(q1(".lead"))],
+      [300, () => show(q1(".side h2"))]
+    ];
+    qa(".clue").forEach((c, k, all) => S.push([rnd(120, 260), () => { show(c); webStatus("Transfiriendo datos…", 24 + 14 * (k + 1) / all.length); }]));
+    S.push([250, () => { show(q1("details.rules")); show(q1(".actions")); }]);
+    S.push([400, () => { webStatus("Descargando imagen plano.gif…", 40); board.style.clipPath = "inset(0 0 100% 0)"; show(board); }]);
+    for (let r = 1; r <= 6; r++) S.push([rnd(220, 420), () => { board.style.clipPath = r < 6 ? `inset(0 0 ${100 - (r * 100) / 6}% 0)` : ""; webStatus(`Descargando imagen plano.gif (${Math.round((r * 100) / 6)} %)…`, 40 + r * 7); }]);
+    S.push([300, () => { show(q1(".mode")); webStatus("Descargando imágenes (2 de 2)…", 86); }]);
+    qa(".chip").forEach((c) => S.push([rnd(80, 180), () => show(c)]));
+    qa(".legend span").forEach((c) => S.push([60, () => show(c)]));
+    S.push([400, () => { el.classList.remove("loading"); box.classList.remove("loading"); ST[ci].loaded = true; webStatus("Listo"); }]);
+    runSteps(tok, S);
   }
 
   /* ---------------- Murdoku ---------------- */
@@ -1119,7 +1208,7 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
     m.hidden = !show; m.style.zIndex = 9500; $("startBtn").classList.toggle("pressed", show); $("startBtn").setAttribute("aria-expanded", show);
     if (show) { const f = m.querySelector("button:not([disabled])"); if (f) f.focus(); }
   }
-  $("startBtn").onclick = (e) => { e.stopPropagation(); toggleStart(); };
+  $("startBtn").onclick = (e) => { e.stopPropagation(); if (!$("startmenu").hidden) toggleStart(false); else busy(rnd(200, 500), () => toggleStart(true)); };
   document.addEventListener("pointerdown", (e) => { if (!e.target.closest("#startmenu") && !e.target.closest("#startBtn")) toggleStart(false); });
   document.addEventListener("keydown", (e) => { if (e.key === "Escape") toggleStart(false); });
 
