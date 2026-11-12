@@ -31,7 +31,7 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 
 ## Prototipo web
 
-[prototipo/index.html](prototipo/index.html), publicado como artefacto para probarlo también en el móvil: https://claude.ai/artifact/QgHxcBtNP4yLWGyQ3VYhcJ
+Prototipo en HTML y JavaScript, en un solo archivo y sin dependencias. **Para jugar en local, abrir [prototipo/office-work.html](prototipo/office-work.html)**; cómo se genera y qué es cada archivo está en [prototipo/README.md](prototipo/README.md). También está publicado como artefacto para probarlo en el móvil: https://claude.ai/artifact/QgHxcBtNP4yLWGyQ3VYhcJ
 
 Es el ordenador del oficinista, con estética de Windows 98 (sistema «Lindero 98»):
 
