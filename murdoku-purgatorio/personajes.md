@@ -7,13 +7,16 @@
 - **Doce personajes**, todos con nombre clásico inglés y una inicial distinta (la ficha del tablero muestra solo la inicial).
 - Vivieron en la **Inglaterra contemporánea** y murieron entre 2010 y 2022. Los casos los pueden poner en cualquier época de la historia inglesa, pero sus vidas reales son de ahora: lo que se va descubriendo en los expedientes es su vida de verdad.
 - Se agrupan en **tres círculos de cuatro**. En cada círculo hubo una barbaridad hecha entre varios, y cada uno puso su parte. Así, caso a caso, el jugador ve primero a personas sueltas y luego cómo encajan.
+- **[fijado]** La gestoría del oficinista es **inglesa**. No todos los personajes son clientes, pero **en cada círculo al menos uno sí lo es**: la gestoría tramitó los papeles de esa barbaridad.
 - En los casos, **los asesinatos repiten rencores reales**: quien mata a alguien en un Murdoku tenía motivos para odiarle en vida.
 
-| Círculo | La barbaridad | Personajes |
-|---------|---------------|------------|
-| **Las deudas** | Préstamos abusivos y desahucios de familias | Reginald, Frederick, Desmond, Gertrude |
-| **La residencia** | Una residencia de mayores donde no se cuidaba a nadie | Agatha, Cecily, Mildred, Harriet |
-| **El terreno** | Cuarenta pisos sobre un terreno contaminado | Bernard, Edith, Nigel, Oswald |
+| Círculo | La barbaridad | Personajes | Cliente de la gestoría | Qué le tramitaba |
+|---------|---------------|------------|------------------------|------------------|
+| **Las deudas** | Préstamos abusivos y desahucios de familias | Reginald, Frederick, Desmond, Gertrude | Reginald | La contabilidad de la empresa y el papeleo de las casas embargadas; al final, su testamento (la factura A/0141, sin pagar) |
+| **La residencia** | Una residencia de mayores donde no se cuidaba a nadie | Agatha, Cecily, Mildred, Harriet | Agatha | Las cuentas trimestrales y las nóminas de la residencia, con los números que le pasaba Cecily (la factura A/0139) |
+| **El terreno** | Cuarenta pisos sobre un terreno contaminado | Bernard, Edith, Nigel, Oswald | Bernard | Las nóminas de la promotora y el papeleo de la venta de los cuarenta pisos (la factura A/0140) |
+
+Los tres clientes coinciden con las tres facturas que ya hay en el prototipo.
 
 ## Las deudas
 
@@ -83,17 +86,23 @@
 - **En los casos**: siempre en el jardín, el patio o el exterior.
 
 ### Oswald Finch (O) · 1946–2013
-- **Vida**: el contable que lo unía todo. Movió el dinero de Reginald, de Agatha y de Bernard a cuentas fuera del país. No conocía a las víctimas de nadie y nunca preguntó.
-- **Muerte real**: en su oficina, a última hora, solo, delante de una hoja de cálculo.
+- **Vida**: el contable que lo unía todo. Movió el dinero de Reginald, de Agatha y de Bernard a cuentas fuera del país. No conocía a las víctimas de nadie y nunca preguntó. Propuesta: es el socio fundador de la gestoría del oficinista (ver abajo).
+- **Muerte real**: en su despacho de la gestoría, a última hora, solo, delante de una hoja de cálculo.
 - **En los casos**: aparece en casos de los tres círculos; es el puente entre ellos. Puede ser el reflejo más cercano del oficinista.
 
-## El oficinista y la oficina
+## La gestoría y el oficinista
 
-Opciones para discutir (no decidido):
+- **[fijado]** La gestoría es inglesa y lleva los papeles de al menos un personaje de cada círculo.
+- **Propuesta de nombre**: **Finch & Limbrick**, en una ciudad inglesa mediana (por ejemplo, Reading). *Limbrick* es un apellido inglés real que recuerda a *limbo*. Sustituiría a «Gestoría Lindero», y el sistema del ordenador pasaría de «Lindero 98» a otro nombre (por ejemplo, «Limbrick 98»).
+- **Oswald Finch, el socio fundador**: el contable del círculo del terreno sería el fundador de la gestoría y el antiguo jefe del oficinista. Él movía el dinero de los tres círculos; el oficinista hacía el papeleo. Así Oswald es el reflejo directo del oficinista.
+- **El oficinista** (dirección elegida: la gestoría tramitó los papeles de todos): lo sellaba todo sin leerlo, los embargos, las cuentas de la residencia, las escrituras de los pisos. Su pecado es no preguntar nunca: «yo solo hacía mi trabajo». Le falta nombre, inglés.
+- **La compañera de los correos**: Rosario Montes pasaría a tener nombre inglés. Propuesta: **Rosemary Mount** (la traducción más directa). Sigue abierto quién es: una compañera que también está en el purgatorio, la que le recluta o el propio purgatorio con una cara amable. Sus correos dejan de llegar a partir del caso 0003, que ya viene «(sin remitente)».
 
-1. **La gestoría tramitó los papeles de todos**: los embargos de Reginald, las cuentas de la residencia, las escrituras de los pisos de Bernard. El oficinista lo sellaba todo sin leerlo. Su pecado es no preguntar nunca: «yo solo hacía mi trabajo». Encaja con que Oswald sea su reflejo. Choca con que la gestoría sea española y los personajes ingleses (se podría resolver haciendo la gestoría inglesa, o con una gestoría que tenía clientes en Inglaterra).
-2. **El oficinista no tiene relación con ellos**: su pecado es otro, y el purgatorio solo le ha dado este trabajo. Se descubre al final.
-3. **Rosario Montes**: ¿es una compañera que también está en el purgatorio, la que le recluta o el propio purgatorio con una cara amable? Sus correos dejan de llegar a partir del caso 0003, que ya viene «(sin remitente)».
+### Qué cambiaría en el prototipo (cuando se decida implementar)
+
+- Nombre de la gestoría, del sistema y de la compañera.
+- Facturas en libras (£) y con el IVA británico (*VAT*, 20 %); direcciones inglesas y número de IVA británico en vez de NIF.
+- Las notas y los correos antiguos, con nombres y lugares ingleses. El juego sigue en castellano.
 
 ## Preguntas abiertas
 

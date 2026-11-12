@@ -26,12 +26,13 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 - **Quién es en realidad el oficinista**: una persona que también está en el purgatorio. Su papel allí es torturar a los demás, sin saberlo.
 - **Estética**: la oficina es solo estilo, no se juega. La interfaz recuerda a un programa de facturación o algo parecido.
 - **Posible título**: *Office Work*.
-- **Los personajes tienen nombres clásicos ingleses** (los torturados). La gente de la oficina del jugador (Rosario Montes, la Gestoría Lindero) es de su mundo y no entra en esta regla.
+- **Los personajes tienen nombres clásicos ingleses** (los torturados).
+- **La gestoría del oficinista también es inglesa.** No todos los personajes son clientes suyos, pero en cada «relación» (cada círculo de personajes que comparten una barbaridad) al menos uno sí lo es. Ver [personajes.md](personajes.md). El prototipo todavía usa la gestoría española (Gestoría Lindero, Rosario Montes, euros): está pendiente de cambiar.
 - **Temática de los casos**: en general, relacionada con la historia inglesa. Los primeros casos (los del prototipo) son de la Inglaterra contemporánea.
 
 ## Personajes
 
-Propuesta de historias de los doce personajes, agrupados en tres círculos (las deudas, la residencia, el terreno), y opciones para el oficinista y Rosario: [personajes.md](personajes.md). Pendiente de revisar.
+Propuesta de historias de los doce personajes, agrupados en tres círculos (las deudas, la residencia, el terreno), la gestoría inglesa y el oficinista: [personajes.md](personajes.md). Pendiente de revisar.
 
 ## Prototipo web
 
