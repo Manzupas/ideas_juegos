@@ -34,6 +34,15 @@ No se inventan datos: lo que no haya dicho el usuario queda como "Por decidir" o
 | lista para prototipo | Hay suficiente definido para empezar a programar. |
 | movida | Ya se desarrolla en otro repositorio. Se deja la carpeta solo con un `diseno.md` mínimo que enlaza al nuevo sitio. |
 
+## Conversaciones
+
+El usuario trabaja desde varias conversaciones y quiere que todo lo que se habla de una idea esté disponible en las demás. **GitHub (`Manzupas/ideas_juegos`) es la fuente de verdad**:
+
+- **Al empezar**: `git pull` antes de leer o tocar nada.
+- **Durante**: cada decisión o propuesta se apunta en el `diseno.md` de la idea (o en otro `.md` de su carpeta, como `personajes.md`), marcando qué está decidido y qué es propuesta.
+- **Al terminar cada cambio**: commit y `git push`. Lo que no está subido no existe para las demás conversaciones.
+- Los `.md` de **Murdoku del purgatorio** también se copian en los documentos del proyecto de claude.ai «Ideas De Juegos»; si cambian, se vuelven a subir allí.
+
 ## Commits
 
 - Se trabaja directamente en `main`: aquí solo hay documentos.
