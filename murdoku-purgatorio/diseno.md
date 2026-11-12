@@ -22,23 +22,23 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 - **El papel del jugador**: sin saberlo, se dedica a torturarlos.
 - **Cómo es la tortura**: en los casos, cada personaje va muriendo varias veces.
 - **No pueden salir del purgatorio.**
-- **El jugador**: eres un oficinista haciendo trabajo burocrático; te llega un correo electrónico con un enlace y ya no puedes parar de resolver *Murdokus*.
-- **Quién es en realidad el oficinista**: una persona que también está en el purgatorio. Su papel allí es torturar a los demás, sin saberlo.
+- **El jugador es «el contable»**: trabajas en una gestoría haciendo trabajo burocrático; te llega un correo electrónico con un enlace y ya no puedes parar de resolver *Murdokus*.
+- **Quién es en realidad el contable**: una persona que también está en el purgatorio. Su papel allí es torturar a los demás, sin saberlo.
 - **Estética**: la oficina es solo estilo, no se juega. La interfaz recuerda a un programa de facturación o algo parecido.
 - **Posible título**: *Office Work*.
 - **Los personajes tienen nombres clásicos ingleses** (los torturados).
-- **La gestoría del oficinista también es inglesa.** No todos los personajes son clientes suyos, pero en cada «relación» (cada círculo de personajes que comparten una barbaridad) al menos uno sí lo es. Ver [personajes.md](personajes.md). El prototipo todavía usa la gestoría española (Gestoría Lindero, Rosario Montes, euros): está pendiente de cambiar.
+- **La gestoría del contable también es inglesa**: se llama Finch & Limbrick, y su socio fundador es Oswald Finch, uno de los personajes. No todos los personajes son clientes suyos, pero en cada «relación» (cada círculo de personajes que comparten una barbaridad) al menos uno sí lo es. Ver [personajes.md](personajes.md). La compañera de los correos se llama Rosemary Mount. El prototipo todavía usa la gestoría española (Gestoría Lindero, Rosario Montes, euros): está pendiente de cambiar.
 - **Temática de los casos**: en general, relacionada con la historia inglesa. Los primeros casos (los del prototipo) son de la Inglaterra contemporánea.
 
 ## Personajes
 
-Propuesta de historias de los doce personajes, agrupados en tres círculos (las deudas, la residencia, el terreno), la gestoría inglesa y el oficinista: [personajes.md](personajes.md). Pendiente de revisar.
+Propuesta de historias de los doce personajes, agrupados en tres círculos (las deudas, la residencia, el terreno), la gestoría inglesa y el contable: [personajes.md](personajes.md). Pendiente de revisar.
 
 ## Prototipo web
 
 Prototipo en HTML y JavaScript, en un solo archivo y sin dependencias. **Para jugar en local, abrir [prototipo/office-work.html](prototipo/office-work.html)**; cómo se genera y qué es cada archivo está en [prototipo/README.md](prototipo/README.md). También está publicado como artefacto para probarlo en el móvil: https://claude.ai/artifact/QgHxcBtNP4yLWGyQ3VYhcJ
 
-Es el ordenador del oficinista, con estética de Windows 98 (sistema «Lindero 98»):
+Es el ordenador del contable, con estética de Windows 98 (sistema «Lindero 98»):
 
 - **Escritorio**: iconos (Mi PC, Mis documentos, Facturas, GESTA 2000, Correo, Navegador, Bloc de notas, Papelera de reciclaje), ventanas que se arrastran, minimizan, maximizan y cierran, barra de tareas con reloj y menú Inicio. En el móvil todas las ventanas se abren maximizadas y los iconos se abren con un toque.
 - **GESTA 2000** (facturación de la Gestoría Lindero): lista de facturas, cabecera, líneas que se añaden y se borran, totales con el IVA desglosado; Nueva, Guardar, Añadir línea y Duplicar. Las facturas se guardan en el navegador. En pantallas grandes está abierto al empezar.
@@ -70,9 +70,9 @@ En un *Murdoku* hay un plano de una casa dividido en cuadrícula y unos sospecho
 - ¿Qué barbaridad hizo cada uno? ¿Están relacionadas entre ellas?
 - ¿Cómo se cuenta la vida de cada personaje? ¿En las pistas, en textos entre casos, en objetos de los planos?
 - ¿Cómo se va notando el giro? ¿Detalles raros en las pistas o en los planos, víctimas que reaparecen, personajes que recuerdan casos anteriores?
-- ¿Qué hizo el oficinista en vida para estar en el purgatorio? ¿Se descubre al final?
+- ¿Qué hizo el contable en vida para estar en el purgatorio? ¿Se descubre al final?
 - ¿Quién manda el correo? ¿Es otra persona del purgatorio, el propio purgatorio, alguien de la oficina?
-- ¿Cómo y cuándo descubre el oficinista que los está torturando, y que él también está allí?
+- ¿Cómo y cuándo descubre el contable que los está torturando, y que él también está allí?
 - ¿Qué pasa cuando el jugador lo descubre? ¿Puede seguir o parar? ¿Cambia algo según lo que decida?
 - ¿Cuántos casos? ¿Hay un final o varios?
 - ¿Los puzles se diseñan a mano o se generan? Hay que comprobar que cada uno tiene una única solución.

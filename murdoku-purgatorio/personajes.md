@@ -7,7 +7,7 @@
 - **Doce personajes**, todos con nombre clásico inglés y una inicial distinta (la ficha del tablero muestra solo la inicial).
 - Vivieron en la **Inglaterra contemporánea** y murieron entre 2010 y 2022. Los casos los pueden poner en cualquier época de la historia inglesa, pero sus vidas reales son de ahora: lo que se va descubriendo en los expedientes es su vida de verdad.
 - Se agrupan en **tres círculos de cuatro**. En cada círculo hubo una barbaridad hecha entre varios, y cada uno puso su parte. Así, caso a caso, el jugador ve primero a personas sueltas y luego cómo encajan.
-- **[fijado]** La gestoría del oficinista es **inglesa**. No todos los personajes son clientes, pero **en cada círculo al menos uno sí lo es**: la gestoría tramitó los papeles de esa barbaridad.
+- **[fijado]** La gestoría del contable es **inglesa**. No todos los personajes son clientes, pero **en cada círculo al menos uno sí lo es**: la gestoría tramitó los papeles de esa barbaridad.
 - En los casos, **los asesinatos repiten rencores reales**: quien mata a alguien en un Murdoku tenía motivos para odiarle en vida.
 
 | Círculo | La barbaridad | Personajes | Cliente de la gestoría | Qué le tramitaba |
@@ -52,7 +52,7 @@ Los tres clientes coinciden con las tres facturas que ya hay en el prototipo.
 
 ### Cecily Pembroke (C) · 1975–2018
 - **[fijado]** Asesina del caso 0002.
-- **Vida**: hija de Agatha y contable de la residencia. Cambiaba los registros antes de cada inspección para que pareciese que todo estaba en orden.
+- **Vida**: hija de Agatha y administradora de la residencia. Cambiaba los registros antes de cada inspección para que pareciese que todo estaba en orden.
 - **Muerte real**: accidente de coche, volviendo de una cena, con demasiado alcohol.
 - **Por qué mata a Agatha**: su madre la hizo cómplice desde los veinte años y nunca la dejó irse.
 
@@ -86,21 +86,21 @@ Los tres clientes coinciden con las tres facturas que ya hay en el prototipo.
 - **En los casos**: siempre en el jardín, el patio o el exterior.
 
 ### Oswald Finch (O) · 1946–2013
-- **Vida**: el contable que lo unía todo. Movió el dinero de Reginald, de Agatha y de Bernard a cuentas fuera del país. No conocía a las víctimas de nadie y nunca preguntó. Propuesta: es el socio fundador de la gestoría del oficinista (ver abajo).
+- **Vida**: el asesor financiero que lo unía todo. Movió el dinero de Reginald, de Agatha y de Bernard a cuentas fuera del país. No conocía a las víctimas de nadie y nunca preguntó. **[fijado]** Es el socio fundador de la gestoría del contable (ver abajo).
 - **Muerte real**: en su despacho de la gestoría, a última hora, solo, delante de una hoja de cálculo.
-- **En los casos**: aparece en casos de los tres círculos; es el puente entre ellos. Puede ser el reflejo más cercano del oficinista.
+- **En los casos**: aparece en casos de los tres círculos; es el puente entre ellos. Es el reflejo más cercano del contable.
 
-## La gestoría y el oficinista
+## La gestoría y el contable
 
 - **[fijado]** La gestoría es inglesa y lleva los papeles de al menos un personaje de cada círculo.
-- **Propuesta de nombre**: **Finch & Limbrick**, en una ciudad inglesa mediana (por ejemplo, Reading). *Limbrick* es un apellido inglés real que recuerda a *limbo*. Sustituiría a «Gestoría Lindero», y el sistema del ordenador pasaría de «Lindero 98» a otro nombre (por ejemplo, «Limbrick 98»).
-- **Oswald Finch, el socio fundador**: el contable del círculo del terreno sería el fundador de la gestoría y el antiguo jefe del oficinista. Él movía el dinero de los tres círculos; el oficinista hacía el papeleo. Así Oswald es el reflejo directo del oficinista.
-- **El oficinista** (dirección elegida: la gestoría tramitó los papeles de todos): lo sellaba todo sin leerlo, los embargos, las cuentas de la residencia, las escrituras de los pisos. Su pecado es no preguntar nunca: «yo solo hacía mi trabajo». Le falta nombre, inglés.
-- **La compañera de los correos**: Rosario Montes pasaría a tener nombre inglés. Propuesta: **Rosemary Mount** (la traducción más directa). Sigue abierto quién es: una compañera que también está en el purgatorio, la que le recluta o el propio purgatorio con una cara amable. Sus correos dejan de llegar a partir del caso 0003, que ya viene «(sin remitente)».
+- **[fijado]** Se llama **Finch & Limbrick**. *Limbrick* es un apellido inglés real que recuerda a *limbo*. Sustituye a «Gestoría Lindero», y el sistema del ordenador pasa de «Lindero 98» a **«Limbrick 98»**. Ciudad por decidir (por ejemplo, una ciudad mediana como Reading).
+- **[fijado]** **Oswald Finch, el socio fundador**: el asesor financiero del círculo del terreno fundó la gestoría y era el jefe del contable. Él movía el dinero de los tres círculos; el contable hacía el papeleo. Así Oswald es el reflejo directo del contable.
+- **[fijado]** **El jugador es «el contable»** (antes «el oficinista»), sin nombre propio. La gestoría tramitó los papeles de todos y él lo sellaba todo sin leerlo: los embargos, las cuentas de la residencia, las escrituras de los pisos. Propuesta de pecado: no preguntar nunca, «yo solo hacía mi trabajo».
+- **[fijado]** **La compañera de los correos se llama Rosemary Mount** (antes Rosario Montes). Sigue abierto quién es: una compañera que también está en el purgatorio, la que le recluta o el propio purgatorio con una cara amable. Sus correos dejan de llegar a partir del caso 0003, que ya viene «(sin remitente)».
 
 ### Qué cambiaría en el prototipo (cuando se decida implementar)
 
-- Nombre de la gestoría, del sistema y de la compañera.
+- Nombre de la gestoría (Finch & Limbrick), del sistema (Limbrick 98) y de la compañera (Rosemary Mount).
 - Facturas en libras (£) y con el IVA británico (*VAT*, 20 %); direcciones inglesas y número de IVA británico en vez de NIF.
 - Las notas y los correos antiguos, con nombres y lugares ingleses. El juego sigue en castellano.
 

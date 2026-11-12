@@ -1,6 +1,6 @@
 # Prototipo de Office Work (HTML y JavaScript)
 
-Prototipo jugable del Murdoku del purgatorio: el ordenador del oficinista, con estética de Windows 98, en el que llegan los casos por correo. Todo está en un solo archivo, sin dependencias ni conexión a internet.
+Prototipo jugable del Murdoku del purgatorio: el ordenador del contable, con estética de Windows 98, en el que llegan los casos por correo. Todo está en un solo archivo, sin dependencias ni conexión a internet.
 
 ## Jugar en local
 
