@@ -23,7 +23,7 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 - **Cómo es la tortura**: en los casos, cada personaje va muriendo varias veces.
 - **No pueden salir del purgatorio.**
 - **El jugador es «el contable»**: trabajas en una gestoría haciendo trabajo burocrático; te llega un correo electrónico con un enlace y ya no puedes parar de resolver *Murdokus*.
-- **Quién es en realidad el contable**: una persona que también está en el purgatorio. Su papel allí es torturar a los demás, sin saberlo.
+- **Quién es en realidad el contable**: una persona que también está en el purgatorio. Su papel allí es torturar a los demás, sin saberlo. Su pecado: «vender secretos» de la empresa para exponer a sus clientes.
 - **Estética**: la oficina es solo estilo, no se juega. La interfaz recuerda a un programa de facturación o algo parecido.
 - **Posible título**: *Office Work*.
 - **Los personajes tienen nombres clásicos ingleses** (los torturados).
@@ -40,6 +40,8 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 - **Cuándo llegan**: a medida que se resuelven Murdokus y que se generan facturas. El flujo de trabajo de las facturas está pendiente de hablar.
 - **Por qué no recuerdan nada**: los compañeros son **otros contables que están como tú**, también en el purgatorio. No mandaron esos correos.
 - **Quién los manda de verdad**: **un «hacker»**. Más adelante el contable tiene **línea directa con él mediante una aplicación** del ordenador.
+- **El hacker se hace pasar por un contable** que engaña al jugador para que **venda secretos de la empresa**.
+- **El pecado del contable es «vender secretos»** de la empresa: en vida los sacó para **exponer en la vida real los secretos de los que están en el purgatorio** (los clientes de la gestoría). Ver [personajes.md](personajes.md).
 
 **Propuesta** (por revisar):
 
@@ -51,7 +53,11 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 **Preguntas abiertas**:
 
 - ¿Qué pueden cambiar las respuestas: la historia, el final, qué casos llegan, la relación con el hacker?
-- ¿Quién es el hacker? ¿Otra alma del purgatorio que intenta ayudar o sacar al contable, alguien de fuera, o parte del propio purgatorio? ¿Qué quiere?
+- ¿Quién es de verdad el hacker? ¿Parte del purgatorio que pone a prueba al contable, otra alma, alguien de fuera? ¿Qué gana si el contable vuelve a vender secretos?
+- ¿Con qué contable se hace pasar: uno de los compañeros (Douglas, Maureen, Trevor) o uno que no existe?
+- ¿Qué secretos le pide que venda? ¿Los de los mismos clientes (Reginald, Agatha, Bernard), los que va descubriendo en los expedientes?
+- En vida, ¿el contable cobró por los secretos o los filtró gratis? ¿Expuso a todos o solo a algunos? ¿Tuvo eso consecuencias para él (despido, juicio, cómo murió)?
+- ¿Qué pasa si en el juego vuelve a vender secretos, y qué pasa si se niega? (Enlaza con que las respuestas a los correos puedan cambiar algo.)
 - ¿Los correos de los Murdokus (los de Rosemary y el «sin remitente») también los manda el hacker? ¿Rosemary existe?
 - ¿Cuándo aparece la aplicación y qué se puede hacer con ella?
 - ¿Los compañeros saben que están en el purgatorio? ¿El contable puede llegar a hablar con ellos de verdad?
@@ -96,7 +102,7 @@ En un *Murdoku* hay un plano de una casa dividido en cuadrícula y unos sospecho
 - ¿Qué barbaridad hizo cada uno? ¿Están relacionadas entre ellas?
 - ¿Cómo se cuenta la vida de cada personaje? ¿En las pistas, en textos entre casos, en objetos de los planos?
 - ¿Cómo se va notando el giro? ¿Detalles raros en las pistas o en los planos, víctimas que reaparecen, personajes que recuerdan casos anteriores?
-- ¿Qué hizo el contable en vida para estar en el purgatorio? ¿Se descubre al final?
+- ¿Cuándo y cómo descubre el jugador el pecado del contable? ¿Al final, o poco a poco por los expedientes y el hacker?
 - ¿Quién manda el correo? ¿Es otra persona del purgatorio, el propio purgatorio, alguien de la oficina?
 - ¿Cómo y cuándo descubre el contable que los está torturando, y que él también está allí?
 - ¿Qué pasa cuando el jugador lo descubre? ¿Puede seguir o parar? ¿Cambia algo según lo que decida?

@@ -94,8 +94,10 @@ Los tres clientes coinciden con las tres facturas que ya hay en el prototipo.
 
 - **[fijado]** La gestoría es inglesa y lleva los papeles de al menos un personaje de cada círculo.
 - **[fijado]** Se llama **Finch & Limbrick**. *Limbrick* es un apellido inglés real que recuerda a *limbo*. Sustituye a «Gestoría Lindero», y el sistema del ordenador pasa de «Lindero 98» a **«Limbrick 98»**. Ciudad por decidir (por ejemplo, una ciudad mediana como Reading).
-- **[fijado]** **Oswald Finch, el socio fundador**: el asesor financiero del círculo del terreno fundó la gestoría y era el jefe del contable. Él movía el dinero de los tres círculos; el contable hacía el papeleo. Así Oswald es el reflejo directo del contable.
-- **[fijado]** **El jugador es «el contable»** (antes «el oficinista»), sin nombre propio. La gestoría tramitó los papeles de todos y él lo sellaba todo sin leerlo: los embargos, las cuentas de la residencia, las escrituras de los pisos. Propuesta de pecado: no preguntar nunca, «yo solo hacía mi trabajo».
+- **[fijado]** **Oswald Finch, el socio fundador**: el asesor financiero del círculo del terreno fundó la gestoría y era el jefe del contable. Él movía el dinero de los tres círculos; el contable hacía el papeleo. Así Oswald es el reflejo del contable: uno escondía el dinero, el otro acabó sacando a la luz dónde estaba.
+- **[fijado]** **El jugador es «el contable»** (antes «el oficinista»), sin nombre propio. La gestoría tramitó los papeles de todos: los embargos, las cuentas de la residencia, las escrituras de los pisos.
+- **[fijado]** **El pecado del contable es «vender secretos» de la empresa**: en vida sacó los secretos de la gestoría para exponer en la vida real los secretos de los que ahora están en el purgatorio. Las comillas importan: lo que para la empresa fue una traición, para él era sacar la verdad.
+- **[fijado]** **El hacker** se hace pasar por un contable de la gestoría que engaña al jugador para que venda secretos de la empresa: le empuja a repetir su pecado.
 - **[fijado]** **La compañera de los correos se llama Rosemary Vale** (antes Rosario Montes). *Vale* es «valle» y también un «adiós» antiguo (*vale of tears*, el valle de lágrimas). Sigue abierto quién es: una compañera que también está en el purgatorio, la que le recluta o el propio purgatorio con una cara amable. Sus correos dejan de llegar a partir del caso 0003, que ya viene «(sin remitente)».
 
 ### Los compañeros de la gestoría (propuesta)
