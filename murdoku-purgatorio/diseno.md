@@ -31,7 +31,7 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 - **Temática de los casos**: en general, relacionada con la historia inglesa. Los primeros casos (los del prototipo) son de la Inglaterra «contemporánea» para el contable: los años 90.
 - **Época: finales de los 90.** El ordenador es de Windows 98 (Limbrick 98) y todo cuadra con eso: los personajes murieron entre 1990 y 1999, y el presente del contable es 1999. Se descartó pasar a estética de Windows 7.
 
-**Propuestas que salen de la época** (por revisar):
+**Decidido, a partir de la época**:
 
 - **El efecto 2000**: el reloj del ordenador nunca llega al 1 de enero de 2000; el tiempo del purgatorio está atascado en el final del milenio. Trevor, el informático, puede usar el «efecto 2000» como excusa para cosas raras del ordenador.
 - **La aplicación del hacker**: un programa de chat de la época, estilo ICQ o IRC, que aparece instalado sin que nadie lo haya instalado.
@@ -58,7 +58,6 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 - Compañeros: Douglas Limbrick (el jefe), Maureen Clegg (administración) y Trevor Hobbs (informática). Detalle en [personajes.md](personajes.md).
 - Cada correo de trabajo trae dos o tres respuestas. Ejemplo, de Douglas: «Necesito las facturas de octubre cerradas para el viernes.» Respuestas: «Ya están hechas» / «Las tendrás el jueves» / «Voy con retraso, lo siento». Unos minutos después: «¿Qué facturas? No te he pedido nada. ¿Estás bien?»
 - Las respuestas de «no sé de qué me hablas» se pueden ir volviendo más raras a medida que avanzan los casos: primero confusión, luego el correo original ya no está en la bandeja.
-- La aplicación del hacker podría ser un programa de mensajería de la época (estilo chat de finales de los noventa) que aparece instalado un día en el escritorio, sin que nadie lo haya instalado.
 
 **Preguntas abiertas**:
 
