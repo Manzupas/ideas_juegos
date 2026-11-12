@@ -29,13 +29,19 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 
 ## Prototipo web
 
-[prototipo/index.html](prototipo/index.html), publicado como artefacto para probarlo en el móvil: https://claude.ai/artifact/QgHxcBtNP4yLWGyQ3VYhcJ
+[prototipo/index.html](prototipo/index.html), publicado como artefacto para probarlo también en el móvil: https://claude.ai/artifact/QgHxcBtNP4yLWGyQ3VYhcJ
 
-- **Facturación** (*GESTA 2000*, de la Gestoría Lindero): lista de facturas, cabecera (serie, número, fecha, cliente, NIF, dirección, forma de pago), líneas que se añaden y se borran (código, concepto, cantidad, precio, descuento, IVA) y totales con el IVA desglosado. Botones Nueva, Guardar, Añadir línea y Duplicar. Las facturas se guardan en el navegador.
-- **Notificación**: la primera vez que se guarda una factura llega un correo («esto engancha, ya verás»); también con el botón de correo de la barra de estado. Al pulsarlo se abre el caso en una ventana de navegador.
-- **Murdoku**: un caso de 6×6 con 6 personajes (Leopoldo, la víctima, y Amparo, Bruno, Carmela, Dámaso y Elvira) y 7 pistas. Se elige a una persona y se toca una casilla; tocarla otra vez la quita. Hay un modo para tachar casillas, las pistas se pueden tachar al tocarlas y «Comprobar» dice qué pistas o reglas fallan. Al acertar se acusa al culpable.
-- **Pistas del purgatorio**: casi ninguna. Los clientes de las facturas tienen los nombres de los personajes (Leopoldo tiene una factura de «Gestión de testamento» sin respuesta) y al cerrar el caso aparece «Fallecimientos registrados: 3».
-- **El caso** se generó con [prototipo/scripts/humano.py](prototipo/scripts/humano.py) (usa `caso.py`): tiene una única solución y se resuelve solo con deducciones (las pistas de cada persona más una persona por fila y columna), sin probar a ciegas.
+Es el ordenador del oficinista, con estética de Windows 98 (sistema «Lindero 98»):
+
+- **Escritorio**: iconos (Mi PC, Mis documentos, Facturas, GESTA 2000, Correo, Navegador, Bloc de notas, Papelera de reciclaje), ventanas que se arrastran, minimizan, maximizan y cierran, barra de tareas con reloj y menú Inicio. En el móvil todas las ventanas se abren maximizadas y los iconos se abren con un toque.
+- **GESTA 2000** (facturación de la Gestoría Lindero): lista de facturas, cabecera, líneas que se añaden y se borran, totales con el IVA desglosado; Nueva, Guardar, Añadir línea y Duplicar. Las facturas se guardan en el navegador. En pantallas grandes está abierto al empezar.
+- **Explorador de carpetas**: Mi PC, Disco local (C:), Mis documentos, Archivos de programa y **Facturas**, donde cada factura es un archivo `.fac` que se abre en GESTA. Disquete y carpeta Windows dan sus avisos clásicos.
+- **Correo**: carpetas (entrada, enviados, borradores, eliminados), lista, vista previa, Crear correo, Responder, Eliminar y Enviar y recibir.
+- **El enganche**: la primera vez que se guarda una factura (o con «Enviar y recibir») llega un correo de Rosario Montes, una compañera: «esto engancha, ya verás». Sale un globo de aviso en la bandeja; al pulsarlo se abre el correo, y su enlace abre el caso en el **Navegador**.
+- **Bloc de notas**: notas de la oficina en Mis documentos (`pendientes.txt`, `claves.txt`) y un borrador de carta en la Papelera; se pueden escribir y guardar notas nuevas.
+- **Murdoku**: un caso de 6×6 con 6 personajes (Leopoldo, la víctima, y Amparo, Bruno, Carmela, Dámaso y Elvira) y 7 pistas. Se elige a una persona y se toca una casilla; tocarla otra vez la quita. Hay un modo para tachar casillas, las pistas se tachan al tocarlas y «Comprobar» dice qué pistas o reglas fallan. Al acertar se acusa al culpable.
+- **Pistas del purgatorio**, muy discretas: los clientes y los correos tienen los nombres de los personajes (Leopoldo debe la factura 0141 y contestó «No pienso pagar esto»; Bruno «juraría» que ya le mandaron la factura), las notas dicen «Tercera vez», al cerrar el caso aparece «Fallecimientos registrados: 3» y **el equipo no se puede apagar**: «Todavía tiene tareas pendientes».
+- **El caso** se generó con [prototipo/scripts/humano.py](prototipo/scripts/humano.py) (usa `caso.py`; se ejecutan desde esa carpeta): tiene una única solución y se resuelve solo con deducciones (las pistas de cada persona más una persona por fila y columna), sin probar a ciegas.
 
 ## Referencia
 
