@@ -40,8 +40,10 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 - **Cuándo llegan**: a medida que se resuelven Murdokus y que se generan facturas. El flujo de trabajo de las facturas está pendiente de hablar.
 - **Por qué no recuerdan nada**: los compañeros son **otros contables que están como tú**, también en el purgatorio. No mandaron esos correos.
 - **Quién los manda de verdad**: **un «hacker»**. Más adelante el contable tiene **línea directa con él mediante una aplicación** del ordenador.
-- **El hacker se hace pasar por un contable** que engaña al jugador para que **venda secretos de la empresa**.
+- **El hacker se hace pasar por un contable** que engaña al jugador para que **venda secretos de la empresa**. **Se hace pasar por los tres compañeros** (Douglas, Maureen y Trevor) y **luego te da un seudónimo**.
+- **Los secretos que le pide** son los que el jugador va descubriendo en los expedientes de los casos.
 - **El pecado del contable es «vender secretos»** de la empresa: en vida los sacó para **exponer en la vida real los secretos de los que están en el purgatorio** (los clientes de la gestoría). Ver [personajes.md](personajes.md).
+- **En vida, eso le costó un juicio, y lo asesinaron.**
 
 **Propuesta** (por revisar):
 
@@ -52,11 +54,12 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 
 **Preguntas abiertas**:
 
-- ¿Qué pueden cambiar las respuestas: la historia, el final, qué casos llegan, la relación con el hacker?
+- ¿Qué pueden cambiar las respuestas? Sin pensar todavía.
+- El seudónimo: ¿es el nombre con el que se presenta el hacker en la aplicación, o uno que le da al jugador? ¿Cuál es?
+- ¿Quién asesinó al contable? ¿Uno de los doce personajes (por ejemplo, Desmond el abogado o Frederick el cobrador), o alguien por encargo de varios? ¿Y el juicio, quién se lo puso, la gestoría?
+- Idea: el último Murdoku podría ser el asesinato del propio contable, con él como víctima.
+- En vida, ¿cobró por los secretos o los filtró gratis? ¿Expuso a todos o solo a algunos?
 - ¿Quién es de verdad el hacker? ¿Parte del purgatorio que pone a prueba al contable, otra alma, alguien de fuera? ¿Qué gana si el contable vuelve a vender secretos?
-- ¿Con qué contable se hace pasar: uno de los compañeros (Douglas, Maureen, Trevor) o uno que no existe?
-- ¿Qué secretos le pide que venda? ¿Los de los mismos clientes (Reginald, Agatha, Bernard), los que va descubriendo en los expedientes?
-- En vida, ¿el contable cobró por los secretos o los filtró gratis? ¿Expuso a todos o solo a algunos? ¿Tuvo eso consecuencias para él (despido, juicio, cómo murió)?
 - ¿Qué pasa si en el juego vuelve a vender secretos, y qué pasa si se niega? (Enlaza con que las respuestas a los correos puedan cambiar algo.)
 - ¿Los correos de los Murdokus (los de Rosemary y el «sin remitente») también los manda el hacker? ¿Rosemary existe?
 - ¿Cuándo aparece la aplicación y qué se puede hacer con ella?
