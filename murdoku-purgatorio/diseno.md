@@ -75,7 +75,7 @@ Prototipo en HTML y JavaScript, en un solo archivo y sin dependencias. **Para ju
 
 Es el ordenador del contable, con estética de Windows 98 (sistema «Lindero 98»):
 
-- **Escritorio**: iconos (Mi PC, Mis documentos, Facturas, GESTA 2000, Correo, Navegador, Bloc de notas, Papelera de reciclaje), ventanas que se arrastran, minimizan, maximizan y cierran, barra de tareas con reloj y menú Inicio. En el móvil todas las ventanas se abren maximizadas y los iconos se abren con un toque.
+- **Escritorio**: iconos (Mi PC, Mis documentos, Facturas, GESTA 2000, Correo, Navegador, Bloc de notas, Papelera de reciclaje), ventanas que se arrastran, se redimensionan con el ratón (bordes y esquinas), minimizan, maximizan y cierran, barra de tareas con reloj y menú Inicio. En el móvil todas las ventanas se abren maximizadas y los iconos se abren con un toque.
 - **GESTA 2000** (facturación de la Gestoría Lindero): lista de facturas, cabecera, líneas que se añaden y se borran, totales con el IVA desglosado; Nueva, Guardar, Añadir línea y Duplicar. Las facturas se guardan en el navegador. En pantallas grandes está abierto al empezar.
 - **Explorador de carpetas**: Mi PC, Disco local (C:), Mis documentos, Archivos de programa y **Facturas**, donde cada factura es un archivo `.fac` que se abre en GESTA. Disquete y carpeta Windows dan sus avisos clásicos.
 - **Correo**: carpetas (entrada, enviados, borradores, eliminados), lista, vista previa, Crear correo, Responder, Eliminar y Enviar y recibir.
