@@ -1,0 +1,5 @@
+{"rooms": ["EEECCC","EEECCC","EESSCC","TTSSSS","TTSSSS","GGGGSS"],
+ "objs":  ["E.s.Ms","PM....","..aP..","s..a..","..M..P",".E..s."],
+ "room_names": {"E":["Estudio","en el estudio"],"C":["Cocina","en la cocina"],"S":["Salón","en el salón"],"T":["Baño","en el baño"],"G":["Garaje","en el garaje"]},
+ "people": [{"id":"B","name":"Bernard"},{"id":"V","name":"Reginald"},{"id":"C","name":"Cecily","fem":true},{"id":"E","name":"Edith","fem":true},{"id":"F","name":"Frederick"},{"id":"G","name":"Gertrude","fem":true}],
+ "victim": "B", "seeds": 300}

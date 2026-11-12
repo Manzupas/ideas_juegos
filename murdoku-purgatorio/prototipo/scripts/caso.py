@@ -29,7 +29,7 @@ OBJ_NAME = {"M": "una mesa", "E": "una estantería", "P": "una planta", "s": "un
 BLOCK = set("MEP")
 N = 6
 PEOPLE = ["A", "B", "C", "D", "E", "V"]  # V = víctima
-NAMES = {"A": "Amparo", "B": "Bruno", "C": "Carmela", "D": "Dámaso", "E": "Elvira", "V": "Leopoldo"}
+NAMES = {"A": "Agatha", "B": "Bernard", "C": "Cecily", "D": "Desmond", "E": "Edith", "V": "Reginald"}
 
 free = [[OBJS[r][c] not in BLOCK for c in range(N)] for r in range(N)]
 

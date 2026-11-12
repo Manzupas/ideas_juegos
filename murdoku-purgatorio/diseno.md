@@ -26,6 +26,8 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 - **Quién es en realidad el oficinista**: una persona que también está en el purgatorio. Su papel allí es torturar a los demás, sin saberlo.
 - **Estética**: la oficina es solo estilo, no se juega. La interfaz recuerda a un programa de facturación o algo parecido.
 - **Posible título**: *Office Work*.
+- **Los personajes tienen nombres clásicos ingleses** (los torturados). La gente de la oficina del jugador (Rosario Montes, la Gestoría Lindero) es de su mundo y no entra en esta regla.
+- **Temática de los casos**: en general, relacionada con la historia inglesa. Los primeros casos (los del prototipo) son de la Inglaterra contemporánea.
 
 ## Prototipo web
 
@@ -39,9 +41,18 @@ Es el ordenador del oficinista, con estética de Windows 98 (sistema «Lindero 9
 - **Correo**: carpetas (entrada, enviados, borradores, eliminados), lista, vista previa, Crear correo, Responder, Eliminar y Enviar y recibir.
 - **El enganche**: la primera vez que se guarda una factura (o con «Enviar y recibir») llega un correo de Rosario Montes, una compañera: «esto engancha, ya verás». Sale un globo de aviso en la bandeja; al pulsarlo se abre el correo, y su enlace abre el caso en el **Navegador**.
 - **Bloc de notas**: notas de la oficina en Mis documentos (`pendientes.txt`, `claves.txt`) y un borrador de carta en la Papelera; se pueden escribir y guardar notas nuevas.
-- **Murdoku**: un caso de 6×6 con 6 personajes (Leopoldo, la víctima, y Amparo, Bruno, Carmela, Dámaso y Elvira) y 7 pistas. Se elige a una persona y se toca una casilla; tocarla otra vez la quita. Hay un modo para tachar casillas, las pistas se tachan al tocarlas y «Comprobar» dice qué pistas o reglas fallan. Al acertar se acusa al culpable.
-- **Pistas del purgatorio**, muy discretas: los clientes y los correos tienen los nombres de los personajes (Leopoldo debe la factura 0141 y contestó «No pienso pagar esto»; Bruno «juraría» que ya le mandaron la factura), las notas dicen «Tercera vez», al cerrar el caso aparece «Fallecimientos registrados: 3» y **el equipo no se puede apagar**: «Todavía tiene tareas pendientes».
-- **El caso** se generó con [prototipo/scripts/humano.py](prototipo/scripts/humano.py) (usa `caso.py`; se ejecutan desde esa carpeta): tiene una única solución y se resuelve solo con deducciones (las pistas de cada persona más una persona por fila y columna), sin probar a ciegas.
+- **Personajes**: Reginald Ashcombe, Agatha Pembroke, Bernard Thorne, Cecily, Desmond, Edith, Frederick y Gertrude. Cada caso usa seis.
+- **Tres Murdokus de 6×6**, cada uno con otra casa, otra víctima y otro asesino:
+
+  | Caso | Escenario | Víctima | Asesino | Expediente | Llega |
+  |------|-----------|---------|---------|------------|-------|
+  | 0001 | Una casa en Hampstead, Londres | Reginald | Desmond | Dueño de una empresa de préstamos rápidos; se quedó con las casas de tres familias. Fallecimientos: 3 | Correo de Rosario al guardar una factura (o con «Enviar y recibir») |
+  | 0002 | La residencia Pembroke, Brighton | Agatha | Cecily | Directora de una residencia de mayores; cobraba cuidados que nunca se daban. Fallecimientos: 5 | Correo de Rosario («¿Ya? Hay otro») al resolver el 0001 |
+  | 0003 | Una casa en las afueras de Manchester | Bernard | Edith | Promotor; vendió cuarenta pisos sobre un terreno que sabía contaminado. Fallecimientos: 2 | Correo «(sin remitente)» al resolver el 0002 |
+
+  En el caso 0003 vuelve a aparecer Reginald, vivo, aunque murió en el 0001.
+- **Cómo se juega**: se elige a una persona y se toca una casilla; tocarla otra vez la quita. Hay un modo para tachar casillas, las pistas se tachan al tocarlas y «Comprobar» dice qué pistas o reglas fallan. Al acertar se acusa al culpable y se abre el expediente de la víctima.
+- **Los casos** se generan con los scripts de [prototipo/scripts/](prototipo/scripts/): el 0001 con `humano.py` (usa `caso.py`) y el 0002 y el 0003 con `generar_caso.py casoN.json`, que lee el plano, los personajes y la víctima de un JSON. Se ejecutan desde esa carpeta. Cada caso tiene una única solución y se resuelve solo con deducciones (las pistas de cada persona más una persona por fila y columna), sin probar a ciegas.
 
 ## Referencia
 
