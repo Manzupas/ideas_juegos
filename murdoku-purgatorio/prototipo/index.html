@@ -1,0 +1,643 @@
+<title>Office Work</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Concepto: un programa de facturación de escritorio de hacia 2000, a pantalla completa.
+   Un solo aspecto (gris de ventana clásico), elegido a propósito: no cambia con el tema oscuro. */
+:root {
+  --face: #d4d0c8;      /* gris de ventana */
+  --shadow: #808080;
+  --dark: #404040;
+  --light: #ffffff;
+  --field: #ffffff;
+  --ink: #000000;
+  --muted: #555555;
+  --title-a: #0a246a;   /* barra de título */
+  --title-b: #a6caf0;
+  --select: #0a246a;
+  --select-ink: #ffffff;
+  --warn: #b00000;
+  --ok: #1f6b2a;
+  --paper: #fffef6;
+  --ui: Tahoma, Verdana, "Segoe UI", "DejaVu Sans", Arial, sans-serif;
+  --mono: "Courier New", "Liberation Mono", "DejaVu Sans Mono", monospace;
+  color-scheme: light;
+}
+html, body { height: 100%; }
+body {
+  background: #3a6ea5;
+  color: var(--ink);
+  font: 12px/1.35 var(--ui);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 12px;
+  box-sizing: border-box;
+}
+*, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }
+button, input, select { font: inherit; color: inherit; }
+
+/* Relieves de los controles clásicos */
+.raised { background: var(--face); border: 1px solid; border-color: var(--light) var(--dark) var(--dark) var(--light); box-shadow: inset -1px -1px var(--shadow), inset 1px 1px #e9e7e2; }
+.sunken { background: var(--field); border: 1px solid; border-color: var(--shadow) var(--light) var(--light) var(--shadow); box-shadow: inset 1px 1px var(--dark); }
+
+.window { max-width: 1100px; margin: 0 auto; display: flex; flex-direction: column; min-height: 100%; }
+.titlebar { display: flex; align-items: center; gap: 6px; padding: 3px 4px 3px 6px; color: #fff; font-weight: bold; background: linear-gradient(90deg, var(--title-a), var(--title-b)); }
+.titlebar .t { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.titlebar .wbtn { width: 18px; height: 16px; display: grid; place-items: center; font: bold 10px/1 var(--ui); color: #000; padding: 0; cursor: default; }
+.appicon { width: 16px; height: 16px; flex: none; }
+
+.menubar { display: flex; gap: 2px; padding: 2px 4px; flex-wrap: wrap; }
+.menubar span { padding: 2px 6px; }
+.menubar span u { text-decoration: underline; }
+
+.toolbar { display: flex; flex-wrap: wrap; gap: 4px; padding: 4px; border-top: 1px solid var(--light); border-bottom: 1px solid var(--shadow); }
+.btn { padding: 3px 10px; min-height: 26px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
+.btn:active { border-color: var(--dark) var(--light) var(--light) var(--dark); box-shadow: inset 1px 1px var(--shadow); }
+.btn:focus-visible, .cell:focus-visible, .chip:focus-visible, .clue:focus-visible { outline: 1px dotted #000; outline-offset: -4px; }
+.btn.primary { font-weight: bold; }
+.btn svg { width: 14px; height: 14px; }
+.sep { width: 2px; align-self: stretch; border-left: 1px solid var(--shadow); border-right: 1px solid var(--light); margin: 0 2px; }
+
+.main { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 6px; padding: 6px; flex: 1; background: var(--face); }
+.panel-title { font-weight: bold; padding: 3px 6px; background: var(--shadow); color: #fff; }
+.list { display: flex; flex-direction: column; min-height: 0; }
+.list .items { flex: 1; overflow: auto; }
+.inv-item { display: grid; grid-template-columns: 1fr auto; gap: 0 6px; padding: 4px 6px; cursor: pointer; border-bottom: 1px dotted #c8c4bb; }
+.inv-item .n { font-family: var(--mono); }
+.inv-item .c { grid-column: 1 / -1; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.inv-item.sel { background: var(--select); color: var(--select-ink); }
+.inv-item.sel .c { color: #d8e2ff; }
+
+.doc { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+fieldset { min-width: 0; margin: 0; padding: 8px; border: 1px solid; border-color: var(--shadow) var(--light) var(--light) var(--shadow); box-shadow: 1px 1px 0 var(--light) inset, -1px -1px 0 var(--shadow) inset; }
+legend { padding: 0 4px; }
+.grid-form { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px 10px; }
+.f { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.f.w2 { grid-column: span 2; }
+.f.w4 { grid-column: 1 / -1; }
+.f label { color: var(--ink); }
+.f input, .f select { padding: 3px 4px; min-height: 24px; width: 100%; border-radius: 0; }
+input.sunken, select.sunken { outline: none; }
+input.sunken:focus, select.sunken:focus { background: #ffffe6; }
+
+.lines-wrap { overflow-x: auto; }
+table.lines { border-collapse: collapse; width: 100%; min-width: 640px; background: var(--field); }
+table.lines th { text-align: left; font-weight: normal; padding: 3px 4px; white-space: nowrap; }
+table.lines td { padding: 0; border: 1px solid #e0ddd6; }
+table.lines td.num, table.lines th.num { text-align: right; }
+table.lines td input { width: 100%; border: 0; padding: 4px; min-height: 26px; background: transparent; outline: none; }
+table.lines td input:focus { background: #ffffe6; }
+table.lines td.num input { text-align: right; font-family: var(--mono); }
+table.lines td.imp { font-family: var(--mono); padding: 4px; text-align: right; white-space: nowrap; background: #f4f3ef; }
+table.lines td.del { width: 28px; text-align: center; }
+table.lines td.del button { border: 0; background: none; cursor: pointer; padding: 4px 6px; color: var(--warn); font-weight: bold; }
+.lines-actions { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 6px; }
+
+.totals { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px; align-items: start; }
+.totals .box { min-width: 260px; padding: 6px 8px; display: grid; grid-template-columns: 1fr auto; gap: 2px 16px; font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.totals .box .k { font-family: var(--ui); }
+.totals .box .total { font-weight: bold; font-size: 15px; border-top: 1px solid var(--ink); padding-top: 4px; margin-top: 2px; }
+.notes { color: var(--muted); }
+
+.statusbar { display: flex; gap: 3px; padding: 2px; flex-wrap: wrap; }
+.statusbar > * { padding: 2px 6px; }
+.statusbar .grow { flex: 1; min-width: 120px; }
+.statusbar button { border: 0; background: none; cursor: pointer; display: inline-flex; gap: 4px; align-items: center; padding: 0; }
+
+/* Notificación de correo */
+.notif { position: fixed; right: calc(12px + env(safe-area-inset-right, 0px)); bottom: calc(12px + env(safe-area-inset-bottom, 0px)); width: min(320px, calc(100vw - 24px)); z-index: 50; cursor: pointer; transform: translateY(0); }
+.notif .hd { display: flex; align-items: center; gap: 6px; padding: 3px 6px; color: #fff; font-weight: bold; background: linear-gradient(90deg, var(--title-a), var(--title-b)); }
+.notif .hd .x { margin-left: auto; width: 16px; height: 14px; padding: 0; color: #000; font: bold 9px/1 var(--ui); }
+.notif .bd { display: grid; grid-template-columns: 34px 1fr; gap: 8px; padding: 8px; }
+.notif .bd .from { font-weight: bold; }
+.notif .bd .hint { color: #0000c0; text-decoration: underline; margin-top: 4px; }
+@media (prefers-reduced-motion: no-preference) { .notif { animation: slide .35s ease-out; } @keyframes slide { from { transform: translateY(120%); } } }
+
+/* Ventana del navegador con el Murdoku */
+.overlay { position: fixed; inset: 0; z-index: 60; background: rgba(0,0,0,.25); display: flex; justify-content: center; align-items: flex-start; padding: calc(10px + env(safe-area-inset-top, 0px)) max(10px, env(safe-area-inset-right, 0px)) calc(10px + env(safe-area-inset-bottom, 0px)) max(10px, env(safe-area-inset-left, 0px)); overflow: auto; }
+.browser { width: min(860px, 100%); display: flex; flex-direction: column; }
+.addr { display: flex; gap: 6px; align-items: center; padding: 3px 4px; }
+.addr .bar { flex: 1; min-width: 0; padding: 2px 4px; font-family: var(--mono); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.page { background: var(--paper); padding: 14px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 300px); gap: 16px; }
+.page h1 { font: bold 20px/1.2 Georgia, "Times New Roman", serif; margin: 0 0 4px; text-wrap: balance; }
+.page .lead { margin: 0 0 10px; max-width: 60ch; font-size: 13px; }
+.case-no { font: 11px var(--mono); color: var(--muted); letter-spacing: .08em; text-transform: uppercase; }
+
+.board { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); grid-template-rows: repeat(6, minmax(0, 1fr)); width: 100%; max-width: 432px; aspect-ratio: 1; border: 3px solid #2b2b2b; background: #2b2b2b; gap: 0; user-select: none; -webkit-user-select: none; touch-action: manipulation; }
+.cell { position: relative; border: 0 solid #2b2b2b; background: var(--room); cursor: pointer; display: grid; place-items: center; padding: 0; outline-offset: -3px; }
+.cell .obj { position: absolute; inset: 14%; color: #5c5346; pointer-events: none; }
+.cell .obj svg { width: 100%; height: 100%; }
+.cell.block .obj { inset: 10%; }
+.cell .rl { position: absolute; left: 3px; top: 2px; font: bold 8px/1 var(--ui); letter-spacing: .06em; text-transform: uppercase; color: rgba(0,0,0,.55); pointer-events: none; white-space: nowrap; }
+.cell .xm { position: absolute; inset: 0; display: grid; place-items: center; font: 26px/1 var(--ui); color: rgba(120,20,20,.55); pointer-events: none; }
+.cell.conflict::after { content: ""; position: absolute; inset: 2px; border: 2px solid var(--warn); pointer-events: none; }
+.token { position: relative; z-index: 1; width: 64%; aspect-ratio: 1; border-radius: 50%; display: grid; place-items: center; color: #fff; font: bold 15px/1 var(--ui); background: var(--pc); border: 2px solid rgba(0,0,0,.55); box-shadow: 1px 2px 0 rgba(0,0,0,.25); }
+.token.victim { background: #fff; color: #000; border-style: dashed; }
+
+.tools { display: flex; flex-direction: column; gap: 10px; margin-top: 10px; max-width: 432px; }
+.mode { display: inline-flex; }
+.mode button { padding: 4px 10px; min-height: 28px; cursor: pointer; }
+.mode button[aria-pressed="true"] { border-color: var(--dark) var(--light) var(--light) var(--dark); box-shadow: inset 1px 1px var(--shadow); background: #e8e6e0; font-weight: bold; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { display: inline-flex; align-items: center; gap: 6px; padding: 3px 8px 3px 3px; min-height: 30px; cursor: pointer; }
+.chip .dot { width: 22px; height: 22px; border-radius: 50%; display: grid; place-items: center; color: #fff; font: bold 11px/1 var(--ui); background: var(--pc); border: 1px solid rgba(0,0,0,.5); }
+.chip.victim .dot { background: #fff; color: #000; border-style: dashed; }
+.chip[aria-pressed="true"] { background: var(--select); color: var(--select-ink); }
+.chip.placed { opacity: .55; }
+.chip.placed[aria-pressed="true"] { opacity: 1; }
+
+.side h2 { font: bold 13px var(--ui); margin: 0 0 6px; text-transform: uppercase; letter-spacing: .06em; }
+.clues { list-style: none; margin: 0 0 12px; padding: 0; display: flex; flex-direction: column; gap: 2px; counter-reset: c; }
+.clue { display: grid; grid-template-columns: 22px 1fr; gap: 4px; padding: 5px 6px; cursor: pointer; border-bottom: 1px dotted #c9c3b3; font-size: 13px; }
+.clue::before { counter-increment: c; content: counter(c) "."; font-family: var(--mono); color: var(--muted); }
+.clue.done { color: #9a9488; text-decoration: line-through; }
+.clue.bad { background: #ffe3e0; }
+details.rules { font-size: 12px; margin-bottom: 12px; }
+details.rules summary { cursor: pointer; font-weight: bold; }
+details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-direction: column; gap: 3px; }
+.legend { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px 10px; font-size: 11px; margin-bottom: 12px; }
+.legend span { display: flex; align-items: center; gap: 5px; }
+.legend svg { width: 18px; height: 18px; color: #5c5346; flex: none; }
+.actions { display: flex; flex-wrap: wrap; gap: 6px; }
+.msg { margin-top: 8px; padding: 8px; font-size: 13px; }
+.msg.err { background: #fff0ee; border: 1px solid #e0a9a1; }
+.msg.ok { background: #eef7ee; border: 1px solid #9fc79f; }
+.accuse { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.closing { font-family: var(--mono); font-size: 12px; margin-top: 8px; white-space: pre-line; }
+
+@media (max-width: 760px) {
+  body { padding-block: 0; padding-left: max(0px, env(safe-area-inset-left, 0px)); padding-right: max(0px, env(safe-area-inset-right, 0px)); }
+  .main { grid-template-columns: minmax(0, 1fr); }
+  .list .items { max-height: 128px; }
+  .grid-form { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .f.w2 { grid-column: 1 / -1; }
+  .totals { grid-template-columns: 1fr; }
+  .totals .box { min-width: 0; }
+  .menubar span:nth-child(n+5) { display: none; }
+  .page { grid-template-columns: 1fr; padding: 10px; }
+  .overlay { padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px); }
+}
+</style>
+
+<div class="window raised" id="app">
+  <div class="titlebar">
+    <svg class="appicon" viewBox="0 0 16 16" aria-hidden="true"><rect x="2" y="1" width="12" height="14" fill="#fff" stroke="#000"/><path d="M4 5h8M4 8h8M4 11h5" stroke="#0a246a"/></svg>
+    <div class="t">GESTA 2000 · Facturación — Gestoría Lindero, S.L.</div>
+    <button class="wbtn raised" tabindex="-1" aria-hidden="true">_</button>
+    <button class="wbtn raised" tabindex="-1" aria-hidden="true">□</button>
+    <button class="wbtn raised" tabindex="-1" aria-hidden="true">✕</button>
+  </div>
+  <div class="menubar"><span><u>A</u>rchivo</span><span><u>E</u>dición</span><span><u>F</u>acturas</span><span><u>C</u>lientes</span><span>Info<u>r</u>mes</span><span>A<u>y</u>uda</span></div>
+  <div class="toolbar">
+    <button class="btn raised" id="bNueva"><svg viewBox="0 0 16 16"><path d="M3 1h7l3 3v11H3z" fill="#fff" stroke="#000"/><path d="M10 1v3h3" fill="none" stroke="#000"/></svg>Nueva</button>
+    <button class="btn raised primary" id="bGuardar"><svg viewBox="0 0 16 16"><rect x="1.5" y="1.5" width="13" height="13" fill="#3b5ba5" stroke="#000"/><rect x="4" y="2" width="8" height="5" fill="#fff"/><rect x="4" y="10" width="8" height="4" fill="#ccc"/></svg>Guardar</button>
+    <span class="sep"></span>
+    <button class="btn raised" id="bLinea"><svg viewBox="0 0 16 16"><path d="M8 3v10M3 8h10" stroke="#1f6b2a" stroke-width="2.5"/></svg>Añadir línea</button>
+    <button class="btn raised" id="bDuplicar"><svg viewBox="0 0 16 16"><rect x="1.5" y="4.5" width="9" height="10" fill="#fff" stroke="#000"/><rect x="5.5" y="1.5" width="9" height="10" fill="#fff" stroke="#000"/></svg>Duplicar</button>
+  </div>
+
+  <div class="main">
+    <aside class="list sunken">
+      <div class="panel-title">Facturas emitidas</div>
+      <div class="items" id="list" role="listbox" aria-label="Facturas"></div>
+    </aside>
+
+    <section class="doc">
+      <fieldset>
+        <legend>Cabecera</legend>
+        <div class="grid-form">
+          <div class="f"><label for="fSerie">Serie</label><input class="sunken" id="fSerie"></div>
+          <div class="f"><label for="fNum">Número</label><input class="sunken" id="fNum" inputmode="numeric"></div>
+          <div class="f"><label for="fFecha">Fecha</label><input class="sunken" id="fFecha" type="date"></div>
+          <div class="f"><label for="fPago">Forma de pago</label>
+            <select class="sunken" id="fPago"><option>Transferencia 30 días</option><option>Contado</option><option>Recibo domiciliado</option><option>Pagaré 60 días</option></select></div>
+          <div class="f w2"><label for="fCliente">Cliente</label><input class="sunken" id="fCliente"></div>
+          <div class="f"><label for="fNif">NIF</label><input class="sunken" id="fNif"></div>
+          <div class="f"><label for="fCp">C.P. / Población</label><input class="sunken" id="fCp"></div>
+          <div class="f w4"><label for="fDir">Dirección</label><input class="sunken" id="fDir"></div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Líneas</legend>
+        <div class="lines-wrap sunken">
+          <table class="lines">
+            <thead class="raised"><tr><th style="width:70px">Código</th><th>Concepto</th><th class="num" style="width:60px">Cant.</th><th class="num" style="width:84px">Precio</th><th class="num" style="width:56px">Dto. %</th><th class="num" style="width:56px">IVA %</th><th class="num" style="width:96px">Importe</th><th></th></tr></thead>
+            <tbody id="lines"></tbody>
+          </table>
+        </div>
+        <div class="lines-actions"><button class="btn raised" id="bLinea2">Añadir línea</button></div>
+      </fieldset>
+
+      <div class="totals">
+        <fieldset class="notes"><legend>Observaciones</legend><input class="sunken" id="fObs" style="width:100%;padding:3px 4px;min-height:24px" aria-label="Observaciones"></fieldset>
+        <div class="box sunken" id="totals" aria-live="polite"></div>
+      </div>
+    </section>
+  </div>
+
+  <div class="statusbar">
+    <span class="sunken grow" id="status">Listo</span>
+    <span class="sunken">Ejercicio 2026</span>
+    <span class="sunken">Usuario: ADMIN</span>
+    <span class="sunken"><button id="bCorreo" title="Enviar y recibir"><svg width="14" height="12" viewBox="0 0 14 12"><rect x=".5" y=".5" width="13" height="11" fill="#fff" stroke="#000"/><path d="M.5.5 7 7l6.5-6.5" fill="none" stroke="#000"/></svg><span id="mailCount">Correo</span></button></span>
+    <span class="sunken" id="clock">--:--</span>
+  </div>
+</div>
+
+<div class="notif raised" id="notif" hidden role="button" tabindex="0" aria-label="Correo nuevo. Pulsa para abrir">
+  <div class="hd"><svg width="14" height="12" viewBox="0 0 14 12" aria-hidden="true"><rect x=".5" y=".5" width="13" height="11" fill="#fff" stroke="#000"/><path d="M.5.5 7 7l6.5-6.5" fill="none" stroke="#000"/></svg>Correo nuevo<button class="x raised" id="notifX" aria-label="Cerrar aviso">✕</button></div>
+  <div class="bd">
+    <svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true"><rect x="1" y="6" width="32" height="22" fill="#fff" stroke="#000"/><path d="M1 6l16 13L33 6" fill="none" stroke="#000"/><circle cx="28" cy="7" r="6" fill="#c00"/><text x="28" y="10" font-size="9" text-anchor="middle" fill="#fff" font-family="Tahoma, sans-serif" font-weight="bold">1</text></svg>
+    <div>
+      <div class="from">De: Rosario Montes</div>
+      <div>Asunto: esto engancha, ya verás</div>
+      <div class="hint">Pulsa para abrir el enlace</div>
+    </div>
+  </div>
+</div>
+
+<div class="overlay" id="overlay" hidden>
+  <div class="browser raised" role="dialog" aria-modal="true" aria-labelledby="caseTitle">
+    <div class="titlebar">
+      <svg class="appicon" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="#fff" stroke="#000"/><path d="M1.5 8h13M8 1.5c-3 3-3 10 0 13M8 1.5c3 3 3 10 0 13" fill="none" stroke="#0a246a"/></svg>
+      <div class="t">Caso nº 1 — Navegador</div>
+      <button class="wbtn raised" id="bCerrar" aria-label="Cerrar">✕</button>
+    </div>
+    <div class="addr"><span>Dirección</span><span class="bar sunken">http://casos.lindero.local/caso/0001</span></div>
+    <div class="page">
+      <div>
+        <div class="case-no">Caso nº 0001 · La casa del lindero</div>
+        <h1 id="caseTitle">¿Quién mató a Leopoldo?</h1>
+        <p class="lead">Leopoldo Garrido ha aparecido muerto en su casa. Había cinco personas más. Coloca a cada una en el plano: el asesino es quien estaba a solas con él en la misma habitación.</p>
+        <div class="board" id="board" role="grid" aria-label="Plano de la casa"></div>
+        <div class="tools">
+          <div class="mode raised" role="group" aria-label="Modo">
+            <button class="raised" id="mPlace" aria-pressed="true">Colocar</button>
+            <button class="raised" id="mMark" aria-pressed="false">Tachar casilla</button>
+          </div>
+          <div class="chips" id="chips"></div>
+        </div>
+      </div>
+      <div class="side">
+        <h2>Pistas</h2>
+        <ol class="clues" id="clues"></ol>
+        <details class="rules" open>
+          <summary>Reglas</summary>
+          <ul>
+            <li>En cada fila y en cada columna hay exactamente una persona.</li>
+            <li>Nadie puede estar encima de una mesa, una estantería o una planta. Sí en una silla, una alfombra o la cama.</li>
+            <li>«Junto a» quiere decir en una casilla pegada por un lado, no en diagonal.</li>
+            <li>El asesino es la única persona que estaba en la misma habitación que la víctima.</li>
+          </ul>
+        </details>
+        <div class="legend" id="legend"></div>
+        <div class="actions">
+          <button class="btn raised primary" id="bCheck">Comprobar</button>
+          <button class="btn raised" id="bReset">Empezar de nuevo</button>
+        </div>
+        <div id="result" aria-live="polite"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  /* ---------- Utilidades ---------- */
+  const $ = (id) => document.getElementById(id);
+  const eur = new Intl.NumberFormat("es-ES", { style: "currency", currency: "EUR" });
+  const num = (v) => { const n = parseFloat(String(v).replace(",", ".")); return isFinite(n) ? n : 0; };
+  const store = {
+    get(k) { try { return JSON.parse(localStorage.getItem(k)); } catch (e) { return null; } },
+    set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+  };
+  function setStatus(t) { $("status").textContent = t; }
+  function tick() { const d = new Date(); $("clock").textContent = d.toLocaleTimeString("es-ES", { hour: "2-digit", minute: "2-digit" }); }
+  tick(); setInterval(tick, 20000);
+
+  /* ---------- Facturación ---------- */
+  const EJEMPLO = [
+    { serie: "A", num: "0139", fecha: "2026-10-02", pago: "Transferencia 30 días", cliente: "Vidal Ortega, Amparo", nif: "16583204K", cp: "26001 Logroño", dir: "C/ Portales, 14, 2º izda.", obs: "",
+      lineas: [{ cod: "AS-01", con: "Asesoría fiscal trimestral", cant: 1, precio: 120, dto: 0, iva: 21 }, { cod: "PR-03", con: "Presentación modelo 303", cant: 1, precio: 35, dto: 0, iva: 21 }] },
+    { serie: "A", num: "0140", fecha: "2026-10-09", pago: "Recibo domiciliado", cliente: "Ferrer Saiz, Bruno", nif: "72981145M", cp: "26002 Logroño", dir: "Av. de la Paz, 3, bajo", obs: "",
+      lineas: [{ cod: "NO-02", con: "Nóminas octubre (3 trabajadores)", cant: 3, precio: 18, dto: 0, iva: 21 }, { cod: "AS-04", con: "Alta en Seguridad Social", cant: 1, precio: 40, dto: 10, iva: 21 }] },
+    { serie: "A", num: "0141", fecha: "2026-10-17", pago: "Contado", cliente: "Garrido Peña, Leopoldo", nif: "16490377T", cp: "26006 Logroño", dir: "C/ del Lindero, 1", obs: "Sin respuesta del cliente.",
+      lineas: [{ cod: "TE-01", con: "Gestión de testamento", cant: 1, precio: 210, dto: 0, iva: 21 }, { cod: "CO-07", con: "Copias compulsadas", cant: 12, precio: 1.5, dto: 0, iva: 21 }] }
+  ];
+  let invoices = store.get("ow.facturas") || EJEMPLO.map((f) => JSON.parse(JSON.stringify(f)));
+  let cur = invoices.length - 1;
+  let mailSent = false;
+
+  const FIELDS = { fSerie: "serie", fNum: "num", fFecha: "fecha", fPago: "pago", fCliente: "cliente", fNif: "nif", fCp: "cp", fDir: "dir", fObs: "obs" };
+
+  function lineTotal(l) { return num(l.cant) * num(l.precio) * (1 - num(l.dto) / 100); }
+
+  function renderList() {
+    const box = $("list"); box.innerHTML = "";
+    invoices.forEach((f, i) => {
+      const base = f.lineas.reduce((s, l) => s + lineTotal(l), 0);
+      const iva = f.lineas.reduce((s, l) => s + lineTotal(l) * num(l.iva) / 100, 0);
+      const it = document.createElement("div");
+      it.className = "inv-item" + (i === cur ? " sel" : "");
+      it.setAttribute("role", "option"); it.setAttribute("aria-selected", i === cur); it.tabIndex = 0;
+      it.innerHTML = `<span class="n"></span><span class="n"></span><span class="c"></span>`;
+      it.children[0].textContent = `${f.serie || "-"}/${f.num || "----"}`;
+      it.children[1].textContent = eur.format(base + iva);
+      it.children[2].textContent = f.cliente || "(sin cliente)";
+      it.onclick = () => { cur = i; renderAll(); };
+      it.onkeydown = (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); it.click(); } };
+      box.appendChild(it);
+    });
+  }
+
+  function renderHeader() {
+    const f = invoices[cur];
+    for (const id in FIELDS) $(id).value = f[FIELDS[id]] || "";
+  }
+
+  function renderLines() {
+    const f = invoices[cur]; const tb = $("lines"); tb.innerHTML = "";
+    f.lineas.forEach((l, i) => {
+      const tr = document.createElement("tr");
+      const cols = [["cod", ""], ["con", ""], ["cant", "num"], ["precio", "num"], ["dto", "num"], ["iva", "num"]];
+      cols.forEach(([k, cls]) => {
+        const td = document.createElement("td"); if (cls) td.className = cls;
+        const inp = document.createElement("input");
+        inp.id = `l${i}_${k}`; inp.value = l[k]; inp.setAttribute("aria-label", k);
+        if (cls) inp.inputMode = "decimal";
+        inp.oninput = () => { l[k] = cls ? inp.value : inp.value; renderTotals(); tr.querySelector(".imp").textContent = eur.format(lineTotal(l)); setStatus("Modificado sin guardar"); };
+        td.appendChild(inp); tr.appendChild(td);
+      });
+      const imp = document.createElement("td"); imp.className = "imp"; imp.textContent = eur.format(lineTotal(l)); tr.appendChild(imp);
+      const del = document.createElement("td"); del.className = "del";
+      const b = document.createElement("button"); b.textContent = "✕"; b.title = "Borrar línea"; b.setAttribute("aria-label", "Borrar línea " + (i + 1));
+      b.onclick = () => { f.lineas.splice(i, 1); renderLines(); renderTotals(); setStatus("Línea borrada"); };
+      del.appendChild(b); tr.appendChild(del);
+      tb.appendChild(tr);
+    });
+    if (!f.lineas.length) {
+      const tr = document.createElement("tr"); const td = document.createElement("td"); td.colSpan = 8; td.style.padding = "8px"; td.style.color = "#555";
+      td.textContent = "Esta factura no tiene líneas. Pulsa «Añadir línea»."; tr.appendChild(td); tb.appendChild(tr);
+    }
+  }
+
+  function renderTotals() {
+    const f = invoices[cur];
+    const base = f.lineas.reduce((s, l) => s + lineTotal(l), 0);
+    const porTipo = {};
+    f.lineas.forEach((l) => { const t = num(l.iva); porTipo[t] = (porTipo[t] || 0) + lineTotal(l) * t / 100; });
+    const ivaTot = Object.values(porTipo).reduce((a, b) => a + b, 0);
+    let h = `<span class="k">Base imponible</span><span>${eur.format(base)}</span>`;
+    Object.keys(porTipo).sort((a, b) => b - a).forEach((t) => { h += `<span class="k">IVA ${t} %</span><span>${eur.format(porTipo[t])}</span>`; });
+    h += `<span class="k total">TOTAL</span><span class="total">${eur.format(base + ivaTot)}</span>`;
+    $("totals").innerHTML = h;
+  }
+
+  function renderAll() { renderList(); renderHeader(); renderLines(); renderTotals(); }
+
+  for (const id in FIELDS) {
+    $(id).addEventListener("input", () => { invoices[cur][FIELDS[id]] = $(id).value; setStatus("Modificado sin guardar"); });
+  }
+
+  function addLine() {
+    const f = invoices[cur]; f.lineas.push({ cod: "", con: "", cant: 1, precio: 0, dto: 0, iva: 21 });
+    renderLines(); renderTotals();
+    const i = f.lineas.length - 1; const el = $(`l${i}_con`); if (el) el.focus();
+    setStatus("Línea añadida");
+  }
+  $("bLinea").onclick = addLine; $("bLinea2").onclick = addLine;
+
+  $("bNueva").onclick = () => {
+    const last = invoices.reduce((m, f) => Math.max(m, parseInt(f.num, 10) || 0), 0);
+    invoices.push({ serie: "A", num: String(last + 1).padStart(4, "0"), fecha: new Date().toISOString().slice(0, 10), pago: "Transferencia 30 días", cliente: "", nif: "", cp: "", dir: "", obs: "", lineas: [{ cod: "", con: "", cant: 1, precio: 0, dto: 0, iva: 21 }] });
+    cur = invoices.length - 1; renderAll(); $("fCliente").focus(); setStatus("Factura nueva");
+  };
+  $("bDuplicar").onclick = () => {
+    const c = JSON.parse(JSON.stringify(invoices[cur]));
+    const last = invoices.reduce((m, f) => Math.max(m, parseInt(f.num, 10) || 0), 0);
+    c.num = String(last + 1).padStart(4, "0"); invoices.push(c); cur = invoices.length - 1; renderAll(); setStatus("Factura duplicada");
+  };
+  $("bGuardar").onclick = () => {
+    store.set("ow.facturas", invoices); renderList();
+    const f = invoices[cur];
+    setStatus(`Factura ${f.serie}/${f.num} guardada`);
+    if (!mailSent) { mailSent = true; setTimeout(showNotif, 1400); }
+  };
+  $("bCorreo").onclick = () => { setStatus("Enviando y recibiendo…"); setTimeout(() => { setStatus("1 mensaje nuevo"); showNotif(); }, 700); };
+
+  /* ---------- Notificación ---------- */
+  function showNotif() { $("notif").hidden = false; $("mailCount").textContent = "1 nuevo"; }
+  function hideNotif() { $("notif").hidden = true; }
+  $("notif").onclick = (e) => { if (e.target.closest("#notifX")) return; hideNotif(); openCase(); };
+  $("notif").onkeydown = (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); hideNotif(); openCase(); } };
+  $("notifX").onclick = (e) => { e.stopPropagation(); hideNotif(); };
+
+  /* ---------- Murdoku ---------- */
+  /* Caso generado y comprobado fuera de la página: tiene una única solución y se resuelve
+     solo con deducciones (pistas de cada persona + una persona por fila y columna). */
+  const ROOMS = ["CCCBBB", "CCCBBB", "SSSSDD", "SSSSDD", "SSSSDD", "TTSSDD"];
+  const OBJS  = ["E.Ms.E", "s.M..E", "P..a.c", ".a.M.c", "sM...P", "..as.."];
+  const ROOM = { C: ["Cocina", "#efe1c0"], B: ["Biblioteca", "#d9e3cc"], S: ["Salón", "#ead8c8"], D: ["Dormitorio", "#d5dbea"], T: ["Baño", "#cfe8e5"] };
+  const BLOCK = "MEP";
+  const PEOPLE = [
+    { id: "V", name: "Leopoldo", full: "Leopoldo Garrido (víctima)", color: "#fff", victim: true },
+    { id: "A", name: "Amparo", full: "Amparo", color: "#a5462f" },
+    { id: "B", name: "Bruno", full: "Bruno", color: "#2f5f9e" },
+    { id: "C", name: "Carmela", full: "Carmela", color: "#4e7f33" },
+    { id: "D", name: "Dámaso", full: "Dámaso", color: "#7a4593" },
+    { id: "E", name: "Elvira", full: "Elvira", color: "#a87611" }
+  ];
+  const SOLUTION = { A: [0, 3], C: [1, 1], V: [2, 5], E: [3, 0], D: [4, 4], B: [5, 2] };
+  const MURDERER = "D";
+  const CLUES = [
+    { t: "Leopoldo estaba tumbado en la cama.", k: "on", p: "V", o: "c" },
+    { t: "Amparo estaba sentada en una silla.", k: "on", p: "A", o: "s" },
+    { t: "Bruno estaba de pie sobre una alfombra.", k: "on", p: "B", o: "a" },
+    { t: "Carmela estaba junto a una mesa.", k: "adj", p: "C", o: "M" },
+    { t: "Dámaso estaba junto a una planta.", k: "adj", p: "D", o: "P" },
+    { t: "Elvira estaba junto a una planta.", k: "adj", p: "E", o: "P" },
+    { t: "Elvira estaba junto a una silla.", k: "adj", p: "E", o: "s" }
+  ];
+  const ICON = {
+    M: '<svg viewBox="0 0 20 20"><rect x="2" y="4" width="16" height="12" rx="1" fill="#b98a55" stroke="currentColor"/><path d="M4 6h12" stroke="#d9b58a"/></svg>',
+    E: '<svg viewBox="0 0 20 20"><rect x="3" y="2" width="14" height="16" fill="#8a6640" stroke="currentColor"/><path d="M3 7h14M3 12h14" stroke="currentColor"/><path d="M5 3v4M7 3v4M10 8v4M12 8v4M5 13v4M8 13v4M14 13v4" stroke="#e8d9c0" stroke-width="1.4"/></svg>',
+    P: '<svg viewBox="0 0 20 20"><path d="M6 13h8l-1 5H7z" fill="#a0583a" stroke="currentColor"/><path d="M10 13C10 8 6 7 4 4c4 0 6 3 6 6 0-4 2-7 6-8-1 4-4 6-6 11" fill="#5f8a3a" stroke="currentColor"/></svg>',
+    s: '<svg viewBox="0 0 20 20"><rect x="5" y="9" width="10" height="3" fill="#c79a62" stroke="currentColor"/><rect x="5" y="3" width="10" height="3" fill="#c79a62" stroke="currentColor"/><path d="M6 6v12M14 6v12" stroke="currentColor" stroke-width="1.5"/></svg>',
+    a: '<svg viewBox="0 0 20 20"><rect x="2" y="4" width="16" height="12" fill="#b4465a" fill-opacity=".35" stroke="currentColor" stroke-dasharray="2 1.5"/><rect x="5" y="7" width="10" height="6" fill="none" stroke="currentColor" stroke-opacity=".6"/></svg>',
+    c: '<svg viewBox="0 0 20 20"><rect x="3" y="2" width="14" height="16" rx="1" fill="#f3f1ea" stroke="currentColor"/><rect x="5" y="3.5" width="10" height="3.5" rx="1" fill="#fff" stroke="currentColor"/><path d="M3 9h14" stroke="currentColor"/><rect x="3" y="9" width="14" height="9" fill="#8fa3c7" fill-opacity=".55"/></svg>'
+  };
+  const OBJ_NAME = { M: "Mesa (no se puede estar)", E: "Estantería (no se puede estar)", P: "Planta (no se puede estar)", s: "Silla", a: "Alfombra", c: "Cama" };
+
+  let pos = {};      // persona -> [r, c]
+  let marks = {};    // "r,c" -> true
+  let selected = "V";
+  let mode = "place";
+  let solved = false;
+
+  function personAt(r, c) { return Object.keys(pos).find((p) => pos[p][0] === r && pos[p][1] === c); }
+  function adjObj(r, c, o) { return [[1, 0], [-1, 0], [0, 1], [0, -1]].some(([dr, dc]) => { const rr = r + dr, cc = c + dc; return rr >= 0 && rr < 6 && cc >= 0 && cc < 6 && OBJS[rr][cc] === o; }); }
+
+  function buildBoard() {
+    const b = $("board"); b.innerHTML = "";
+    const labelled = {};
+    for (let r = 0; r < 6; r++) for (let c = 0; c < 6; c++) {
+      const cell = document.createElement("button");
+      const rm = ROOMS[r][c], o = OBJS[r][c];
+      cell.className = "cell" + (BLOCK.includes(o) ? " block" : "");
+      cell.style.setProperty("--room", ROOM[rm][1]);
+      const w = (r2, c2) => (r2 < 0 || r2 > 5 || c2 < 0 || c2 > 5 || ROOMS[r2][c2] !== rm) ? 2 : 0.5;
+      cell.style.borderWidth = `${w(r - 1, c) === 2 ? (r === 0 ? 0 : 1.5) : 0.5}px ${w(r, c + 1) === 2 ? (c === 5 ? 0 : 1.5) : 0.5}px ${w(r + 1, c) === 2 ? (r === 5 ? 0 : 1.5) : 0.5}px ${w(r, c - 1) === 2 ? (c === 0 ? 0 : 1.5) : 0.5}px`;
+      cell.dataset.r = r; cell.dataset.c = c;
+      cell.setAttribute("role", "gridcell");
+      let inner = "";
+      if (!labelled[rm]) { labelled[rm] = true; inner += `<span class="rl">${ROOM[rm][0]}</span>`; }
+      if (o !== ".") inner += `<span class="obj">${ICON[o]}</span>`;
+      cell.innerHTML = inner;
+      cell.onclick = () => onCell(r, c);
+      b.appendChild(cell);
+    }
+  }
+
+  function renderBoard() {
+    const rowCount = {}, colCount = {};
+    Object.values(pos).forEach(([r, c]) => { rowCount[r] = (rowCount[r] || 0) + 1; colCount[c] = (colCount[c] || 0) + 1; });
+    [...$("board").children].forEach((cell) => {
+      const r = +cell.dataset.r, c = +cell.dataset.c;
+      cell.querySelectorAll(".token, .xm").forEach((n) => n.remove());
+      const p = personAt(r, c);
+      cell.classList.toggle("conflict", !!p && (rowCount[r] > 1 || colCount[c] > 1));
+      const room = ROOM[ROOMS[r][c]][0], o = OBJS[r][c];
+      let label = `Fila ${r + 1}, columna ${c + 1}, ${room}` + (o !== "." ? `, ${OBJ_NAME[o].split(" (")[0].toLowerCase()}` : "");
+      if (p) {
+        const pp = PEOPLE.find((x) => x.id === p);
+        const t = document.createElement("span"); t.className = "token" + (pp.victim ? " victim" : "");
+        t.style.setProperty("--pc", pp.color); t.textContent = pp.name[0];
+        cell.appendChild(t); label += `: ${pp.name}`;
+      } else if (marks[r + "," + c]) {
+        const x = document.createElement("span"); x.className = "xm"; x.textContent = "✕"; cell.appendChild(x); label += ": tachada";
+      }
+      cell.setAttribute("aria-label", label);
+    });
+    renderChips();
+  }
+
+  function renderChips() {
+    const box = $("chips"); box.innerHTML = "";
+    PEOPLE.forEach((p) => {
+      const b = document.createElement("button");
+      b.className = "chip raised" + (p.victim ? " victim" : "") + (pos[p.id] ? " placed" : "");
+      b.setAttribute("aria-pressed", selected === p.id && mode === "place");
+      b.innerHTML = `<span class="dot" style="--pc:${p.color}">${p.name[0]}</span><span></span>`;
+      b.lastChild.textContent = p.name + (p.victim ? " †" : "");
+      b.onclick = () => { selected = p.id; setMode("place"); };
+      box.appendChild(b);
+    });
+  }
+
+  function setMode(m) {
+    mode = m;
+    $("mPlace").setAttribute("aria-pressed", m === "place");
+    $("mMark").setAttribute("aria-pressed", m === "mark");
+    renderChips();
+  }
+  $("mPlace").onclick = () => setMode("place");
+  $("mMark").onclick = () => setMode("mark");
+
+  function onCell(r, c) {
+    if (solved) return;
+    const o = OBJS[r][c], key = r + "," + c, here = personAt(r, c);
+    clearResult();
+    if (mode === "mark") {
+      if (here) return;
+      marks[key] = !marks[key]; renderBoard(); return;
+    }
+    if (here) { delete pos[here]; selected = here; renderBoard(); return; }
+    if (BLOCK.includes(o)) { showMsg("err", "Ahí no puede haber nadie: hay " + OBJ_NAME[o].split(" (")[0].toLowerCase() + "."); return; }
+    delete marks[key];
+    pos[selected] = [r, c];
+    const next = PEOPLE.find((p) => !pos[p.id]);
+    if (next) selected = next.id;
+    renderBoard();
+  }
+
+  function renderClues() {
+    const ol = $("clues"); ol.innerHTML = "";
+    CLUES.forEach((cl, i) => {
+      const li = document.createElement("li"); li.className = "clue"; li.tabIndex = 0; li.id = "clue" + i;
+      const s = document.createElement("span"); s.textContent = cl.t; li.appendChild(s);
+      li.onclick = () => li.classList.toggle("done");
+      li.onkeydown = (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); li.click(); } };
+      ol.appendChild(li);
+    });
+    $("legend").innerHTML = Object.keys(OBJ_NAME).map((o) => `<span>${ICON[o]}${OBJ_NAME[o]}</span>`).join("");
+  }
+
+  function clueHolds(cl) {
+    const p = pos[cl.p]; if (!p) return null;
+    if (cl.k === "on") return OBJS[p[0]][p[1]] === cl.o;
+    if (cl.k === "adj") return adjObj(p[0], p[1], cl.o);
+    return true;
+  }
+
+  function clearResult() { $("result").innerHTML = ""; document.querySelectorAll(".clue.bad").forEach((n) => n.classList.remove("bad")); }
+  function showMsg(kind, text) { $("result").innerHTML = ""; const d = document.createElement("div"); d.className = "msg " + kind; d.textContent = text; $("result").appendChild(d); return d; }
+
+  $("bCheck").onclick = () => {
+    clearResult();
+    const missing = PEOPLE.filter((p) => !pos[p.id]);
+    const problems = [];
+    const rows = {}, cols = {};
+    Object.values(pos).forEach(([r, c]) => { rows[r] = (rows[r] || 0) + 1; cols[c] = (cols[c] || 0) + 1; });
+    if (Object.values(rows).some((n) => n > 1)) problems.push("hay dos personas en la misma fila");
+    if (Object.values(cols).some((n) => n > 1)) problems.push("hay dos personas en la misma columna");
+    const bad = [];
+    CLUES.forEach((cl, i) => { if (clueHolds(cl) === false) { bad.push(i + 1); $("clue" + i).classList.add("bad"); } });
+    if (bad.length) problems.push((bad.length === 1 ? "no se cumple la pista " : "no se cumplen las pistas ") + bad.join(", "));
+    if (problems.length) { showMsg("err", "Algo no cuadra: " + problems.join("; ") + "."); return; }
+    if (missing.length) { showMsg("err", "De momento todo cuadra, pero faltan por colocar: " + missing.map((p) => p.name).join(", ") + "."); return; }
+    const right = Object.keys(SOLUTION).every((p) => pos[p][0] === SOLUTION[p][0] && pos[p][1] === SOLUTION[p][1]);
+    if (!right) { showMsg("err", "Las pistas se cumplen, pero esta no es la solución. Revisa las reglas."); return; }
+    askCulprit();
+  };
+
+  function askCulprit() {
+    const d = showMsg("ok", "Todos en su sitio. ¿Quién mató a Leopoldo?");
+    const box = document.createElement("div"); box.className = "accuse";
+    PEOPLE.filter((p) => !p.victim).forEach((p) => {
+      const b = document.createElement("button"); b.className = "btn raised"; b.textContent = p.name;
+      b.onclick = () => accuse(p.id);
+      box.appendChild(b);
+    });
+    d.appendChild(box);
+  }
+
+  function accuse(id) {
+    if (id !== MURDERER) {
+      const d = showMsg("err", "No. Fíjate en quién estaba en la misma habitación que Leopoldo.");
+      const again = document.createElement("div"); again.className = "accuse";
+      const b = document.createElement("button"); b.className = "btn raised"; b.textContent = "Volver a acusar"; b.onclick = askCulprit;
+      again.appendChild(b); d.appendChild(again); return;
+    }
+    solved = true;
+    const d = showMsg("ok", "Correcto: fue Dámaso. Estaba a solas con Leopoldo en el dormitorio.");
+    const c = document.createElement("div"); c.className = "closing";
+    c.textContent = "EXPEDIENTE 0001 · CERRADO\nVíctima: Garrido Peña, Leopoldo\nFallecimientos registrados: 3\nCaso nº 0002: disponible";
+    d.appendChild(c);
+  }
+
+  $("bReset").onclick = () => { pos = {}; marks = {}; selected = "V"; solved = false; clearResult(); document.querySelectorAll(".clue").forEach((n) => n.classList.remove("done")); setMode("place"); renderBoard(); };
+
+  function openCase() { $("overlay").hidden = false; document.body.style.overflow = "hidden"; $("bCerrar").focus(); }
+  function closeCase() { $("overlay").hidden = true; document.body.style.overflow = ""; }
+  $("bCerrar").onclick = closeCase;
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !$("overlay").hidden) closeCase(); });
+
+  /* ---------- Arranque ---------- */
+  renderAll();
+  buildBoard(); renderClues(); renderBoard();
+  setStatus("Listo. Pulsa «Guardar» para guardar la factura.");
+})();
+</script>

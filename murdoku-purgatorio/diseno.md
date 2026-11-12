@@ -27,6 +27,16 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 - **Estética**: la oficina es solo estilo, no se juega. La interfaz recuerda a un programa de facturación o algo parecido.
 - **Posible título**: *Office Work*.
 
+## Prototipo web
+
+[prototipo/index.html](prototipo/index.html), publicado como artefacto para probarlo en el móvil: https://claude.ai/artifact/QgHxcBtNP4yLWGyQ3VYhcJ
+
+- **Facturación** (*GESTA 2000*, de la Gestoría Lindero): lista de facturas, cabecera (serie, número, fecha, cliente, NIF, dirección, forma de pago), líneas que se añaden y se borran (código, concepto, cantidad, precio, descuento, IVA) y totales con el IVA desglosado. Botones Nueva, Guardar, Añadir línea y Duplicar. Las facturas se guardan en el navegador.
+- **Notificación**: la primera vez que se guarda una factura llega un correo («esto engancha, ya verás»); también con el botón de correo de la barra de estado. Al pulsarlo se abre el caso en una ventana de navegador.
+- **Murdoku**: un caso de 6×6 con 6 personajes (Leopoldo, la víctima, y Amparo, Bruno, Carmela, Dámaso y Elvira) y 7 pistas. Se elige a una persona y se toca una casilla; tocarla otra vez la quita. Hay un modo para tachar casillas, las pistas se pueden tachar al tocarlas y «Comprobar» dice qué pistas o reglas fallan. Al acertar se acusa al culpable.
+- **Pistas del purgatorio**: casi ninguna. Los clientes de las facturas tienen los nombres de los personajes (Leopoldo tiene una factura de «Gestión de testamento» sin respuesta) y al cerrar el caso aparece «Fallecimientos registrados: 3».
+- **El caso** se generó con [prototipo/scripts/humano.py](prototipo/scripts/humano.py) (usa `caso.py`): tiene una única solución y se resuelve solo con deducciones (las pistas de cada persona más una persona por fila y columna), sin probar a ciegas.
+
 ## Referencia
 
 En un *Murdoku* hay un plano de una casa dividido en cuadrícula y unos sospechosos. Hay que colocar a cada uno en su casilla siguiendo pistas, con un solo personaje por fila y por columna. El asesino es quien queda solo en una habitación con la víctima.
