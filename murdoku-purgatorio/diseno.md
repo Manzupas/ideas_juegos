@@ -29,6 +29,10 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 - **Los personajes tienen nombres clásicos ingleses** (los torturados). La gente de la oficina del jugador (Rosario Montes, la Gestoría Lindero) es de su mundo y no entra en esta regla.
 - **Temática de los casos**: en general, relacionada con la historia inglesa. Los primeros casos (los del prototipo) son de la Inglaterra contemporánea.
 
+## Personajes
+
+Propuesta de historias de los doce personajes, agrupados en tres círculos (las deudas, la residencia, el terreno), y opciones para el oficinista y Rosario: [personajes.md](personajes.md). Pendiente de revisar.
+
 ## Prototipo web
 
 Prototipo en HTML y JavaScript, en un solo archivo y sin dependencias. **Para jugar en local, abrir [prototipo/office-work.html](prototipo/office-work.html)**; cómo se genera y qué es cada archivo está en [prototipo/README.md](prototipo/README.md). También está publicado como artefacto para probarlo en el móvil: https://claude.ai/artifact/QgHxcBtNP4yLWGyQ3VYhcJ
