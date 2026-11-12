@@ -15,15 +15,27 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 - **En realidad están en el purgatorio.**
 - **Empieza siendo un *Murdoku* "normal"**: al principio el jugador no sabe nada del purgatorio; el giro se descubre jugando.
 
-Como referencia, en un *Murdoku* hay un plano de una casa dividido en cuadrícula y unos sospechosos. Hay que colocar a cada uno en su casilla siguiendo pistas, con un solo personaje por fila y por columna. El asesino es quien queda solo en una habitación con la víctima.
+## Decidido
+
+- **Historia por entregas**: *Murdoku* a *Murdoku* se va descubriendo quién era cada personaje y las barbaridades que hizo en vida.
+- **Por qué están en el purgatorio**: porque lo merecen por haber sido malas personas.
+- **El papel del jugador**: sin saberlo, se dedica a torturarlos. Resolver los casos es su castigo.
+
+## Referencia
+
+En un *Murdoku* hay un plano de una casa dividido en cuadrícula y unos sospechosos. Hay que colocar a cada uno en su casilla siguiendo pistas, con un solo personaje por fila y por columna. El asesino es quien queda solo en una habitación con la víctima.
 
 ## Preguntas abiertas
 
 - Título definitivo.
 - ¿10 o 12 personajes? ¿Quiénes son y qué relación tienen entre ellos?
-- ¿Por qué están en el purgatorio? ¿Tienen que resolver algo (su propia muerte, una culpa) para salir?
+- ¿Pueden salir del purgatorio alguna vez, o el castigo no acaba?
+- ¿Qué barbaridad hizo cada uno? ¿Están relacionadas entre ellas?
+- ¿Cómo se cuenta la vida de cada personaje? ¿En las pistas, en textos entre casos, en objetos de los planos?
 - ¿Cómo se va notando el giro? ¿Detalles raros en las pistas o en los planos, víctimas que reaparecen, personajes que recuerdan casos anteriores?
-- ¿Quién es el jugador dentro de la historia? ¿Un detective, uno de los personajes, alguien que también está en el purgatorio?
+- ¿Quién es el jugador dentro de la historia? ¿Un detective, un demonio, alguien que también está en el purgatorio? ¿Cómo y cuándo descubre que los está torturando?
+- ¿Cómo los tortura resolver los casos? ¿Reviven cada asesinato, mueren una y otra vez, los acusan sin parar?
+- ¿Qué pasa cuando el jugador lo descubre? ¿Puede seguir o parar? ¿Cambia algo según lo que decida?
 - ¿Cuántos casos? ¿Hay un final o varios?
 - ¿Los puzles se diseñan a mano o se generan? Hay que comprobar que cada uno tiene una única solución.
 - ¿Se cambia algo de las reglas del *Murdoku* (por ejemplo, cuando se revela el purgatorio)?
