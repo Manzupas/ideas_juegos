@@ -45,14 +45,14 @@ Los tres clientes coinciden con las tres facturas que ya hay en el prototipo.
 ## La residencia
 
 ### Agatha Pembroke (A) · 1948–2016
-- **[fijado]** Directora de una residencia de mayores en Brighton. Cobraba a las familias cuidados que los residentes nunca recibieron. Víctima del caso 0002 (la mata Cecily). Fallecimientos registrados: 5.
+- **[fijado]** Dueña de una residencia de mayores en Brighton (antes «directora»: la directora es su hija Cecily). Cobraba a las familias cuidados que los residentes nunca recibieron. Víctima del caso 0002 (la mata Cecily). Fallecimientos registrados: 5. El expediente del prototipo todavía dice «directora»: pendiente de cambiar.
 - **Vida**: la residencia era de su familia. Reducía el personal cada año y cobraba más cada año. Los residentes pasaban días sin que nadie entrase en su habitación.
 - **Muerte real**: sola en su casa; nadie la encontró en tres semanas.
 - **En los casos**: manda sobre todos, aunque no esté en su casa. Es la que más veces ha muerto.
 
 ### Cecily Pembroke (C) · 1975–2018
 - **[fijado]** Asesina del caso 0002.
-- **Vida**: hija de Agatha y administradora de la residencia. Cambiaba los registros antes de cada inspección para que pareciese que todo estaba en orden.
+- **Vida**: **[fijado]** hija de Agatha y directora de la residencia. Su madre, la dueña, decidía los recortes; ella los aplicaba y cambiaba los registros antes de cada inspección para que pareciese que todo estaba en orden.
 - **Muerte real**: accidente de coche, volviendo de una cena, con demasiado alcohol.
 - **Por qué mata a Agatha**: su madre la hizo cómplice desde los veinte años y nunca la dejó irse.
 

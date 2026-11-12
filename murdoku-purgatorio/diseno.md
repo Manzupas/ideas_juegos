@@ -52,7 +52,7 @@ Es el ordenador del contable, con estética de Windows 98 (sistema «Lindero 98�
   | Caso | Escenario | Víctima | Asesino | Expediente | Llega |
   |------|-----------|---------|---------|------------|-------|
   | 0001 | Una casa en Hampstead, Londres | Reginald | Desmond | Dueño de una empresa de préstamos rápidos; se quedó con las casas de tres familias. Fallecimientos: 3 | Correo de Rosario al guardar una factura (o con «Enviar y recibir») |
-  | 0002 | La residencia Pembroke, Brighton | Agatha | Cecily | Directora de una residencia de mayores; cobraba cuidados que nunca se daban. Fallecimientos: 5 | Correo de Rosario («¿Ya? Hay otro») al resolver el 0001 |
+  | 0002 | La residencia Pembroke, Brighton | Agatha | Cecily | Directora de una residencia de mayores; cobraba cuidados que nunca se daban. Fallecimientos: 5 (pendiente: Agatha pasa a ser la dueña y Cecily la directora, ver [personajes.md](personajes.md)) | Correo de Rosario («¿Ya? Hay otro») al resolver el 0001 |
   | 0003 | Una casa en las afueras de Manchester | Bernard | Edith | Promotor; vendió cuarenta pisos sobre un terreno que sabía contaminado. Fallecimientos: 2 | Correo «(sin remitente)» al resolver el 0002 |
 
   En el caso 0003 vuelve a aparecer Reginald, vivo, aunque murió en el 0001.
