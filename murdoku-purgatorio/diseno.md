@@ -27,7 +27,7 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 - **Estética**: la oficina es solo estilo, no se juega. La interfaz recuerda a un programa de facturación o algo parecido.
 - **Posible título**: *Office Work*.
 - **Los personajes tienen nombres clásicos ingleses** (los torturados).
-- **La gestoría del contable también es inglesa**: se llama Finch & Limbrick, y su socio fundador es Oswald Finch, uno de los personajes. No todos los personajes son clientes suyos, pero en cada «relación» (cada círculo de personajes que comparten una barbaridad) al menos uno sí lo es. Ver [personajes.md](personajes.md). La compañera de los correos se llama Rosemary Vale. El prototipo todavía usa la gestoría española (Gestoría Lindero, Rosario Montes, euros): está pendiente de cambiar.
+- **La gestoría del contable también es inglesa**: se llama Finch & Limbrick, y su socio fundador es Oswald Finch, uno de los personajes. No todos los personajes son clientes suyos, pero en cada «relación» (cada círculo de personajes que comparten una barbaridad) al menos uno sí lo es. Ver [personajes.md](personajes.md). La compañera de los correos se llama Rosemary Vale. El prototipo ya usa Finch & Limbrick, Rosemary Vale y libras.
 - **Temática de los casos**: en general, relacionada con la historia inglesa. Los primeros casos (los del prototipo) son de la Inglaterra «contemporánea» para el contable: los años 90.
 - **Época: finales de los 90.** El ordenador es de Windows 98 (Limbrick 98) y todo cuadra con eso: los personajes murieron entre 1990 y 1999, y el presente del contable es 1999. Se descartó pasar a estética de Windows 7.
 
@@ -139,7 +139,7 @@ Propuesta de historias de los doce personajes, agrupados en tres círculos (las 
 
 Prototipo en HTML y JavaScript, en un solo archivo y sin dependencias. **Para jugar en local, abrir [prototipo/office-work.html](prototipo/office-work.html)**; cómo se genera y qué es cada archivo está en [prototipo/README.md](prototipo/README.md). También está publicado como artefacto para probarlo en el móvil: https://claude.ai/artifact/QgHxcBtNP4yLWGyQ3VYhcJ
 
-Es el ordenador del contable, con estética de Windows 98 (sistema «Lindero 98»):
+Es el ordenador del contable, con estética de Windows 98 (sistema «Limbrick 98»):
 
 - **Escritorio**: iconos (Mi PC, Mis documentos, Facturas, GESTA 2000, Correo, Navegador, Bloc de notas, Papelera de reciclaje), ventanas que se arrastran, se redimensionan con el ratón (bordes y esquinas), minimizan, maximizan y cierran, barra de tareas con reloj y menú Inicio. En el móvil todas las ventanas se abren maximizadas y los iconos se abren con un toque.
 - **GESTA 2000** (Finch & Limbrick): revisión de una tanda de 20 facturas. Pestañas Pendientes, Aceptadas y Rechazadas; cada factura se ve como un papel (emisor, cliente, líneas, base, IVA, total, firma) con su sello y, si la lleva, una nota pegada. Botones Aceptar, Rechazar y Normas. No se puede modificar nada. En pantallas grandes está abierto al empezar.
