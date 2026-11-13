@@ -43,23 +43,27 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 **Decidido**:
 
 - El trabajo del contable con las facturas es **aceptarlas o no**. De momento **no se modifican**: ni se editan cabeceras ni líneas.
+- Las facturas llegan a una bandeja de **«Pendientes de revisar»** en GESTA. Cada una se abre, se mira y se pulsa **Aceptar** o **Rechazar**.
+- **Es una mezcla**:
+  - **Reglas con respuesta correcta**, como en *Papers, Please*: reglas de la gestoría que llegan por correo de Douglas y que se van acumulando.
+  - **Decisiones morales**: algunas facturas no se resuelven con las reglas, y **a veces no hay una opción buena o mala**.
+- **Los secretos están en las facturas**: algunas son de los personajes y sus conceptos delatan sus barbaridades. El hacker pide copias justo de esas.
 
 **Propuesta** (por revisar):
 
-- Las facturas llegan a una bandeja de **«Pendientes de revisar»** en GESTA. Cada una se abre, se mira y se pulsa **Aceptar** o **Rechazar**. Las aceptadas pasan a la carpeta Facturas; las rechazadas, a «Rechazadas».
-- **Hay una respuesta correcta**, como en *Papers, Please*: reglas de la gestoría que llegan por correo de Douglas y que se van acumulando. Ejemplos:
-  - El total tiene que cuadrar con las líneas y el IVA.
-  - El cliente tiene que tener número de IVA.
-  - No se aceptan facturas con fecha posterior al 31/12/1999 («por lo del efecto 2000»).
-  - No se aceptan facturas duplicadas (mismo número o mismo concepto e importe).
-- **Fallos sin consecuencia inmediata**: equivocarse no castiga en el momento, pero se nota: un correo seco de Douglas o una línea más en una «hoja de errores».
-- **Los secretos están en las facturas**: algunas son de los personajes y sus conceptos delatan sus barbaridades (honorarios de Desmond por «redacción de contratos de préstamo», pagos de Agatha a Harriet como «asesoría sanitaria», la compraventa del terreno de Bernard). Aceptarlas es ser cómplice; rechazarlas sale bien o mal según las reglas. El hacker pide copias justo de esas.
-- **Ritmo**: las facturas llegan en tandas; al terminar una tanda llega un correo de un compañero o el siguiente caso. Así encaja con «los correos llegan al resolver Murdokus o al generar facturas».
+- Ejemplos de reglas: el total tiene que cuadrar con las líneas y el IVA; el cliente tiene que tener número de IVA; nada con fecha posterior al 31/12/1999 («por lo del efecto 2000»); nada duplicado (mismo número o mismo concepto e importe).
+- Tres tipos de factura:
+  1. **Corrientes**: solo cuentan las reglas. Son la mayoría y dan el ritmo de trabajo.
+  2. **Las reglas contra la conciencia**: la factura es correcta pero ayuda a hacer daño (los honorarios de Desmond por un desahucio de Reginald: aceptarla es lo correcto para la gestoría), o es incorrecta pero rechazarla perjudica a alguien inocente (la factura de una viuda que se ha olvidado del número de IVA y no cobrará a tiempo).
+  3. **Sin opción buena**: las dos salidas hacen daño o ninguna arregla nada (pagos de Agatha a Harriet como «asesoría sanitaria»: aceptarla tapa la residencia; rechazarla retrasa el sueldo de las cuidadoras, que tampoco cobran si la residencia cierra).
+- Las aceptadas pasan a la carpeta Facturas; las rechazadas, a «Rechazadas».
+- **Fallos sin castigo inmediato**: equivocarse con las reglas no se castiga en el momento, pero se nota: un correo seco de Douglas o una línea más en una «hoja de errores».
+- **Ritmo**: las facturas llegan en tandas; al terminar una tanda llega un correo de un compañero o el siguiente caso.
 
 **Preguntas abiertas**:
 
-- ¿Hay respuesta correcta según unas reglas, o aceptar o rechazar es una decisión moral sin respuesta correcta?
-- ¿Qué pasa si se rechaza una factura de un personaje? ¿Y si se acepta?
+- ¿Qué consecuencias tienen las decisiones morales? ¿Cambian la historia, el final, lo que se ve en los expedientes, lo que dice el hacker?
+- ¿El juego lleva la cuenta de las decisiones morales (en secreto) o no hay «puntuación» moral?
 - ¿Cuántas facturas por tanda y cada cuánto?
 - ¿Las facturas que se pueden crear ahora en GESTA (Nueva, Duplicar) se quitan del prototipo?
 
