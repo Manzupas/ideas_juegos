@@ -38,6 +38,31 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 - **«Vender secretos» en los 90**: sacar disquetes, fotocopias o faxes de la gestoría y pasárselos a un periódico. Puede dar pistas y objetos para los Murdokus.
 - **Pendiente en el prototipo**: fechas de 1999 en facturas, correos y «Ejercicio»; expediente de Reginald como prestamista; Agatha como dueña.
 
+## Flujo de trabajo de las facturas
+
+**Decidido**:
+
+- El trabajo del contable con las facturas es **aceptarlas o no**. De momento **no se modifican**: ni se editan cabeceras ni líneas.
+
+**Propuesta** (por revisar):
+
+- Las facturas llegan a una bandeja de **«Pendientes de revisar»** en GESTA. Cada una se abre, se mira y se pulsa **Aceptar** o **Rechazar**. Las aceptadas pasan a la carpeta Facturas; las rechazadas, a «Rechazadas».
+- **Hay una respuesta correcta**, como en *Papers, Please*: reglas de la gestoría que llegan por correo de Douglas y que se van acumulando. Ejemplos:
+  - El total tiene que cuadrar con las líneas y el IVA.
+  - El cliente tiene que tener número de IVA.
+  - No se aceptan facturas con fecha posterior al 31/12/1999 («por lo del efecto 2000»).
+  - No se aceptan facturas duplicadas (mismo número o mismo concepto e importe).
+- **Fallos sin consecuencia inmediata**: equivocarse no castiga en el momento, pero se nota: un correo seco de Douglas o una línea más en una «hoja de errores».
+- **Los secretos están en las facturas**: algunas son de los personajes y sus conceptos delatan sus barbaridades (honorarios de Desmond por «redacción de contratos de préstamo», pagos de Agatha a Harriet como «asesoría sanitaria», la compraventa del terreno de Bernard). Aceptarlas es ser cómplice; rechazarlas sale bien o mal según las reglas. El hacker pide copias justo de esas.
+- **Ritmo**: las facturas llegan en tandas; al terminar una tanda llega un correo de un compañero o el siguiente caso. Así encaja con «los correos llegan al resolver Murdokus o al generar facturas».
+
+**Preguntas abiertas**:
+
+- ¿Hay respuesta correcta según unas reglas, o aceptar o rechazar es una decisión moral sin respuesta correcta?
+- ¿Qué pasa si se rechaza una factura de un personaje? ¿Y si se acepta?
+- ¿Cuántas facturas por tanda y cada cuánto?
+- ¿Las facturas que se pueden crear ahora en GESTA (Nueva, Duplicar) se quitan del prototipo?
+
 ## Correos de los compañeros
 
 **Decidido**:
@@ -45,7 +70,7 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 - Además de Rosemary, hay **más compañeros de trabajo que mandan correos** al contable.
 - El jugador **les puede contestar con respuestas predefinidas** (elige una entre varias; no escribe). **Las respuestas podrían cambiar algo** (qué cambian, por decidir).
 - **Al rato de contestar, el compañero responde que no sabe de qué le está hablando.**
-- **Cuándo llegan**: a medida que se resuelven Murdokus y que se generan facturas. El flujo de trabajo de las facturas está pendiente de hablar.
+- **Cuándo llegan**: a medida que se resuelven Murdokus y que se procesan facturas (ver «Flujo de trabajo de las facturas»).
 - **Por qué no recuerdan nada**: los compañeros son **otros contables que están como tú**, también en el purgatorio. No mandaron esos correos.
 - **Quién los manda de verdad**: **un «hacker»**. Más adelante el contable tiene **línea directa con él mediante una aplicación** del ordenador.
 - **El hacker se hace pasar por un contable** que engaña al jugador para que **venda secretos de la empresa**. **Se hace pasar por los tres compañeros** (Douglas, Maureen y Trevor) y **luego te da un seudónimo**.
