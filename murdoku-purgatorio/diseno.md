@@ -53,7 +53,7 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 - El trabajo del contable con las facturas es **aceptarlas o no**. De momento **no se modifican**: ni se editan cabeceras ni líneas.
 - Las facturas llegan a una bandeja de **«Pendientes de revisar»** en GESTA. Cada una se abre, se mira y se pulsa **Aceptar** o **Rechazar**.
 - **Es una mezcla**:
-  - **Reglas con respuesta correcta**, como en *Papers, Please*: reglas de la gestoría que llegan por correo de Douglas y que se van acumulando.
+  - **Reglas con respuesta correcta**, como en *Papers, Please*: reglas de la gestoría que llegan por correo de Leandro y que se van acumulando.
   - **Decisiones morales**: algunas facturas no se resuelven con las reglas, y **a veces no hay una opción buena o mala**.
 - **Los secretos están en las facturas**: algunas son de los personajes y sus conceptos delatan sus barbaridades. El hacker pide copias justo de esas.
 
@@ -109,20 +109,20 @@ Los correos de los Murdokus llegan al revisar 4, 11 y 17 facturas (cada uno, una
 
 **Decidido**:
 
-- Además de Rosemary, hay **más compañeros de trabajo que mandan correos** al contable.
+- Además de Rosario, hay **más compañeros de trabajo que mandan correos** al contable.
 - El jugador **les puede contestar con respuestas predefinidas** (elige una entre varias; no escribe). **Las respuestas podrían cambiar algo** (qué cambian, por decidir).
 - **Al rato de contestar, el compañero responde que no sabe de qué le está hablando.**
 - **Cuándo llegan**: a medida que se resuelven Murdokus y que se procesan facturas (ver «Flujo de trabajo de las facturas»).
 - **Por qué no recuerdan nada**: los compañeros son **otros contables que están como tú**, también en el purgatorio. No mandaron esos correos.
 - **Quién los manda de verdad**: **un «hacker»**. Más adelante el contable tiene **línea directa con él mediante una aplicación** del ordenador.
-- **El hacker se hace pasar por un contable** que engaña al jugador para que **venda secretos de la empresa**. **Se hace pasar por los tres compañeros** (Douglas, Maureen y Trevor) y **luego te da un seudónimo**.
+- **El hacker se hace pasar por un contable** que engaña al jugador para que **venda secretos de la empresa**. **Se hace pasar por los tres compañeros** (Leandro, Maruja y Tomás) y **luego te da un seudónimo**.
 - **Los secretos que le pide** son los que el jugador va descubriendo en los expedientes de los casos.
 - **El pecado del contable es «vender secretos»** de la empresa: en vida los sacó para **exponer en la vida real los secretos de los que están en el purgatorio** (los clientes de la gestoría). Ver [personajes.md](personajes.md).
 - **En vida, eso le costó un juicio, y lo asesinaron.**
 
 **Propuesta** (por revisar):
 
-- Compañeros: Leandro Lindero (el jefe), Maruja Clemente (administración) y Tomás Hoyos (informática); en el prototipo inglés, Douglas, Maureen y Trevor. Detalle en [personajes.md](personajes.md).
+- Compañeros: Leandro Lindero (el jefe), Maruja Clemente (administración) y Tomás Hoyos (informática) Detalle en [personajes.md](personajes.md).
 - Cada correo de trabajo trae dos o tres respuestas. Ejemplo, de Leandro: «Necesito las facturas de octubre cerradas para el viernes.» Respuestas: «Ya están hechas» / «Las tendrás el jueves» / «Voy con retraso, lo siento». Unos minutos después: «¿Qué facturas? No te he pedido nada. ¿Estás bien?»
 - Las respuestas de «no sé de qué me hablas» se pueden ir volviendo más raras a medida que avanzan los casos: primero confusión, luego el correo original ya no está en la bandeja.
 
@@ -130,12 +130,12 @@ Los correos de los Murdokus llegan al revisar 4, 11 y 17 facturas (cada uno, una
 
 - ¿Qué pueden cambiar las respuestas? Sin pensar todavía.
 - El seudónimo: ¿es el nombre con el que se presenta el hacker en la aplicación, o uno que le da al jugador? ¿Cuál es?
-- ¿Quién asesinó al contable? ¿Uno de los doce personajes (por ejemplo, Desmond el abogado o Frederick el cobrador), o alguien por encargo de varios? ¿Y el juicio, quién se lo puso, la gestoría?
+- ¿Quién asesinó al contable? ¿Uno de los doce personajes (por ejemplo, Damián el abogado o Fermín el cobrador), o alguien por encargo de varios? ¿Y el juicio, quién se lo puso, la gestoría?
 - Idea: el último Murdoku podría ser el asesinato del propio contable, con él como víctima.
 - En vida, ¿cobró por los secretos o los filtró gratis? ¿Expuso a todos o solo a algunos?
 - ¿Quién es de verdad el hacker? ¿Parte del purgatorio que pone a prueba al contable, otra alma, alguien de fuera? ¿Qué gana si el contable vuelve a vender secretos?
 - ¿Qué pasa si en el juego vuelve a vender secretos, y qué pasa si se niega? (Enlaza con que las respuestas a los correos puedan cambiar algo.)
-- ¿Los correos de los Murdokus (los de Rosemary y el «sin remitente») también los manda el hacker? ¿Rosemary existe?
+- ¿Los correos de los Murdokus (los de Rosario y el «sin remitente») también los manda el hacker? ¿Rosario existe?
 - ¿Cuándo aparece la aplicación y qué se puede hacer con ella?
 - ¿Los compañeros saben que están en el purgatorio? ¿El contable puede llegar a hablar con ellos de verdad?
 
