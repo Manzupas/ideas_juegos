@@ -26,17 +26,25 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 - **Quién es en realidad el contable**: una persona que también está en el purgatorio. Su papel allí es torturar a los demás, sin saberlo. Su pecado: «vender secretos» de la empresa para exponer a sus clientes.
 - **Estética**: la oficina es solo estilo, no se juega. La interfaz recuerda a un programa de facturación o algo parecido.
 - **Posible título**: *Office Work*.
-- **Los personajes tienen nombres clásicos ingleses** (los torturados).
-- **La gestoría del contable también es inglesa**: se llama Finch & Limbrick, y su socio fundador es Oswald Finch, uno de los personajes. No todos los personajes son clientes suyos, pero en cada «relación» (cada círculo de personajes que comparten una barbaridad) al menos uno sí lo es. Ver [personajes.md](personajes.md). La compañera de los correos se llama Rosemary Vale. El prototipo ya usa Finch & Limbrick, Rosemary Vale y libras.
-- **Temática de los casos**: en general, relacionada con la historia inglesa. Los primeros casos (los del prototipo) son de la Inglaterra «contemporánea» para el contable: los años 90.
-- **Época: finales de los 90.** El ordenador es de Windows 98 (Limbrick 98) y todo cuadra con eso: los personajes murieron entre 1990 y 1999, y el presente del contable es 1999. Se descartó pasar a estética de Windows 7.
+- **Ambientación: España** (cambio del 14/11/2026; antes era Inglaterra). Misma época.
+- **Los personajes tienen nombres españoles clásicos** (los torturados). Propuesta de nombres en [personajes.md](personajes.md): Rogelio, Fermín, Damián, Gertrudis, Águeda, Cecilia, Milagros, Herminia, Bernardo, Elvira, Nicanor y Octavio.
+- **La gestoría es española.** No todos los personajes son clientes suyos, pero en cada «relación» (cada círculo de personajes que comparten una barbaridad) al menos uno sí lo es. Propuesta: Gestoría Lindero, fundada por Octavio Lindero, uno de los personajes.
+- **Temática de los casos**: en general, **la historia de España**. Los primeros casos, en la España de los 90.
+- **Época: se empieza a trabajar en 1997.**
+- **Estética: Windows 95.** Un ordenador viejo en una gestoría de finales de los 90, que encaja con que vaya lento. (Antes era Windows 98; se descartó también Windows 7.)
+- **Moneda: primero pesetas, y tras varios casos se va metiendo el euro.**
 
 **Decidido, a partir de la época**:
 
-- **El efecto 2000**: el reloj del ordenador nunca llega al 1 de enero de 2000; el tiempo del purgatorio está atascado en el final del milenio. Trevor, el informático, puede usar el «efecto 2000» como excusa para cosas raras del ordenador.
-- **La aplicación del hacker**: un cliente de **IRC** de la época (canales, apodos, la ventana de texto con la lista de usuarios a un lado), que aparece instalado sin que nadie lo haya instalado.
+- **El efecto 2000**: el reloj del ordenador nunca llega al 1 de enero de 2000; el tiempo del purgatorio está atascado en el final del milenio. Tomás, el informático, puede usar el «efecto 2000» como excusa para cosas raras del ordenador.
+- **La aplicación del hacker**: un cliente de **IRC** de la época (canales, apodos, la ventana de texto con la lista de usuarios a un lado), que aparece instalado sin que nadie lo haya instalado. En la España de finales de los 90 el IRC era muy popular (IRC-Hispano).
 - **«Vender secretos» en los 90**: sacar disquetes, fotocopias o faxes de la gestoría y pasárselos a un periódico. Puede dar pistas y objetos para los Murdokus.
-- **Hecho en el prototipo**: fecha atascada en el 31/12/1999 en correos e intranet; facturas y «Ejercicio» de 1999; expediente de Reginald como prestamista y Agatha como dueña; Finch & Limbrick, Limbrick 98 y Rosemary Vale.
+
+**Propuesta** (por revisar), sobre el paso del tiempo y el euro:
+
+- El tiempo avanza con las tandas de facturas: se empieza en 1997 y cada tanda es un mes o un trimestre. El euro entra el **1 de enero de 1999** (como en la realidad, para la contabilidad): desde entonces las facturas llevan el **contravalor en euros** (1 € = 166,386 pesetas), con una norma nueva para comprobarlo. Al llegar al **31 de diciembre de 1999**, el tiempo se queda atascado: nunca llega el año 2000.
+- Facturas en pesetas, con el IVA español de la época (**16 %**) y el **NIF/CIF** de cada empresa.
+- **Pendiente en el prototipo** (todavía está en la versión inglesa): nombres españoles, Gestoría Lindero, aspecto de Windows 95, pesetas e IVA del 16 %, fecha de 1997, ciudades y casos españoles.
 
 ## Flujo de trabajo de las facturas
 
@@ -51,7 +59,7 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 
 - **Las decisiones afectan: el juego lleva la cuenta.** En el prototipo, una cuenta oculta con tres contadores: **errores** (según las normas), **complicidad** (aceptar algo que tapa una barbaridad) y **dureza** (rechazar algo que perjudica a un inocente). Qué cambia con ellos está por decidir.
 
-### La tanda 1 del prototipo (20 facturas, diciembre de 1999)
+### La tanda 1 del prototipo (20 facturas, diciembre de 1999; versión inglesa, pendiente de adaptar a España)
 
 Facturas en libras, con el IVA británico de 1999 (17,5 %), de proveedores y clientes de Reading y Brighton. Las normas llegan en el correo de Douglas «Normas para revisar facturas»; la quinta llega por correo al revisar 10 facturas.
 
@@ -114,7 +122,7 @@ Los correos de los Murdokus llegan al revisar 4, 11 y 17 facturas (cada uno, una
 
 **Propuesta** (por revisar):
 
-- Compañeros: Douglas Limbrick (el jefe), Maureen Clegg (administración) y Trevor Hobbs (informática). Detalle en [personajes.md](personajes.md).
+- Compañeros: Leandro Lindero (el jefe), Maruja Clemente (administración) y Tomás Hoyos (informática); en el prototipo inglés, Douglas, Maureen y Trevor. Detalle en [personajes.md](personajes.md).
 - Cada correo de trabajo trae dos o tres respuestas. Ejemplo, de Douglas: «Necesito las facturas de octubre cerradas para el viernes.» Respuestas: «Ya están hechas» / «Las tendrás el jueves» / «Voy con retraso, lo siento». Unos minutos después: «¿Qué facturas? No te he pedido nada. ¿Estás bien?»
 - Las respuestas de «no sé de qué me hablas» se pueden ir volviendo más raras a medida que avanzan los casos: primero confusión, luego el correo original ya no está en la bandeja.
 
@@ -133,11 +141,13 @@ Los correos de los Murdokus llegan al revisar 4, 11 y 17 facturas (cada uno, una
 
 ## Personajes
 
-Propuesta de historias de los doce personajes, agrupados en tres círculos (las deudas, la residencia, el terreno), la gestoría inglesa y el contable: [personajes.md](personajes.md). Pendiente de revisar.
+Propuesta de historias de los doce personajes, agrupados en tres círculos (las deudas, la residencia, el terreno), la gestoría y el contable: [personajes.md](personajes.md). Pendiente de revisar.
 
 ## Prototipo web
 
 Prototipo en HTML y JavaScript, en un solo archivo y sin dependencias. **Para jugar en local, abrir [prototipo/office-work.html](prototipo/office-work.html)**; cómo se genera y qué es cada archivo está en [prototipo/README.md](prototipo/README.md). También está publicado como artefacto para probarlo en el móvil: https://claude.ai/artifact/QgHxcBtNP4yLWGyQ3VYhcJ
+
+**Todavía en la versión inglesa** (Windows 98, Finch & Limbrick, libras); pendiente de adaptar a España y Windows 95.
 
 Es el ordenador del contable, con estética de Windows 98 (sistema «Limbrick 98»):
 
