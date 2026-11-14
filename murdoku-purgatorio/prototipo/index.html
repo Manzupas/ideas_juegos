@@ -61,8 +61,8 @@ input.in, select.in, textarea.in { border: 0; padding: 3px 5px; min-height: 22px
 #layer { position: fixed; inset: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) calc(var(--tbh) + env(safe-area-inset-bottom, 0px)) env(safe-area-inset-left, 0px); pointer-events: none; }
 .win { pointer-events: auto; }
 .win { position: absolute; display: flex; flex-direction: column; padding: 3px; min-width: 200px; max-width: 100%; max-height: 100%; }
-.win .tb { display: flex; align-items: center; gap: 4px; height: 20px; padding: 0 2px 0 3px; color: #fff; font-weight: bold; background: linear-gradient(90deg, var(--ititle1), var(--ititle2)); user-select: none; -webkit-user-select: none; touch-action: none; flex: none; }
-.win.active .tb { background: linear-gradient(90deg, var(--title1), var(--title2)); }
+.win .tb { display: flex; align-items: center; gap: 4px; height: 20px; padding: 0 2px 0 3px; color: #fff; font-weight: bold; background: var(--ititle1); user-select: none; -webkit-user-select: none; touch-action: none; flex: none; }
+.win.active .tb { background: var(--title1); } /* Windows 95: barra de título lisa */
 .win .tb .ico { width: 16px; height: 16px; }
 .win .tb .tt { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .win .tb button { width: 18px; height: 16px; padding: 0; border: 0; display: grid; place-items: center; color: #000; font: bold 10px/1 var(--ui); }
@@ -121,8 +121,8 @@ html.busy, html.busy * { cursor: url("data:image/svg+xml,%3Csvg xmlns='http://ww
 
 /* Menú Inicio */
 .startmenu { position: fixed; left: max(2px, env(safe-area-inset-left, 0px)); bottom: calc(var(--tbh) + env(safe-area-inset-bottom, 0px) - 2px); z-index: 9500; display: flex; padding: 3px; min-width: 220px; }
-.startmenu .banner { width: 24px; background: linear-gradient(0deg, var(--title1), var(--title2)); color: #fff; font: bold 15px/1 var(--ui); writing-mode: vertical-rl; transform: rotate(180deg); padding: 8px 0; letter-spacing: .04em; }
-.startmenu .banner b { color: #dfe8ff; font-weight: normal; }
+.startmenu .banner { width: 24px; background: var(--lo); color: var(--face); font: bold 15px/1 var(--ui); writing-mode: vertical-rl; transform: rotate(180deg); padding: 8px 0; letter-spacing: .04em; }
+.startmenu .banner b { color: #fff; font-weight: normal; }
 .startmenu ul { list-style: none; margin: 0; padding: 0; flex: 1; }
 .startmenu li button { width: 100%; display: flex; align-items: center; gap: 10px; padding: 6px 18px 6px 6px; background: none; border: 0; text-align: left; }
 .startmenu li button:hover, .startmenu li button:focus-visible { background: var(--sel); color: var(--sel-ink); outline: none; }
@@ -332,7 +332,7 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
 <div id="shield" aria-hidden="true"></div>
 
 <div class="startmenu out" id="startmenu" hidden>
-  <div class="banner"><span>Limbrick <b>98</b></span></div>
+  <div class="banner"><span>Lindero <b>95</b></span></div>
   <ul id="startlist"></ul>
 </div>
 
@@ -555,65 +555,67 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
      - K, las normas contra la conciencia: lo que dicen las normas tiene un coste moral.
      - S, sin opción buena: llevan una nota de «decide tú»; las normas no cuentan y las dos salidas tienen coste.
      El juego lleva la cuenta (oculta) de errores según las normas, complicidad y dureza. */
-  const money = new Intl.NumberFormat("en-GB", { style: "currency", currency: "GBP" });
-  const VAT = 0.175; /* IVA británico en 1999 */
-  const r2 = (x) => Math.round(x * 100) / 100;
+  /* Pesetas, sin decimales. */
+  const pts = new Intl.NumberFormat("es-ES", { maximumFractionDigits: 0 });
+  const money = { format: (x) => pts.format(Math.round(x)) + " pta" };
+  const VAT = 0.16; /* IVA general en España en 1997 */
+  const r2 = (x) => Math.round(x); /* las pesetas no tienen céntimos */
   const RULES = [
-    { id: "R1", t: "El total tiene que cuadrar con las líneas más el IVA (17,5 %)." },
-    { id: "R2", t: "Quien emite la factura tiene que tener número de IVA." },
-    { id: "R3", t: "Nada con fecha posterior al 31/12/1999 (por lo del efecto 2000)." },
+    { id: "R1", t: "El total tiene que cuadrar con las líneas más el IVA (16 %)." },
+    { id: "R2", t: "Quien emite la factura tiene que tener NIF o CIF." },
+    { id: "R3", t: "Nada con fecha posterior al 31/12/1997 (es del ejercicio que viene)." },
     { id: "R4", t: "Nada duplicado: si ya hay una factura con el mismo número del mismo emisor, se rechaza la repetida." },
-    { id: "R5", t: "Más de 5.000 £ (IVA incluido): necesita la firma de D. Limbrick.", later: true }
+    { id: "R5", t: "Más de 1.000.000 de pesetas (IVA incluido): necesita la firma de L. Lindero.", later: true }
   ];
   const E = {
-    brennan: ["Brennan Stationers", "3 King's Road, Reading", "GB 284 5517 30"],
-    kenton: ["Kenton Electrical", "48 Oxford Road, Reading", "GB 391 2204 18"],
-    hollis: ["Hollis Bakery", "22 Broad Street, Reading", "GB 447 0913 62"],
-    crowley: ["Crowley & Partners, Solicitors", "1 Friar Street, Reading", "GB 158 6620 04"],
-    dalton: ["Dalton Removals (Sr. y Sra. Dalton)", "5 Elm Road, Reading", ""],
-    grove: ["Grove Office Cleaning", "9 Station Hill, Reading", "GB 602 1187 45"],
-    pickering: ["Pickering Motors", "61 Basingstoke Road, Reading", "GB 733 4051 29"],
-    lockwood: ["Lockwood Health Consulting (H. Lockwood)", "30 Eldon Square, Reading", "GB 518 0076 93"],
-    calder: ["Calder Catering", "Unit 4, Calder Works, Reading", "GB 284 9930 11"],
-    hartley: ["Hartley Builders", "15 Bath Road, Reading", "GB 664 2208 57"],
-    bellamy: ["Bellamy Collections (F. Bellamy)", "2 Mill Lane, Reading", "GB 905 3341 76"],
-    ashby: ["Ashby Soil Laboratories", "Science Park, Reading", "GB 471 6620 38"],
-    harcourt: ["Harcourt & Co., consultoría urbanística", "11 Valpy Street, Reading", "GB 226 8814 50"],
-    hale: ["Mildred Hale, enfermería a domicilio", "9 Prospect Street, Reading", ""],
-    pembroke: ["Pembroke House Residential Home", "3 Marine Parade, Brighton", "GB 377 1452 08"]
+    brennan: ["Papelería Brenes", "C/ Portales, 3, Logroño", "B-26118734"],
+    kenton: ["Electricidad Quintana", "Av. de la Paz, 48, Logroño", "B-26204471"],
+    hollis: ["Panadería Olivares", "C/ Mayor, 22, Logroño", "B-26091362"],
+    crowley: ["Cuervo Abogados (D. Cuervo)", "C/ Bretón de los Herreros, 1, Logroño", "B-26158604"],
+    dalton: ["Mudanzas Dávila (hermanos Dávila)", "C/ Huesca, 5, Logroño", ""],
+    grove: ["Limpiezas La Glorieta", "C/ Vara de Rey, 9, Logroño", "B-26602118"],
+    pickering: ["Talleres Picazo", "Polígono Cantabria, nave 61, Logroño", "B-26733405"],
+    lockwood: ["Consultoría Sanitaria Losada (H. Losada)", "C/ Castaños, 30, Alicante", "B-03518076"],
+    calder: ["Catering El Sequero", "Polígono El Sequero, nave 4, Agoncillo", "B-26284993"],
+    hartley: ["Construcciones Arteaga", "C/ Gran Vía, 15, Logroño", "B-26664220"],
+    bellamy: ["Cobros Bellido (F. Bellido)", "C/ Mendavia, 2, Logroño", "B-26905334"],
+    ashby: ["Laboratorio Geotécnico Asensio", "Polígono La Portalada, Logroño", "B-26471662"],
+    harcourt: ["Arcos y Asociados, urbanismo", "C/ Muro de la Mata, 11, Logroño", "B-26226881"],
+    hale: ["Milagros Sáez, enfermería a domicilio", "C/ San Antón, 9, Benidorm", ""],
+    pembroke: ["Residencia Pombo", "Av. del Mediterráneo, 3, Benidorm", "B-03377145"]
   };
   const C = {
-    hollis: ["Hollis Bakery", "22 Broad Street, Reading"], redlion: ["The Red Lion", "7 Castle Street, Reading"],
-    stmary: ["St Mary's Parish", "Church Lane, Reading"], ashcombe: ["Ashcombe Credit Ltd", "40 London Road, Reading"],
-    doyle: ["Sra. Margaret Doyle", "14 Wren Street, Reading"], fl: ["Finch & Limbrick", "2 Cross Street, Reading"],
-    thorne: ["Thorne Developments Ltd", "Thorne House, Kings Meadow, Reading"], pembroke: ["Pembroke House Residential Home", "3 Marine Parade, Brighton"],
-    okafor: ["Sra. Grace Okafor", "18 Queens Road, Brighton"]
+    hollis: ["Panadería Olivares", "C/ Mayor, 22, Logroño"], redlion: ["Bar El León Rojo", "C/ Laurel, 7, Logroño"],
+    stmary: ["Parroquia de Santa María", "Plaza de Santa María, Logroño"], ashcombe: ["Créditos Altamira, S.L.", "C/ Bretón de los Herreros, 40, Logroño"],
+    doyle: ["Sra. Margarita Domínguez", "C/ Juan Boscán, 14, Logroño"], fl: ["Gestoría Lindero, S.L.", "C/ San Juan, 2, Logroño"],
+    thorne: ["Promociones Torres, S.L.", "C/ Duquesa de la Victoria, 1, Logroño"], pembroke: ["Residencia Pombo", "Av. del Mediterráneo, 3, Benidorm"],
+    okafor: ["Sra. Gracia Ocaña", "C/ Ruzafa, 18, Benidorm"]
   };
   const COMPLICE = { complicidad: 1 }, DURO = { dureza: 1 };
   const INVOICES = [
-    { id: 1, num: "BS-4471", e: "brennan", c: "hollis", fecha: "1999-12-01", lines: [["Papel A4, caja de 5 paquetes", 4, 11.5], ["Cartucho de tóner", 2, 38]], kind: "C" },
-    { id: 2, num: "KE-0982", e: "kenton", c: "redlion", fecha: "1999-12-02", lines: [["Reparación de la cámara frigorífica", 1, 240], ["Desplazamiento", 1, 25]], declared: 341.38, kind: "C" },
-    { id: 3, num: "HB-0215", e: "hollis", c: "stmary", fecha: "1999-12-03", lines: [["Bandejas de sándwiches (bautizo)", 6, 14], ["Tarta", 1, 32]], kind: "C" },
-    { id: 4, num: "CP-99-311", e: "crowley", c: "ashcombe", fecha: "1999-12-06", lines: [["Tramitación de embargo: 14 Wren Street (familia Doyle)", 1, 850], ["Gastos de juzgado", 1, 120]], kind: "K", moral: { accept: COMPLICE } },
-    { id: 5, num: "DR-077", e: "dalton", c: "doyle", fecha: "1999-12-07", lines: [["Mudanza urgente: de 14 Wren Street a Calder Court", 1, 180]], kind: "K", moral: { reject: DURO } },
-    { id: 6, num: "GC-2001", e: "grove", c: "fl", fecha: "2000-01-05", lines: [["Limpieza de oficinas, enero", 1, 160]], kind: "C" },
-    { id: 7, num: "BS-4471", e: "brennan", c: "hollis", fecha: "1999-12-01", lines: [["Papel A4, caja de 5 paquetes", 4, 11.5], ["Cartucho de tóner", 2, 38]], dupOf: 1, kind: "C" },
-    { id: 8, num: "PM-3320", e: "pickering", c: "thorne", fecha: "1999-12-08", lines: [["Revisión de furgoneta Ford Transit", 1, 145], ["Neumáticos", 2, 48]], kind: "C" },
-    { id: 9, num: "LHC-12", e: "lockwood", c: "pembroke", fecha: "1999-12-09", lines: [["Asesoría sanitaria trimestral", 1, 1200]], kind: "S", moral: { accept: COMPLICE, reject: DURO },
-      note: ["Maureen", "Si no se paga hoy, la residencia no puede cerrar el mes y las cuidadoras cobrarán tarde. Las normas no dicen nada de esto. Decide tú."] },
-    { id: 10, num: "CC-5531", e: "calder", c: "pembroke", fecha: "1999-12-10", lines: [["Menú completo por residente y día (40 residentes, 30 días)", 1200, 0.85]], declared: 1498.5, kind: "C" },
-    { id: 11, num: "HB-B-412", e: "hartley", c: "thorne", fecha: "1999-12-13", lines: [["Cimentación del bloque B, Calder Court", 1, 15600]], firma: "D. Limbrick", kind: "C" },
-    { id: 12, num: "BC-118", e: "bellamy", c: "ashcombe", fecha: "1999-12-14", lines: [["Servicios de cobro a domicilio, noviembre", 1, 5400]], kind: "C" },
-    { id: 13, num: "ASL-0339", e: "ashby", c: "thorne", fecha: "1999-12-15", lines: [["Informe de suelo, parcela Calder Works (versión revisada, sin anexo C)", 1, 2350]], kind: "K", moral: { accept: COMPLICE } },
-    { id: 14, num: "KE-0982R", e: "kenton", c: "redlion", fecha: "1999-12-15", lines: [["Reparación de la cámara frigorífica (factura rectificada)", 1, 240], ["Desplazamiento", 1, 25]], kind: "C" },
-    { id: 15, num: "PH-99-288", e: "pembroke", c: "okafor", fecha: "1999-12-16", lines: [["Cuidados especiales de noche, noviembre", 1, 640]], kind: "S", moral: { accept: COMPLICE, reject: DURO },
-      note: ["Maureen", "La familia ha llamado llorando: dice que a su madre no le han hecho estos cuidados. Pero si no se factura, la residencia no puede pagar a la única enfermera de noche. Decide tú."] },
-    { id: 16, num: "MH-07", e: "hale", c: "pembroke", fecha: "1999-12-17", lines: [["Medicación de refuerzo para residentes", 1, 310]], kind: "C" },
-    { id: 17, num: "HC-0050", e: "harcourt", c: "thorne", fecha: "1999-12-20", lines: [["Asesoría para la recalificación de la parcela Calder Works", 1, 4150]], kind: "K", moral: { accept: COMPLICE } },
-    { id: 18, num: "GC-1999-12", e: "grove", c: "fl", fecha: "1999-12-31", lines: [["Limpieza de oficinas, diciembre", 1, 160]], kind: "C" },
-    { id: 19, num: "BC-121", e: "bellamy", c: "ashcombe", fecha: "1999-12-21", lines: [["Daños en vehículo propio durante un cobro en Wren Street", 1, 480]], kind: "S", moral: { accept: COMPLICE, reject: DURO },
-      note: ["Trevor", "El coche se lo rompió el hijo mayor de los Doyle. Si no se paga, Reginald se lo cobrará a la familia. Decide tú."] },
-    { id: 20, num: "BS-4630", e: "brennan", c: "fl", fecha: "1999-12-22", lines: [["Agendas para el año 2000", 12, 6.5]], kind: "C" }
+    { id: 1, num: "PB-4471", e: "brennan", c: "hollis", fecha: "1997-12-01", lines: [["Papel DIN A4, caja de 5 paquetes", 4, 2900], ["Cartucho de tóner", 2, 9500]], kind: "C" },
+    { id: 2, num: "EQ-0982", e: "kenton", c: "redlion", fecha: "1997-12-02", lines: [["Reparación de la cámara frigorífica", 1, 60000], ["Desplazamiento", 1, 6000]], declared: 82560, kind: "C" },
+    { id: 3, num: "PO-0215", e: "hollis", c: "stmary", fecha: "1997-12-03", lines: [["Bandejas de canapés (bautizo)", 6, 3500], ["Tarta", 1, 8000]], kind: "C" },
+    { id: 4, num: "CA-97-311", e: "crowley", c: "ashcombe", fecha: "1997-12-05", lines: [["Tramitación de embargo: C/ Juan Boscán, 14 (familia Domínguez)", 1, 210000], ["Gastos de juzgado", 1, 30000]], kind: "K", moral: { accept: COMPLICE } },
+    { id: 5, num: "MD-077", e: "dalton", c: "doyle", fecha: "1997-12-09", lines: [["Mudanza urgente: de C/ Juan Boscán, 14 al Residencial Ebro", 1, 45000]], kind: "K", moral: { reject: DURO } },
+    { id: 6, num: "LG-9801", e: "grove", c: "fl", fecha: "1998-01-05", lines: [["Limpieza de oficinas, enero", 1, 40000]], kind: "C" },
+    { id: 7, num: "PB-4471", e: "brennan", c: "hollis", fecha: "1997-12-01", lines: [["Papel DIN A4, caja de 5 paquetes", 4, 2900], ["Cartucho de tóner", 2, 9500]], dupOf: 1, kind: "C" },
+    { id: 8, num: "TP-3320", e: "pickering", c: "thorne", fecha: "1997-12-10", lines: [["Revisión de furgoneta Ebro F-260", 1, 36000], ["Neumáticos", 2, 12000]], kind: "C" },
+    { id: 9, num: "CSL-12", e: "lockwood", c: "pembroke", fecha: "1997-12-11", lines: [["Asesoría sanitaria trimestral", 1, 300000]], kind: "S", moral: { accept: COMPLICE, reject: DURO },
+      note: ["Maruja", "Si no se paga hoy, la residencia no puede cerrar el mes y las cuidadoras cobrarán tarde. Las normas no dicen nada de esto. Decide tú."] },
+    { id: 10, num: "CS-5531", e: "calder", c: "pembroke", fecha: "1997-12-12", lines: [["Menú completo por residente y día (40 residentes, 30 días)", 1200, 210]], declared: 352320, kind: "C" },
+    { id: 11, num: "ARQ-412", e: "hartley", c: "thorne", fecha: "1997-12-15", lines: [["Cimentación del bloque B, Residencial Ebro", 1, 3900000]], firma: "L. Lindero", kind: "C" },
+    { id: 12, num: "CB-118", e: "bellamy", c: "ashcombe", fecha: "1997-12-16", lines: [["Servicios de cobro a domicilio, noviembre", 1, 1350000]], kind: "C" },
+    { id: 13, num: "LGA-0339", e: "ashby", c: "thorne", fecha: "1997-12-17", lines: [["Informe de suelo, parcela de la antigua Química del Ebro (versión revisada, sin anexo C)", 1, 590000]], kind: "K", moral: { accept: COMPLICE } },
+    { id: 14, num: "EQ-0982R", e: "kenton", c: "redlion", fecha: "1997-12-17", lines: [["Reparación de la cámara frigorífica (factura rectificada)", 1, 60000], ["Desplazamiento", 1, 6000]], kind: "C" },
+    { id: 15, num: "RP-97-288", e: "pembroke", c: "okafor", fecha: "1997-12-18", lines: [["Cuidados especiales de noche, noviembre", 1, 160000]], kind: "S", moral: { accept: COMPLICE, reject: DURO },
+      note: ["Maruja", "La familia ha llamado llorando: dice que a su madre no le han hecho estos cuidados. Pero si no se factura, la residencia no puede pagar a la única enfermera de noche. Decide tú."] },
+    { id: 16, num: "MS-07", e: "hale", c: "pembroke", fecha: "1997-12-19", lines: [["Medicación de refuerzo para residentes", 1, 78000]], kind: "C" },
+    { id: 17, num: "AA-0050", e: "harcourt", c: "thorne", fecha: "1997-12-22", lines: [["Asesoría para la recalificación de la parcela de la antigua Química del Ebro", 1, 860000]], kind: "K", moral: { accept: COMPLICE } },
+    { id: 18, num: "LG-9712", e: "grove", c: "fl", fecha: "1997-12-31", lines: [["Limpieza de oficinas, diciembre", 1, 40000]], kind: "C" },
+    { id: 19, num: "CB-121", e: "bellamy", c: "ashcombe", fecha: "1997-12-23", lines: [["Daños en vehículo propio durante un cobro en C/ Juan Boscán", 1, 120000]], kind: "S", moral: { accept: COMPLICE, reject: DURO },
+      note: ["Tomás", "El coche se lo rompió el hijo mayor de los Domínguez. Si no se paga, Rogelio se lo cobrará a la familia. Decide tú."] },
+    { id: 20, num: "PB-4630", e: "brennan", c: "fl", fecha: "1997-12-24", lines: [["Agendas para 1998", 12, 1600]], kind: "C" }
   ];
   const BATCH = { state: {}, sel: 1, tab: "pend", processed: 0, rule5: false, log: [], score: { errores: 0, complicidad: 0, dureza: 0 } };
   const invBase = (f) => r2(f.lines.reduce((s, l) => s + l[1] * l[2], 0));
@@ -625,11 +627,11 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
   /* Lo que dicen las normas activas en el momento de decidir. */
   function ruleCheck(f) {
     const v = [];
-    if (Math.abs(invShown(f) - invReal(f)) > 0.005) v.push("R1");
+    if (Math.abs(invShown(f) - invReal(f)) > 0.5) v.push("R1");
     if (!E[f.e][2]) v.push("R2");
-    if (f.fecha > "1999-12-31") v.push("R3");
+    if (f.fecha > "1997-12-31") v.push("R3");
     if (f.dupOf) v.push("R4");
-    if (BATCH.rule5 && invReal(f) > 5000 && !f.firma) v.push("R5");
+    if (BATCH.rule5 && invReal(f) > 1000000 && !f.firma) v.push("R5");
     return v;
   }
 
@@ -652,10 +654,10 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
         </aside>
         <section class="gdoc" id="gDoc" aria-live="polite"></section>
       </div></div>
-      <div class="statusbar"><span class="grow" id="gStatus">Revisa las facturas pendientes. Las normas están en tu correo.</span><span id="gCount"></span><span>Ejercicio 1999</span><span>Usuario: CONTABLE</span></div>`;
+      <div class="statusbar"><span class="grow" id="gStatus">Revisa las facturas pendientes. Las normas están en tu correo.</span><span id="gCount"></span><span>Ejercicio 1997</span><span>Usuario: CONTABLE</span></div>`;
       w.body.querySelector('[data-g="accept"]').onclick = () => decide("accept");
       w.body.querySelector('[data-g="reject"]').onclick = () => decide("reject");
-      w.body.querySelector('[data-g="rules"]').onclick = () => msgbox("Normas de Finch & Limbrick", RULES.filter((r) => !r.later || BATCH.rule5).map((r, i) => `${i + 1}. ${r.t}`).join("\n"), "info");
+      w.body.querySelector('[data-g="rules"]').onclick = () => msgbox("Normas de la Gestoría Lindero", RULES.filter((r) => !r.later || BATCH.rule5).map((r, i) => `${i + 1}. ${r.t}`).join("\n"), "info");
       w.body.querySelectorAll("[data-t]").forEach((b) => b.onclick = () => { BATCH.tab = b.dataset.t; const first = listFor(BATCH.tab)[0]; if (first) BATCH.sel = first.id; renderGesta(); });
       renderGesta();
     },
@@ -703,12 +705,12 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
           <div class="pnum"><div class="ptit">FACTURA</div><div>Nº <b></b></div><div>Fecha: <span></span></div></div></div>
         <div class="pto"><span class="lbl2">Facturar a:</span><div class="pcli"></div><div class="paddr"></div></div>
         <div class="lines-wrap"><table class="lines ro"><thead><tr><th>Concepto</th><th class="num">Cant.</th><th class="num">Precio</th><th class="num">Importe</th></tr></thead><tbody></tbody></table></div>
-        <div class="ptot"><span>Base imponible</span><span></span><span>IVA 17,5 %</span><span></span><span class="total">TOTAL</span><span class="total"></span></div>
+        <div class="ptot"><span>Base imponible</span><span></span><span>IVA 16 %</span><span></span><span class="total">TOTAL</span><span class="total"></span></div>
         <div class="pfirma"></div>
         <div class="stamp" hidden></div>
       </div>`;
     const q = (s) => doc.querySelector(s);
-    q(".pemi").textContent = en; q(".phead .paddr").textContent = ea; q(".pvat").textContent = "Nº IVA: " + (ev || "—");
+    q(".pemi").textContent = en; q(".phead .paddr").textContent = ea; q(".pvat").textContent = "NIF/CIF: " + (ev || "—");
     q(".pnum b").textContent = f.num; q(".pnum span").textContent = fecha(f.fecha);
     q(".pcli").textContent = cn; q(".pto .paddr").textContent = ca;
     const tb = q("tbody");
@@ -752,21 +754,21 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
   function afterDecision() {
     if (BATCH.processed >= 10 && !BATCH.rule5) {
       BATCH.rule5 = true;
-      setTimeout(() => pushMail({ from: "Douglas Limbrick", subject: "Una norma más", body: "A partir de ahora, cualquier factura de más de 5.000 £ (IVA incluido) necesita mi firma. Si no la lleva, se rechaza. Sin excepciones.\n\nD. Limbrick" }), 1200);
+      setTimeout(() => pushMail({ from: "Leandro Lindero", subject: "Una norma más", body: "A partir de ahora, cualquier factura de más de 1.000.000 de pesetas (IVA incluido) necesita mi firma. Si no la lleva, se rechaza. Sin excepciones.\n\nL. Lindero" }), 1200);
     }
     setTimeout(tryDeliver, 2200);
     if (BATCH.processed === INVOICES.length) {
       const s = BATCH.score;
-      setTimeout(() => pushMail({ from: "Douglas Limbrick", subject: "Tanda cerrada",
-        body: `Tanda de diciembre cerrada: ${INVOICES.length} facturas revisadas.\nErrores según las normas: ${s.errores}.\n\n${s.errores ? "Revisa las normas antes de la próxima." : "Bien hecho."}\n\nD. Limbrick\n\n————————————————\n[Prototipo] Cuenta oculta: errores ${s.errores} · complicidad ${s.complicidad} · dureza ${s.dureza}` }), 3500);
+      setTimeout(() => pushMail({ from: "Leandro Lindero", subject: "Tanda cerrada",
+        body: `Tanda de diciembre cerrada: ${INVOICES.length} facturas revisadas.\nErrores según las normas: ${s.errores}.\n\n${s.errores ? "Revisa las normas antes de la próxima." : "Bien hecho."}\n\nL. Lindero\n\n————————————————\n[Prototipo] Cuenta oculta: errores ${s.errores} · complicidad ${s.complicidad} · dureza ${s.dureza}` }), 3500);
     }
   }
 
   /* ---------------- Sistema de archivos ---------------- */
   const NOTES = {
-    "pendientes.txt": "PENDIENTE\r\n- Cierre del ejercicio (31/12).\r\n- Reclamar factura 0141 a R. Ashcombe. Tercera vez.\r\n- Nóminas de Bernard: reenviar.\r\n- Llamar a Agatha por el modelo 303.\r\n",
-    "claves.txt": "Correo: contable / limbrick98\r\nBanco: (preguntar a dirección)\r\n",
-    "borrador_carta.txt": "Estimado Sr. Ashcombe:\r\n\r\nLe recordamos que la factura A/0141 sigue pendiente de pago.\r\nEs la tercera vez que nos ponemos en contacto con usted.\r\n\r\nAtentamente,\r\nFinch & Limbrick\r\n"
+    "pendientes.txt": "PENDIENTE\r\n- Cierre del ejercicio (31/12).\r\n- Reclamar factura 0141 a R. Altamira. Tercera vez.\r\n- Nóminas de Bernardo: reenviar.\r\n- Llamar a Águeda por el modelo 300.\r\n",
+    "claves.txt": "Correo: contable / lindero95\r\nBanco: (preguntar a dirección)\r\n",
+    "borrador_carta.txt": "Estimado Sr. Altamira:\r\n\r\nLe recordamos que la factura A/0141 sigue pendiente de pago.\r\nEs la tercera vez que nos ponemos en contacto con usted.\r\n\r\nAtentamente,\r\nGestoría Lindero, S.L.\r\n"
   };
   const FS = {
     pc: { name: "Mi PC", icon: "pc", kids: () => [{ name: "Disco de 3½ (A:)", icon: "floppy", act: () => msgbox("A:\\", "La unidad A: no está disponible. No hay ningún disco en la unidad.", "error") }, { name: "Disco local (C:)", icon: "drive", go: "c" }, { name: "Mis documentos", icon: "docs", go: "docs" }] },
@@ -846,11 +848,11 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
     folder: "entrada", sel: null,
     folders: {
       entrada: [
-        { id: 1, from: "Douglas Limbrick", subject: "Normas para revisar facturas", date: "31/12/1999 8:58", read: false, body: "Buenos días:\n\nTienes 20 facturas en Pendientes de revisar (GESTA 2000). Hoy se cierra el ejercicio. Acéptalas o recházalas; no toques nada más.\n\nLas normas:\n1. El total tiene que cuadrar con las líneas más el IVA (17,5 %).\n2. Quien emite la factura tiene que tener número de IVA.\n3. Nada con fecha posterior al 31/12/1999 (por lo del efecto 2000).\n4. Nada duplicado: si ya hay una factura con el mismo número del mismo emisor, se rechaza la repetida.\n\nD. Limbrick" },
-        { id: 2, from: "Bernard Thorne", subject: "Re: Nóminas de octubre", date: "29/12/1999 18:40", read: true, body: "Recibido, gracias.\n\n¿Me podéis mandar otra vez la factura? No la encuentro por ningún lado. Juraría que ya me la habíais mandado.\n\nBernard" },
-        { id: 3, from: "Reginald Ashcombe", subject: "Factura 0141", date: "17/12/1999 23:58", read: true, body: "No pienso pagar esto.\n\nYa hablaremos." }
+        { id: 1, from: "Leandro Lindero", subject: "Normas para revisar facturas", date: "31/12/1997 8:58", read: false, body: "Buenos días:\n\nTienes 20 facturas en Pendientes de revisar (GESTA 2000). Hoy se cierra el ejercicio. Acéptalas o recházalas; no toques nada más.\n\nLas normas:\n1. El total tiene que cuadrar con las líneas más el IVA (16 %).\n2. Quien emite la factura tiene que tener NIF o CIF.\n3. Nada con fecha posterior al 31/12/1997 (es del ejercicio que viene).\n4. Nada duplicado: si ya hay una factura con el mismo número del mismo emisor, se rechaza la repetida.\n\nL. Lindero" },
+        { id: 2, from: "Bernardo Torres", subject: "Re: Nóminas de octubre", date: "29/12/1997 18:40", read: true, body: "Recibido, gracias.\n\n¿Me podéis mandar otra vez la factura? No la encuentro por ningún lado. Juraría que ya me la habíais mandado.\n\nBernardo" },
+        { id: 3, from: "Rogelio Altamira", subject: "Factura 0141", date: "17/12/1997 23:58", read: true, body: "No pienso pagar esto.\n\nYa hablaremos." }
       ],
-      enviados: [{ id: 4, from: "Para: Reginald Ashcombe", subject: "Recordatorio: factura A/0141", date: "20/12/1999 10:15", read: true, body: "Estimado Sr. Ashcombe:\n\nLe recordamos que la factura A/0141 sigue pendiente de pago.\n\nAtentamente,\nFinch & Limbrick" }],
+      enviados: [{ id: 4, from: "Para: Rogelio Altamira", subject: "Recordatorio: factura A/0141", date: "20/12/1997 10:15", read: true, body: "Estimado Sr. Altamira:\n\nLe recordamos que la factura A/0141 sigue pendiente de pago.\n\nAtentamente,\nGestoría Lindero, S.L." }],
       borradores: [], eliminados: []
     }
   };
@@ -876,8 +878,8 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
     return true;
   }
   function caseSolved() { setTimeout(tryDeliver, 2500); }
-  /* El tiempo del purgatorio está atascado: siempre es 31 de diciembre de 1999. */
-  function nowStr() { return "31/12/1999 " + new Date().toLocaleTimeString("es-ES", { hour: "2-digit", minute: "2-digit" }); }
+  /* El juego empieza el último día del ejercicio de 1997. */
+  function nowStr() { return "31/12/1997 " + new Date().toLocaleTimeString("es-ES", { hour: "2-digit", minute: "2-digit" }); }
   function updateTray() { $("trayMail").hidden = unread() === 0; WM.wins.forEach((w) => { if (w.key === "mail") setTitle(w, mailTitle()); }); }
   const mailTitle = () => "Correo" + (unread() ? ` (${unread()} sin leer)` : "");
 
@@ -1034,8 +1036,8 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
   function showPage(w, u, box) {
     if (u === "about:inicio") {
       setTitle(w, "Página de inicio - Navegador");
-      box.innerHTML = `<div class="webpage"><h1>Intranet · Finch & Limbrick</h1><p>Bienvenido. Hoy es viernes, 31 de diciembre de 1999.</p>
-        <ul><li>Hoy se cierra el ejercicio 1999.</li><li>Informática: los equipos están preparados para el efecto 2000.</li><li>Recuerde apagar el equipo al salir.</li>${CASES.map((c, k) => k <= MAIL.delivered ? `<li>Historial: <a data-u="${caseUrl(k)}">${caseUrl(k)}</a></li>` : "").join("")}</ul></div>`;
+      box.innerHTML = `<div class="webpage"><h1>Intranet · Gestoría Lindero</h1><p>Bienvenido. Hoy es miércoles, 31 de diciembre de 1997.</p>
+        <ul><li>Hoy se cierra el ejercicio 1997.</li><li>Recuerde apagar el equipo al salir.</li>${CASES.map((c, k) => k <= MAIL.delivered ? `<li>Historial: <a data-u="${caseUrl(k)}">${caseUrl(k)}</a></li>` : "").join("")}</ul></div>`;
       box.querySelectorAll("a[data-u]").forEach((a) => a.onclick = () => go(a.dataset.u));
       webStatus("Listo"); return;
     }
@@ -1074,67 +1076,67 @@ details.rules ul { padding-left: 18px; margin: 6px 0 0; display: flex; flex-dire
      tiene una única solución y se resuelve solo con deducciones (pistas de cada persona +
      una persona por fila y columna). Siempre son los mismos personajes. */
   const BLOCK = "MEP";
-  const PNAME = { V: "Reginald", A: "Agatha", B: "Bernard", C: "Cecily", D: "Desmond", E: "Edith", F: "Frederick", G: "Gertrude" };
-  const PFULL = { V: "Ashcombe, Reginald", A: "Pembroke, Agatha", B: "Thorne, Bernard" };
+  const PNAME = { V: "Rogelio", A: "Águeda", B: "Bernardo", C: "Cecilia", D: "Damián", E: "Elvira", F: "Fermín", G: "Gertrudis" };
+  const PFULL = { V: "Altamira, Rogelio", A: "Pombo, Águeda", B: "Torres, Bernardo" };
   const PCOLOR = { V: "#5b5b5b", A: "#a5462f", B: "#2f5f9e", C: "#4e7f33", D: "#7a4593", E: "#a87611", F: "#2f7f7a", G: "#9e3f6e" };
   const CASES = [
-    { no: "0001", title: "Una casa en Hampstead, Londres",
+    { no: "0001", title: "Un chalé en Puerta de Hierro, Madrid",
       rooms: ["CCCBBB", "CCCBBB", "SSSSDD", "SSSSDD", "SSSSDD", "TTSSDD"],
       objs:  ["E.Ms.E", "s.M..E", "P..a.c", ".a.M.c", "sM...P", "..as.."],
       roomDef: { C: ["Cocina", "#efe1c0", "en la cocina"], B: ["Biblioteca", "#d9e3cc", "en la biblioteca"], S: ["Salón", "#ead8c8", "en el salón"], D: ["Dormitorio", "#d5dbea", "en el dormitorio"], T: ["Baño", "#cfe8e5", "en el baño"] },
       cast: ["V", "A", "B", "C", "D", "E"], victim: "V", murderer: "D",
       solution: { A: [0, 3], C: [1, 1], V: [2, 5], E: [3, 0], D: [4, 4], B: [5, 2] },
-      lead: "Reginald Ashcombe ha aparecido muerto en su casa de Hampstead, la noche de una cena con amigos. Había cinco personas más.",
+      lead: "Rogelio Altamira ha aparecido muerto en su chalé de Puerta de Hierro, la noche de una cena con amigos. Había cinco personas más.",
       clues: [
-        { t: "Reginald estaba tumbado en la cama.", k: "on", p: "V", o: "c" },
-        { t: "Agatha estaba sentada en una silla.", k: "on", p: "A", o: "s" },
-        { t: "Bernard estaba de pie sobre una alfombra.", k: "on", p: "B", o: "a" },
-        { t: "Cecily estaba junto a una mesa.", k: "adj", p: "C", o: "M" },
-        { t: "Desmond estaba junto a una planta.", k: "adj", p: "D", o: "P" },
-        { t: "Edith estaba junto a una planta.", k: "adj", p: "E", o: "P" },
-        { t: "Edith estaba junto a una silla.", k: "adj", p: "E", o: "s" }
+        { t: "Rogelio estaba tumbado en la cama.", k: "on", p: "V", o: "c" },
+        { t: "Águeda estaba sentada en una silla.", k: "on", p: "A", o: "s" },
+        { t: "Bernardo estaba de pie sobre una alfombra.", k: "on", p: "B", o: "a" },
+        { t: "Cecilia estaba junto a una mesa.", k: "adj", p: "C", o: "M" },
+        { t: "Damián estaba junto a una planta.", k: "adj", p: "D", o: "P" },
+        { t: "Elvira estaba junto a una planta.", k: "adj", p: "E", o: "P" },
+        { t: "Elvira estaba junto a una silla.", k: "adj", p: "E", o: "s" }
       ],
       record: "Ocupación: prestamista.\nNota: se quedó con las casas de tres familias que no pudieron pagarle.\nFallecimientos registrados: 3",
-      mail: { from: "Rosemary Vale", subject: "esto engancha, ya verás",
-        body: "Mira lo que me ha pasado mi cuñado. Es un juego de asesinatos de esos de lógica: colocas a la gente en el plano y sacas quién fue.\n\nYo llevo toda la mañana con él. No se lo digas a Douglas.\n\n{LINK}\n\nRosemary" } },
-    { no: "0002", title: "La residencia Pembroke, Brighton",
+      mail: { from: "Rosario Valle", subject: "esto engancha, ya verás",
+        body: "Mira lo que me ha pasado mi cuñado. Es un juego de asesinatos de esos de lógica: colocas a la gente en el plano y sacas quién fue.\n\nYo llevo toda la mañana con él. No se lo digas a Leandro.\n\n{LINK}\n\nRosario" } },
+    { no: "0002", title: "La Residencia Pombo, Benidorm",
       rooms: ["OOJJJJ", "OOJJJJ", "PPPPHH", "CCCPHH", "CCCPHH", "CCCPHH"],
       objs:  ["Es.P.P", ".M..P.", "..a...", "sM.a.c", "sM...c", "..sE.."],
       roomDef: { O: ["Despacho", "#e6dcc6", "en el despacho"], J: ["Jardín", "#d3e4c6", "en el jardín"], P: ["Pasillo", "#e3ddd3", "en el pasillo"], H: ["Habitación", "#d8d6ea", "en la habitación"], C: ["Comedor", "#efd9c2", "en el comedor"] },
       cast: ["A", "B", "C", "D", "E", "F"], victim: "A", murderer: "C",
       solution: { F: [0, 4], D: [1, 2], C: [2, 1], A: [3, 3], E: [4, 5], B: [5, 0] },
-      lead: "Agatha Pembroke ha aparecido muerta en la residencia de mayores de la que era dueña, en Brighton. Había cinco personas más.",
+      lead: "Águeda Pombo ha aparecido muerta en la residencia de ancianos de la que era dueña, en Benidorm. Había cinco personas más.",
       clues: [
-        { t: "Agatha estaba de pie sobre una alfombra.", k: "on", p: "A", o: "a" },
-        { t: "Bernard estaba junto a una silla.", k: "adj", p: "B", o: "s" },
-        { t: "Cecily estaba junto a una alfombra.", k: "adj", p: "C", o: "a" },
-        { t: "Desmond estaba en el jardín.", k: "room", p: "D", o: "J" },
-        { t: "Edith estaba tumbada en la cama.", k: "on", p: "E", o: "c" },
-        { t: "Frederick estaba junto a una planta.", k: "adj", p: "F", o: "P" }
+        { t: "Águeda estaba de pie sobre una alfombra.", k: "on", p: "A", o: "a" },
+        { t: "Bernardo estaba junto a una silla.", k: "adj", p: "B", o: "s" },
+        { t: "Cecilia estaba junto a una alfombra.", k: "adj", p: "C", o: "a" },
+        { t: "Damián estaba en el jardín.", k: "room", p: "D", o: "J" },
+        { t: "Elvira estaba tumbada en la cama.", k: "on", p: "E", o: "c" },
+        { t: "Fermín estaba junto a una planta.", k: "adj", p: "F", o: "P" }
       ],
-      record: "Ocupación: dueña de una residencia de mayores.\nNota: cobraba a las familias cuidados que los residentes nunca recibieron.\nFallecimientos registrados: 5",
-      mail: { from: "Rosemary Vale", subject: "¿Ya? Hay otro",
+      record: "Ocupación: dueña de una residencia de ancianos.\nNota: cobraba a las familias cuidados que los residentes nunca recibieron.\nFallecimientos registrados: 5",
+      mail: { from: "Rosario Valle", subject: "¿Ya? Hay otro",
         body: "¿Lo has sacado? Yo tardé un montón.\n\nMi cuñado dice que hay más, que te llegan cuando terminas uno. Este es en otra casa, pero salen los mismos. Qué gente más rara.\n\n{LINK}\n\nR." } },
-    { no: "0003", title: "Una casa en las afueras de Manchester",
+    { no: "0003", title: "Un chalé en las afueras de Zaragoza",
       rooms: ["EEECCC", "EEECCC", "EESSCC", "TTSSSS", "TTSSSS", "GGGGSS"],
       objs:  ["E.s.Ms", "PM....", "..aP..", "s..a..", "..M..P", ".E..s."],
       roomDef: { E: ["Estudio", "#dfe3cf", "en el estudio"], C: ["Cocina", "#efe1c0", "en la cocina"], S: ["Salón", "#ead8c8", "en el salón"], T: ["Baño", "#cfe8e5", "en el baño"], G: ["Garaje", "#d9d9d9", "en el garaje"] },
       cast: ["B", "V", "C", "E", "F", "G"], victim: "B", murderer: "E",
       solution: { F: [0, 2], C: [1, 5], G: [2, 1], B: [3, 3], E: [4, 4], V: [5, 0] },
-      lead: "Bernard Thorne ha aparecido muerto en su casa de las afueras de Manchester, después de una barbacoa. Había cinco personas más.",
+      lead: "Bernardo Torres ha aparecido muerto en su chalé de las afueras de Zaragoza, después de una barbacoa. Había cinco personas más.",
       clues: [
-        { t: "Bernard estaba de pie sobre una alfombra.", k: "on", p: "B", o: "a" },
-        { t: "Reginald estaba en el garaje.", k: "room", p: "V", o: "G" },
-        { t: "Cecily estaba en la cocina.", k: "room", p: "C", o: "C" },
-        { t: "Edith estaba junto a una planta.", k: "adj", p: "E", o: "P" },
-        { t: "Frederick estaba sentado en una silla.", k: "on", p: "F", o: "s" },
-        { t: "Gertrude estaba junto a una alfombra.", k: "adj", p: "G", o: "a" }
+        { t: "Bernardo estaba de pie sobre una alfombra.", k: "on", p: "B", o: "a" },
+        { t: "Rogelio estaba en el garaje.", k: "room", p: "V", o: "G" },
+        { t: "Cecilia estaba en la cocina.", k: "room", p: "C", o: "C" },
+        { t: "Elvira estaba junto a una planta.", k: "adj", p: "E", o: "P" },
+        { t: "Fermín estaba sentado en una silla.", k: "on", p: "F", o: "s" },
+        { t: "Gertrudis estaba junto a una alfombra.", k: "adj", p: "G", o: "a" }
       ],
       record: "Ocupación: promotor inmobiliario.\nNota: vendió cuarenta pisos sobre un terreno que sabía contaminado.\nFallecimientos registrados: 2",
       mail: { from: "(sin remitente)", subject: "Caso nº 0003",
         body: "Tiene un expediente pendiente de revisión.\n\n{LINK}\n\nNo responda a este mensaje." } }
   ];
-  const caseUrl = (i) => "http://casos.limbrick.local/caso/" + CASES[i].no;
+  const caseUrl = (i) => "http://casos.lindero.local/caso/" + CASES[i].no;
   const OI = {
     M: '<svg viewBox="0 0 20 20"><rect x="2" y="4" width="16" height="12" rx="1" fill="#b98a55" stroke="currentColor"/><path d="M4 6h12" stroke="#d9b58a"/></svg>',
     E: '<svg viewBox="0 0 20 20"><rect x="3" y="2" width="14" height="16" fill="#8a6640" stroke="currentColor"/><path d="M3 7h14M3 12h14" stroke="currentColor"/><path d="M5 3v4M7 3v4M10 8v4M12 8v4M5 13v4M8 13v4M14 13v4" stroke="#e8d9c0" stroke-width="1.4"/></svg>',

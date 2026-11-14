@@ -1,5 +1,5 @@
 {"rooms": ["OOJJJJ","OOJJJJ","PPPPHH","CCCPHH","CCCPHH","CCCPHH"],
  "objs":  ["Es.P.P",".M..P.","..a...","sM.a.c","sM...c","..sE.."],
  "room_names": {"O":["Despacho","en el despacho"],"J":["Jardín","en el jardín"],"P":["Pasillo","en el pasillo"],"H":["Habitación","en la habitación"],"C":["Comedor","en el comedor"]},
- "people": [{"id":"A","name":"Agatha","fem":true},{"id":"B","name":"Bernard"},{"id":"C","name":"Cecily","fem":true},{"id":"D","name":"Desmond"},{"id":"E","name":"Edith","fem":true},{"id":"F","name":"Frederick"}],
+ "people": [{"id":"A","name":"Águeda","fem":true},{"id":"B","name":"Bernardo"},{"id":"C","name":"Cecilia","fem":true},{"id":"D","name":"Damián"},{"id":"E","name":"Elvira","fem":true},{"id":"F","name":"Fermín"}],
  "victim": "A", "seeds": 300}

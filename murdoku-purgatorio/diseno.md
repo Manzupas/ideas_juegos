@@ -44,7 +44,7 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 
 - El tiempo avanza con las tandas de facturas: se empieza en 1997 y cada tanda es un mes o un trimestre. El euro entra el **1 de enero de 1999** (como en la realidad, para la contabilidad): desde entonces las facturas llevan el **contravalor en euros** (1 € = 166,386 pesetas), con una norma nueva para comprobarlo. Al llegar al **31 de diciembre de 1999**, el tiempo se queda atascado: nunca llega el año 2000.
 - Facturas en pesetas, con el IVA español de la época (**16 %**) y el **NIF/CIF** de cada empresa.
-- **Pendiente en el prototipo** (todavía está en la versión inglesa): nombres españoles, Gestoría Lindero, aspecto de Windows 95, pesetas e IVA del 16 %, fecha de 1997, ciudades y casos españoles.
+- **Hecho en el prototipo** (14/11/2026): nombres españoles, Gestoría Lindero, aspecto de Windows 95 (Lindero 95), pesetas con IVA del 16 % y NIF/CIF, fecha 31/12/1997, ciudades y casos españoles. Sin añadir nada nuevo: todavía no hay euro, paso del tiempo ni efecto 2000.
 
 ## Flujo de trabajo de las facturas
 
@@ -59,44 +59,44 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 
 - **Las decisiones afectan: el juego lleva la cuenta.** En el prototipo, una cuenta oculta con tres contadores: **errores** (según las normas), **complicidad** (aceptar algo que tapa una barbaridad) y **dureza** (rechazar algo que perjudica a un inocente). Qué cambia con ellos está por decidir.
 
-### La tanda 1 del prototipo (20 facturas, diciembre de 1999; versión inglesa, pendiente de adaptar a España)
+### La tanda 1 del prototipo (20 facturas, diciembre de 1997)
 
-Facturas en libras, con el IVA británico de 1999 (17,5 %), de proveedores y clientes de Reading y Brighton. Las normas llegan en el correo de Douglas «Normas para revisar facturas»; la quinta llega por correo al revisar 10 facturas.
+Facturas en pesetas, con el IVA de 1997 (16 %) y el NIF o CIF de cada empresa, de proveedores y clientes de Logroño y Benidorm. Las normas llegan en el correo de Leandro Lindero «Normas para revisar facturas»; la quinta (más de 1.000.000 de pesetas necesita su firma) llega por correo al revisar 10 facturas.
 
 | Nº | Factura | Tipo | Qué dicen las normas | Coste moral |
 |----|---------|------|----------------------|-------------|
-| 1 | Brennan Stationers → Hollis Bakery, papelería | Corriente | Aceptar | — |
-| 2 | Kenton Electrical → The Red Lion, reparación | Corriente | Rechazar (el total no cuadra) | — |
-| 3 | Hollis Bakery → St Mary's Parish, catering de un bautizo | Corriente | Aceptar | — |
-| 4 | Crowley & Partners (Desmond) → Ashcombe Credit (Reginald), embargo de la familia Doyle | Conciencia | Aceptar | Aceptar: complicidad |
-| 5 | Dalton Removals → Sra. Doyle, mudanza de la casa embargada a Calder Court (los pisos de Bernard) | Conciencia | Rechazar (sin número de IVA) | Rechazar: dureza |
-| 6 | Grove Office Cleaning → Finch & Limbrick, fechada el 05/01/2000 | Corriente | Rechazar (fecha) | — |
+| 1 | Papelería Brenes → Panadería Olivares, papelería | Corriente | Aceptar | — |
+| 2 | Electricidad Quintana → Bar El León Rojo, reparación | Corriente | Rechazar (el total no cuadra) | — |
+| 3 | Panadería Olivares → Parroquia de Santa María, canapés de un bautizo | Corriente | Aceptar | — |
+| 4 | Cuervo Abogados (Damián) → Créditos Altamira (Rogelio), embargo de la familia Domínguez | Conciencia | Aceptar | Aceptar: complicidad |
+| 5 | Mudanzas Dávila → Sra. Domínguez, mudanza de la casa embargada al Residencial Ebro (los pisos de Bernardo) | Conciencia | Rechazar (sin NIF/CIF) | Rechazar: dureza |
+| 6 | Limpiezas La Glorieta → Gestoría Lindero, fechada el 05/01/1998 | Corriente | Rechazar (fecha) | — |
 | 7 | Duplicado de la 1 | Corriente | Rechazar (duplicada) | — |
-| 8 | Pickering Motors → Thorne Developments, revisión de furgoneta | Corriente | Aceptar | — |
-| 9 | Lockwood Health Consulting (Harriet) → Pembroke House, «asesoría sanitaria» | Sin opción buena (nota de Maureen) | No cuentan | Aceptar: complicidad; rechazar: dureza |
-| 10 | Calder Catering → Pembroke House, menús a 0,85 £ por residente y día | Corriente | Rechazar (el total no cuadra) | — |
-| 11 | Hartley Builders → Thorne Developments, cimentación de Calder Court, firmada | Corriente | Aceptar | — |
-| 12 | Bellamy Collections (Frederick) → Ashcombe Credit, cobros a domicilio, sin firma | Corriente | Rechazar (norma 5) | — |
-| 13 | Ashby Soil Laboratories → Thorne Developments, informe de suelo «sin anexo C» | Conciencia | Aceptar | Aceptar: complicidad |
-| 14 | Kenton Electrical → The Red Lion, factura rectificada | Corriente | Aceptar | — |
-| 15 | Pembroke House → Sra. Okafor, cuidados de noche que no se hicieron | Sin opción buena (nota de Maureen) | No cuentan | Aceptar: complicidad; rechazar: dureza |
-| 16 | Mildred Hale → Pembroke House, «medicación de refuerzo» | Corriente | Rechazar (sin número de IVA) | — |
-| 17 | Harcourt & Co. (Nigel) → Thorne Developments, recalificación de Calder Works, justo por debajo de 5.000 £ | Conciencia | Aceptar | Aceptar: complicidad |
-| 18 | Grove Office Cleaning → Finch & Limbrick, fechada el 31/12/1999 | Corriente | Aceptar (justo en el límite) | — |
-| 19 | Bellamy Collections → Ashcombe Credit, daños en su coche durante un cobro a los Doyle | Sin opción buena (nota de Trevor) | No cuentan | Aceptar: complicidad; rechazar: dureza |
-| 20 | Brennan Stationers → Finch & Limbrick, agendas para el año 2000 | Corriente | Aceptar | — |
+| 8 | Talleres Picazo → Promociones Torres, revisión de furgoneta | Corriente | Aceptar | — |
+| 9 | Consultoría Sanitaria Losada (Herminia) → Residencia Pombo, «asesoría sanitaria» | Sin opción buena (nota de Maruja) | No cuentan | Aceptar: complicidad; rechazar: dureza |
+| 10 | Catering El Sequero → Residencia Pombo, menús a 210 pesetas por residente y día | Corriente | Rechazar (el total no cuadra) | — |
+| 11 | Construcciones Arteaga → Promociones Torres, cimentación del Residencial Ebro, firmada | Corriente | Aceptar | — |
+| 12 | Cobros Bellido (Fermín) → Créditos Altamira, cobros a domicilio, sin firma | Corriente | Rechazar (norma 5) | — |
+| 13 | Laboratorio Geotécnico Asensio → Promociones Torres, informe de suelo «sin anexo C» | Conciencia | Aceptar | Aceptar: complicidad |
+| 14 | Electricidad Quintana → Bar El León Rojo, factura rectificada | Corriente | Aceptar | — |
+| 15 | Residencia Pombo → Sra. Ocaña, cuidados de noche que no se hicieron | Sin opción buena (nota de Maruja) | No cuentan | Aceptar: complicidad; rechazar: dureza |
+| 16 | Milagros Sáez → Residencia Pombo, «medicación de refuerzo» | Corriente | Rechazar (sin NIF/CIF) | — |
+| 17 | Arcos y Asociados (Nicanor) → Promociones Torres, recalificación de la antigua Química del Ebro, justo por debajo de 1.000.000 | Conciencia | Aceptar | Aceptar: complicidad |
+| 18 | Limpiezas La Glorieta → Gestoría Lindero, fechada el 31/12/1997 | Corriente | Aceptar (justo en el límite) | — |
+| 19 | Cobros Bellido → Créditos Altamira, daños en su coche durante un cobro a los Domínguez | Sin opción buena (nota de Tomás) | No cuentan | Aceptar: complicidad; rechazar: dureza |
+| 20 | Papelería Brenes → Gestoría Lindero, agendas para 1998 | Corriente | Aceptar | — |
 
-Los correos de los Murdokus llegan al revisar 4, 11 y 17 facturas (cada uno, una vez resuelto el caso anterior). Al terminar la tanda, Douglas manda un resumen con los errores; en el prototipo, ese correo enseña también la cuenta oculta.
+Los correos de los Murdokus llegan al revisar 4, 11 y 17 facturas (cada uno, una vez resuelto el caso anterior). Al terminar la tanda, Leandro manda un resumen con los errores; en el prototipo, ese correo enseña también la cuenta oculta.
 
 **Propuesta** (por revisar):
 
-- Ejemplos de reglas: el total tiene que cuadrar con las líneas y el IVA; el cliente tiene que tener número de IVA; nada con fecha posterior al 31/12/1999 («por lo del efecto 2000»); nada duplicado (mismo número o mismo concepto e importe).
+- Ejemplos de reglas: el total tiene que cuadrar con las líneas y el IVA; el emisor tiene que tener NIF o CIF; nada con fecha del ejercicio siguiente; nada duplicado (mismo número o mismo concepto e importe). En 1999, la del efecto 2000 y la del contravalor en euros.
 - Tres tipos de factura:
   1. **Corrientes**: solo cuentan las reglas. Son la mayoría y dan el ritmo de trabajo.
-  2. **Las reglas contra la conciencia**: la factura es correcta pero ayuda a hacer daño (los honorarios de Desmond por un desahucio de Reginald: aceptarla es lo correcto para la gestoría), o es incorrecta pero rechazarla perjudica a alguien inocente (la factura de una viuda que se ha olvidado del número de IVA y no cobrará a tiempo).
-  3. **Sin opción buena**: las dos salidas hacen daño o ninguna arregla nada (pagos de Agatha a Harriet como «asesoría sanitaria»: aceptarla tapa la residencia; rechazarla retrasa el sueldo de las cuidadoras, que tampoco cobran si la residencia cierra).
+  2. **Las reglas contra la conciencia**: la factura es correcta pero ayuda a hacer daño (los honorarios de Damián por un embargo de Rogelio: aceptarla es lo correcto para la gestoría), o es incorrecta pero rechazarla perjudica a alguien inocente (la factura de una viuda que se ha olvidado del número de IVA y no cobrará a tiempo).
+  3. **Sin opción buena**: las dos salidas hacen daño o ninguna arregla nada (pagos de Águeda a Herminia como «asesoría sanitaria»: aceptarla tapa la residencia; rechazarla retrasa el sueldo de las cuidadoras, que tampoco cobran si la residencia cierra).
 - Las aceptadas pasan a la carpeta Facturas; las rechazadas, a «Rechazadas».
-- **Fallos sin castigo inmediato**: equivocarse con las reglas no se castiga en el momento, pero se nota: un correo seco de Douglas o una línea más en una «hoja de errores».
+- **Fallos sin castigo inmediato**: equivocarse con las reglas no se castiga en el momento, pero se nota: un correo seco de Leandro o una línea más en una «hoja de errores».
 - **Ritmo**: las facturas llegan en tandas; al terminar una tanda llega un correo de un compañero o el siguiente caso.
 
 **Preguntas abiertas**:
@@ -123,7 +123,7 @@ Los correos de los Murdokus llegan al revisar 4, 11 y 17 facturas (cada uno, una
 **Propuesta** (por revisar):
 
 - Compañeros: Leandro Lindero (el jefe), Maruja Clemente (administración) y Tomás Hoyos (informática); en el prototipo inglés, Douglas, Maureen y Trevor. Detalle en [personajes.md](personajes.md).
-- Cada correo de trabajo trae dos o tres respuestas. Ejemplo, de Douglas: «Necesito las facturas de octubre cerradas para el viernes.» Respuestas: «Ya están hechas» / «Las tendrás el jueves» / «Voy con retraso, lo siento». Unos minutos después: «¿Qué facturas? No te he pedido nada. ¿Estás bien?»
+- Cada correo de trabajo trae dos o tres respuestas. Ejemplo, de Leandro: «Necesito las facturas de octubre cerradas para el viernes.» Respuestas: «Ya están hechas» / «Las tendrás el jueves» / «Voy con retraso, lo siento». Unos minutos después: «¿Qué facturas? No te he pedido nada. ¿Estás bien?»
 - Las respuestas de «no sé de qué me hablas» se pueden ir volviendo más raras a medida que avanzan los casos: primero confusión, luego el correo original ya no está en la bandeja.
 
 **Preguntas abiertas**:
@@ -147,12 +147,10 @@ Propuesta de historias de los doce personajes, agrupados en tres círculos (las 
 
 Prototipo en HTML y JavaScript, en un solo archivo y sin dependencias. **Para jugar en local, abrir [prototipo/office-work.html](prototipo/office-work.html)**; cómo se genera y qué es cada archivo está en [prototipo/README.md](prototipo/README.md). También está publicado como artefacto para probarlo en el móvil: https://claude.ai/artifact/QgHxcBtNP4yLWGyQ3VYhcJ
 
-**Todavía en la versión inglesa** (Windows 98, Finch & Limbrick, libras); pendiente de adaptar a España y Windows 95.
-
-Es el ordenador del contable, con estética de Windows 98 (sistema «Limbrick 98»):
+Es el ordenador del contable de la Gestoría Lindero, con estética de Windows 95 (sistema «Lindero 95»: barras de título lisas, sin degradado). El día es el miércoles 31 de diciembre de 1997, cierre del ejercicio.
 
 - **Escritorio**: iconos (Mi PC, Mis documentos, Facturas, GESTA 2000, Correo, Navegador, Bloc de notas, Papelera de reciclaje), ventanas que se arrastran, se redimensionan con el ratón (bordes y esquinas), minimizan, maximizan y cierran, barra de tareas con reloj y menú Inicio. En el móvil todas las ventanas se abren maximizadas y los iconos se abren con un toque.
-- **GESTA 2000** (Finch & Limbrick): revisión de una tanda de 20 facturas. Pestañas Pendientes, Aceptadas y Rechazadas; cada factura se ve como un papel (emisor, cliente, líneas, base, IVA, total, firma) con su sello y, si la lleva, una nota pegada. Botones Aceptar, Rechazar y Normas. No se puede modificar nada. En pantallas grandes está abierto al empezar.
+- **GESTA 2000** (Gestoría Lindero): revisión de una tanda de 20 facturas. Pestañas Pendientes, Aceptadas y Rechazadas; cada factura se ve como un papel (emisor, cliente, líneas, base, IVA, total, firma) con su sello y, si la lleva, una nota pegada. Botones Aceptar, Rechazar y Normas. No se puede modificar nada. En pantallas grandes está abierto al empezar.
 - **Explorador de carpetas**: Mi PC, Disco local (C:), Mis documentos, Archivos de programa y **Facturas**, y **Facturas rechazadas**, donde cada factura revisada es un archivo `.fac` que se abre en GESTA. Disquete y carpeta Windows dan sus avisos clásicos.
 - **Correo**: carpetas (entrada, enviados, borradores, eliminados), lista, vista previa, Crear correo, Responder, Eliminar y Enviar y recibir.
 - **El ordenador va lento**, y cuánto depende de lo que se hace. Mientras tanto sale el reloj de arena y se ignoran los clics. Dentro del Murdoku, colocar fichas es instantáneo. Tiempos del prototipo (constante `DELAY` en `index.html`):
@@ -171,18 +169,18 @@ Es el ordenador del contable, con estética de Windows 98 (sistema «Limbrick 98
   | Cargar un caso por primera vez | unos 9 s (con barra de progreso) |
 - **Las páginas cargan como con módem**: la primera vez que se abre cada caso, la barra de estado va diciendo «Buscando…», «Conectando…», «Transfiriendo datos…», con barra de progreso; primero llega el texto, luego las pistas una a una y el plano baja poco a poco de arriba abajo, como una imagen antigua. Tarda unos 9 segundos; las veces siguientes sale al momento. Mientras carga, el puntero es la flecha con reloj de arena y no se puede jugar.
 - **La ventana del caso se ajusta** para que el Murdoku se vea entero (si cabe en la pantalla). Las pistas y las reglas van pegadas al tablero con anchos fijos: al agrandar la ventana, el hueco queda a la derecha.
-- **El enganche**: al revisar 4 facturas llega un correo de Rosemary Vale, una compañera: «esto engancha, ya verás». Sale un globo de aviso en la bandeja; al pulsarlo se abre el correo, y su enlace abre el caso en el **Navegador**. «Enviar y recibir» también comprueba si hay correo nuevo.
+- **El enganche**: al revisar 4 facturas llega un correo de Rosario Valle, una compañera: «esto engancha, ya verás». Sale un globo de aviso en la bandeja; al pulsarlo se abre el correo, y su enlace abre el caso en el **Navegador**. «Enviar y recibir» también comprueba si hay correo nuevo.
 - **Bloc de notas**: notas de la oficina en Mis documentos (`pendientes.txt`, `claves.txt`) y un borrador de carta en la Papelera; se pueden escribir y guardar notas nuevas.
-- **Personajes**: Reginald Ashcombe, Agatha Pembroke, Bernard Thorne, Cecily, Desmond, Edith, Frederick y Gertrude. Cada caso usa seis.
+- **Personajes**: Rogelio Altamira, Águeda Pombo, Bernardo Torres, Cecilia, Damián, Elvira, Fermín y Gertrudis. Cada caso usa seis.
 - **Tres Murdokus de 6×6**, cada uno con otra casa, otra víctima y otro asesino:
 
   | Caso | Escenario | Víctima | Asesino | Expediente | Llega |
   |------|-----------|---------|---------|------------|-------|
-  | 0001 | Una casa en Hampstead, Londres | Reginald | Desmond | Prestamista; se quedó con las casas de tres familias. Fallecimientos: 3 | Correo de Rosemary al revisar 4 facturas |
-  | 0002 | La residencia Pembroke, Brighton | Agatha | Cecily | Dueña de una residencia de mayores; cobraba cuidados que nunca se daban. Fallecimientos: 5 | Correo de Rosemary («¿Ya? Hay otro») al revisar 11 facturas, con el 0001 resuelto |
-  | 0003 | Una casa en las afueras de Manchester | Bernard | Edith | Promotor; vendió cuarenta pisos sobre un terreno que sabía contaminado. Fallecimientos: 2 | Correo «(sin remitente)» al revisar 17 facturas, con el 0002 resuelto |
+  | 0001 | Un chalé en Puerta de Hierro, Madrid | Rogelio | Damián | Prestamista; se quedó con las casas de tres familias. Fallecimientos: 3 | Correo de Rosario al revisar 4 facturas |
+  | 0002 | La Residencia Pombo, Benidorm | Águeda | Cecilia | Dueña de una residencia de ancianos; cobraba cuidados que nunca se daban. Fallecimientos: 5 | Correo de Rosario («¿Ya? Hay otro») al revisar 11 facturas, con el 0001 resuelto |
+  | 0003 | Un chalé en las afueras de Zaragoza | Bernardo | Elvira | Promotor; vendió cuarenta pisos sobre un terreno que sabía contaminado. Fallecimientos: 2 | Correo «(sin remitente)» al revisar 17 facturas, con el 0002 resuelto |
 
-  En el caso 0003 vuelve a aparecer Reginald, vivo, aunque murió en el 0001.
+  En el caso 0003 vuelve a aparecer Rogelio, vivo, aunque murió en el 0001.
 - **Cómo se juega**: se elige a una persona y se toca una casilla; tocarla otra vez la quita. Hay un modo para tachar casillas, las pistas se tachan al tocarlas y «Comprobar» dice qué pistas o reglas fallan. Al acertar se acusa al culpable y se abre el expediente de la víctima.
 - **Los casos** se generan con los scripts de [prototipo/scripts/](prototipo/scripts/): el 0001 con `humano.py` (usa `caso.py`) y el 0002 y el 0003 con `generar_caso.py casoN.json`, que lee el plano, los personajes y la víctima de un JSON. Se ejecutan desde esa carpeta. Cada caso tiene una única solución y se resuelve solo con deducciones (las pistas de cada persona más una persona por fila y columna), sin probar a ciegas.
 
