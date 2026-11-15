@@ -24,6 +24,9 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 - **Segunda parte: el purgatorio.** El juego **te hace torturar a tus clientes**.
 - **La ambientación se mantiene** (España, desde 1997). Se dudó de si sería un problema, pero encaja.
 - **Al final de la primera parte el contable es asesinado** (como ya estaba decidido: el juicio y el asesinato). Esa muerte es el paso al purgatorio.
+- **El asesinato es fijo**: haga lo que haga el jugador, al contable lo matan. Lo que cambian sus decisiones es el camino:
+  - **Si vende secretos**, llegan el juicio y el asesinato.
+  - **Si no vende secretos**, en algún momento puede intentar **denunciar las ilegalidades**, y eso hace que lo maten.
 
 Esto cambia cosas que estaban decididas más abajo: los personajes ya no han muerto antes de 1997 (en la primera parte están vivos y son clientes), y el purgatorio deja de ser el escenario desde el principio. Lo de abajo se mantiene hasta revisarlo con la nueva estructura.
 
@@ -38,7 +41,9 @@ Esto cambia cosas que estaban decididas más abajo: los personajes ya no han mue
 
 **Preguntas abiertas**:
 
-- ¿Quién mata al contable y por qué? ¿Y si el jugador no vende secretos, le matan igual (el asesinato es fijo) o cambia?
+- ¿Quién mata al contable y por qué? ¿Cambia el asesino según el camino (vender o denunciar)?
+- Si denuncia en vez de vender, ¿cuál es su pecado y por qué acaba en el purgatorio? (Antes estaba decidido que era «vender secretos».) ¿Quizá los años de papeleo cómplice antes de denunciar?
+- ¿Qué pasa si no vende ni denuncia? ¿Es posible ese camino?
 - ¿Hay Murdokus en la primera parte, o solo en la segunda?
 - ¿El jugador sabe desde el principio que habrá purgatorio, o la muerte es la sorpresa?
 - ¿Cuánto dura cada parte?
