@@ -86,6 +86,19 @@ Esto cambia cosas que estaban decididas más abajo: los personajes ya no han mue
 
 - El tiempo avanza con las tandas de facturas: se empieza en 1997 y cada tanda es un mes o un trimestre. El euro entra el **1 de enero de 1999** (como en la realidad, para la contabilidad): desde entonces las facturas llevan el **contravalor en euros** (1 € = 166,386 pesetas), con una norma nueva para comprobarlo. Al llegar al **31 de diciembre de 1999**, el tiempo se queda atascado: nunca llega el año 2000.
 - Facturas en pesetas, con el IVA español de la época (**16 %**) y el **NIF/CIF** de cada empresa.
+
+**Decidido** (15/11/2026), sobre el euro:
+
+- **Solo algunas empresas mandan sus facturas en euros**; las demás siguen en pesetas.
+- **Las escrituras notariales vienen todas en las dos monedas** (pesetas y euros).
+
+Esto sustituye a la propuesta de que todas las facturas lleven el contravalor en euros desde 1999.
+
+**Preguntas abiertas**:
+
+- ¿Las escrituras notariales son un documento nuevo que revisa el contable (además de las facturas), con sus propias normas? ¿Cuándo empiezan a llegar?
+- ¿Qué empresas facturan en euros, y desde cuándo?
+- ¿Qué norma hay para comprobar el cambio (1 € = 166,386 pesetas)?
 - **Hecho en el prototipo** (14/11/2026): nombres españoles, Gestoría Lindero, aspecto de Windows 95 (Lindero 95), pesetas con IVA del 16 % y NIF/CIF, fecha 31/12/1997, ciudades y casos españoles. Sin añadir nada nuevo: todavía no hay euro, paso del tiempo ni efecto 2000.
 
 ## Flujo de trabajo de las facturas
