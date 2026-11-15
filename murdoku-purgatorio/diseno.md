@@ -29,7 +29,16 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
   - **Si no vende secretos**, en algún momento puede intentar **denunciar las ilegalidades**, y eso hace que lo maten.
   - **También puede no vender ni denunciar**: pasar la primera parte callado. Ese camino es posible, y también acaba en su asesinato.
 - **Tres asesinos distintos según el comportamiento del jugador** (uno por camino: vender, denunciar, callar).
+- **El camino se elige según lo que se haga con cada factura**: no hay una decisión única, sino la suma de lo que hace el jugador documento a documento.
 - **Su pecado es haber sido cómplice**: los años de papeleo que taparon las barbaridades de sus clientes. Vale en los tres caminos (sustituye a «vender secretos» como pecado).
+
+**Propuesta** (por revisar), cómo se elige el camino:
+
+- En los documentos con secretos (facturas y escrituras de los personajes), además de Aceptar y Rechazar, hay dos acciones más:
+  - **Hacer una copia** (disquete o fotocopia) para el hacker: suma a «vender».
+  - **Apartar como prueba** (una carpeta propia, para denunciar): suma a «denunciar».
+- No hacer ninguna de las dos suma a «callar».
+- Al final de la primera parte, el camino es el que más ha sumado. Si se cruza cierto umbral antes (muchas copias vendidas, o la carpeta de pruebas llena), el desenlace se adelanta.
 
 **Propuesta** (por revisar), los tres asesinos:
 
@@ -51,7 +60,6 @@ Esto cambia cosas que estaban decididas más abajo: los personajes ya no han mue
 **Preguntas abiertas**:
 
 - ¿Quiénes son los tres asesinos?
-- ¿Cómo se decide el camino: por una decisión concreta (vender o denunciar en un momento dado) o por la suma de muchas decisiones?
 - ¿El camino cambia la segunda parte, además del último Murdoku?
 - ¿Hay Murdokus en la primera parte, o solo en la segunda?
 - ¿El jugador sabe desde el principio que habrá purgatorio, o la muerte es la sorpresa?
@@ -96,9 +104,18 @@ Esto sustituye a la propuesta de que todas las facturas lleven el contravalor en
 
 **Preguntas abiertas**:
 
-- ¿Las escrituras notariales son un documento nuevo que revisa el contable (además de las facturas), con sus propias normas? ¿Cuándo empiezan a llegar?
-- ¿Qué empresas facturan en euros, y desde cuándo?
-- ¿Qué norma hay para comprobar el cambio (1 € = 166,386 pesetas)?
+- **El contable revisa también las escrituras notariales**, como las facturas, **con sus propias normas**.
+- **Facturan en euros las empresas grandes o con negocios en el extranjero** (por ejemplo, Promociones Torres, o quien mueve dinero a Suiza y Andorra). Que una empresa pague en euros es también una pista.
+
+**Propuesta** (por revisar):
+
+- Normas de las escrituras: las dos cifras tienen que cuadrar al cambio (1 € = 166,386 pesetas, redondeando al céntimo) y tienen que llevar la firma del notario.
+- Las escrituras dan juego con los personajes: los embargos de Rogelio, la compra del terreno de Bernardo, las ventas de los cuarenta pisos.
+
+**Preguntas abiertas**:
+
+- ¿Cuándo empiezan a llegar las escrituras?
+- ¿Qué empresas concretas facturan en euros, y desde cuándo?
 - **Hecho en el prototipo** (14/11/2026): nombres españoles, Gestoría Lindero, aspecto de Windows 95 (Lindero 95), pesetas con IVA del 16 % y NIF/CIF, fecha 31/12/1997, ciudades y casos españoles. Sin añadir nada nuevo: todavía no hay euro, paso del tiempo ni efecto 2000.
 
 ## Flujo de trabajo de las facturas
