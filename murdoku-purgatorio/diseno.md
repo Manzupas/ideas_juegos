@@ -22,22 +22,23 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 - **El juego es la vida real del contable.** Al acabar esa vida, **muere y está en el purgatorio**.
 - **Primera parte: la vida real.** Todo es real y **tiene consecuencias**.
 - **Segunda parte: el purgatorio.** El juego **te hace torturar a tus clientes**.
-- La ambientación (España, 1997) **puede suponer un problema**: por revisar (pendiente de concretar cuál).
+- **La ambientación se mantiene** (España, desde 1997). Se dudó de si sería un problema, pero encaja.
+- **Al final de la primera parte el contable es asesinado** (como ya estaba decidido: el juicio y el asesinato). Esa muerte es el paso al purgatorio.
 
 Esto cambia cosas que estaban decididas más abajo: los personajes ya no han muerto antes de 1997 (en la primera parte están vivos y son clientes), y el purgatorio deja de ser el escenario desde el principio. Lo de abajo se mantiene hasta revisarlo con la nueva estructura.
 
 **Propuesta** (por revisar):
 
 - **Primera parte (1997–1999)**: las tandas de facturas, los correos y las decisiones morales son la vida real del contable. Lo que acepta o rechaza afecta de verdad a los clientes y a sus víctimas (la familia Domínguez, los residentes, los vecinos del terreno).
-- **El pecado se comete jugando**: el hacker de la primera parte es alguien real (un periodista o un contacto por IRC) que le pide secretos de la gestoría. Si el jugador los vende, llegan el juicio y el asesinato; si no, también muere, por otra vía (por decidir).
+- **El pecado se comete jugando**: el hacker de la primera parte es alguien real (un periodista o un contacto por IRC) que le pide secretos de la gestoría. Si el jugador los vende, llegan el juicio y el asesinato.
+- **Su asesinato, el último Murdoku**: en la primera parte no se ve quién lo mata; en la segunda, el último caso es su propio asesinato, con él como víctima, y los sospechosos son sus clientes.
 - **La muerte, el 31/12/1999**: el contable muere justo antes del año 2000. Encaja con el efecto 2000: en el purgatorio el reloj nunca pasa de esa noche.
 - **Los Murdokus, en las dos partes**: en la primera son un pasatiempo que le manda Rosario y no pasa nada; en la segunda son el mismo juego, pero las víctimas son los clientes que conoció, y mueren una y otra vez.
 - **Las decisiones de la primera parte deciden la segunda**: quién está en el purgatorio, qué casos aparecen o qué sabe el contable de cada uno según lo que aceptó, rechazó o vendió (la cuenta de complicidad y dureza).
 
 **Preguntas abiertas**:
 
-- ¿Qué problema tiene la ambientación?
-- ¿Cómo muere el contable, y depende de lo que haga el jugador?
+- ¿Quién mata al contable y por qué? ¿Y si el jugador no vende secretos, le matan igual (el asesinato es fijo) o cambia?
 - ¿Hay Murdokus en la primera parte, o solo en la segunda?
 - ¿El jugador sabe desde el principio que habrá purgatorio, o la muerte es la sorpresa?
 - ¿Cuánto dura cada parte?
