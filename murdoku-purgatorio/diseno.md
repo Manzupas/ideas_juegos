@@ -27,6 +27,15 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 - **El asesinato es fijo**: haga lo que haga el jugador, al contable lo matan. Lo que cambian sus decisiones es el camino:
   - **Si vende secretos**, llegan el juicio y el asesinato.
   - **Si no vende secretos**, en algún momento puede intentar **denunciar las ilegalidades**, y eso hace que lo maten.
+  - **También puede no vender ni denunciar**: pasar la primera parte callado. Ese camino es posible, y también acaba en su asesinato.
+- **Tres asesinos distintos según el comportamiento del jugador** (uno por camino: vender, denunciar, callar).
+- **Su pecado es haber sido cómplice**: los años de papeleo que taparon las barbaridades de sus clientes. Vale en los tres caminos (sustituye a «vender secretos» como pecado).
+
+**Propuesta** (por revisar), los tres asesinos:
+
+- **Vende secretos** → **Damián Cuervo**, el abogado: le pone el juicio y, al perderlo, lo manda matar.
+- **Denuncia** → **Fermín Bellido**, el cobrador: el que hace el trabajo sucio cuando alguien amenaza el negocio.
+- **Calla** → **la propia gestoría (Octavio Lindero)**: el contable sabe demasiado y es mejor que no esté cuando todo salga a la luz.
 
 Esto cambia cosas que estaban decididas más abajo: los personajes ya no han muerto antes de 1997 (en la primera parte están vivos y son clientes), y el purgatorio deja de ser el escenario desde el principio. Lo de abajo se mantiene hasta revisarlo con la nueva estructura.
 
@@ -41,9 +50,9 @@ Esto cambia cosas que estaban decididas más abajo: los personajes ya no han mue
 
 **Preguntas abiertas**:
 
-- ¿Quién mata al contable y por qué? ¿Cambia el asesino según el camino (vender o denunciar)?
-- Si denuncia en vez de vender, ¿cuál es su pecado y por qué acaba en el purgatorio? (Antes estaba decidido que era «vender secretos».) ¿Quizá los años de papeleo cómplice antes de denunciar?
-- ¿Qué pasa si no vende ni denuncia? ¿Es posible ese camino?
+- ¿Quiénes son los tres asesinos?
+- ¿Cómo se decide el camino: por una decisión concreta (vender o denunciar en un momento dado) o por la suma de muchas decisiones?
+- ¿El camino cambia la segunda parte, además del último Murdoku?
 - ¿Hay Murdokus en la primera parte, o solo en la segunda?
 - ¿El jugador sabe desde el principio que habrá purgatorio, o la muerte es la sorpresa?
 - ¿Cuánto dura cada parte?
