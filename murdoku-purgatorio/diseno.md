@@ -33,11 +33,11 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 - **Su pecado es haber sido cómplice**: los años de papeleo que taparon las barbaridades de sus clientes. Vale en los tres caminos (sustituye a «vender secretos» como pecado).
 
 - **De momento, sin botones nuevos**: el camino sale de lo que ya se puede hacer con cada documento (aceptar o rechazar). Se descartó por ahora añadir acciones como «hacer una copia» o «apartar como prueba».
+- **Se vende fuera de GESTA**: respondiendo a los correos del hacker con las respuestas predefinidas (por ejemplo, «Te la mando» / «No puedo» / no contestar) **o por IRC**. Vender es algo que se hace a escondidas, fuera del programa de facturas.
 
 **Propuesta** (por revisar), cómo se elige el camino:
 
 - Rechazar los documentos sucios suma a «denunciar»; aceptarlos suma a «callar».
-- Falta cómo se suma a «vender» sin botones (¿quizá respondiendo a los correos del hacker?).
 
 **Propuesta** (por revisar), los tres asesinos:
 
