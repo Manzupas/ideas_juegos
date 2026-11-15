@@ -32,13 +32,12 @@ Un juego de puzles tipo *Murdoku*, con un giro gordo:
 - **El camino se elige según lo que se haga con cada factura**: no hay una decisión única, sino la suma de lo que hace el jugador documento a documento.
 - **Su pecado es haber sido cómplice**: los años de papeleo que taparon las barbaridades de sus clientes. Vale en los tres caminos (sustituye a «vender secretos» como pecado).
 
+- **De momento, sin botones nuevos**: el camino sale de lo que ya se puede hacer con cada documento (aceptar o rechazar). Se descartó por ahora añadir acciones como «hacer una copia» o «apartar como prueba».
+
 **Propuesta** (por revisar), cómo se elige el camino:
 
-- En los documentos con secretos (facturas y escrituras de los personajes), además de Aceptar y Rechazar, hay dos acciones más:
-  - **Hacer una copia** (disquete o fotocopia) para el hacker: suma a «vender».
-  - **Apartar como prueba** (una carpeta propia, para denunciar): suma a «denunciar».
-- No hacer ninguna de las dos suma a «callar».
-- Al final de la primera parte, el camino es el que más ha sumado. Si se cruza cierto umbral antes (muchas copias vendidas, o la carpeta de pruebas llena), el desenlace se adelanta.
+- Rechazar los documentos sucios suma a «denunciar»; aceptarlos suma a «callar».
+- Falta cómo se suma a «vender» sin botones (¿quizá respondiendo a los correos del hacker?).
 
 **Propuesta** (por revisar), los tres asesinos:
 
