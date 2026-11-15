@@ -2,12 +2,14 @@
 
 > Estado: **propuesta**, pendiente de revisar. Lo decidido está marcado como **[fijado]**; el resto son ideas para discutir.
 >
+> **15/11/2026: el juego pasa a tener dos partes.** La primera es la vida real del contable (desde 1997), en la que los personajes están vivos; al final asesinan al contable y, en la segunda, está con ellos en el purgatorio. Su pecado pasa a ser la complicidad. Las fechas y muertes de abajo son de antes de este cambio y hay que revisarlas.
+>
 > **14/11/2026: la ambientación pasa de Inglaterra a España**, en la misma época. Los personajes, la gestoría y los compañeros tienen nombres españoles. Las historias son las mismas de antes, adaptadas a la España de los 80 y los 90. Se mantiene la inicial de cada personaje (la ficha del tablero muestra solo la inicial). Los nombres nuevos son una propuesta.
 
 ## Planteamiento
 
 - **Doce personajes**, todos con **nombre español clásico** **[fijado]** y una inicial distinta.
-- **[fijado]** El juego está ambientado en **España a finales de los 90**: se empieza a trabajar en **1997**. Propuesta: los personajes murieron **antes de 1997** (entre 1988 y 1996), así que ya están en el purgatorio cuando empieza el juego. Lo que se va descubriendo en los expedientes es su vida de verdad.
+- **[fijado]** El juego está ambientado en **España a finales de los 90**: se empieza a trabajar en **1997**. **[fijado]** En la primera parte los personajes **están vivos**: son clientes de la gestoría o gente de su entorno. En la segunda parte, ya muertos, están en el purgatorio. (Antes se proponía que hubieran muerto entre 1988 y 1996; ya no vale. Por revisar cuándo muere cada uno: ¿durante la primera parte o después que el contable?)
 - **[fijado]** La temática de los casos es, en general, **la historia de España**. Los primeros casos son de la España de los 90.
 - Se agrupan en **tres círculos de cuatro**. En cada círculo hubo una barbaridad hecha entre varios, y cada uno puso su parte. Así, caso a caso, el jugador ve primero a personas sueltas y luego cómo encajan.
 - **[fijado]** No todos los personajes son clientes de la gestoría, pero **en cada círculo al menos uno sí lo es**: la gestoría tramitó los papeles de esa barbaridad.
@@ -47,12 +49,14 @@
 ### Fermín Bellido (F) · 1948–1994
 - **Vida**: el cobrador de Rogelio. Iba a las casas de noche, rompía cosas, esperaba a los niños a la salida del colegio para que los padres le vieran.
 - **Muerte real**: atropellado delante de una de las casas que había ido a «visitar». Nadie llamó a la ambulancia enseguida.
+- **Propuesta**: es el asesino del contable si el jugador va por el camino de denunciar.
 - **En los casos**: siempre está de pie, cerca de las puertas. Es el que más veces aparece junto a la víctima y casi nunca es el asesino.
 
 ### Damián Cuervo (D) · 1938–1992
 - **[fijado]** Asesino del caso 0001.
 - **Vida**: el abogado de Rogelio. Redactaba los contratos con letra pequeña y llevaba los embargos al juzgado. También trabajó para Bernardo Torres con la compra del terreno.
 - **Muerte real**: ahogado al caer de su barco, borracho, la noche en que celebraba un juicio ganado.
+- **Propuesta**: es el asesino del contable si el jugador va por el camino de vender secretos: le pone el juicio y, al perderlo, lo manda matar.
 - **Por qué mata a Rogelio**: Rogelio nunca le pagó lo que le debía. Mismo «no pienso pagar».
 
 ### Gertrudis Ferrán (G) · 1919–1988
@@ -105,7 +109,8 @@
 
 ### Octavio Lindero (O) · 1922–1995
 - **Vida**: el asesor financiero que lo unía todo. Movió el dinero de Rogelio, de Águeda y de Bernardo a cuentas en Suiza y Andorra. No conocía a las víctimas de nadie y nunca preguntó. **[fijado]** Es el socio fundador de la gestoría del contable (ver abajo).
-- **Muerte real**: en su despacho de la gestoría, a última hora, solo, delante de una hoja de cálculo.
+- **Muerte real**: en su despacho de la gestoría, a última hora, solo, delante de una hoja de cálculo. (Por revisar: si es el asesino del camino de callar, tiene que estar vivo al final de la primera parte.)
+- **Propuesta**: es el asesino del contable si el jugador va por el camino de callar: el contable sabe demasiado.
 - **En los casos**: aparece en casos de los tres círculos; es el puente entre ellos. Es el reflejo más cercano del contable.
 
 ## La gestoría y el contable
@@ -114,14 +119,14 @@
 - **Propuesta de nombre**: vuelve a ser **Gestoría Lindero, S.L.**, ahora porque la fundó Octavio Lindero. *Lindero* es la linde, el borde entre dos sitios, como el limbo. El sistema del ordenador sería **«Lindero 95»**. Ciudad por decidir (por ejemplo, una capital de provincia mediana).
 - **[fijado]** **El fundador** es el asesor financiero del círculo del terreno: movía el dinero de los tres círculos y era el jefe del contable; el contable hacía el papeleo. Así es el reflejo del contable: uno escondía el dinero, el otro acabó sacando a la luz dónde estaba.
 - **[fijado]** **El jugador es «el contable»**, sin nombre propio. La gestoría tramitó los papeles de todos: los embargos, las cuentas de la residencia, las escrituras de los pisos.
-- **[fijado]** **El pecado del contable es «vender secretos» de la empresa**: en vida sacó los secretos de la gestoría (disquetes, fotocopias, faxes) para exponer en la vida real los secretos de los que ahora están en el purgatorio. Las comillas importan: lo que para la empresa fue una traición, para él era sacar la verdad.
-- **[fijado]** Eso le costó **un juicio**, y **lo asesinaron**. Quién y por qué, por decidir.
-- **[fijado]** **El hacker** se hace pasar por los tres compañeros y luego da un seudónimo; después habla con el contable por **IRC**. Le empuja a repetir su pecado: le pide los secretos de los expedientes de los casos. (En España, a finales de los 90, el IRC era muy popular, sobre todo IRC-Hispano.)
+- **[fijado]** **El pecado del contable es haber sido cómplice**: los años de papeleo que taparon las barbaridades de sus clientes. (Antes era «vender secretos»; ahora vender es uno de los caminos.)
+- **[fijado]** **Lo asesinan siempre**, al final de la primera parte, por uno de **tres caminos** que salen de lo que hace el jugador con cada factura: **vender secretos** (disquetes, fotocopias, faxes; llega un juicio), **denunciar** las ilegalidades o **callar**. Hay un asesino distinto para cada camino (propuesta: Damián, Fermín y Octavio).
+- **[fijado]** **El hacker** se hace pasar por los tres compañeros y luego da un seudónimo; después habla con el contable por **IRC**. Le empuja a vender los secretos de los clientes: se vende contestando a sus correos o por IRC. (En España, a finales de los 90, el IRC era muy popular, sobre todo IRC-Hispano.)
 - **La compañera de los correos de los Murdokus**: propuesta **Rosario Valle** (antes Rosemary Vale; *valle*, como el valle de lágrimas). Sigue abierto quién es: una compañera que también está en el purgatorio, la que le recluta o el propio purgatorio con una cara amable. Sus correos dejan de llegar a partir del caso 0003, que ya viene «(sin remitente)».
 
 ### Los compañeros de la gestoría (propuesta)
 
-**[fijado]** En realidad son otros contables que están como el contable, también en el purgatorio, y no recuerdan haber mandado nada: los correos los manda el hacker. Propuesta de nombres, gente corriente de oficina:
+**[fijado]** En realidad son otros contables que están como el contable, también en el purgatorio, y no recuerdan haber mandado nada: los correos los manda el hacker. (Por revisar con las dos partes: en la primera parte están vivos.) Propuesta de nombres, gente corriente de oficina:
 
 - **Leandro Lindero**, hijo del fundador y jefe actual (antes Douglas Limbrick). Correos secos sobre plazos y las normas para revisar facturas.
 - **Maruja Clemente**, administración y recepción (antes Maureen Clegg). Correos de todo un poco: un cliente que ha llamado, la colecta para un cumpleaños, quién se ha dejado la cafetera encendida.
