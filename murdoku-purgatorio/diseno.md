@@ -24,6 +24,8 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 - **La ambientación se mantiene** (España, desde 1997).
 - **Al final de la primera parte, el contable es asesinado.** Esa muerte es el paso al purgatorio.
 - **Su pecado es haber sido cómplice**: los años de papeleo que taparon las barbaridades de sus clientes. Sustituye a «vender secretos» como pecado.
+- **Las muertes de los personajes son consecuencia de las acciones del contable.**
+- **Al menos uno de los personajes muere antes que el contable**, durante la primera parte.
 
 **Propuesta** (por revisar):
 
@@ -31,6 +33,7 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 - **Muere el 31/12/1999**, justo antes del año 2000. Encaja con el efecto 2000: en el purgatorio el reloj nunca pasa de esa noche.
 - **Murdokus en las dos partes**: en la primera son un pasatiempo que le manda Rosario y no pasa nada; en la segunda son el mismo juego, pero las víctimas son los clientes que conoció, y mueren una y otra vez.
 - **El último Murdoku es su propio asesinato**: en la primera parte no se ve quién lo mata; en la segunda, el último caso le pone a él como víctima, con sus clientes como sospechosos.
+- **La primera muerte, Rogelio**: muere de un infarto en su despacho (su muerte real ya era esa), y lo que la provoca depende del camino: si se vende, el día que sale en el periódico; si se denuncia, al llegarle la citación; si se calla, firmando un embargo que el contable dejó pasar. Es el aviso de que lo que hace el jugador mata.
 - **Las decisiones de la primera parte deciden la segunda**: quién está en el purgatorio, qué casos aparecen o qué sabe el contable de cada uno.
 
 **Preguntas abiertas**:
@@ -39,6 +42,8 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 - ¿El jugador sabe desde el principio que habrá purgatorio, o la muerte es la sorpresa?
 - ¿Cuánto dura cada parte?
 - ¿El camino cambia la segunda parte, además del último Murdoku?
+- ¿Quién muere antes que el contable? ¿Es siempre el mismo o depende del camino?
+- Los demás, que mueren después que él, ¿cómo están ya en el purgatorio cuando llega? (¿El tiempo del purgatorio no sigue el orden de las muertes?)
 
 ### Los tres caminos
 

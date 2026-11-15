@@ -9,7 +9,7 @@
 ## Planteamiento
 
 - **Doce personajes**, todos con **nombre español clásico** **[fijado]** y una inicial distinta.
-- **[fijado]** El juego está ambientado en **España a finales de los 90**: se empieza a trabajar en **1997**. **[fijado]** En la primera parte los personajes **están vivos**: son clientes de la gestoría o gente de su entorno. En la segunda parte, ya muertos, están en el purgatorio. (Antes se proponía que hubieran muerto entre 1988 y 1996; ya no vale. Por revisar cuándo muere cada uno: ¿durante la primera parte o después que el contable?)
+- **[fijado]** El juego está ambientado en **España a finales de los 90**: se empieza a trabajar en **1997**. **[fijado]** En la primera parte los personajes **están vivos**: son clientes de la gestoría o gente de su entorno. En la segunda parte, ya muertos, están en el purgatorio. (Antes se proponía que hubieran muerto entre 1988 y 1996; ya no vale. Por revisar cuándo muere cada uno.) **[fijado]** Sus muertes son **consecuencia de las acciones del contable**, y **al menos uno muere antes que él**, en la primera parte (propuesta: Rogelio).
 - **[fijado]** La temática de los casos es, en general, **la historia de España**. Los primeros casos son de la España de los 90.
 - Se agrupan en **tres círculos de cuatro**. En cada círculo hubo una barbaridad hecha entre varios, y cada uno puso su parte. Así, caso a caso, el jugador ve primero a personas sueltas y luego cómo encajan.
 - **[fijado]** No todos los personajes son clientes de la gestoría, pero **en cada círculo al menos uno sí lo es**: la gestoría tramitó los papeles de esa barbaridad.
