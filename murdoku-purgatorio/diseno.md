@@ -26,6 +26,7 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 - **Su pecado es haber sido cómplice**: los años de papeleo que taparon las barbaridades de sus clientes. Sustituye a «vender secretos» como pecado.
 - **Las muertes de los personajes son consecuencia de las acciones del contable.**
 - **Al menos uno de los personajes muere antes que el contable**, durante la primera parte.
+- **El tiempo en el purgatorio no es lineal**: no sigue el orden de las muertes. Los personajes que mueren después que el contable ya están allí cuando él llega.
 
 **Propuesta** (por revisar):
 
@@ -43,7 +44,6 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 - ¿Cuánto dura cada parte?
 - ¿El camino cambia la segunda parte, además del último Murdoku?
 - ¿Quién muere antes que el contable? ¿Es siempre el mismo o depende del camino?
-- Los demás, que mueren después que él, ¿cómo están ya en el purgatorio cuando llega? (¿El tiempo del purgatorio no sigue el orden de las muertes?)
 
 ### Los tres caminos
 
