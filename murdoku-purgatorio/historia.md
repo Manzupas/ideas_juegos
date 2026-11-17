@@ -66,7 +66,7 @@ La trama del juego. Lo que pasa semestre a semestre está en [escaleta.md](escal
 **Decidido**:
 
 - **Empieza suplantando a Rosario**, una compañera de verdad que no le ha mandado esos correos. **La Rosario de verdad le da antes la bienvenida** (un correo cálido, con consejos de la oficina y sin enlace); unos días después llega el primero falso, con su mismo tono y el primer caso. El jugador se fía porque ya la conoce. Puede contestarle dándole las gracias, y la Rosario de verdad le responde que no sabe de qué le habla.
-- **Después suplanta a otro compañero** (cuál, por decidir) para seguir mandando casos.
+- **Después suplanta a Tomás**, el informático, para seguir mandando casos. Encaja con el .bat, y **el jugador puede pedirle explicaciones al Tomás de verdad, que viene a la oficina a arreglar el ordenador**.
 - **El último caso de 1996 le deja descargar un .bat** que le **instala el IRC** y **modifica GESTA 2000 para que muestre los Murdokus**.
 - **Por el IRC habla con el contable.**
 - **Intenta convencerle para que venda los datos.** Se vende fuera de GESTA, a escondidas: contestando a sus correos con respuestas predefinidas o por IRC.

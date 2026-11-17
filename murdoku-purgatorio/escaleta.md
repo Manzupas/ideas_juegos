@@ -19,13 +19,15 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
 - Primera parte: un bloque de facturas por semestre, con varios Murdokus cada uno: pocos al principio y más a medida que avanza. Unos 20 casos.
 - Segunda parte: se repite siempre el segundo semestre de 1999. Las facturas son las mismas, con detalles que cambian; los casos son distintos cada vez y hay más que en un semestre de la primera parte. Unos 50 casos, más unos 30 extras sueltos.
 - El hacker sigue este orden: correos suplantando a Rosario → instala el IRC → pone la web de Hacienda → la bloquea a veces.
-- Los estilos de los casos van en este orden: web → arquitecto → programa del hacker. (Por revisar: el GESTA modificado del hacker llega al final de 1996, antes que el arquitecto; ver [mecanicas.md](mecanicas.md).)
+- Los estilos de los casos van en este orden: web → GESTA 2000 modificado por el hacker (final de 1996) → arquitecto.
+- **El cliente arquitecto entra en la gestoría en el primer semestre de 1997.**
 - Se puede denunciar a la empresa casi al final de la primera parte.
 
 - **El juego empieza en 1996 con la incorporación del contable al trabajo.** La primera parte tiene 8 semestres (1996–1999).
 - **1996, cómo arranca el hacker** (17/11/2026):
   - **Primer semestre**: el jugador puede contestar a «Rosario» dándole las gracias por el caso.
-  - **Segundo semestre**: la Rosario de verdad le contesta que no sabe de qué le habla. Los casos siguen llegando, ahora de **otro compañero** (también suplantado).
+  - **Segundo semestre**: la Rosario de verdad le contesta que no sabe de qué le habla. Los casos siguen llegando, ahora de **Tomás**, el informático (también suplantado).
+  - **El jugador puede pedirle explicaciones a Tomás**, y el Tomás de verdad viene a la oficina a arreglar el ordenador.
   - **El último caso de 1996** le deja descargar un **.bat** que le instala el **IRC** y **modifica GESTA 2000 para que muestre los Murdokus**.
 - **La Rosario de verdad le da la bienvenida** en 1996: un correo cálido con consejos de la oficina, sin enlace. **Unos días después, el hacker le escribe suplantándola**, con el mismo tono, y le manda el primer caso («se me olvidó: esto engancha, ya verás»). El jugador se fía porque ya conoce a Rosario.
 
@@ -45,16 +47,16 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
 
 ### 1996, segundo semestre: los clientes
 
-- **Casos**: más de uno (por ajustar el reparto), web. Los manda **otro compañero**; cuál, por decidir. El último trae el .bat.
+- **Casos**: más de uno (por ajustar el reparto), web. Los manda «Tomás», el informático, suplantado por el hacker. El último trae el .bat.
 - **Historia**: la Rosario de verdad contesta al agradecimiento: no sabe de qué le habla. Aparecen los clientes de los tres círculos como gente corriente: Ramón, que no paga; las cuentas trimestrales de la Residencia Pombo; las nóminas de Promociones Torres *(esbozo)*.
-- **Hacker**: suplanta a otro compañero para seguir mandando casos. Con el último caso, el jugador puede descargar un **.bat** que instala el **IRC** y **modifica GESTA 2000 para que muestre los Murdokus**.
+- **Hacker**: suplanta a Tomás para seguir mandando casos. El jugador puede pedirle explicaciones al Tomás de verdad, que viene a la oficina a arreglar el ordenador; qué arregla y qué se queda, por decidir. Con el último caso, el jugador puede descargar un **.bat** que instala el **IRC** y **modifica GESTA 2000 para que muestre los Murdokus**.
 - **Documentos**: las primeras facturas de los personajes, todavía sin nada raro *(esbozo)*.
 - **Mecánica nueva**: por decidir.
 
 ### 1997, primer semestre: lo que no cuadra
 
 - **Casos**: 2, web.
-- **Historia**: empiezan los primeros detalles raros: el embargo de los Domínguez, los menús de la residencia *(esbozo)*.
+- **Historia**: **entra como cliente el arquitecto.** Empiezan los primeros detalles raros: el embargo de los Domínguez, los menús de la residencia *(esbozo)*.
 - **Hacker**: por decidir (ya está el IRC).
 - **Documentos**: las primeras facturas contra la conciencia *(esbozo)*.
 - **Mecánica nueva**: por decidir.
@@ -114,7 +116,8 @@ Cada vuelta es el segundo semestre de 1999 otra vez. Acusar mata a la víctima.
 ## Por colocar
 
 - **Quién más muere antes que el contable**, aparte de Ramón.
-- **Quién es el cliente arquitecto** y por qué tiene su versión de los casos.
+- **Quién es el cliente arquitecto** (entra en 1997) y por qué tiene su versión de los casos.
+- **Qué arregla Tomás** cuando viene por lo del .bat, y qué se queda instalado.
 - **Las normas de Luis**, que se van acumulando.
 - **El orden de las mecánicas nuevas** (ver la lista en [mecanicas.md](mecanicas.md)).
 - **Los correos de Maruja y Tomás**, y las veces que se llama a Tomás.

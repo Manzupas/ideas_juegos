@@ -33,7 +33,7 @@ En un *Murdoku* hay un plano de una casa dividido en cuadrícula y unos sospecho
 
 Maquetas de los tres estilos (el caso 0001 a 1280×720): https://claude.ai/artifact/KgkBG1Jx4S8bP9fK9AqT2p
 
-**Decidido**: el aspecto de los Murdokus cambia a lo largo del juego, y cada cambio llega por algo que pasa en la historia. La mecánica es la misma; cambia cómo se presenta.
+**Decidido**: el aspecto de los Murdokus cambia a lo largo del juego, y cada cambio llega por algo que pasa en la historia. La mecánica es la misma; cambia cómo se presenta. **El orden es: web (1996) → programa del hacker, GESTA 2000 modificado (final de 1996) → arquitecto (entra como cliente en 1997).**
 
 1. **Página web de 1997** (al principio): el caso se abre en el Navegador como una página web de la época: Times, título granate, rayas horizontales, los sospechosos como enlaces, el plano como un GIF con su pie de foto y un contador de visitas. Encaja con el correo con enlace y con la carga lenta, como con módem.
 2. **Versión de arquitecto**: **un cliente arquitecto** le manda al contable su versión: el plano dibujado en azul, como un plano de arquitecto, y las pistas («Declaraciones») a máquina sobre una carpeta de cartón con un sello («PENDIENTE»).
@@ -47,7 +47,6 @@ Maquetas de los tres estilos (el caso 0001 a 1280×720): https://claude.ai/artif
 - ¿Quién es el cliente arquitecto? ¿Uno de los doce (encajaría en el círculo del terreno, por los cuarenta pisos) o alguien nuevo? ¿Por qué tiene una versión de los casos?
 - La versión de arquitecto, ¿llega por correo (un adjunto o un enlace) y se sigue abriendo en el Navegador?
 - ¿Qué funciones de más tiene el programa del hacker? Por ejemplo: notas por casilla, deshacer, ver el historial de casos y expedientes, o algo que solo tenga sentido con el hacker (marcar secretos en el expediente para vendérselos).
-- **Conflicto con el orden decidido** (web → arquitecto → programa del hacker): el GESTA modificado llega al final de 1996, antes que los casos del arquitecto. ¿Se cambia el orden, o los casos del arquitecto llegan antes de 1997?
 - ¿Cómo se ven los Murdokus dentro de GESTA 2000: una pestaña más, como si fueran documentos, o la ventana propia de la maqueta?
 - ¿Qué pasa en la segunda parte? ¿Se queda el programa del hacker o vuelve todo a empezar?
 

@@ -131,7 +131,7 @@ Se mantienen Bernardo Torres, Maruja Clemente, Tomás Hoyos y Rosario Valle.
 
 - **Luis Lindero**, hijo del fundador y jefe actual. **[fijado]** Es el asesino del contable si el jugador calla. Correos secos sobre plazos y las normas para revisar facturas.
 - **Maruja Clemente**, administración y recepción. Correos de todo un poco: un cliente que ha llamado, la colecta para un cumpleaños, quién se ha dejado la cafetera encendida.
-- **Tomás Hoyos**, el informático. **[fijado]** Viene cuando se le llama, no de forma periódica. Correos sobre el ordenador: el efecto 2000, la copia de seguridad, «lo del equipo que no se apaga ya lo miro».
+- **Tomás Hoyos**, el informático. **[fijado]** Viene cuando se le llama, no de forma periódica. **[fijado]** El hacker lo suplanta a finales de 1996 para mandar casos y el .bat que instala el IRC; el jugador puede pedirle explicaciones y el Tomás de verdad viene a la oficina a arreglar el ordenador. Correos sobre el ordenador: el efecto 2000, la copia de seguridad, «lo del equipo que no se apaga ya lo miro».
 
 ## Preguntas abiertas
 
