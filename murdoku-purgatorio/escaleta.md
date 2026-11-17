@@ -19,15 +19,19 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
 - Primera parte: un bloque de facturas por semestre, con varios Murdokus cada uno: pocos al principio y más a medida que avanza. Unos 20 casos.
 - Segunda parte: se repite siempre el segundo semestre de 1999. Las facturas son las mismas, con detalles que cambian; los casos son distintos cada vez y hay más que en un semestre de la primera parte. Unos 50 casos, más unos 30 extras sueltos.
 - El hacker sigue este orden: correos suplantando a Rosario → instala el IRC → pone la web de Hacienda → la bloquea a veces.
-- Los estilos de los casos van en este orden: web → arquitecto → programa del hacker.
+- Los estilos de los casos van en este orden: web → arquitecto → programa del hacker. (Por revisar: el GESTA modificado del hacker llega al final de 1996, antes que el arquitecto; ver [mecanicas.md](mecanicas.md).)
 - Se puede denunciar a la empresa casi al final de la primera parte.
 
 - **El juego empieza en 1996 con la incorporación del contable al trabajo.** La primera parte tiene 8 semestres (1996–1999).
+- **1996, cómo arranca el hacker** (17/11/2026):
+  - **Primer semestre**: el jugador puede contestar a «Rosario» dándole las gracias por el caso.
+  - **Segundo semestre**: la Rosario de verdad le contesta que no sabe de qué le habla. Los casos siguen llegando, ahora de **otro compañero** (también suplantado).
+  - **El último caso de 1996** le deja descargar un **.bat** que le instala el **IRC** y **modifica GESTA 2000 para que muestre los Murdokus**.
 - **La Rosario de verdad le da la bienvenida** en 1996: un correo cálido con consejos de la oficina, sin enlace. **Unos días después, el hacker le escribe suplantándola**, con el mismo tono, y le manda el primer caso («se me olvidó: esto engancha, ya verás»). El jugador se fía porque ya conoce a Rosario.
 
 **Propuesta** (por revisar):
 
-- Casos por semestre en la primera parte: 1, 1, 2, 2, 3, 3, 4 y 4 (20). Segunda parte: 5 vueltas con 6, 8, 10, 12 y 14 casos (50); los 30 extras llegan sueltos entre vuelta y vuelta.
+- Casos por semestre en la primera parte: 1, 1, 2, 2, 3, 3, 4 y 4 (20). Por ajustar: en el segundo semestre de 1996 llegan más de uno. Segunda parte: 5 vueltas con 6, 8, 10, 12 y 14 casos (50); los 30 extras llegan sueltos entre vuelta y vuelta.
 
 ## Primera parte: la vida real
 
@@ -35,15 +39,15 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
 
 - **Casos**: 1, web. Llega unos días después de la bienvenida, en un correo «de Rosario» que en realidad es del hacker.
 - **Historia**: **la incorporación del contable al trabajo.** Entra en la Gestoría Lindero. Luis le manda las normas; Julián, el fundador, aún pasa por la oficina. Conoce a Maruja, Tomás y Rosario *(esbozo)*.
-- **Hacker**: su primer correo, suplantando a Rosario, con el primer caso. La bienvenida es de la Rosario de verdad.
+- **Hacker**: su primer correo, suplantando a Rosario, con el primer caso. La bienvenida es de la Rosario de verdad. **El jugador puede contestarle dándole las gracias.**
 - **Documentos**: solo facturas corrientes, para aprender las normas *(esbozo)*.
 - **Mecánica nueva**: las reglas básicas del Murdoku y de las facturas.
 
 ### 1996, segundo semestre: los clientes
 
-- **Casos**: 1, web.
-- **Historia**: aparecen los clientes de los tres círculos como gente corriente: Ramón, que no paga; las cuentas trimestrales de la Residencia Pombo; las nóminas de Promociones Torres *(esbozo)*.
-- **Hacker**: por decidir.
+- **Casos**: más de uno (por ajustar el reparto), web. Los manda **otro compañero**; cuál, por decidir. El último trae el .bat.
+- **Historia**: la Rosario de verdad contesta al agradecimiento: no sabe de qué le habla. Aparecen los clientes de los tres círculos como gente corriente: Ramón, que no paga; las cuentas trimestrales de la Residencia Pombo; las nóminas de Promociones Torres *(esbozo)*.
+- **Hacker**: suplanta a otro compañero para seguir mandando casos. Con el último caso, el jugador puede descargar un **.bat** que instala el **IRC** y **modifica GESTA 2000 para que muestre los Murdokus**.
 - **Documentos**: las primeras facturas de los personajes, todavía sin nada raro *(esbozo)*.
 - **Mecánica nueva**: por decidir.
 
@@ -51,14 +55,14 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
 
 - **Casos**: 2, web.
 - **Historia**: empiezan los primeros detalles raros: el embargo de los Domínguez, los menús de la residencia *(esbozo)*.
-- **Hacker**: «Rosario» le pide una copia de una factura «para un amigo» *(esbozo)*.
+- **Hacker**: por decidir (ya está el IRC).
 - **Documentos**: las primeras facturas contra la conciencia *(esbozo)*.
 - **Mecánica nueva**: por decidir.
 
 ### 1997, segundo semestre: el cierre
 
 - **Casos**: 2.
-- **Historia**: la Rosario de verdad no sabe de qué le habla *(esbozo)*.
+- **Historia**: por decidir.
 - **Hacker**: por decidir.
 - **Documentos**: la tanda de diciembre del prototipo: asoman los tres círculos (el embargo de los Domínguez, la residencia Pombo, el informe del suelo sin anexo C, la recalificación); ver [mecanicas.md](mecanicas.md).
 - **Mecánica nueva**: por decidir.
@@ -67,7 +71,7 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
 
 - **Casos**: 3. Llegan los del cliente arquitecto, más difíciles *(esbozo)*.
 - **Historia**: por decidir.
-- **Hacker**: el IRC aparece instalado y el hacker se presenta con su seudónimo: quiere los papeles *(esbozo)*.
+- **Hacker**: por decidir.
 - **Documentos**: las primeras escrituras: los embargos de Ramón *(esbozo)*.
 - **Mecánica nueva**: por decidir.
 
@@ -81,7 +85,7 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
 
 ### 1999, primer semestre: el euro y la primera muerte
 
-- **Casos**: 4. El hacker le instala su programa: los casos salen del Navegador y crecen *(esbozo)*.
+- **Casos**: 4.
 - **Historia**: Ramón muere de un infarto; lo que lo provoca depende de lo que el jugador haya hecho hasta entonces. Es el aviso. Los vecinos del Residencial Ebro empiezan a enfermar *(esbozo)*.
 - **Hacker**: por decidir.
 - **Documentos**: entra el euro el 1 de enero (propuesta). Las escrituras clave del terreno: la compra y la venta de los cuarenta pisos *(esbozo)*. Nueva norma: el contravalor en euros (propuesta).
