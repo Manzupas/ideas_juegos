@@ -24,6 +24,9 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 - **La ambientación se mantiene** (España, desde 1997).
 - **Al final de la primera parte, el contable es asesinado.** Esa muerte es el paso al purgatorio.
 - **Su pecado es haber sido cómplice**: los años de papeleo que taparon las barbaridades de sus clientes. Sustituye a «vender secretos» como pecado.
+- **La primera parte se organiza en bloques de facturas, uno por trimestre o por semestre** (por decidir cuál). **Cada bloque corresponde a varios Murdokus.** Así, en la primera parte también hay Murdokus.
+- **Se van metiendo mecánicas nuevas en los Murdokus poco a poco.**
+- **El GDD se hará en Markdown, en este repo**, cuando se haya hablado más.
 - **Las muertes de los personajes son consecuencia de las acciones del contable.**
 - **Al menos uno de los personajes muere antes que el contable**, durante la primera parte.
 - **El tiempo en el purgatorio no es lineal**: no sigue el orden de las muertes. Los personajes que mueren después que el contable ya están allí cuando él llega.
@@ -33,13 +36,24 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 - **La primera parte va de 1997 a 1999**: las tandas de facturas, los correos y las decisiones morales son la vida real del contable. Lo que acepta o rechaza afecta de verdad a los clientes y a sus víctimas (la familia Domínguez, los residentes, los vecinos del terreno).
 - **Muere el 31/12/1999**, justo antes del año 2000. Encaja con el efecto 2000: en el purgatorio el reloj nunca pasa de esa noche.
 - **Murdokus en las dos partes**: en la primera son un pasatiempo que le manda Rosario y no pasa nada; en la segunda son el mismo juego, pero las víctimas son los clientes que conoció, y mueren una y otra vez.
+- Mecánicas nuevas para ir metiendo en los Murdokus (ideas):
+  - Pistas en negativo: «X no estaba en la cocina».
+  - Pistas entre personas: «X estaba en la misma fila que Y», «X estaba a la izquierda de Y».
+  - Puertas y ventanas: «X estaba junto a una puerta».
+  - Planos más grandes (7×7, 8×8) y más sospechosos.
+  - Un arma en el plano: el asesino tiene que estar junto a ella.
+  - Una habitación cerrada o una casilla que solo se sabe que está vacía.
+  - En la segunda parte, mecánicas que solo tienen sentido en el purgatorio (por ejemplo, un personaje que aparece dos veces).
+- Las mecánicas se aprenden en la primera parte, como pasatiempo, y la segunda las usa todas.
 - **El último Murdoku es su propio asesinato**: en la primera parte no se ve quién lo mata; en la segunda, el último caso le pone a él como víctima, con sus clientes como sospechosos.
 - **La primera muerte, Rogelio**: muere de un infarto en su despacho (su muerte real ya era esa), y lo que la provoca depende del camino: si se vende, el día que sale en el periódico; si se denuncia, al llegarle la citación; si se calla, firmando un embargo que el contable dejó pasar. Es el aviso de que lo que hace el jugador mata.
 - **Las decisiones de la primera parte deciden la segunda**: quién está en el purgatorio, qué casos aparecen o qué sabe el contable de cada uno.
 
 **Preguntas abiertas**:
 
-- ¿Hay Murdokus en la primera parte, o solo en la segunda?
+- ¿Bloques por trimestre o por semestre? De 1997 a 1999 son unos 12 trimestres o 6 semestres.
+- ¿Cuántos Murdokus por bloque?
+- ¿Qué mecánicas nuevas y en qué orden?
 - ¿El jugador sabe desde el principio que habrá purgatorio, o la muerte es la sorpresa?
 - ¿Cuánto dura cada parte?
 - ¿El camino cambia la segunda parte, además del último Murdoku?
@@ -131,7 +145,7 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 
 **Propuesta** (por revisar):
 
-- El tiempo avanza con las tandas de facturas: se empieza en 1997 y cada tanda es un mes o un trimestre. El euro entra el **1 de enero de 1999** (como en la realidad, para la contabilidad). Al llegar al **31 de diciembre de 1999**, el tiempo se queda atascado: nunca llega el año 2000.
+- El tiempo avanza con los bloques de facturas (cada uno, un trimestre o un semestre): se empieza en 1997. El euro entra el **1 de enero de 1999** (como en la realidad, para la contabilidad). Al llegar al **31 de diciembre de 1999**, el tiempo se queda atascado: nunca llega el año 2000.
 - Normas de las escrituras: las dos cifras tienen que cuadrar al cambio (1 € = 166,386 pesetas, redondeando al céntimo) y tienen que llevar la firma del notario.
 - Las escrituras dan juego con los personajes: los embargos de Rogelio, la compra del terreno de Bernardo, las ventas de los cuarenta pisos.
 
