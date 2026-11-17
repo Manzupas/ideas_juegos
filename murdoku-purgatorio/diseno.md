@@ -123,7 +123,7 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 **Propuesta** (por revisar):
 
 - Cómo queda cada camino: **vender** es darle facturas al hacker; **denunciar** es subirlas a la web de Hacienda; **callar** es no hacer ninguna de las dos cosas.
-- Los tres asesinos (nueva propuesta, 17/11/2026):
+- Los tres asesinos (17/11/2026): **los papeles están decididos** (el concejal si vende, la jueza si denuncia, el jefe si calla), **pero los nombres no convencen** y hay que buscar otros:
   - **Vende secretos** → **Nicanor Arcos**, el concejal: los papeles salen en la prensa, se le acaba la carrera y averigua quién los ha filtrado.
   - **Denuncia** → **Gertrudis Ferrán**, la jueza: la denuncia acaba en un juicio que la destaparía a ella (firmaba los embargos de Rogelio), y manda que lo callen.
   - **Calla** → **Leandro Lindero**, el jefe: el contable sabe demasiado y es mejor que no esté cuando todo salga a la luz.
