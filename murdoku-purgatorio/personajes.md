@@ -114,6 +114,11 @@ Se mantienen Bernardo Torres, Maruja Clemente, Tomás Hoyos y Rosario Valle.
 - **Muerte real**: en su despacho de la gestoría, a última hora, solo, delante de una hoja de cálculo.
 - **En los casos**: aparece en casos de los tres círculos; es el puente entre ellos. Es el reflejo más cercano del contable.
 
+### El arquitecto (nombre por decidir)
+- **[fijado]** Personaje nuevo: **el arquitecto del Residencial Ebro**. Firmó los planos de los cuarenta pisos sobre el terreno contaminado. Entra como cliente de la gestoría en el primer semestre de 1997 y le manda al contable su versión de los Murdokus: planos en azul, como los suyos.
+- **Propuesta**: está metido en **un crimen pasional o algo parecido**. Con quién y cómo, por decidir.
+- Por decidir: su nombre (con una inicial que no tenga nadie: quedan libres, entre otras, H, L, O, P, S, T y V), si entra en el círculo del terreno como quinto personaje y si es sospechoso en los casos.
+
 ## La gestoría y el contable
 
 - **[fijado]** La gestoría es **española** y lleva los papeles de al menos un personaje de cada círculo.

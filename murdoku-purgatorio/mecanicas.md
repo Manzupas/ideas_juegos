@@ -44,7 +44,7 @@ Maquetas de los tres estilos (el caso 0001 a 1280×720): https://claude.ai/artif
 **Preguntas abiertas**:
 
 - Si la dificultad va por fuentes: ¿se siguen recibiendo casos de la web cuando ya llegan los del arquitecto (dos ritmos a la vez) o la web deja de mandar? ¿Y los casos del programa del hacker, de qué dificultad son?
-- ¿Quién es el cliente arquitecto? ¿Uno de los doce (encajaría en el círculo del terreno, por los cuarenta pisos) o alguien nuevo? ¿Por qué tiene una versión de los casos?
+- ¿Por qué tiene el arquitecto una versión de los casos? (Quién es: [personajes.md](personajes.md).)
 - La versión de arquitecto, ¿llega por correo (un adjunto o un enlace) y se sigue abriendo en el Navegador?
 - ¿Qué funciones de más tiene el programa del hacker? Por ejemplo: notas por casilla, deshacer, ver el historial de casos y expedientes, o algo que solo tenga sentido con el hacker (marcar secretos en el expediente para vendérselos).
 - ¿Cómo se ven los Murdokus dentro de GESTA 2000: una pestaña más, como si fueran documentos, o la ventana propia de la maqueta?

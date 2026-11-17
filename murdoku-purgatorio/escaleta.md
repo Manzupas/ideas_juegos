@@ -20,7 +20,7 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
 - Segunda parte: se repite siempre el segundo semestre de 1999. Las facturas son las mismas, con detalles que cambian; los casos son distintos cada vez y hay más que en un semestre de la primera parte. Unos 50 casos, más unos 30 extras sueltos.
 - El hacker sigue este orden: correos suplantando a Rosario → instala el IRC → pone la web de Hacienda → la bloquea a veces.
 - Los estilos de los casos van en este orden: web → GESTA 2000 modificado por el hacker (final de 1996) → arquitecto.
-- **El cliente arquitecto entra en la gestoría en el primer semestre de 1997.**
+- **El cliente arquitecto entra en la gestoría en el primer semestre de 1997.** Es un personaje nuevo: **el arquitecto del Residencial Ebro**, que firmó los planos de los cuarenta pisos sobre el terreno contaminado (ver [personajes.md](personajes.md)).
 - Se puede denunciar a la empresa casi al final de la primera parte.
 
 - **El juego empieza en 1996 con la incorporación del contable al trabajo.** La primera parte tiene 8 semestres (1996–1999).
@@ -57,7 +57,7 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
 ### 1997, primer semestre: lo que no cuadra
 
 - **Casos**: 2, web.
-- **Historia**: **entra como cliente el arquitecto.** Empiezan los primeros detalles raros: el embargo de los Domínguez, los menús de la residencia *(esbozo)*.
+- **Historia**: **entra como cliente el arquitecto del Residencial Ebro.** Empiezan los primeros detalles raros: el embargo de los Domínguez, los menús de la residencia *(esbozo)*.
 - **Hacker**: aparece en el IRC **sin pedir nada**: hace de compañero de pasatiempo, comenta los casos, presume de que el GESTA modificado es cosa suya y deja caer que sabe cosas de los clientes.
 - **Documentos**: las primeras facturas contra la conciencia *(esbozo)*.
 - **Mecánica nueva**: por decidir.
@@ -117,7 +117,7 @@ Cada vuelta es el segundo semestre de 1999 otra vez. Acusar mata a la víctima.
 ## Por colocar
 
 - **Quién más muere antes que el contable**, aparte de Ramón.
-- **Quién es el cliente arquitecto** (entra en 1997) y por qué tiene su versión de los casos.
+- **Por qué tiene el arquitecto su versión de los casos.**
 - **Las normas de Luis**, que se van acumulando.
 - **El orden de las mecánicas nuevas** (ver la lista en [mecanicas.md](mecanicas.md)).
 - **Los correos de Maruja y Tomás**, y las veces que se llama a Tomás.
