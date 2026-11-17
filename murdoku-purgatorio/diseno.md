@@ -182,6 +182,28 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 - **La aplicación del hacker**: un cliente de **IRC** de la época (canales, apodos, la ventana de texto con la lista de usuarios a un lado), que aparece instalado sin que nadie lo haya instalado. En la España de finales de los 90 el IRC era muy popular (IRC-Hispano).
 - **«Vender secretos» en los 90**: sacar disquetes, fotocopias o faxes de la gestoría y pasárselos a un periódico. Puede dar pistas y objetos para los Murdokus.
 
+### Cómo se ven los casos: tres estilos que cuenta la historia (17/11/2026)
+
+Maquetas de los tres estilos (el caso 0001 a 1280×720): https://claude.ai/artifact/KgkBG1Jx4S8bP9fK9AqT2p
+
+**Decidido**: el aspecto de los Murdokus cambia a lo largo del juego, y cada cambio llega por algo que pasa en la historia. La mecánica es la misma; cambia cómo se presenta.
+
+1. **Página web de 1997** (al principio): el caso se abre en el Navegador como una página web de la época: Times, título granate, rayas horizontales, los sospechosos como enlaces, el plano como un GIF con su pie de foto y un contador de visitas. Encaja con el correo con enlace y con la carga lenta, como con módem.
+2. **Versión de arquitecto**: **un cliente arquitecto** le manda al contable su versión: el plano dibujado en azul, como un plano de arquitecto, y las pistas («Declaraciones») a máquina sobre una carpeta de cartón con un sello («PENDIENTE»).
+3. **El programa del hacker**: el hacker le instala al contable **un programa con más funciones**, y los casos salen del Navegador: se juegan en una ventana propia con los controles de Windows 95 (botones biselados, grupos con marco, la lista de pistas en un cuadro hundido). Al no estar dentro del Navegador, el plano tiene más sitio.
+
+**Propuesta** (17/11/2026, por revisar): **cada fuente trae su dificultad**. Los casos de la web del Navegador son los fáciles, de tutorial: enseñan las reglas y las mecánicas nuevas. Los del cliente arquitecto son los difíciles. Así la dificultad tiene una razón dentro de la historia, y el jugador sabe qué le espera por dónde le llega el caso.
+
+**Preguntas abiertas**:
+
+- Si la dificultad va por fuentes: ¿se siguen recibiendo casos de la web cuando ya llegan los del arquitecto (dos ritmos a la vez) o la web deja de mandar? ¿Y los casos del programa del hacker, de qué dificultad son?
+
+- ¿Quién es el cliente arquitecto? ¿Uno de los doce (encajaría en el círculo del terreno, por los cuarenta pisos) o alguien nuevo? ¿Por qué tiene una versión de los casos?
+- La versión de arquitecto, ¿llega por correo (un adjunto o un enlace) y se sigue abriendo en el Navegador?
+- ¿Qué funciones de más tiene el programa del hacker? Por ejemplo: notas por casilla, deshacer, ver el historial de casos y expedientes, o algo que solo tenga sentido con el hacker (marcar secretos en el expediente para vendérselos).
+- ¿En qué momento llega cada cambio (qué semestre o qué caso)? ¿Encaja la llegada del programa con el momento en que el hacker instala el IRC?
+- ¿Qué pasa en la segunda parte? ¿Se queda el programa del hacker o vuelve todo a empezar?
+
 ## Tiempo y moneda
 
 **Decidido**:
