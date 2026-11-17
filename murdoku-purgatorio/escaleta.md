@@ -29,6 +29,7 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
   - **Segundo semestre**: la Rosario de verdad le contesta que no sabe de qué le habla. Los casos siguen llegando, ahora de **Tomás**, el informático (también suplantado).
   - **El jugador puede pedirle explicaciones a Tomás**, y el Tomás de verdad viene a la oficina a arreglar el ordenador. **Tomás lo quita, pero sin darle importancia** («es un programa de chat, mucha gente lo usa»): borra el IRC y deja GESTA como estaba. **Al día siguiente todo vuelve a estar instalado**: es el primer aviso de que el hacker controla el ordenador, y Tomás queda como alguien poco fiable.
   - **El último caso de 1996** le deja descargar un **.bat** que le instala el **IRC** y **modifica GESTA 2000 para que muestre los Murdokus**.
+- **1997, el hacker se presenta poco a poco** (17/11/2026): en el primer semestre aparece en el IRC sin pedir nada, como compañero de pasatiempo; en el segundo, con la tanda de diciembre, le pide la primera factura.
 - **La Rosario de verdad le da la bienvenida** en 1996: un correo cálido con consejos de la oficina, sin enlace. **Unos días después, el hacker le escribe suplantándola**, con el mismo tono, y le manda el primer caso («se me olvidó: esto engancha, ya verás»). El jugador se fía porque ya conoce a Rosario.
 
 **Propuesta** (por revisar):
@@ -57,7 +58,7 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
 
 - **Casos**: 2, web.
 - **Historia**: **entra como cliente el arquitecto.** Empiezan los primeros detalles raros: el embargo de los Domínguez, los menús de la residencia *(esbozo)*.
-- **Hacker**: por decidir (ya está el IRC).
+- **Hacker**: aparece en el IRC **sin pedir nada**: hace de compañero de pasatiempo, comenta los casos, presume de que el GESTA modificado es cosa suya y deja caer que sabe cosas de los clientes.
 - **Documentos**: las primeras facturas contra la conciencia *(esbozo)*.
 - **Mecánica nueva**: por decidir.
 
@@ -65,7 +66,7 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
 
 - **Casos**: 2.
 - **Historia**: por decidir.
-- **Hacker**: por decidir.
+- **Hacker**: con la tanda de diciembre, **le pide la primera factura**. Es la primera ocasión de vender.
 - **Documentos**: la tanda de diciembre del prototipo: asoman los tres círculos (el embargo de los Domínguez, la residencia Pombo, el informe del suelo sin anexo C, la recalificación); ver [mecanicas.md](mecanicas.md).
 - **Mecánica nueva**: por decidir.
 
