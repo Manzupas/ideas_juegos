@@ -31,7 +31,7 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
   - **El último caso de 1996** le deja descargar un **.bat** que le instala el **IRC** y **modifica GESTA 2000 para que muestre los Murdokus**.
 - **1997, el hacker se presenta poco a poco** (17/11/2026): en el primer semestre aparece en el IRC sin pedir nada, como compañero de pasatiempo; en el segundo, con la tanda de diciembre, le pide la primera factura.
 - **Muerte de Bernardo (segundo semestre de 1998), solo si el contable no acepta las facturas del lío**: Bernardo pilla al arquitecto con Elena, su mujer, y **los dos juntos lo empujan desde un andamio** de una de sus obras. Oficialmente es un accidente, porque la obra no cumplía las normas. Es el primer asesinato de verdad del juego, fuera de los Murdokus. **Bernardo se entera por culpa del contable**: el arquitecto y Elena pasan como «visitas de obra» noches de hotel o cenas, y lo que haga el contable con esas facturas decide cómo se entera Bernardo: si la **rechaza**, Luis pregunta a la promotora y salta todo; si se la **vende** al hacker, el hacker se lo cuenta a Bernardo; si la **acepta**, Bernardo no se entera y **no muere** (en 1998; qué le pasa después, por decidir). Si muere, el contable siente que ha sido culpa suya.
-- **El hacker tiene un contacto dentro de la oficina**, y **ese contacto muere por acción o inacción del contable**. Quién es y cómo muere, por decidir.
+- **El contacto del hacker en la oficina es Tomás**: él reinstala lo que quita al día siguiente, y como el contable le pidió ayuda con el .bat, sabe que el contable está «en el ajo». **Muere por acción o inacción del contable.** Cuándo y cómo, por decidir.
 - **La Rosario de verdad le da la bienvenida** en 1996: un correo cálido con consejos de la oficina, sin enlace. **Unos días después, el hacker le escribe suplantándola**, con el mismo tono, y le manda el primer caso («se me olvidó: esto engancha, ya verás»). El jugador se fía porque ya conoce a Rosario.
 
 **Propuesta** (por revisar):
@@ -118,8 +118,8 @@ Cada vuelta es el segundo semestre de 1999 otra vez. Acusar mata a la víctima.
 
 ## Por colocar
 
-- **Quién es el contacto del hacker en la oficina**, cuándo y cómo muere.
-- **Quién más muere antes que el contable**, aparte de Bernardo (1998, según lo que haga el contable), el contacto del hacker y Ramón (propuesta, 1999).
+- **Cuándo y cómo muere Tomás**, el contacto del hacker (después de desbloquear la web de Hacienda).
+- **Quién más muere antes que el contable**, aparte de Bernardo (1998, según lo que haga el contable), Tomás y Ramón (propuesta, 1999).
 - **Qué le pasa a Bernardo si no muere en 1998.**
 - **Por qué tiene el arquitecto su versión de los casos.**
 - **Las normas de Luis**, que se van acumulando.
