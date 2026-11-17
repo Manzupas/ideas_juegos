@@ -94,7 +94,7 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 **Preguntas abiertas**:
 
 - ¿Qué se ve exactamente al morir y al revivir?
-- ¿Hay algo que haga que el jugador quiera repetir el ciclo, o que se dé cuenta de que lo está haciendo?
+- ¿Hay algo que haga que el jugador quiera repetir el ciclo, o que se dé cuenta de que lo está haciendo? **Decidido**: serán pequeños detalles; cuáles, se hablará más adelante.
 
 **Por revisar con las dos partes**: antes estaba decidido que el juego empezaba siendo un *Murdoku* «normal» y que el jugador no sabía nada del purgatorio hasta descubrirlo jugando. Ahora el purgatorio llega tras la muerte del contable.
 
