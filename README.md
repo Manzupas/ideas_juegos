@@ -24,7 +24,6 @@ Cuando una idea empieza a desarrollarse, se mueve al repositorio de su plataform
 | [Salvar el poblado](salvar-el-poblado/diseno.md) | Por decidir | Original, inspirado en *Star Wars* (Boba Fett con los tusken; capítulos de *The Mandalorian* y *The Clone Wars*) |
 | [Ciudad subterránea](ciudad-subterranea/diseno.md) | Por decidir | Idea nueva |
 | [Caperucita](caperucita/diseno.md) | Playdate | Prototipo para Playdate (2023) |
-| [Murdoku del purgatorio](murdoku-purgatorio/diseno.md) (¿*Office Work*?) | Godot (PC) | Idea nueva, basada en *Murdoku* |
 
 ## Definiendo
 
@@ -43,3 +42,4 @@ Ninguna todavía.
 | [Puzle Hatsworth](puzle-hatsworth/diseno.md) | Game Boy | [gameboy/juegos/puzle-hatsworth](https://github.com/Manzupas/gameboy/tree/main/juegos/puzle-hatsworth) |
 | [Buscaminas](buscaminas/diseno.md) | Game Boy | [gameboy/juegos/buscaminas](https://github.com/Manzupas/gameboy/tree/main/juegos/buscaminas) |
 | [Atasco](atasco/diseno.md) | Game Boy | [gameboy/juegos/atasco](https://github.com/Manzupas/gameboy/tree/main/juegos/atasco) |
+| [Murdoku del purgatorio](murdoku-purgatorio/diseno.md) (¿*Office Work*?) | Godot (PC) | [murdokus](https://github.com/Manzupas/murdokus) (el diseño sigue aquí) |

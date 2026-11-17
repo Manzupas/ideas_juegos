@@ -2,10 +2,12 @@
 
 | Ficha | |
 |-------|---|
-| Estado | semilla |
+| Estado | movida |
 | Plataforma candidata | Godot, para PC |
 | Origen | Idea nueva, basada en los puzles *Murdoku* |
 | Año | 2026 |
+
+Ya se desarrolla en el repo [murdokus](https://github.com/Manzupas/murdokus) (Godot 4.7, desde el 17/11/2026). Aun así, **este documento y [personajes.md](personajes.md) se siguen actualizando aquí** hasta que exista el GDD: es una excepción a la regla de las ideas movidas (ver [CLAUDE.md](../CLAUDE.md)).
 
 ## Concepto
 
