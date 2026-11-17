@@ -106,7 +106,7 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 - **Rechazar facturas no suma a «denunciar»**: rechazar exonera al contable de la culpa y puede contar en el posible juicio.
 - **Puede haber juicio en más de un camino.**
 
-**Propuesta** (por revisar), cómo se mide «cuánto»: **por gravedad**:
+**Decidido** (17/11/2026), cómo se mide «cuánto»: **por gravedad**:
 
 - Cada documento tiene una gravedad oculta, según lo que destapa:
   - **0, corrientes** (la papelería, el bar): no sirven ni para vender ni para denunciar; el hacker las desprecia y Hacienda no hace nada con ellas.
