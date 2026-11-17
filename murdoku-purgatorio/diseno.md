@@ -24,8 +24,9 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 - **La ambientación se mantiene** (España, desde 1997).
 - **Al final de la primera parte, el contable es asesinado.** Esa muerte es el paso al purgatorio.
 - **Su pecado es haber sido cómplice**: los años de papeleo que taparon las barbaridades de sus clientes. Sustituye a «vender secretos» como pecado.
-- **La primera parte se organiza en bloques de facturas, uno por trimestre o por semestre** (por decidir cuál). **Cada bloque corresponde a varios Murdokus.** Así, en la primera parte también hay Murdokus.
+- **La primera parte se organiza en bloques de facturas, uno por semestre** (de 1997 a 1999, unos 6 bloques). **Cada bloque corresponde a varios Murdokus.** Así, en la primera parte también hay Murdokus.
 - **Se van metiendo mecánicas nuevas en los Murdokus poco a poco.**
+- **En la segunda parte se repite siempre el último semestre** (el segundo de 1999): el purgatorio es ese medio año, una y otra vez, sin llegar nunca al 2000.
 - **El GDD se hará en Markdown, en este repo**, cuando se haya hablado más.
 - **Las muertes de los personajes son consecuencia de las acciones del contable.**
 - **Al menos uno de los personajes muere antes que el contable**, durante la primera parte.
@@ -36,7 +37,7 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 - **La primera parte va de 1997 a 1999**: las tandas de facturas, los correos y las decisiones morales son la vida real del contable. Lo que acepta o rechaza afecta de verdad a los clientes y a sus víctimas (la familia Domínguez, los residentes, los vecinos del terreno).
 - **Muere el 31/12/1999**, justo antes del año 2000. Encaja con el efecto 2000: en el purgatorio el reloj nunca pasa de esa noche.
 - **Murdokus en las dos partes**: en la primera son un pasatiempo que le manda Rosario y no pasa nada; en la segunda son el mismo juego, pero las víctimas son los clientes que conoció, y mueren una y otra vez.
-- Mecánicas nuevas para ir metiendo en los Murdokus (ideas):
+- Mecánicas nuevas para ir metiendo en los Murdokus (ideas guardadas, se revisarán más adelante):
   - Pistas en negativo: «X no estaba en la cocina».
   - Pistas entre personas: «X estaba en la misma fila que Y», «X estaba a la izquierda de Y».
   - Puertas y ventanas: «X estaba junto a una puerta».
@@ -51,7 +52,7 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 
 **Preguntas abiertas**:
 
-- ¿Bloques por trimestre o por semestre? De 1997 a 1999 son unos 12 trimestres o 6 semestres.
+- ¿Lo que se repite en el último semestre es igual cada vez (las mismas facturas, los mismos casos) o cambia un poco?
 - ¿Cuántos Murdokus por bloque?
 - ¿Qué mecánicas nuevas y en qué orden?
 - ¿El jugador sabe desde el principio que habrá purgatorio, o la muerte es la sorpresa?
@@ -145,7 +146,7 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 
 **Propuesta** (por revisar):
 
-- El tiempo avanza con los bloques de facturas (cada uno, un trimestre o un semestre): se empieza en 1997. El euro entra el **1 de enero de 1999** (como en la realidad, para la contabilidad). Al llegar al **31 de diciembre de 1999**, el tiempo se queda atascado: nunca llega el año 2000.
+- El tiempo avanza con los bloques de facturas (uno por semestre): se empieza en 1997. El euro entra el **1 de enero de 1999** (como en la realidad, para la contabilidad). Al llegar al **31 de diciembre de 1999**, el tiempo se queda atascado: nunca llega el año 2000.
 - Normas de las escrituras: las dos cifras tienen que cuadrar al cambio (1 € = 166,386 pesetas, redondeando al céntimo) y tienen que llevar la firma del notario.
 - Las escrituras dan juego con los personajes: los embargos de Rogelio, la compra del terreno de Bernardo, las ventas de los cuarenta pisos.
 
