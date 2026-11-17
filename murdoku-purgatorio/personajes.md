@@ -49,20 +49,19 @@
 ### Fermín Bellido (F) · 1948–1994
 - **Vida**: el cobrador de Rogelio. Iba a las casas de noche, rompía cosas, esperaba a los niños a la salida del colegio para que los padres le vieran.
 - **Muerte real**: atropellado delante de una de las casas que había ido a «visitar». Nadie llamó a la ambulancia enseguida.
-- **Propuesta**: es el asesino del contable si el jugador va por el camino de denunciar.
 - **En los casos**: siempre está de pie, cerca de las puertas. Es el que más veces aparece junto a la víctima y casi nunca es el asesino.
 
 ### Damián Cuervo (D) · 1938–1992
 - **[fijado]** Asesino del caso 0001.
 - **Vida**: el abogado de Rogelio. Redactaba los contratos con letra pequeña y llevaba los embargos al juzgado. También trabajó para Bernardo Torres con la compra del terreno.
 - **Muerte real**: ahogado al caer de su barco, borracho, la noche en que celebraba un juicio ganado.
-- **Propuesta**: es el asesino del contable si el jugador va por el camino de vender secretos: le pone el juicio y, al perderlo, lo manda matar.
 - **Por qué mata a Rogelio**: Rogelio nunca le pagó lo que le debía. Mismo «no pienso pagar».
 
 ### Gertrudis Ferrán (G) · 1919–1988
 - **Vida**: jueza de primera instancia. Firmaba los embargos de Rogelio casi sin leerlos, a cambio de regalos: cestas de Navidad, jamones, un viaje, la matrícula del colegio de un nieto.
 - **Muerte real**: de vieja, en su cama, tranquila. Es la que más años vivió sin consecuencias.
 - **En los casos**: la más serena; suele estar sentada. Habla de los demás como si los juzgara.
+- **Propuesta**: es la asesina del contable si el jugador denuncia: el juicio la destaparía.
 
 ## La residencia
 
@@ -106,11 +105,11 @@
 - **Vida**: concejal de urbanismo. Recalificó el terreno de Bernardo y luego, cuando los vecinos se quejaron, archivó sus quejas.
 - **Muerte real**: en el campo de golf, de un golpe de calor; jugaba con Bernardo.
 - **En los casos**: siempre en el jardín, el patio o el exterior.
+- **Propuesta**: es el asesino del contable si el jugador vende secretos: la prensa acaba con su carrera.
 
 ### Octavio Lindero (O) · 1922–1995
 - **Vida**: el asesor financiero que lo unía todo. Movió el dinero de Rogelio, de Águeda y de Bernardo a cuentas en Suiza y Andorra. No conocía a las víctimas de nadie y nunca preguntó. **[fijado]** Es el socio fundador de la gestoría del contable (ver abajo).
-- **Muerte real**: en su despacho de la gestoría, a última hora, solo, delante de una hoja de cálculo. (Por revisar: si es el asesino del camino de callar, tiene que estar vivo al final de la primera parte.)
-- **Propuesta**: es el asesino del contable si el jugador va por el camino de callar: el contable sabe demasiado.
+- **Muerte real**: en su despacho de la gestoría, a última hora, solo, delante de una hoja de cálculo.
 - **En los casos**: aparece en casos de los tres círculos; es el puente entre ellos. Es el reflejo más cercano del contable.
 
 ## La gestoría y el contable
@@ -120,7 +119,7 @@
 - **[fijado]** **El fundador** es el asesor financiero del círculo del terreno: movía el dinero de los tres círculos y era el jefe del contable; el contable hacía el papeleo. Así es el reflejo del contable: uno escondía el dinero, el otro acabó sacando a la luz dónde estaba.
 - **[fijado]** **El jugador es «el contable»**, sin nombre propio. La gestoría tramitó los papeles de todos: los embargos, las cuentas de la residencia, las escrituras de los pisos.
 - **[fijado]** **El pecado del contable es haber sido cómplice**: los años de papeleo que taparon las barbaridades de sus clientes. (Antes era «vender secretos»; ahora vender es uno de los caminos.)
-- **[fijado]** **Lo asesinan siempre**, al final de la primera parte, por uno de **tres caminos** que salen de lo que hace el jugador con cada factura: **vender secretos** (disquetes, fotocopias, faxes; llega un juicio), **denunciar** las ilegalidades o **callar**. Hay un asesino distinto para cada camino (propuesta: Damián, Fermín y Octavio).
+- **[fijado]** **Lo asesinan siempre**, al final de la primera parte, por uno de **tres caminos** que salen de lo que hace el jugador con cada factura: **vender secretos** al hacker (disquetes, fotocopias, faxes), **denunciar** las ilegalidades en Hacienda (solo entonces hay juicio, y las facturas rechazadas le exoneran) o **callar**. Hay un asesino distinto para cada camino (propuesta: Nicanor, Gertrudis y Leandro).
 - **[fijado]** **El hacker** se hace pasar por los tres compañeros y luego da un seudónimo; después habla con el contable por **IRC**. Le empuja a vender los secretos de los clientes: se vende contestando a sus correos o por IRC. (En España, a finales de los 90, el IRC era muy popular, sobre todo IRC-Hispano.)
 - **La compañera de los correos de los Murdokus**: propuesta **Rosario Valle** (antes Rosemary Vale; *valle*, como el valle de lágrimas). Sigue abierto quién es: una compañera que también está en el purgatorio, la que le recluta o el propio purgatorio con una cara amable. Sus correos dejan de llegar a partir del caso 0003, que ya viene «(sin remitente)».
 
@@ -128,7 +127,7 @@
 
 **[fijado]** En realidad son otros contables que están como el contable, también en el purgatorio, y no recuerdan haber mandado nada: los correos los manda el hacker. (Por revisar con las dos partes: en la primera parte están vivos.) Propuesta de nombres, gente corriente de oficina:
 
-- **Leandro Lindero**, hijo del fundador y jefe actual (antes Douglas Limbrick). Correos secos sobre plazos y las normas para revisar facturas.
+- **Leandro Lindero**, hijo del fundador y jefe actual (antes Douglas Limbrick). Propuesta: es el asesino del contable si el jugador calla. Correos secos sobre plazos y las normas para revisar facturas.
 - **Maruja Clemente**, administración y recepción (antes Maureen Clegg). Correos de todo un poco: un cliente que ha llamado, la colecta para un cumpleaños, quién se ha dejado la cafetera encendida.
 - **Tomás Hoyos**, el informático (antes Trevor Hobbs). **[fijado]** Viene cuando se le llama, no de forma periódica. Correos sobre el ordenador: el efecto 2000, la copia de seguridad, «lo del equipo que no se apaga ya lo miro».
 

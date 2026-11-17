@@ -78,8 +78,8 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 **Decidido**:
 
 - **El asesinato es fijo**: haga lo que haga el jugador, al contable lo matan. Lo que cambia es el camino:
-  - **Vender secretos**: llegan el juicio y el asesinato.
-  - **Denunciar las ilegalidades**: en algún momento lo intenta, y eso hace que lo maten.
+  - **Vender secretos** al hacker: acaba en el asesinato.
+  - **Denunciar las ilegalidades**: en algún momento lo intenta, llega un juicio, y eso hace que lo maten.
   - **Callar**: ni vende ni denuncia. También acaba en su asesinato.
 - **Hay tres asesinos distintos**, uno por camino.
 - **El camino se elige según lo que se haga con cada factura**: no hay una decisión única, sino la suma de lo que hace el jugador documento a documento. (Matizado el 17/11/2026: vender es darle facturas al hacker; denunciar, subirlas a la web de Hacienda; ver «el hacker en la primera parte».)
@@ -103,8 +103,11 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 - **Si vende y denuncia, el camino depende de cuánto ha hecho de cada cosa.**
 - **Tomás, el informático, viene cuando se le llama**, no de forma periódica.
 - **El momento de poder denunciar llega cuando el contable ya ha rechazado facturas.**
-- **Rechazar facturas no suma a «denunciar»**: rechazar exonera al contable de la culpa y puede contar en el posible juicio.
-- **Puede haber juicio en más de un camino.**
+- **Rechazar facturas no suma a «denunciar»**: **las facturas rechazadas son pruebas que exoneran al contable** en el juicio.
+- **Solo hay juicio cuando se denuncia.**
+- **Hace falta haber rechazado varias facturas** para poder denunciar, pero **en la práctica se podrá denunciar casi al final de la primera parte**.
+- **Tomás, el informático, es quien desbloquea la web de Hacienda** (al llamarle para que arregle el ordenador).
+- **Los tres asesinos (uno por camino) se mantienen, pero con otros nombres** que los propuestos (Damián, Fermín y Octavio).
 
 **Decidido** (17/11/2026), cómo se mide «cuánto»: **por gravedad**:
 
@@ -120,19 +123,16 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 **Propuesta** (por revisar):
 
 - Cómo queda cada camino: **vender** es darle facturas al hacker; **denunciar** es subirlas a la web de Hacienda; **callar** es no hacer ninguna de las dos cosas.
-- Los tres asesinos:
-  - **Vende secretos** → **Damián Cuervo**, el abogado: le pone el juicio y, al perderlo, lo manda matar.
-  - **Denuncia** → **Fermín Bellido**, el cobrador: el que hace el trabajo sucio cuando alguien amenaza el negocio.
-  - **Calla** → **la propia gestoría (Octavio Lindero)**: el contable sabe demasiado y es mejor que no esté cuando todo salga a la luz.
+- Los tres asesinos (nueva propuesta, 17/11/2026):
+  - **Vende secretos** → **Nicanor Arcos**, el concejal: los papeles salen en la prensa, se le acaba la carrera y averigua quién los ha filtrado.
+  - **Denuncia** → **Gertrudis Ferrán**, la jueza: la denuncia acaba en un juicio que la destaparía a ella (firmaba los embargos de Rogelio), y manda que lo callen.
+  - **Calla** → **Leandro Lindero**, el jefe: el contable sabe demasiado y es mejor que no esté cuando todo salga a la luz.
 
 **Preguntas abiertas**:
 
-- ¿Quiénes son los tres asesinos?
-- ¿Cuántas facturas rechazadas hacen falta para que llegue el momento de denunciar?
-- ¿En qué caminos hay juicio, y qué pasa en él con las facturas rechazadas?
+- ¿Quiénes son los tres asesinos? (Propuesta nueva arriba.)
+- ¿Cuántas facturas rechazadas exactamente?
 - ¿Qué otras cosas puede bloquear el hacker? (Sin decidir aún.)
-- ¿Cómo se desbloquea la web de Hacienda sin control del hacker? (Sin decidir aún.)
-  - Idea: que la desbloquee Tomás, el informático, al venir a arreglar el ordenador sin saber lo que hace.
 
 ## La segunda parte: el purgatorio
 
@@ -276,7 +276,7 @@ Los correos de los Murdokus llegan al revisar 4, 11 y 17 facturas (cada uno, una
 - **El hacker se hace pasar por un contable** que engaña al jugador para que **venda secretos de la empresa**. **Se hace pasar por los tres compañeros** (Leandro, Maruja y Tomás) y **luego te da un seudónimo**. (Cambio del 17/11/2026: empieza con un par de correos suplantando a la compañera y luego pasa al IRC; ver «Los tres caminos».)
 - **Los secretos que le pide** son los que el jugador va descubriendo en los expedientes de los casos. (Por revisar: en la primera parte, los de las facturas y escrituras de los clientes.)
 - **Vender secretos es uno de los tres caminos**, no el pecado: el pecado del contable es la complicidad (ver «Estructura en dos partes»).
-- **Al contable lo asesinan en los tres caminos**; el juicio llega en el de vender.
+- **Al contable lo asesinan en los tres caminos**; solo hay juicio en el de denunciar.
 
 **Propuesta** (por revisar):
 
@@ -288,7 +288,6 @@ Los correos de los Murdokus llegan al revisar 4, 11 y 17 facturas (cada uno, una
 
 - ¿Qué pueden cambiar las respuestas? Sin pensar todavía.
 - El seudónimo: ¿es el nombre con el que se presenta el hacker en la aplicación, o uno que le da al jugador? ¿Cuál es?
-- ¿Quién le pone el juicio en el camino de vender? ¿La gestoría?
 - En vida, ¿cobró por los secretos o los filtró gratis? ¿Expuso a todos o solo a algunos?
 - ¿Quién es de verdad el hacker? En la primera parte, ¿una persona real (un periodista, alguien con cuentas pendientes)? ¿Sigue en la segunda parte? ¿Qué gana si el contable vende secretos?
 - ¿Cuándo aparece la aplicación y qué se puede hacer con ella?
