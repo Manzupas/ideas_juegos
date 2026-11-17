@@ -81,6 +81,17 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 - **Cómo es la tortura**: en los casos, cada personaje va muriendo varias veces.
 - **No pueden salir del purgatorio.**
 - **El contable también está en el purgatorio.** Su papel allí es torturar a los demás, sin saberlo.
+- **En la segunda parte, cada vez que el jugador coloca a la víctima y propone al asesino, la víctima muere.** Resolver el caso es lo que la mata: la tortura la hace el propio jugador.
+
+**Propuesta** (por revisar):
+
+- En la primera parte, acusar no tiene efecto (es un pasatiempo); en la segunda, al acusar, la víctima muere en el plano. Es el mismo gesto, con otro resultado.
+- Los «Fallecimientos registrados» del expediente suben en uno cada vez que el jugador resuelve un caso de esa víctima.
+
+**Preguntas abiertas**:
+
+- ¿Muere también si el jugador acusa a quien no es? (¿Cualquier acusación mata?)
+- ¿Cómo se ve la muerte en el plano: la ficha cae, se oye algo, el expediente se actualiza?
 
 **Por revisar con las dos partes**: antes estaba decidido que el juego empezaba siendo un *Murdoku* «normal» y que el jugador no sabía nada del purgatorio hasta descubrirlo jugando. Ahora el purgatorio llega tras la muerte del contable.
 
