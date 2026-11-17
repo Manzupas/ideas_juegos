@@ -82,7 +82,7 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
   - **Denunciar las ilegalidades**: en algún momento lo intenta, y eso hace que lo maten.
   - **Callar**: ni vende ni denuncia. También acaba en su asesinato.
 - **Hay tres asesinos distintos**, uno por camino.
-- **El camino se elige según lo que se haga con cada factura**: no hay una decisión única, sino la suma de lo que hace el jugador documento a documento.
+- **El camino se elige según lo que se haga con cada factura**: no hay una decisión única, sino la suma de lo que hace el jugador documento a documento. (Matizado el 17/11/2026: vender es subir facturas a la web de Hacienda; denunciar, un momento concreto; ver «el hacker en la primera parte».)
 - **De momento, sin botones nuevos**: el camino sale de lo que ya se puede hacer con cada documento (aceptar o rechazar). Se descartó por ahora añadir acciones como «hacer una copia» o «apartar como prueba».
 - **Se vende fuera de GESTA**: respondiendo a los correos del hacker con las respuestas predefinidas (por ejemplo, «Te la mando» / «No puedo» / no contestar) **o por IRC**. Vender es algo que se hace a escondidas, fuera del programa de facturas.
 
@@ -94,10 +94,15 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 - **Le pone la web de Hacienda** para que pueda **subir la factura**: vender es subir facturas de los clientes a esa web.
 - **A veces juega con él y le bloquea el acceso** para forzarle a vender los datos.
 - **Habrá un momento en que el contable pueda denunciar a su empresa en esa misma web.** La web sirve para los dos caminos: vender y denunciar.
+- **Suplanta a Rosario.** Rosario es una compañera de verdad, pero ella no le ha mandado esos correos.
+- **La web de Hacienda es de verdad.**
+- **Lo que bloquea es la web de Hacienda**; quizá, en otros momentos, otras cosas.
+- **Denunciar solo se puede si no ha vendido los datos**, y en un momento concreto.
+- **Rechazar facturas no suma a «denunciar»**: rechazar exonera al contable de la culpa y puede contar en el posible juicio.
 
 **Propuesta** (por revisar):
 
-- Rechazar los documentos sucios suma a «denunciar»; aceptarlos suma a «callar». (Por revisar: ahora denunciar es también una acción concreta en la web de Hacienda.)
+- Cómo queda cada camino: **vender** es subir facturas a la web de Hacienda; **denunciar** es hacerlo en el momento concreto, si no se ha vendido; **callar** es no hacer ninguna de las dos cosas.
 - Los tres asesinos:
   - **Vende secretos** → **Damián Cuervo**, el abogado: le pone el juicio y, al perderlo, lo manda matar.
   - **Denuncia** → **Fermín Bellido**, el cobrador: el que hace el trabajo sucio cuando alguien amenaza el negocio.
@@ -106,11 +111,10 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 **Preguntas abiertas**:
 
 - ¿Quiénes son los tres asesinos?
-- ¿Qué compañera suplanta el hacker: Rosario (la de los Murdokus) o Maruja?
-- ¿La web de Hacienda es de verdad o la ha montado el hacker? Si es falsa, ¿la denuncia llega a algún sitio?
-- ¿Qué le bloquea: el ordenador entero, GESTA, el correo, los Murdokus?
-- ¿Cuándo llega el momento de poder denunciar? ¿Una vez, o queda abierto desde entonces?
-- ¿Cómo encaja la denuncia en la web con que el camino salga de la suma de decisiones con cada factura?
+- ¿Basta con haber vendido una sola factura para perder la opción de denunciar?
+- ¿En qué semestre llega el momento de denunciar?
+- ¿El juicio puede darse en más de un camino? ¿Qué pasa en él con las facturas rechazadas?
+- ¿Qué otras cosas puede bloquear el hacker?
 
 ## La segunda parte: el purgatorio
 
@@ -269,7 +273,6 @@ Los correos de los Murdokus llegan al revisar 4, 11 y 17 facturas (cada uno, una
 - ¿Quién le pone el juicio en el camino de vender? ¿La gestoría?
 - En vida, ¿cobró por los secretos o los filtró gratis? ¿Expuso a todos o solo a algunos?
 - ¿Quién es de verdad el hacker? En la primera parte, ¿una persona real (un periodista, alguien con cuentas pendientes)? ¿Sigue en la segunda parte? ¿Qué gana si el contable vende secretos?
-- ¿Los correos de los Murdokus (los de Rosario y el «sin remitente») también los manda el hacker? ¿Rosario existe?
 - ¿Cuándo aparece la aplicación y qué se puede hacer con ella?
 - ¿Los compañeros saben que están en el purgatorio? ¿El contable puede llegar a hablar con ellos de verdad?
 
