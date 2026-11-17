@@ -33,7 +33,15 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 - **Unos 100 casos en total**:
   - **Unos 20 antes de morir** (primera parte).
   - **Unos 50 hasta el final del juego** (segunda parte).
-  - **Unos 30 extras.**
+  - **Unos 30 extras: casos sueltos que van llegando en la segunda parte** (aparte de la historia).
+- **En la primera parte, pocos casos al principio y más a medida que avanza.**
+- **En la segunda parte, cada vuelta del semestre trae más casos** que un semestre de la primera parte.
+
+**Propuesta** (por revisar), reparto de los casos:
+
+- Primera parte, por semestre: 1, 2, 3, 3, 5 y 6 (20 casos). El primero es el anzuelo de Rosario.
+- Segunda parte: 5 vueltas al último semestre de 1999, con 6, 8, 10, 12 y 14 casos (50 casos).
+- Los 30 extras llegan sueltos entre vuelta y vuelta.
 - **El GDD se hará en Markdown, en este repo**, cuando se haya hablado más.
 - **Las muertes de los personajes son consecuencia de las acciones del contable.**
 - **Al menos uno de los personajes muere antes que el contable**, durante la primera parte.
@@ -59,9 +67,6 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 
 **Preguntas abiertas**:
 
-- ¿Cómo se reparten los 20 casos de la primera parte entre los 6 semestres? (Unos 3 o 4 por bloque.)
-- ¿Cuántas veces se repite el último semestre en la segunda parte para llegar a los 50 casos?
-- ¿Qué son los 30 extras y cuándo se juegan (después del final, sueltos, por camino)?
 - ¿Qué mecánicas nuevas y en qué orden?
 - ¿El jugador sabe desde el principio que habrá purgatorio, o la muerte es la sorpresa?
 - ¿Cuánto dura cada parte?
