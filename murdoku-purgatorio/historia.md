@@ -26,7 +26,7 @@ La trama del juego. Lo que pasa semestre a semestre está en [escaleta.md](escal
 - **Unos 100 casos en total**: unos 20 antes de morir, unos 50 hasta el final del juego y unos 30 extras, casos sueltos que van llegando en la segunda parte, aparte de la historia. El reparto está en [escaleta.md](escaleta.md).
 - **En la primera parte, pocos casos al principio y más a medida que avanza.** **En la segunda, cada vuelta del semestre trae más casos** que un semestre de la primera.
 - **Las muertes de los personajes son consecuencia de las acciones del contable.**
-- **Al menos uno de los personajes muere antes que el contable**, durante la primera parte. **Bernardo muere en el segundo semestre de 1998**: pilla al arquitecto con Elena y los dos lo empujan desde un andamio; pasa por un accidente.
+- **Al menos uno de los personajes muere antes que el contable**, durante la primera parte. **Bernardo muere en el segundo semestre de 1998**: pilla al arquitecto con Elena y los dos lo empujan desde un andamio; pasa por un accidente. **Bernardo se entera por culpa del contable**: el arquitecto y Elena pasan como «visitas de obra» noches de hotel o cenas, y lo que haga el contable con esas facturas decide cómo se entera Bernardo: si la **rechaza**, Luis pregunta a la promotora y salta todo; si se la **vende** al hacker, el hacker se lo cuenta a Bernardo; si la **acepta**, se entera igual, pero más tarde. Bernardo muere siempre, pero el contable siente que ha sido culpa suya, como con Ramón.
 - **El tiempo en el purgatorio no es lineal**: no sigue el orden de las muertes. Los personajes que mueren después que el contable ya están allí cuando él llega.
 
 **Propuesta** (por revisar):

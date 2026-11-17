@@ -30,7 +30,7 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
   - **El jugador puede pedirle explicaciones a Tomás**, y el Tomás de verdad viene a la oficina a arreglar el ordenador. **Tomás lo quita, pero sin darle importancia** («es un programa de chat, mucha gente lo usa»): borra el IRC y deja GESTA como estaba. **Al día siguiente todo vuelve a estar instalado**: es el primer aviso de que el hacker controla el ordenador, y Tomás queda como alguien poco fiable.
   - **El último caso de 1996** le deja descargar un **.bat** que le instala el **IRC** y **modifica GESTA 2000 para que muestre los Murdokus**.
 - **1997, el hacker se presenta poco a poco** (17/11/2026): en el primer semestre aparece en el IRC sin pedir nada, como compañero de pasatiempo; en el segundo, con la tanda de diciembre, le pide la primera factura.
-- **Muerte de Bernardo (segundo semestre de 1998)**: Bernardo pilla al arquitecto con Elena, su mujer, y **los dos juntos lo empujan desde un andamio** de una de sus obras. Oficialmente es un accidente, porque la obra no cumplía las normas. Es el primer asesinato de verdad del juego, fuera de los Murdokus.
+- **Muerte de Bernardo (segundo semestre de 1998)**: Bernardo pilla al arquitecto con Elena, su mujer, y **los dos juntos lo empujan desde un andamio** de una de sus obras. Oficialmente es un accidente, porque la obra no cumplía las normas. Es el primer asesinato de verdad del juego, fuera de los Murdokus. **Bernardo se entera por culpa del contable**: el arquitecto y Elena pasan como «visitas de obra» noches de hotel o cenas, y lo que haga el contable con esas facturas decide cómo se entera Bernardo: si la **rechaza**, Luis pregunta a la promotora y salta todo; si se la **vende** al hacker, el hacker se lo cuenta a Bernardo; si la **acepta**, se entera igual, pero más tarde. Bernardo muere siempre, pero el contable siente que ha sido culpa suya, como con Ramón.
 - **La Rosario de verdad le da la bienvenida** en 1996: un correo cálido con consejos de la oficina, sin enlace. **Unos días después, el hacker le escribe suplantándola**, con el mismo tono, y le manda el primer caso («se me olvidó: esto engancha, ya verás»). El jugador se fía porque ya conoce a Rosario.
 
 **Propuesta** (por revisar):
@@ -84,7 +84,7 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
 - **Casos**: 3.
 - **Historia**: **muere Bernardo**: pilla al arquitecto con Elena y los dos lo empujan desde un andamio de una de sus obras. Oficialmente, un accidente. El contable lo puede intuir por los papeles (el informe de la obra, el seguro, alguna factura que no cuadra) *(esbozo)*.
 - **Hacker**: le pone la web de Hacienda y se la bloquea cuando no vende; Tomás se la arregla *(esbozo)*.
-- **Documentos**: por decidir.
+- **Documentos**: las facturas de hotel o de cenas del arquitecto y Elena, pasadas como «visitas de obra». Lo que haga el contable con ellas decide cómo se entera Bernardo. Por decidir si llegan en este semestre o antes.
 - **Mecánica nueva**: por decidir.
 
 ### 1999, primer semestre: el euro y la primera muerte
@@ -118,7 +118,6 @@ Cada vuelta es el segundo semestre de 1999 otra vez. Acusar mata a la víctima.
 ## Por colocar
 
 - **Quién más muere antes que el contable**, aparte de Bernardo (1998) y Ramón (propuesta, 1999).
-- **Si la muerte de Bernardo depende de lo que hace el contable**, como las demás, o pasa siempre.
 - **Por qué tiene el arquitecto su versión de los casos.**
 - **Las normas de Luis**, que se van acumulando.
 - **El orden de las mecánicas nuevas** (ver la lista en [mecanicas.md](mecanicas.md)).
