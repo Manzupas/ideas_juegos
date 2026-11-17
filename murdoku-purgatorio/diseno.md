@@ -62,7 +62,7 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
   - En la segunda parte, mecánicas que solo tienen sentido en el purgatorio (por ejemplo, un personaje que aparece dos veces).
 - Las mecánicas se aprenden en la primera parte, como pasatiempo, y la segunda las usa todas.
 - **El último Murdoku es su propio asesinato**: en la primera parte no se ve quién lo mata; en la segunda, el último caso le pone a él como víctima, con sus clientes como sospechosos.
-- **La primera muerte, Rogelio**: muere de un infarto en su despacho (su muerte real ya era esa), y lo que la provoca depende del camino: si se vende, el día que sale en el periódico; si se denuncia, al llegarle la citación; si se calla, firmando un embargo que el contable dejó pasar. Es el aviso de que lo que hace el jugador mata.
+- **La primera muerte, Ramón**: muere de un infarto en su despacho (su muerte real ya era esa), y lo que la provoca depende del camino: si se vende, el día que sale en el periódico; si se denuncia, al llegarle la citación; si se calla, firmando un embargo que el contable dejó pasar. Es el aviso de que lo que hace el jugador mata.
 - **Las decisiones de la primera parte deciden la segunda**: quién está en el purgatorio, qué casos aparecen o qué sabe el contable de cada uno.
 
 **Preguntas abiertas**:
@@ -107,7 +107,7 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 - **Solo hay juicio cuando se denuncia.**
 - **Hace falta haber rechazado varias facturas** para poder denunciar, pero **en la práctica se podrá denunciar casi al final de la primera parte**.
 - **Tomás, el informático, es quien desbloquea la web de Hacienda** (al llamarle para que arregle el ordenador).
-- **Los tres asesinos (uno por camino) se mantienen, pero con otros nombres** que los propuestos (Damián, Fermín y Octavio).
+- **Los tres asesinos (uno por camino) se mantienen, pero con otros nombres** que los propuestos (Diego, Francisco y Julián).
 
 **Decidido** (17/11/2026), cómo se mide «cuánto»: **por gravedad**:
 
@@ -115,7 +115,7 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
   - **0, corrientes** (la papelería, el bar): no sirven ni para vender ni para denunciar; el hacker las desprecia y Hacienda no hace nada con ellas.
   - **1, sin opción buena** (las de las notas de Maruja y Tomás): destapan algo, pero también hacen daño a inocentes.
   - **2, contra la conciencia** (el embargo de los Domínguez, el informe del suelo sin anexo C, la recalificación).
-  - **3, escrituras clave** de cada círculo (los embargos de Rogelio, la compra del terreno, las ventas de los pisos).
+  - **3, escrituras clave** de cada círculo (los embargos de Ramón, la compra del terreno, las ventas de los pisos).
 - Se suma la gravedad de lo vendido y la de lo denunciado. Gana el camino con más puntos; si los dos se quedan por debajo de un mínimo, el camino es **callar**.
 - En caso de empate, cuenta lo último que hizo.
 - Así, vender veinte facturas de papelería no es vender: lo que pesa es qué secretos salen y por dónde.
@@ -123,14 +123,13 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 **Propuesta** (por revisar):
 
 - Cómo queda cada camino: **vender** es darle facturas al hacker; **denunciar** es subirlas a la web de Hacienda; **callar** es no hacer ninguna de las dos cosas.
-- Los tres asesinos (17/11/2026): **los papeles están decididos** (el concejal si vende, la jueza si denuncia, el jefe si calla), **pero los nombres no convencen** y hay que buscar otros:
-  - **Vende secretos** → **Nicanor Arcos**, el concejal: los papeles salen en la prensa, se le acaba la carrera y averigua quién los ha filtrado.
-  - **Denuncia** → **Gertrudis Ferrán**, la jueza: la denuncia acaba en un juicio que la destaparía a ella (firmaba los embargos de Rogelio), y manda que lo callen.
-  - **Calla** → **Leandro Lindero**, el jefe: el contable sabe demasiado y es mejor que no esté cuando todo salga a la luz.
+- Los tres asesinos (17/11/2026): **decididos**, con los nombres nuevos del 17/11/2026:
+  - **Vende secretos** → **Nicolás Arcos**, el concejal: los papeles salen en la prensa, se le acaba la carrera y averigua quién los ha filtrado.
+  - **Denuncia** → **Gloria Ferrán**, la jueza: la denuncia acaba en un juicio que la destaparía a ella (firmaba los embargos de Ramón), y manda que lo callen.
+  - **Calla** → **Luis Lindero**, el jefe: el contable sabe demasiado y es mejor que no esté cuando todo salga a la luz.
 
 **Preguntas abiertas**:
 
-- ¿Quiénes son los tres asesinos? (Propuesta nueva arriba.)
 - ¿Cuántas facturas rechazadas exactamente?
 - ¿Qué otras cosas puede bloquear el hacker? (Sin decidir aún.)
 
@@ -169,8 +168,8 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 - **El jugador es «el contable»**: trabaja en una gestoría haciendo trabajo burocrático; le llega un correo electrónico con un enlace y ya no puede parar de resolver *Murdokus*.
 - **La oficina se juega**: la interfaz recuerda a un programa de facturación. (Antes estaba decidido que la oficina era solo estilo; dejó de serlo con la revisión de facturas.)
 - **Ambientación: España** (cambio del 14/11/2026; antes era Inglaterra).
-- **Los personajes tienen nombres españoles clásicos**. Propuesta de nombres en [personajes.md](personajes.md): Rogelio, Fermín, Damián, Gertrudis, Águeda, Cecilia, Milagros, Herminia, Bernardo, Elvira, Nicanor y Octavio.
-- **La gestoría es española.** No todos los personajes son clientes suyos, pero en cada «relación» (cada círculo de personajes que comparten una barbaridad) al menos uno sí lo es. Propuesta: Gestoría Lindero, fundada por Octavio Lindero, uno de los personajes.
+- **Los personajes tienen nombres españoles clásicos**. Nombres en [personajes.md](personajes.md) (cambiados el 17/11/2026 por otros menos anticuados): Ramón, Francisco, Diego, Gloria, Amparo, Carmen, Mercedes, Isabel, Bernardo, Elena, Nicolás y Julián.
+- **La gestoría es española.** No todos los personajes son clientes suyos, pero en cada «relación» (cada círculo de personajes que comparten una barbaridad) al menos uno sí lo es. Propuesta: Gestoría Lindero, fundada por Julián Lindero, uno de los personajes.
 - **Temática de los casos**: en general, **la historia de España**. Los primeros casos, en la España de los 90.
 - **Época: se empieza a trabajar en 1997.**
 - **Estética: Windows 95.** Un ordenador viejo en una gestoría de finales de los 90, que encaja con que vaya lento. (Antes era Windows 98; se descartó también Windows 7.)
@@ -196,7 +195,7 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 
 - El tiempo avanza con los bloques de facturas (uno por semestre): se empieza en 1997. El euro entra el **1 de enero de 1999** (como en la realidad, para la contabilidad). Al llegar al **31 de diciembre de 1999**, el tiempo se queda atascado: nunca llega el año 2000.
 - Normas de las escrituras: las dos cifras tienen que cuadrar al cambio (1 € = 166,386 pesetas, redondeando al céntimo) y tienen que llevar la firma del notario.
-- Las escrituras dan juego con los personajes: los embargos de Rogelio, la compra del terreno de Bernardo, las ventas de los cuarenta pisos.
+- Las escrituras dan juego con los personajes: los embargos de Ramón, la compra del terreno de Bernardo, las ventas de los cuarenta pisos.
 
 **Preguntas abiertas**:
 
@@ -212,7 +211,7 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 - El trabajo del contable con las facturas es **aceptarlas o no**. De momento **no se modifican**: ni se editan cabeceras ni líneas.
 - Las facturas llegan a una bandeja de **«Pendientes de revisar»** en GESTA. Cada una se abre, se mira y se pulsa **Aceptar** o **Rechazar**.
 - **Es una mezcla**:
-  - **Reglas con respuesta correcta**, como en *Papers, Please*: reglas de la gestoría que llegan por correo de Leandro y que se van acumulando.
+  - **Reglas con respuesta correcta**, como en *Papers, Please*: reglas de la gestoría que llegan por correo de Luis y que se van acumulando.
   - **Decisiones morales**: algunas facturas no se resuelven con las reglas, y **a veces no hay una opción buena o mala**.
 - **Los secretos están en las facturas**: algunas son de los personajes y sus conceptos delatan sus barbaridades. El hacker pide copias justo de esas.
 
@@ -220,42 +219,42 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 
 ### La tanda 1 del prototipo (20 facturas, diciembre de 1997)
 
-Facturas en pesetas, con el IVA de 1997 (16 %) y el NIF o CIF de cada empresa, de proveedores y clientes de Logroño y Benidorm. Las normas llegan en el correo de Leandro Lindero «Normas para revisar facturas»; la quinta (más de 1.000.000 de pesetas necesita su firma) llega por correo al revisar 10 facturas.
+Facturas en pesetas, con el IVA de 1997 (16 %) y el NIF o CIF de cada empresa, de proveedores y clientes de Logroño y Benidorm. Las normas llegan en el correo de Luis Lindero «Normas para revisar facturas»; la quinta (más de 1.000.000 de pesetas necesita su firma) llega por correo al revisar 10 facturas.
 
 | Nº | Factura | Tipo | Qué dicen las normas | Coste moral |
 |----|---------|------|----------------------|-------------|
 | 1 | Papelería Brenes → Panadería Olivares, papelería | Corriente | Aceptar | — |
 | 2 | Electricidad Quintana → Bar El León Rojo, reparación | Corriente | Rechazar (el total no cuadra) | — |
 | 3 | Panadería Olivares → Parroquia de Santa María, canapés de un bautizo | Corriente | Aceptar | — |
-| 4 | Cuervo Abogados (Damián) → Créditos Altamira (Rogelio), embargo de la familia Domínguez | Conciencia | Aceptar | Aceptar: complicidad |
+| 4 | Cuervo Abogados (Diego) → Créditos Altamira (Ramón), embargo de la familia Domínguez | Conciencia | Aceptar | Aceptar: complicidad |
 | 5 | Mudanzas Dávila → Sra. Domínguez, mudanza de la casa embargada al Residencial Ebro (los pisos de Bernardo) | Conciencia | Rechazar (sin NIF/CIF) | Rechazar: dureza |
 | 6 | Limpiezas La Glorieta → Gestoría Lindero, fechada el 05/01/1998 | Corriente | Rechazar (fecha) | — |
 | 7 | Duplicado de la 1 | Corriente | Rechazar (duplicada) | — |
 | 8 | Talleres Picazo → Promociones Torres, revisión de furgoneta | Corriente | Aceptar | — |
-| 9 | Consultoría Sanitaria Losada (Herminia) → Residencia Pombo, «asesoría sanitaria» | Sin opción buena (nota de Maruja) | No cuentan | Aceptar: complicidad; rechazar: dureza |
+| 9 | Consultoría Sanitaria Losada (Isabel) → Residencia Pombo, «asesoría sanitaria» | Sin opción buena (nota de Maruja) | No cuentan | Aceptar: complicidad; rechazar: dureza |
 | 10 | Catering El Sequero → Residencia Pombo, menús a 210 pesetas por residente y día | Corriente | Rechazar (el total no cuadra) | — |
 | 11 | Construcciones Arteaga → Promociones Torres, cimentación del Residencial Ebro, firmada | Corriente | Aceptar | — |
-| 12 | Cobros Bellido (Fermín) → Créditos Altamira, cobros a domicilio, sin firma | Corriente | Rechazar (norma 5) | — |
+| 12 | Cobros Bellido (Francisco) → Créditos Altamira, cobros a domicilio, sin firma | Corriente | Rechazar (norma 5) | — |
 | 13 | Laboratorio Geotécnico Asensio → Promociones Torres, informe de suelo «sin anexo C» | Conciencia | Aceptar | Aceptar: complicidad |
 | 14 | Electricidad Quintana → Bar El León Rojo, factura rectificada | Corriente | Aceptar | — |
 | 15 | Residencia Pombo → Sra. Ocaña, cuidados de noche que no se hicieron | Sin opción buena (nota de Maruja) | No cuentan | Aceptar: complicidad; rechazar: dureza |
-| 16 | Milagros Sáez → Residencia Pombo, «medicación de refuerzo» | Corriente | Rechazar (sin NIF/CIF) | — |
-| 17 | Arcos y Asociados (Nicanor) → Promociones Torres, recalificación de la antigua Química del Ebro, justo por debajo de 1.000.000 | Conciencia | Aceptar | Aceptar: complicidad |
+| 16 | Mercedes Sáez → Residencia Pombo, «medicación de refuerzo» | Corriente | Rechazar (sin NIF/CIF) | — |
+| 17 | Arcos y Asociados (Nicolás) → Promociones Torres, recalificación de la antigua Química del Ebro, justo por debajo de 1.000.000 | Conciencia | Aceptar | Aceptar: complicidad |
 | 18 | Limpiezas La Glorieta → Gestoría Lindero, fechada el 31/12/1997 | Corriente | Aceptar (justo en el límite) | — |
 | 19 | Cobros Bellido → Créditos Altamira, daños en su coche durante un cobro a los Domínguez | Sin opción buena (nota de Tomás) | No cuentan | Aceptar: complicidad; rechazar: dureza |
 | 20 | Papelería Brenes → Gestoría Lindero, agendas para 1998 | Corriente | Aceptar | — |
 
-Los correos de los Murdokus llegan al revisar 4, 11 y 17 facturas (cada uno, una vez resuelto el caso anterior). Al terminar la tanda, Leandro manda un resumen con los errores; en el prototipo, ese correo enseña también la cuenta oculta.
+Los correos de los Murdokus llegan al revisar 4, 11 y 17 facturas (cada uno, una vez resuelto el caso anterior). Al terminar la tanda, Luis manda un resumen con los errores; en el prototipo, ese correo enseña también la cuenta oculta.
 
 **Propuesta** (por revisar):
 
 - Ejemplos de reglas: el total tiene que cuadrar con las líneas y el IVA; el emisor tiene que tener NIF o CIF; nada con fecha del ejercicio siguiente; nada duplicado (mismo número o mismo concepto e importe). En 1999, la del efecto 2000 y la del contravalor en euros.
 - Tres tipos de factura:
   1. **Corrientes**: solo cuentan las reglas. Son la mayoría y dan el ritmo de trabajo.
-  2. **Las reglas contra la conciencia**: la factura es correcta pero ayuda a hacer daño (los honorarios de Damián por un embargo de Rogelio: aceptarla es lo correcto para la gestoría), o es incorrecta pero rechazarla perjudica a alguien inocente (la factura de una viuda que se ha olvidado del número de IVA y no cobrará a tiempo).
-  3. **Sin opción buena**: las dos salidas hacen daño o ninguna arregla nada (pagos de Águeda a Herminia como «asesoría sanitaria»: aceptarla tapa la residencia; rechazarla retrasa el sueldo de las cuidadoras, que tampoco cobran si la residencia cierra).
+  2. **Las reglas contra la conciencia**: la factura es correcta pero ayuda a hacer daño (los honorarios de Diego por un embargo de Ramón: aceptarla es lo correcto para la gestoría), o es incorrecta pero rechazarla perjudica a alguien inocente (la factura de una viuda que se ha olvidado del número de IVA y no cobrará a tiempo).
+  3. **Sin opción buena**: las dos salidas hacen daño o ninguna arregla nada (pagos de Amparo a Isabel como «asesoría sanitaria»: aceptarla tapa la residencia; rechazarla retrasa el sueldo de las cuidadoras, que tampoco cobran si la residencia cierra).
 - Las aceptadas pasan a la carpeta Facturas; las rechazadas, a «Rechazadas».
-- **Fallos sin castigo inmediato**: equivocarse con las reglas no se castiga en el momento, pero se nota: un correo seco de Leandro o una línea más en una «hoja de errores».
+- **Fallos sin castigo inmediato**: equivocarse con las reglas no se castiga en el momento, pero se nota: un correo seco de Luis o una línea más en una «hoja de errores».
 - **Ritmo**: las facturas llegan en tandas; al terminar una tanda llega un correo de un compañero o el siguiente caso.
 
 **Preguntas abiertas**:
@@ -273,15 +272,15 @@ Los correos de los Murdokus llegan al revisar 4, 11 y 17 facturas (cada uno, una
 - **Cuándo llegan**: a medida que se resuelven Murdokus y que se procesan facturas (ver «Flujo de trabajo de las facturas»).
 - **Por qué no recuerdan nada**: los compañeros son **otros contables que están como tú**, también en el purgatorio. No mandaron esos correos. (Por revisar con las dos partes: en la primera parte los compañeros están vivos; quizá esto vale solo para la segunda.)
 - **Quién los manda de verdad**: **un «hacker»**. Más adelante el contable tiene **línea directa con él mediante una aplicación** del ordenador.
-- **El hacker se hace pasar por un contable** que engaña al jugador para que **venda secretos de la empresa**. **Se hace pasar por los tres compañeros** (Leandro, Maruja y Tomás) y **luego te da un seudónimo**. (Cambio del 17/11/2026: empieza con un par de correos suplantando a la compañera y luego pasa al IRC; ver «Los tres caminos».)
+- **El hacker se hace pasar por un contable** que engaña al jugador para que **venda secretos de la empresa**. **Se hace pasar por los tres compañeros** (Luis, Maruja y Tomás) y **luego te da un seudónimo**. (Cambio del 17/11/2026: empieza con un par de correos suplantando a la compañera y luego pasa al IRC; ver «Los tres caminos».)
 - **Los secretos que le pide** son los que el jugador va descubriendo en los expedientes de los casos. (Por revisar: en la primera parte, los de las facturas y escrituras de los clientes.)
 - **Vender secretos es uno de los tres caminos**, no el pecado: el pecado del contable es la complicidad (ver «Estructura en dos partes»).
 - **Al contable lo asesinan en los tres caminos**; solo hay juicio en el de denunciar.
 
 **Propuesta** (por revisar):
 
-- Compañeros: Leandro Lindero (el jefe), Maruja Clemente (administración) y Tomás Hoyos (informática) Detalle en [personajes.md](personajes.md).
-- Cada correo de trabajo trae dos o tres respuestas. Ejemplo, de Leandro: «Necesito las facturas de octubre cerradas para el viernes.» Respuestas: «Ya están hechas» / «Las tendrás el jueves» / «Voy con retraso, lo siento». Unos minutos después: «¿Qué facturas? No te he pedido nada. ¿Estás bien?»
+- Compañeros: Luis Lindero (el jefe), Maruja Clemente (administración) y Tomás Hoyos (informática) Detalle en [personajes.md](personajes.md).
+- Cada correo de trabajo trae dos o tres respuestas. Ejemplo, de Luis: «Necesito las facturas de octubre cerradas para el viernes.» Respuestas: «Ya están hechas» / «Las tendrás el jueves» / «Voy con retraso, lo siento». Unos minutos después: «¿Qué facturas? No te he pedido nada. ¿Estás bien?»
 - Las respuestas de «no sé de qué me hablas» se pueden ir volviendo más raras a medida que avanzan los casos: primero confusión, luego el correo original ya no está en la bandeja.
 
 **Preguntas abiertas**:
@@ -301,7 +300,7 @@ Propuesta de historias de los doce personajes, agrupados en tres círculos (las 
 
 Prototipo en HTML y JavaScript, en un solo archivo y sin dependencias. **Para jugar en local, abrir [prototipo/office-work.html](prototipo/office-work.html)**; cómo se genera y qué es cada archivo está en [prototipo/README.md](prototipo/README.md). También está publicado como artefacto para probarlo en el móvil: https://claude.ai/artifact/QgHxcBtNP4yLWGyQ3VYhcJ
 
-El prototipo es de antes de la estructura en dos partes: todo pasa en un solo día y los Murdokus ya son los del purgatorio.
+El prototipo es de antes de la estructura en dos partes: todo pasa en un solo día y los Murdokus ya son los del purgatorio. Todavía usa los nombres anteriores al 17/11/2026 (Rogelio, Águeda, Bernardo…).
 
 Es el ordenador del contable de la Gestoría Lindero, con estética de Windows 95 (sistema «Lindero 95»: barras de título lisas, sin degradado). El día es el miércoles 31 de diciembre de 1997, cierre del ejercicio.
 
@@ -327,16 +326,16 @@ Es el ordenador del contable de la Gestoría Lindero, con estética de Windows 9
 - **La ventana del caso se ajusta** para que el Murdoku se vea entero (si cabe en la pantalla). Las pistas y las reglas van pegadas al tablero con anchos fijos: al agrandar la ventana, el hueco queda a la derecha.
 - **El enganche**: al revisar 4 facturas llega un correo de Rosario Valle, una compañera: «esto engancha, ya verás». Sale un globo de aviso en la bandeja; al pulsarlo se abre el correo, y su enlace abre el caso en el **Navegador**. «Enviar y recibir» también comprueba si hay correo nuevo.
 - **Bloc de notas**: notas de la oficina en Mis documentos (`pendientes.txt`, `claves.txt`) y un borrador de carta en la Papelera; se pueden escribir y guardar notas nuevas.
-- **Personajes**: Rogelio Altamira, Águeda Pombo, Bernardo Torres, Cecilia, Damián, Elvira, Fermín y Gertrudis. Cada caso usa seis.
+- **Personajes**: Ramón Altamira, Amparo Pombo, Bernardo Torres, Carmen, Diego, Elena, Francisco y Gloria. Cada caso usa seis.
 - **Tres Murdokus de 6×6**, cada uno con otra casa, otra víctima y otro asesino:
 
   | Caso | Escenario | Víctima | Asesino | Expediente | Llega |
   |------|-----------|---------|---------|------------|-------|
-  | 0001 | Un chalé en Puerta de Hierro, Madrid | Rogelio | Damián | Prestamista; se quedó con las casas de tres familias. Fallecimientos: 3 | Correo de Rosario al revisar 4 facturas |
-  | 0002 | La Residencia Pombo, Benidorm | Águeda | Cecilia | Dueña de una residencia de ancianos; cobraba cuidados que nunca se daban. Fallecimientos: 5 | Correo de Rosario («¿Ya? Hay otro») al revisar 11 facturas, con el 0001 resuelto |
-  | 0003 | Un chalé en las afueras de Zaragoza | Bernardo | Elvira | Promotor; vendió cuarenta pisos sobre un terreno que sabía contaminado. Fallecimientos: 2 | Correo «(sin remitente)» al revisar 17 facturas, con el 0002 resuelto |
+  | 0001 | Un chalé en Puerta de Hierro, Madrid | Ramón | Diego | Prestamista; se quedó con las casas de tres familias. Fallecimientos: 3 | Correo de Rosario al revisar 4 facturas |
+  | 0002 | La Residencia Pombo, Benidorm | Amparo | Carmen | Dueña de una residencia de ancianos; cobraba cuidados que nunca se daban. Fallecimientos: 5 | Correo de Rosario («¿Ya? Hay otro») al revisar 11 facturas, con el 0001 resuelto |
+  | 0003 | Un chalé en las afueras de Zaragoza | Bernardo | Elena | Promotor; vendió cuarenta pisos sobre un terreno que sabía contaminado. Fallecimientos: 2 | Correo «(sin remitente)» al revisar 17 facturas, con el 0002 resuelto |
 
-  En el caso 0003 vuelve a aparecer Rogelio, vivo, aunque murió en el 0001.
+  En el caso 0003 vuelve a aparecer Ramón, vivo, aunque murió en el 0001.
 - **Cómo se juega**: se elige a una persona y se toca una casilla; tocarla otra vez la quita. Hay un modo para tachar casillas, las pistas se tachan al tocarlas y «Comprobar» dice qué pistas o reglas fallan. Al acertar se acusa al culpable y se abre el expediente de la víctima.
 - **Los casos** se generan con los scripts de [prototipo/scripts/](prototipo/scripts/): el 0001 con `humano.py` (usa `caso.py`) y el 0002 y el 0003 con `generar_caso.py casoN.json`, que lee el plano, los personajes y la víctima de un JSON. Se ejecutan desde esa carpeta. Cada caso tiene una única solución y se resuelve solo con deducciones (las pistas de cada persona más una persona por fila y columna), sin probar a ciegas.
 
