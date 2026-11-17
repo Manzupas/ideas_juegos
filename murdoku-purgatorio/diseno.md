@@ -106,6 +106,17 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 - **Rechazar facturas no suma a «denunciar»**: rechazar exonera al contable de la culpa y puede contar en el posible juicio.
 - **Puede haber juicio en más de un camino.**
 
+**Propuesta** (por revisar), cómo se mide «cuánto»: **por gravedad**:
+
+- Cada documento tiene una gravedad oculta, según lo que destapa:
+  - **0, corrientes** (la papelería, el bar): no sirven ni para vender ni para denunciar; el hacker las desprecia y Hacienda no hace nada con ellas.
+  - **1, sin opción buena** (las de las notas de Maruja y Tomás): destapan algo, pero también hacen daño a inocentes.
+  - **2, contra la conciencia** (el embargo de los Domínguez, el informe del suelo sin anexo C, la recalificación).
+  - **3, escrituras clave** de cada círculo (los embargos de Rogelio, la compra del terreno, las ventas de los pisos).
+- Se suma la gravedad de lo vendido y la de lo denunciado. Gana el camino con más puntos; si los dos se quedan por debajo de un mínimo, el camino es **callar**.
+- En caso de empate, cuenta lo último que hizo.
+- Así, vender veinte facturas de papelería no es vender: lo que pesa es qué secretos salen y por dónde.
+
 **Propuesta** (por revisar):
 
 - Cómo queda cada camino: **vender** es darle facturas al hacker; **denunciar** es subirlas a la web de Hacienda; **callar** es no hacer ninguna de las dos cosas.
@@ -117,7 +128,6 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 **Preguntas abiertas**:
 
 - ¿Quiénes son los tres asesinos?
-- Al vender y denunciar, ¿cómo se mide «cuánto» de cada cosa: número de facturas, su importancia, qué cliente?
 - ¿Cuántas facturas rechazadas hacen falta para que llegue el momento de denunciar?
 - ¿En qué caminos hay juicio, y qué pasa en él con las facturas rechazadas?
 - ¿Qué otras cosas puede bloquear el hacker? (Sin decidir aún.)
