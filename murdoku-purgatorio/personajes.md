@@ -94,13 +94,14 @@ Se mantienen Bernardo Torres, Maruja Clemente, Tomás Hoyos y Rosario Valle.
 ### Bernardo Torres (B) · 1933–1996
 - **[fijado]** Promotor inmobiliario. Vendió cuarenta pisos sobre un terreno que sabía contaminado. Víctima del caso 0003 (lo mata Elena). Fallecimientos registrados: 2. «Juraría» que ya le habían mandado la factura (recuerda cosas que no deberían haber pasado).
 - **Vida**: compró barato el terreno de una antigua fábrica química, consiguió que se lo recalificaran (un «pelotazo») y tapó el informe del suelo. Los vecinos empezaron a enfermar a los pocos años.
-- **Muerte real**: cayó desde un andamio de una de sus propias obras, que no cumplía las normas.
+- **Muerte real**: cayó desde un andamio de una de sus propias obras, que no cumplía las normas. **[fijado]** No fue un accidente: en el segundo semestre de 1998 pilló a Elena con el arquitecto y entre los dos lo empujaron.
 - **En los casos**: el más nervioso; es el que más «recuerda» de otras muertes.
 
 ### Elena Muñoz (E) · 1936–1996
 - **[fijado]** Asesina del caso 0003.
 - **Vida**: mujer de Bernardo y la cara amable del negocio: vendía los pisos a familias jóvenes y presidía una fundación benéfica que servía para mover el dinero.
 - **Muerte real**: un ictus en la cena anual de su fundación.
+- **[fijado]** Tiene un lío con el arquitecto, y entre los dos empujan a Bernardo desde el andamio cuando los pilla (segundo semestre de 1998).
 - **Por qué mata a Bernardo**: él la dejó sola ante la prensa cuando salió lo del terreno; ella dijo que no sabía nada, y sí sabía.
 
 ### Nicolás Arcos (N) · 1927–1991
@@ -116,7 +117,7 @@ Se mantienen Bernardo Torres, Maruja Clemente, Tomás Hoyos y Rosario Valle.
 
 ### El arquitecto (nombre por decidir)
 - **[fijado]** Personaje nuevo: **el arquitecto del Residencial Ebro**. Firmó los planos de los cuarenta pisos sobre el terreno contaminado. Entra como cliente de la gestoría en el primer semestre de 1997 y le manda al contable su versión de los Murdokus: planos en azul, como los suyos.
-- **Propuesta**: está metido en **un crimen pasional o algo parecido**. Con quién y cómo, por decidir.
+- **[fijado]** Tiene un lío con **Elena**. En el segundo semestre de 1998, **Bernardo los pilla y los dos juntos lo empujan desde un andamio** de una de sus obras; pasa por un accidente.
 - Por decidir: su nombre (con una inicial que no tenga nadie: quedan libres, entre otras, H, O, P, S y V; la L y la T se evitan por Luis y Tomás), si entra en el círculo del terreno como quinto personaje y si es sospechoso en los casos.
 
 ## La gestoría y el contable
