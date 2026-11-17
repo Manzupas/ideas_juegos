@@ -300,7 +300,7 @@ Propuesta de historias de los doce personajes, agrupados en tres círculos (las 
 
 Prototipo en HTML y JavaScript, en un solo archivo y sin dependencias. **Para jugar en local, abrir [prototipo/office-work.html](prototipo/office-work.html)**; cómo se genera y qué es cada archivo está en [prototipo/README.md](prototipo/README.md). También está publicado como artefacto para probarlo en el móvil: https://claude.ai/artifact/QgHxcBtNP4yLWGyQ3VYhcJ
 
-El prototipo es de antes de la estructura en dos partes: todo pasa en un solo día y los Murdokus ya son los del purgatorio. Todavía usa los nombres anteriores al 17/11/2026 (Rogelio, Águeda, Bernardo…).
+El prototipo es de antes de la estructura en dos partes: todo pasa en un solo día y los Murdokus ya son los del purgatorio. Usa los nombres anteriores al 17/11/2026 (Rogelio, Águeda, Bernardo…). **Decidido**: el prototipo no se actualiza más; se queda como está.
 
 Es el ordenador del contable de la Gestoría Lindero, con estética de Windows 95 (sistema «Lindero 95»: barras de título lisas, sin degradado). El día es el miércoles 31 de diciembre de 1997, cierre del ejercicio.
 
