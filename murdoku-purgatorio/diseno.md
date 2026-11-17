@@ -98,6 +98,7 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 - **Suplanta a Rosario.** Rosario es una compañera de verdad, pero ella no le ha mandado esos correos.
 - **La web de Hacienda es de verdad.**
 - **Lo que bloquea es la web de Hacienda**; quizá, en otros momentos, otras cosas.
+- **La web de Hacienda es una amenaza del hacker**, y la ejerce bloqueándola. **Se desbloquea sin su control**; cómo, por decidir.
 - **Se pueden hacer las dos cosas**: vender al hacker y denunciar en Hacienda.
 - **El momento de poder denunciar llega cuando el contable ya ha rechazado facturas.**
 - **Rechazar facturas no suma a «denunciar»**: rechazar exonera al contable de la culpa y puede contar en el posible juicio.
@@ -118,7 +119,7 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 - ¿Cuántas facturas rechazadas hacen falta para que llegue el momento de denunciar?
 - ¿En qué caminos hay juicio, y qué pasa en él con las facturas rechazadas?
 - ¿Qué otras cosas puede bloquear el hacker? (Sin decidir aún.)
-- ¿Por qué el hacker le da la web de Hacienda, si lo que quiere es que venda?
+- ¿Cómo se desbloquea la web de Hacienda sin control del hacker? (Sin decidir aún.)
 
 ## La segunda parte: el purgatorio
 
