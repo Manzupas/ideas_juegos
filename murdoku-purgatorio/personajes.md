@@ -130,7 +130,7 @@
 
 - **Leandro Lindero**, hijo del fundador y jefe actual (antes Douglas Limbrick). Correos secos sobre plazos y las normas para revisar facturas.
 - **Maruja Clemente**, administración y recepción (antes Maureen Clegg). Correos de todo un poco: un cliente que ha llamado, la colecta para un cumpleaños, quién se ha dejado la cafetera encendida.
-- **Tomás Hoyos**, el informático, que va dos días por semana (antes Trevor Hobbs). Correos sobre el ordenador: el efecto 2000, la copia de seguridad, «lo del equipo que no se apaga ya lo miro».
+- **Tomás Hoyos**, el informático (antes Trevor Hobbs). **[fijado]** Viene cuando se le llama, no de forma periódica. Correos sobre el ordenador: el efecto 2000, la copia de seguridad, «lo del equipo que no se apaga ya lo miro».
 
 ## Preguntas abiertas
 

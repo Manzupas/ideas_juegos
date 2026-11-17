@@ -100,6 +100,8 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 - **Lo que bloquea es la web de Hacienda**; quizá, en otros momentos, otras cosas.
 - **La web de Hacienda es una amenaza del hacker**, y la ejerce bloqueándola. **Se desbloquea sin su control**; cómo, por decidir.
 - **Se pueden hacer las dos cosas**: vender al hacker y denunciar en Hacienda.
+- **Si vende y denuncia, el camino depende de cuánto ha hecho de cada cosa.**
+- **Tomás, el informático, viene cuando se le llama**, no de forma periódica.
 - **El momento de poder denunciar llega cuando el contable ya ha rechazado facturas.**
 - **Rechazar facturas no suma a «denunciar»**: rechazar exonera al contable de la culpa y puede contar en el posible juicio.
 - **Puede haber juicio en más de un camino.**
@@ -115,11 +117,12 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 **Preguntas abiertas**:
 
 - ¿Quiénes son los tres asesinos?
-- Si el jugador vende y también denuncia, ¿qué camino cuenta y quién le mata?
+- Al vender y denunciar, ¿cómo se mide «cuánto» de cada cosa: número de facturas, su importancia, qué cliente?
 - ¿Cuántas facturas rechazadas hacen falta para que llegue el momento de denunciar?
 - ¿En qué caminos hay juicio, y qué pasa en él con las facturas rechazadas?
 - ¿Qué otras cosas puede bloquear el hacker? (Sin decidir aún.)
 - ¿Cómo se desbloquea la web de Hacienda sin control del hacker? (Sin decidir aún.)
+  - Idea: que la desbloquee Tomás, el informático, al venir a arreglar el ordenador sin saber lo que hace.
 
 ## La segunda parte: el purgatorio
 
