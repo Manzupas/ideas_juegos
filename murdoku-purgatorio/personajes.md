@@ -123,7 +123,7 @@ Se mantienen Bernardo Torres, Maruja Clemente, Tomás Hoyos y Rosario Valle.
 - **[fijado]** **El pecado del contable es haber sido cómplice**: los años de papeleo que taparon las barbaridades de sus clientes.
 - **[fijado]** **Lo asesinan siempre**, al final de la primera parte, por uno de **tres caminos** que salen de lo que hace el jugador con cada factura: **vender secretos** al hacker (disquetes, fotocopias, faxes), **denunciar** las ilegalidades en Hacienda (solo entonces hay juicio, y las facturas rechazadas le exoneran) o **callar**. Hay un asesino distinto para cada camino: Nicolás, Gloria y Luis **[fijado]**.
 - **[fijado]** **El hacker** se hace pasar por los tres compañeros y luego da un seudónimo; después habla con el contable por **IRC**. Le empuja a vender los secretos de los clientes: se vende contestando a sus correos o por IRC. (En España, a finales de los 90, el IRC era muy popular, sobre todo IRC-Hispano.)
-- **La compañera de los correos de los Murdokus**: propuesta **Rosario Valle** (*valle*, como el valle de lágrimas). **[fijado]** Es una compañera de verdad, pero los correos de los Murdokus no los manda ella: el hacker la suplanta. Sus correos dejan de llegar a partir del caso 0003, que ya viene «(sin remitente)».
+- **La compañera de los correos de los Murdokus**: propuesta **Rosario Valle** (*valle*, como el valle de lágrimas). **[fijado]** Es una compañera de verdad, pero los correos de los Murdokus no los manda ella: el hacker la suplanta. **[fijado]** Ella sí le manda el correo de bienvenida al empezar en la gestoría, en 1996. Sus correos dejan de llegar a partir del caso 0003, que ya viene «(sin remitente)».
 
 ### Los compañeros de la gestoría (propuesta)
 

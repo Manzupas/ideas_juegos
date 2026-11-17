@@ -23,7 +23,7 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
 - Se puede denunciar a la empresa casi al final de la primera parte.
 
 - **El juego empieza en 1996 con la incorporación del contable al trabajo.** La primera parte tiene 8 semestres (1996–1999).
-- **El correo de Rosario de 1996 es, sobre todo, de bienvenida.**
+- **La Rosario de verdad le da la bienvenida** en 1996: un correo cálido con consejos de la oficina, sin enlace. **Unos días después, el hacker le escribe suplantándola**, con el mismo tono, y le manda el primer caso («se me olvidó: esto engancha, ya verás»). El jugador se fía porque ya conoce a Rosario.
 
 **Propuesta** (por revisar):
 
@@ -33,9 +33,9 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
 
 ### 1996, primer semestre: el puesto
 
-- **Casos**: 1, web. Llega con el correo de bienvenida de Rosario, como un pasatiempo para los ratos muertos *(esbozo)*.
+- **Casos**: 1, web. Llega unos días después de la bienvenida, en un correo «de Rosario» que en realidad es del hacker.
 - **Historia**: **la incorporación del contable al trabajo.** Entra en la Gestoría Lindero. Luis le manda las normas; Julián, el fundador, aún pasa por la oficina. Conoce a Maruja, Tomás y Rosario *(esbozo)*.
-- **Hacker**: por decidir si el correo de bienvenida ya es suyo o es de la Rosario de verdad.
+- **Hacker**: su primer correo, suplantando a Rosario, con el primer caso. La bienvenida es de la Rosario de verdad.
 - **Documentos**: solo facturas corrientes, para aprender las normas *(esbozo)*.
 - **Mecánica nueva**: las reglas básicas del Murdoku y de las facturas.
 

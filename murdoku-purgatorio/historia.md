@@ -65,7 +65,7 @@ La trama del juego. Lo que pasa semestre a semestre está en [escaleta.md](escal
 
 **Decidido**:
 
-- **Empieza con un par de correos suplantando a Rosario**, una compañera de verdad que no le ha mandado esos correos. Antes se había decidido que se hacía pasar por los tres compañeros (Luis, Maruja y Tomás) y luego daba un seudónimo; por revisar si sigue valiendo.
+- **Empieza con un par de correos suplantando a Rosario**, una compañera de verdad que no le ha mandado esos correos. **La Rosario de verdad le da antes la bienvenida** (un correo cálido, con consejos de la oficina y sin enlace); unos días después llega el primero falso, con su mismo tono y el primer caso. El jugador se fía porque ya la conoce. Antes se había decidido que se hacía pasar por los tres compañeros (Luis, Maruja y Tomás) y luego daba un seudónimo; por revisar si sigue valiendo.
 - **Después le instala el IRC** al contable y **habla con él** por ahí.
 - **Intenta convencerle para que venda los datos.** Se vende fuera de GESTA, a escondidas: contestando a sus correos con respuestas predefinidas o por IRC.
 - **Le pone la web de Hacienda** para que pueda **subir facturas**. La web es de verdad.
