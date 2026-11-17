@@ -29,6 +29,11 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 - **En la segunda parte se repite siempre el último semestre** (el segundo de 1999): el purgatorio es ese medio año, una y otra vez, sin llegar nunca al 2000.
   - **Las facturas son siempre las mismas**, con ciertos detalles que van cambiando.
   - **Los casos son diferentes** cada vez.
+- **Los casos son fijos**: se preparan todos los que va a haber en el juego (el generador es una herramienta de diseño, no se usa mientras se juega).
+- **Unos 100 casos en total**:
+  - **Unos 20 antes de morir** (primera parte).
+  - **Unos 50 hasta el final del juego** (segunda parte).
+  - **Unos 30 extras.**
 - **El GDD se hará en Markdown, en este repo**, cuando se haya hablado más.
 - **Las muertes de los personajes son consecuencia de las acciones del contable.**
 - **Al menos uno de los personajes muere antes que el contable**, durante la primera parte.
@@ -54,7 +59,9 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 
 **Preguntas abiertas**:
 
-- ¿Cuántos Murdokus por bloque?
+- ¿Cómo se reparten los 20 casos de la primera parte entre los 6 semestres? (Unos 3 o 4 por bloque.)
+- ¿Cuántas veces se repite el último semestre en la segunda parte para llegar a los 50 casos?
+- ¿Qué son los 30 extras y cuándo se juegan (después del final, sueltos, por camino)?
 - ¿Qué mecánicas nuevas y en qué orden?
 - ¿El jugador sabe desde el principio que habrá purgatorio, o la muerte es la sorpresa?
 - ¿Cuánto dura cada parte?
