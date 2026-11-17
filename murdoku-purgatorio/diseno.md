@@ -86,10 +86,18 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 - **De momento, sin botones nuevos**: el camino sale de lo que ya se puede hacer con cada documento (aceptar o rechazar). Se descartó por ahora añadir acciones como «hacer una copia» o «apartar como prueba».
 - **Se vende fuera de GESTA**: respondiendo a los correos del hacker con las respuestas predefinidas (por ejemplo, «Te la mando» / «No puedo» / no contestar) **o por IRC**. Vender es algo que se hace a escondidas, fuera del programa de facturas.
 
+**Decidido** (17/11/2026), el hacker en la primera parte:
+
+- **Empieza con un par de correos suplantando a la compañera.**
+- **Después le instala el IRC** al contable y **empieza a hablar con él** por ahí.
+- **Intenta convencerle para que venda los datos.**
+- **Le pone la web de Hacienda** para que pueda **subir la factura**: vender es subir facturas de los clientes a esa web.
+- **A veces juega con él y le bloquea el acceso** para forzarle a vender los datos.
+- **Habrá un momento en que el contable pueda denunciar a su empresa en esa misma web.** La web sirve para los dos caminos: vender y denunciar.
+
 **Propuesta** (por revisar):
 
-- Rechazar los documentos sucios suma a «denunciar»; aceptarlos suma a «callar».
-- El hacker pide primero por correo, haciéndose pasar por los compañeros; cuando el contable ya ha vendido algo, le pasa al IRC, donde las peticiones son más gordas. Llegar al IRC es la señal de que se va por el camino de vender.
+- Rechazar los documentos sucios suma a «denunciar»; aceptarlos suma a «callar». (Por revisar: ahora denunciar es también una acción concreta en la web de Hacienda.)
 - Los tres asesinos:
   - **Vende secretos** → **Damián Cuervo**, el abogado: le pone el juicio y, al perderlo, lo manda matar.
   - **Denuncia** → **Fermín Bellido**, el cobrador: el que hace el trabajo sucio cuando alguien amenaza el negocio.
@@ -98,6 +106,11 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 **Preguntas abiertas**:
 
 - ¿Quiénes son los tres asesinos?
+- ¿Qué compañera suplanta el hacker: Rosario (la de los Murdokus) o Maruja?
+- ¿La web de Hacienda es de verdad o la ha montado el hacker? Si es falsa, ¿la denuncia llega a algún sitio?
+- ¿Qué le bloquea: el ordenador entero, GESTA, el correo, los Murdokus?
+- ¿Cuándo llega el momento de poder denunciar? ¿Una vez, o queda abierto desde entonces?
+- ¿Cómo encaja la denuncia en la web con que el camino salga de la suma de decisiones con cada factura?
 
 ## La segunda parte: el purgatorio
 
@@ -238,7 +251,7 @@ Los correos de los Murdokus llegan al revisar 4, 11 y 17 facturas (cada uno, una
 - **Cuándo llegan**: a medida que se resuelven Murdokus y que se procesan facturas (ver «Flujo de trabajo de las facturas»).
 - **Por qué no recuerdan nada**: los compañeros son **otros contables que están como tú**, también en el purgatorio. No mandaron esos correos. (Por revisar con las dos partes: en la primera parte los compañeros están vivos; quizá esto vale solo para la segunda.)
 - **Quién los manda de verdad**: **un «hacker»**. Más adelante el contable tiene **línea directa con él mediante una aplicación** del ordenador.
-- **El hacker se hace pasar por un contable** que engaña al jugador para que **venda secretos de la empresa**. **Se hace pasar por los tres compañeros** (Leandro, Maruja y Tomás) y **luego te da un seudónimo**.
+- **El hacker se hace pasar por un contable** que engaña al jugador para que **venda secretos de la empresa**. **Se hace pasar por los tres compañeros** (Leandro, Maruja y Tomás) y **luego te da un seudónimo**. (Cambio del 17/11/2026: empieza con un par de correos suplantando a la compañera y luego pasa al IRC; ver «Los tres caminos».)
 - **Los secretos que le pide** son los que el jugador va descubriendo en los expedientes de los casos. (Por revisar: en la primera parte, los de las facturas y escrituras de los clientes.)
 - **Vender secretos es uno de los tres caminos**, no el pecado: el pecado del contable es la complicidad (ver «Estructura en dos partes»).
 - **Al contable lo asesinan en los tres caminos**; el juicio llega en el de vender.
