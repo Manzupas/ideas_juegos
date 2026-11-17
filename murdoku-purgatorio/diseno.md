@@ -82,16 +82,19 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable:
 - **No pueden salir del purgatorio.**
 - **El contable también está en el purgatorio.** Su papel allí es torturar a los demás, sin saberlo.
 - **En la segunda parte, cada vez que el jugador coloca a la víctima y propone al asesino, la víctima muere.** Resolver el caso es lo que la mata: la tortura la hace el propio jugador.
+- **Cualquier acusación mata**, también si el jugador acusa a quien no es.
+- **La muerte se ve en el plano**: algo como que la ficha cae, se oye algo y el expediente se actualiza.
+- **Al quitar al asesino (la ficha acusada), la víctima revive.** Se puede volver a acusar, y vuelve a morir: la tortura es un ciclo que el jugador puede repetir.
 
 **Propuesta** (por revisar):
 
 - En la primera parte, acusar no tiene efecto (es un pasatiempo); en la segunda, al acusar, la víctima muere en el plano. Es el mismo gesto, con otro resultado.
-- Los «Fallecimientos registrados» del expediente suben en uno cada vez que el jugador resuelve un caso de esa víctima.
+- Los «Fallecimientos registrados» del expediente suben en uno cada vez que la víctima muere (también al repetir el ciclo).
 
 **Preguntas abiertas**:
 
-- ¿Muere también si el jugador acusa a quien no es? (¿Cualquier acusación mata?)
-- ¿Cómo se ve la muerte en el plano: la ficha cae, se oye algo, el expediente se actualiza?
+- ¿Qué se ve exactamente al morir y al revivir?
+- ¿Hay algo que haga que el jugador quiera repetir el ciclo, o que se dé cuenta de que lo está haciendo?
 
 **Por revisar con las dos partes**: antes estaba decidido que el juego empezaba siendo un *Murdoku* «normal» y que el jugador no sabía nada del purgatorio hasta descubrirlo jugando. Ahora el purgatorio llega tras la muerte del contable.
 
