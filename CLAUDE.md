@@ -41,7 +41,7 @@ El usuario trabaja desde varias conversaciones y quiere que todo lo que se habla
 - **Al empezar**: `git pull` antes de leer o tocar nada.
 - **Durante**: cada decisión o propuesta se apunta en el `diseno.md` de la idea (o en otro `.md` de su carpeta, como `personajes.md`), marcando qué está decidido y qué es propuesta.
 - **Al terminar cada cambio**: commit y `git push`. Lo que no está subido no existe para las demás conversaciones.
-- **Excepción: Murdoku del purgatorio** está movida (se desarrolla en [murdokus](https://github.com/Manzupas/murdokus)), pero su diseño (`diseno.md`, `personajes.md`) sigue viviendo y actualizándose aquí, desde varias conversaciones, hasta que se escriba el GDD. No se reduce a un `diseno.md` mínimo.
+- **Excepción: Murdoku del purgatorio** está movida (se desarrolla en [murdokus](https://github.com/Manzupas/murdokus)), pero su diseño (todos los `.md` de su carpeta: `diseno.md`, `historia.md`, `escaleta.md`, `personajes.md`, `mecanicas.md`, `ambientacion.md`) sigue viviendo y actualizándose aquí, desde varias conversaciones, hasta que se escriba el GDD. No se reduce a un `diseno.md` mínimo.
 - Los `.md` de **Murdoku del purgatorio** también se copian en los documentos del proyecto de claude.ai «Ideas De Juegos»; si cambian, se vuelven a subir allí.
 
 ## Commits
