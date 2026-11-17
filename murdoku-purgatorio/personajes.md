@@ -94,7 +94,7 @@ Se mantienen Bernardo Torres, Maruja Clemente, Tomás Hoyos y Rosario Valle.
 ### Bernardo Torres (B) · 1933–1996
 - **[fijado]** Promotor inmobiliario. Vendió cuarenta pisos sobre un terreno que sabía contaminado. Víctima del caso 0003 (lo mata Elena). Fallecimientos registrados: 2. «Juraría» que ya le habían mandado la factura (recuerda cosas que no deberían haber pasado).
 - **Vida**: compró barato el terreno de una antigua fábrica química, consiguió que se lo recalificaran (un «pelotazo») y tapó el informe del suelo. Los vecinos empezaron a enfermar a los pocos años.
-- **Muerte real**: cayó desde un andamio de una de sus propias obras, que no cumplía las normas. **[fijado]** No fue un accidente: en el segundo semestre de 1998 pilló a Elena con el arquitecto y entre los dos lo empujaron. **[fijado]** Se entera por lo que hace el contable con las facturas de hotel o cenas que ellos pasan como «visitas de obra» (ver [historia.md](historia.md)).
+- **Muerte real**: cayó desde un andamio de una de sus propias obras, que no cumplía las normas. **[fijado]** Si muere en el segundo semestre de 1998, no es un accidente: pilla a Elena con el arquitecto y entre los dos lo empujan. **[fijado]** Se entera por lo que hace el contable con las facturas de hotel o cenas que ellos pasan como «visitas de obra» (ver [historia.md](historia.md)); si el contable las acepta, no se entera y no muere entonces.
 - **En los casos**: el más nervioso; es el que más «recuerda» de otras muertes.
 
 ### Elena Muñoz (E) · 1936–1996
