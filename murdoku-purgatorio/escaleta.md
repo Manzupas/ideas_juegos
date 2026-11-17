@@ -27,7 +27,7 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
 - **1996, cómo arranca el hacker** (17/11/2026):
   - **Primer semestre**: el jugador puede contestar a «Rosario» dándole las gracias por el caso.
   - **Segundo semestre**: la Rosario de verdad le contesta que no sabe de qué le habla. Los casos siguen llegando, ahora de **Tomás**, el informático (también suplantado).
-  - **El jugador puede pedirle explicaciones a Tomás**, y el Tomás de verdad viene a la oficina a arreglar el ordenador.
+  - **El jugador puede pedirle explicaciones a Tomás**, y el Tomás de verdad viene a la oficina a arreglar el ordenador. **Tomás lo quita, pero sin darle importancia** («es un programa de chat, mucha gente lo usa»): borra el IRC y deja GESTA como estaba. **Al día siguiente todo vuelve a estar instalado**: es el primer aviso de que el hacker controla el ordenador, y Tomás queda como alguien poco fiable.
   - **El último caso de 1996** le deja descargar un **.bat** que le instala el **IRC** y **modifica GESTA 2000 para que muestre los Murdokus**.
 - **La Rosario de verdad le da la bienvenida** en 1996: un correo cálido con consejos de la oficina, sin enlace. **Unos días después, el hacker le escribe suplantándola**, con el mismo tono, y le manda el primer caso («se me olvidó: esto engancha, ya verás»). El jugador se fía porque ya conoce a Rosario.
 
@@ -49,7 +49,7 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
 
 - **Casos**: más de uno (por ajustar el reparto), web. Los manda «Tomás», el informático, suplantado por el hacker. El último trae el .bat.
 - **Historia**: la Rosario de verdad contesta al agradecimiento: no sabe de qué le habla. Aparecen los clientes de los tres círculos como gente corriente: Ramón, que no paga; las cuentas trimestrales de la Residencia Pombo; las nóminas de Promociones Torres *(esbozo)*.
-- **Hacker**: suplanta a Tomás para seguir mandando casos. El jugador puede pedirle explicaciones al Tomás de verdad, que viene a la oficina a arreglar el ordenador; qué arregla y qué se queda, por decidir. Con el último caso, el jugador puede descargar un **.bat** que instala el **IRC** y **modifica GESTA 2000 para que muestre los Murdokus**.
+- **Hacker**: suplanta a Tomás para seguir mandando casos. El jugador puede pedirle explicaciones al Tomás de verdad, que viene a la oficina a arreglar el ordenador. **Tomás lo quita, pero sin darle importancia** («es un programa de chat, mucha gente lo usa»): borra el IRC y deja GESTA como estaba. **Al día siguiente todo vuelve a estar instalado**: es el primer aviso de que el hacker controla el ordenador, y Tomás queda como alguien poco fiable. Con el último caso, el jugador puede descargar un **.bat** que instala el **IRC** y **modifica GESTA 2000 para que muestre los Murdokus**.
 - **Documentos**: las primeras facturas de los personajes, todavía sin nada raro *(esbozo)*.
 - **Mecánica nueva**: por decidir.
 
@@ -117,7 +117,6 @@ Cada vuelta es el segundo semestre de 1999 otra vez. Acusar mata a la víctima.
 
 - **Quién más muere antes que el contable**, aparte de Ramón.
 - **Quién es el cliente arquitecto** (entra en 1997) y por qué tiene su versión de los casos.
-- **Qué arregla Tomás** cuando viene por lo del .bat, y qué se queda instalado.
 - **Las normas de Luis**, que se van acumulando.
 - **El orden de las mecánicas nuevas** (ver la lista en [mecanicas.md](mecanicas.md)).
 - **Los correos de Maruja y Tomás**, y las veces que se llama a Tomás.
