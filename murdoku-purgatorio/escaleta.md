@@ -22,6 +22,25 @@ Cada bloque tiene los mismos apartados. Lo que no se ha hablado queda como «Por
 
 **Propuesta** (por revisar): casos por semestre en la primera parte: 1, 2, 3, 3, 5 y 6 (20). Segunda parte: 5 vueltas con 6, 8, 10, 12 y 14 casos (50); los 30 extras llegan sueltos entre vuelta y vuelta.
 
+## Esbozo de la historia
+
+**Propuesta** (17/11/2026, por revisar): un primer esbozo para tener algo que discutir. Cuando se apruebe una parte, se pasa a los bloques de abajo.
+
+**Primera parte**
+
+1. **1997, primer semestre: el puesto.** El contable entra en la Gestoría Lindero. Luis le manda las normas y Julián, el fundador, aún pasa por la oficina. Solo hay facturas corrientes, y Ramón aparece como cliente que no paga. «Rosario» le manda el primer caso por la web: «esto engancha».
+2. **1997, segundo semestre: el cierre.** En la tanda de diciembre asoman los tres círculos: el embargo de los Domínguez, la residencia Pombo y el informe del suelo sin anexo C. «Rosario» le pide una copia de una factura «para un amigo». La Rosario de verdad no sabe de qué le habla.
+3. **1998, primer semestre: el arquitecto y las escrituras.** Llegan las primeras escrituras: los embargos de Ramón. Un cliente arquitecto le manda su versión de los casos, más difícil. El IRC aparece instalado y el hacker se presenta con su seudónimo: quiere los papeles y paga.
+4. **1998, segundo semestre: la primera muerte.** El hacker le pone la web de Hacienda y se la bloquea cuando no vende. Tomás se la arregla. Ramón muere de un infarto, y lo que lo provoca depende de lo que el jugador haya hecho hasta ese momento. Es el aviso.
+5. **1999, primer semestre: el euro.** Llegan el euro y las escrituras clave del terreno: la compra y la venta de los cuarenta pisos. Los vecinos del Residencial Ebro empiezan a enfermar. El hacker le instala su programa: los casos salen del Navegador y crecen.
+6. **1999, segundo semestre: el final.** Llegan las normas del efecto 2000 y, por fin, el contable puede denunciar a la empresa. Según el camino, sale en la prensa (Nicolás), llega la citación al juicio (Gloria) o Luis se da cuenta de lo que sabe. El último caso es un asesinato sin asesino visible. El 31/12/1999 lo matan.
+
+**Segunda parte**
+
+1. **Vuelta 1.** Es 1 de julio de 1999 otra vez. Las facturas y la oficina son las mismas, pero ahora acusar mata. Los compañeros contestan que no saben de qué les habla.
+2. **Vueltas 2 a 4.** Cada vuelta cambia algún detalle: una factura con otra fecha, una víctima que recuerda el caso anterior, el correo original que ya no está. En los expedientes van saliendo las barbaridades, y entre los papeles aparecen los que firmó el propio contable: así descubre su complicidad.
+3. **Vuelta 5.** El último caso es su asesinato: él es la víctima y sus clientes, los sospechosos. Al resolverlo se ve quién lo mató.
+
 ## Primera parte: la vida real
 
 ### 1997, primer semestre
