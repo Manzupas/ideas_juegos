@@ -15,10 +15,11 @@ La trama del juego. Lo que pasa semestre a semestre está en [escaleta.md](escal
 
 **Decidido**:
 
+- **El juego empieza en 1996 con la incorporación del contable a la gestoría**.
 - **Primera parte: la vida real.** Todo es real y **tiene consecuencias**.
 - **Segunda parte: el purgatorio.** El juego **te hace torturar a tus clientes**.
 - **Al final de la primera parte, el contable es asesinado.** Esa muerte es el paso al purgatorio.
-- **La primera parte se organiza en bloques de facturas, uno por semestre** (de 1997 a 1999, unos 6 bloques). **Cada bloque corresponde a varios Murdokus.** Así, en la primera parte también hay Murdokus.
+- **La primera parte se organiza en bloques de facturas, uno por semestre** (de 1996 a 1999, 8 bloques). **Cada bloque corresponde a varios Murdokus.** Así, en la primera parte también hay Murdokus.
 - **En la segunda parte se repite siempre el último semestre** (el segundo de 1999): el purgatorio es ese medio año, una y otra vez, sin llegar nunca al 2000.
   - **Las facturas son siempre las mismas**, con ciertos detalles que van cambiando.
   - **Los casos son diferentes** cada vez.
@@ -30,7 +31,6 @@ La trama del juego. Lo que pasa semestre a semestre está en [escaleta.md](escal
 
 **Propuesta** (por revisar):
 
-- **Empezar en 1996** (17/11/2026): con seis semestres la historia iba muy precipitada; con 1996 la primera parte tiene ocho. Por confirmar, porque contradice «se empieza a trabajar en 1997» (ver [escaleta.md](escaleta.md)).
 - **La primera parte va hasta 1999**: las tandas de facturas, los correos y las decisiones morales son la vida real del contable. Lo que acepta o rechaza afecta de verdad a los clientes y a sus víctimas (la familia Domínguez, los residentes, los vecinos del terreno).
 - **Muere el 31/12/1999**, justo antes del año 2000. Encaja con el efecto 2000: en el purgatorio el reloj nunca pasa de esa noche.
 - **Murdokus en las dos partes**: en la primera son un pasatiempo que le manda «Rosario» y no pasa nada; en la segunda son el mismo juego, pero las víctimas son los clientes que conoció, y mueren una y otra vez.

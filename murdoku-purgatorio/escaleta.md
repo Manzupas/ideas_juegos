@@ -22,18 +22,20 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
 - Los estilos de los casos van en este orden: web → arquitecto → programa del hacker.
 - Se puede denunciar a la empresa casi al final de la primera parte.
 
+- **El juego empieza en 1996 con la incorporación del contable al trabajo.** La primera parte tiene 8 semestres (1996–1999).
+- **El correo de Rosario de 1996 es, sobre todo, de bienvenida.**
+
 **Propuesta** (por revisar):
 
-- **Empezar en 1996**, no en 1997: el esbozo con seis semestres iba muy precipitado. Así la primera parte tiene 8 semestres (1996–1999). Contradice lo decidido antes («se empieza a trabajar en 1997»); por confirmar.
 - Casos por semestre en la primera parte: 1, 1, 2, 2, 3, 3, 4 y 4 (20). Segunda parte: 5 vueltas con 6, 8, 10, 12 y 14 casos (50); los 30 extras llegan sueltos entre vuelta y vuelta.
 
 ## Primera parte: la vida real
 
 ### 1996, primer semestre: el puesto
 
-- **Casos**: 1, web. Al final del semestre, el anzuelo: un correo de «Rosario» con un enlace, «esto engancha» *(esbozo)*.
-- **Historia**: el contable entra en la Gestoría Lindero. Luis le manda las normas; Julián, el fundador, aún pasa por la oficina. Conoce a Maruja, Tomás y Rosario *(esbozo)*.
-- **Hacker**: el primer correo suplantando a Rosario.
+- **Casos**: 1, web. Llega con el correo de bienvenida de Rosario, como un pasatiempo para los ratos muertos *(esbozo)*.
+- **Historia**: **la incorporación del contable al trabajo.** Entra en la Gestoría Lindero. Luis le manda las normas; Julián, el fundador, aún pasa por la oficina. Conoce a Maruja, Tomás y Rosario *(esbozo)*.
+- **Hacker**: por decidir si el correo de bienvenida ya es suyo o es de la Rosario de verdad.
 - **Documentos**: solo facturas corrientes, para aprender las normas *(esbozo)*.
 - **Mecánica nueva**: las reglas básicas del Murdoku y de las facturas.
 

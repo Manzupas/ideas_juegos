@@ -21,7 +21,7 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable de una gestor
 | [escaleta.md](escaleta.md) | Lo que pasa en cada semestre y en cada vuelta del purgatorio: casos, historia, hacker, documentos y mecánicas. |
 | [personajes.md](personajes.md) | Los doce personajes en tres círculos, la gestoría y los compañeros. |
 | [mecanicas.md](mecanicas.md) | Los Murdokus y sus tres estilos, las facturas y escrituras, la gravedad y los correos. |
-| [ambientacion.md](ambientacion.md) | España desde 1997, Windows 95, el efecto 2000, el IRC y la moneda. |
+| [ambientacion.md](ambientacion.md) | España desde 1996, Windows 95, el efecto 2000, el IRC y la moneda. |
 | [herramientas/escaleta_html.py](herramientas/escaleta_html.py) | Genera una página para ver la escaleta: `python3 -I escaleta_html.py` desde `herramientas/`. Publicada como artefacto: https://claude.ai/artifact/Q33tFmM5NWKU1LDyKhNKUM (se vuelve a publicar cuando cambia la escaleta). |
 | [prototipo/README.md](prototipo/README.md) | El prototipo web (*Office Work*): qué tiene y cómo se juega. No se actualiza más. |
 

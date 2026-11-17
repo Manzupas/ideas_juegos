@@ -7,7 +7,7 @@
 - **Posible título**: *Office Work*.
 - **El jugador es «el contable»**: trabaja en una gestoría haciendo trabajo burocrático; le llega un correo electrónico con un enlace y ya no puede parar de resolver Murdokus.
 - **La oficina se juega**: la interfaz recuerda a un programa de facturación (GESTA).
-- **Ambientación: España.** **Época: se empieza a trabajar en 1997.**
+- **Ambientación: España.** **Época: el contable empieza a trabajar en 1996.**
 - **Los personajes tienen nombres españoles clásicos** (ver [personajes.md](personajes.md)).
 - **La gestoría es española.** No todos los personajes son clientes suyos, pero en cada círculo al menos uno sí lo es. Propuesta: Gestoría Lindero, fundada por Julián Lindero.
 - **Temática de los casos**: en general, **la historia de España**. Los primeros casos, en la España de los 90.

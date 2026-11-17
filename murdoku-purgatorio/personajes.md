@@ -2,12 +2,12 @@
 
 > Estado: **propuesta**, pendiente de revisar. Lo decidido está marcado como **[fijado]**; el resto son ideas para discutir.
 >
-> **Por revisar con las dos partes**: las fechas de vida y las «muertes reales» de abajo son de antes de que el juego tuviera dos partes. Ahora los personajes están vivos en la primera parte (desde 1997) y sus muertes son consecuencia de lo que hace el contable.
+> **Por revisar con las dos partes**: las fechas de vida y las «muertes reales» de abajo son de antes de que el juego tuviera dos partes. Ahora los personajes están vivos en la primera parte (desde 1996) y sus muertes son consecuencia de lo que hace el contable.
 
 ## Planteamiento
 
 - **Doce personajes**, todos con **nombre español clásico** **[fijado]** y una inicial distinta.
-- **[fijado]** El juego está ambientado en **España a finales de los 90**: se empieza a trabajar en **1997**. **[fijado]** En la primera parte los personajes **están vivos**: son clientes de la gestoría o gente de su entorno. En la segunda parte, ya muertos, están en el purgatorio. (Por revisar cuándo muere cada uno.) **[fijado]** Sus muertes son **consecuencia de las acciones del contable**, y **al menos uno muere antes que él**, en la primera parte (propuesta: Ramón).
+- **[fijado]** El juego está ambientado en **España a finales de los 90**: el contable empieza a trabajar en **1996**. **[fijado]** En la primera parte los personajes **están vivos**: son clientes de la gestoría o gente de su entorno. En la segunda parte, ya muertos, están en el purgatorio. (Por revisar cuándo muere cada uno.) **[fijado]** Sus muertes son **consecuencia de las acciones del contable**, y **al menos uno muere antes que él**, en la primera parte (propuesta: Ramón).
 - **[fijado]** La temática de los casos es, en general, **la historia de España**. Los primeros casos son de la España de los 90.
 - Se agrupan en **tres círculos de cuatro**. En cada círculo hubo una barbaridad hecha entre varios, y cada uno puso su parte. Así, caso a caso, el jugador ve primero a personas sueltas y luego cómo encajan.
 - **[fijado]** No todos los personajes son clientes de la gestoría, pero **en cada círculo al menos uno sí lo es**: la gestoría tramitó los papeles de esa barbaridad.
