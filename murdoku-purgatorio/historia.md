@@ -30,7 +30,8 @@ La trama del juego. Lo que pasa semestre a semestre está en [escaleta.md](escal
 
 **Propuesta** (por revisar):
 
-- **La primera parte va de 1997 a 1999**: las tandas de facturas, los correos y las decisiones morales son la vida real del contable. Lo que acepta o rechaza afecta de verdad a los clientes y a sus víctimas (la familia Domínguez, los residentes, los vecinos del terreno).
+- **Empezar en 1996** (17/11/2026): con seis semestres la historia iba muy precipitada; con 1996 la primera parte tiene ocho. Por confirmar, porque contradice «se empieza a trabajar en 1997» (ver [escaleta.md](escaleta.md)).
+- **La primera parte va hasta 1999**: las tandas de facturas, los correos y las decisiones morales son la vida real del contable. Lo que acepta o rechaza afecta de verdad a los clientes y a sus víctimas (la familia Domínguez, los residentes, los vecinos del terreno).
 - **Muere el 31/12/1999**, justo antes del año 2000. Encaja con el efecto 2000: en el purgatorio el reloj nunca pasa de esa noche.
 - **Murdokus en las dos partes**: en la primera son un pasatiempo que le manda «Rosario» y no pasa nada; en la segunda son el mismo juego, pero las víctimas son los clientes que conoció, y mueren una y otra vez.
 - **El último Murdoku es su propio asesinato**: en la primera parte no se ve quién lo mata; en la segunda, el último caso le pone a él como víctima, con sus clientes como sospechosos.

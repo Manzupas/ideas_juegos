@@ -22,6 +22,7 @@ Un juego de puzles tipo *Murdoku* metido en la vida de un contable de una gestor
 | [personajes.md](personajes.md) | Los doce personajes en tres círculos, la gestoría y los compañeros. |
 | [mecanicas.md](mecanicas.md) | Los Murdokus y sus tres estilos, las facturas y escrituras, la gravedad y los correos. |
 | [ambientacion.md](ambientacion.md) | España desde 1997, Windows 95, el efecto 2000, el IRC y la moneda. |
+| [herramientas/escaleta_html.py](herramientas/escaleta_html.py) | Genera una página para ver la escaleta: `python3 -I escaleta_html.py` desde `herramientas/`. Publicada como artefacto: por apuntar. |
 | [prototipo/README.md](prototipo/README.md) | El prototipo web (*Office Work*): qué tiene y cómo se juega. No se actualiza más. |
 
 ## Cómo se apunta
