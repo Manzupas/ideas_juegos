@@ -9,6 +9,7 @@
 - **La oficina se juega**: la interfaz recuerda a un programa de facturación (GESTA).
 - **Ambientación: España.** **Época: el contable empieza a trabajar en 1996.**
 - **Los personajes tienen nombres españoles clásicos** (ver [personajes.md](personajes.md)).
+- **La gestoría está en Logroño.** El periódico local es *El Diario del Ebro*, que se lee en su edición digital (ver [historia.md](historia.md)).
 - **La gestoría es española.** No todos los personajes son clientes suyos, pero en cada círculo al menos uno sí lo es. Propuesta: Gestoría Lindero, fundada por Julián Lindero.
 - **Temática de los casos**: en general, **la historia de España**. Los primeros casos, en la España de los 90.
 - **Estética: Windows 95.** Un ordenador viejo en una gestoría de finales de los 90, que encaja con que vaya lento. (Se descartaron Windows 98 y Windows 7.)
@@ -19,7 +20,6 @@
 **Preguntas abiertas**:
 
 - Título definitivo: ¿*Office Work*?
-- ¿En qué ciudad está la gestoría? (Las facturas del prototipo son de Logroño y Benidorm.)
 
 ## Moneda
 
