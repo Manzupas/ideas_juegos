@@ -12,7 +12,7 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 MD = AQUI.parent / "escaleta.md"
 SALIDA = AQUI / "escaleta.html"
-CAMPOS = ["Casos", "Historia", "Hacker", "Documentos", "Mecánica nueva"]
+CAMPOS = ["Casos", "Historia", "Hacker", "Documentos", "Mecánica nueva", "Periódico"]
 
 
 def inline(texto):
@@ -74,7 +74,7 @@ PLANTILLA = r"""<!DOCTYPE html>
 <style>
 :root{--teal:#008080;--gris:#c0c0c0;--osc:#808080;--neg:#000;--bla:#fff;--azul:#000080;--azul2:#1084d0;
 --esbozo:#fff3a8;--prop:#cfe3ff;--nada:#e4e4e4;
---c-casos:#7a1f1f;--c-historia:#000080;--c-hacker:#0a6b0a;--c-documentos:#6b4a00;--c-mecanica:#5b2a86}
+--c-casos:#7a1f1f;--c-historia:#000080;--c-hacker:#0a6b0a;--c-documentos:#6b4a00;--c-mecanica:#5b2a86;--c-periodico:#333}
 *{box-sizing:border-box}
 body{margin:0;background:var(--teal);font:14px/1.45 Tahoma,"MS Sans Serif",Verdana,sans-serif;color:var(--neg);padding:12px 10px 40px}
 .win{background:var(--gris);border:2px solid;border-color:var(--bla) var(--neg) var(--neg) var(--bla);box-shadow:inset -1px -1px var(--osc),inset 1px 1px #dfdfdf;margin:0 auto 14px;max-width:760px}
@@ -142,7 +142,7 @@ ul{margin:4px 0 0;padding-left:20px}li{margin:3px 0}
 
 <script>
 const D = __DATOS__;
-const CAMPOS = [["Casos","casos"],["Historia","historia"],["Hacker","hacker"],["Documentos","documentos"],["Mecánica nueva","mecanica"]];
+const CAMPOS = [["Casos","casos"],["Historia","historia"],["Hacker","hacker"],["Documentos","documentos"],["Mecánica nueva","mecanica"],["Periódico","periodico"]];
 const $ = id => document.getElementById(id);
 let filtro = null;
 

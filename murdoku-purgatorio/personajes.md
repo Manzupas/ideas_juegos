@@ -45,7 +45,7 @@ Se mantienen Bernardo Torres, Maruja Clemente, Tomás Hoyos y Rosario Valle.
 ### Ramón Altamira (R) · 1924–1996
 - **[fijado]** Prestamista. Se quedó con las casas de tres familias que no pudieron pagarle. Víctima del caso 0001 (lo mata Diego). Fallecimientos registrados: 3. Reaparece vivo en el caso 0003. Debe una factura a la gestoría («No pienso pagar esto»).
 - **Vida**: empezó prestando dinero en el bar de su barrio en los años 60 y acabó con una financiera, *Créditos Altamira*, que se anunciaba en los periódicos («Dinero en 24 horas, sin preguntas»). Hacía firmar letras de cambio y pedía el piso como garantía. Buscaba a clientes que ya no podían pagar otro préstamo.
-- **Muerte real**: un infarto en su despacho, mientras firmaba un embargo.
+- **Muerte real**: un infarto en su despacho. **[fijado]** Muere en 2000, después que el contable; lo que lo provoca depende del camino (ver [historia.md](historia.md)). Cuando el contable llega al purgatorio, Ramón ya está allí.
 - **En los casos**: arrogante, siempre cree que la culpa es de otro. Nunca paga nada, ni en vida ni en el purgatorio.
 
 ### Francisco «Paco» Bellido (F) · 1948–1994

@@ -26,6 +26,7 @@ La trama del juego. Lo que pasa semestre a semestre está en [escaleta.md](escal
 - **Unos 100 casos en total**: unos 20 antes de morir, unos 50 hasta el final del juego y unos 30 extras, casos sueltos que van llegando en la segunda parte, aparte de la historia. El reparto está en [escaleta.md](escaleta.md).
 - **En la primera parte, pocos casos al principio y más a medida que avanza.** **En la segunda, cada vuelta del semestre trae más casos** que un semestre de la primera.
 - **Las muertes de los personajes son consecuencia de las acciones del contable.**
+- **Ramón muere después que el contable** (en 2000), de un infarto, y lo que lo provoca depende del camino: si se vendió, el día que sale en el periódico; si se denunció, al llegarle la citación; si se calló, firmando un embargo que el contable dejó pasar. Cuando el contable llega al purgatorio, Ramón ya está allí. Así hay consecuencias también después de su muerte.
 - **Al menos uno de los personajes muere antes que el contable**, durante la primera parte. **Bernardo puede morir en el segundo semestre de 1998**: pilla al arquitecto con Elena y los dos lo empujan desde un andamio; pasa por un accidente. **Bernardo se entera por culpa del contable**: el arquitecto y Elena pasan como «visitas de obra» noches de hotel o cenas, y lo que haga el contable con esas facturas decide cómo se entera Bernardo: si la **rechaza**, Luis pregunta a la promotora y salta todo; si se la **vende** al hacker, el hacker se lo cuenta a Bernardo; si la **acepta**, Bernardo no se entera y **no muere** (en 1998; qué le pasa después, por decidir). Si muere, el contable siente que ha sido culpa suya.
 - **El tiempo en el purgatorio no es lineal**: no sigue el orden de las muertes. Los personajes que mueren después que el contable ya están allí cuando él llega.
 
@@ -35,7 +36,7 @@ La trama del juego. Lo que pasa semestre a semestre está en [escaleta.md](escal
 - **Muere el 31/12/1999**, justo antes del año 2000. Encaja con el efecto 2000: en el purgatorio el reloj nunca pasa de esa noche.
 - **Murdokus en las dos partes**: en la primera son un pasatiempo que le manda «Rosario» y no pasa nada; en la segunda son el mismo juego, pero las víctimas son los clientes que conoció, y mueren una y otra vez.
 - **El último Murdoku es su propio asesinato**: en la primera parte no se ve quién lo mata; en la segunda, el último caso le pone a él como víctima, con sus clientes como sospechosos.
-- **La primera muerte, Ramón**: muere de un infarto en su despacho, y lo que la provoca depende del camino: si se vende, el día que sale en el periódico; si se denuncia, al llegarle la citación; si se calla, firmando un embargo que el contable dejó pasar. Es el aviso de que lo que hace el jugador mata.
+- **Un periódico por semestre**: al final de cada semestre llega un periódico con las consecuencias de lo que ha hecho el contable (los Domínguez, la residencia, los vecinos del Residencial Ebro, el «accidente» de Bernardo, Tomás). En la segunda parte, los periódicos cuentan lo que pasó **después de su muerte** (el infarto de Ramón, el juicio, la prensa). Nombre del periódico, cómo llega y qué trae, por decidir.
 - **Las decisiones de la primera parte deciden la segunda**: quién está en el purgatorio, qué casos aparecen o qué sabe el contable de cada uno.
 
 ## Los tres caminos
