@@ -39,7 +39,7 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
 **Propuesta** (por revisar):
 
 - **Un periódico al final de cada semestre**, con las consecuencias de lo que ha hecho el contable. En el purgatorio, los periódicos cuentan lo que pasó después de su muerte (el infarto de Ramón, el juicio, la prensa).
-- Casos por semestre en la primera parte: 1, 1, 2, 2, 3, 3, 4 y 4 (20). Por ajustar: en el segundo semestre de 1996 llegan más de uno. Segunda parte: 5 vueltas con 6, 8, 10, 12 y 14 casos (50); los 30 extras llegan sueltos entre vuelta y vuelta.
+- Casos por semestre en la primera parte: 1, 2, 2, 2, 3, 3, 3 y 4 (20). Segunda parte: 5 vueltas con 6, 8, 10, 12 y 14 casos (50); los 30 extras llegan sueltos entre vuelta y vuelta.
 
 ## Primera parte: la vida real
 
@@ -54,7 +54,7 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
 
 ### 1996, segundo semestre: los clientes
 
-- **Casos**: más de uno (por ajustar el reparto), web. Los manda «Tomás», el informático, suplantado por el hacker. El último trae el .bat.
+- **Casos**: 2 (propuesta), web. Los manda «Tomás», el informático, suplantado por el hacker. El último trae el .bat.
 - **Historia**: la Rosario de verdad contesta al agradecimiento: no sabe de qué le habla. Aparecen los clientes de los tres círculos como gente corriente: Ramón, que no paga; las cuentas trimestrales de la Residencia Pombo; las nóminas de Promociones Torres *(esbozo)*.
 - **Hacker**: suplanta a Tomás para seguir mandando casos. El jugador puede pedirle explicaciones al Tomás de verdad, que viene a la oficina a arreglar el ordenador. **Tomás lo quita, pero sin darle importancia** («es un programa de chat, mucha gente lo usa»): borra el IRC y deja GESTA como estaba. **Al día siguiente todo vuelve a estar instalado**: es el primer aviso de que el hacker controla el ordenador, y Tomás queda como alguien poco fiable. Con el último caso, el jugador puede descargar un **.bat** que instala el **IRC** y **modifica GESTA 2000 para que muestre los Murdokus**.
 - **Documentos**: las primeras facturas de los personajes, todavía sin nada raro *(esbozo)*.
@@ -99,7 +99,7 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
 
 ### 1999, primer semestre: el euro y la primera muerte
 
-- **Casos**: 4.
+- **Casos**: 3.
 - **Historia**: los vecinos del Residencial Ebro empiezan a enfermar *(esbozo)*.
 - **Hacker**: por decidir.
 - **Documentos**: entra el euro el 1 de enero (propuesta). Las escrituras clave del terreno: la compra y la venta de los cuarenta pisos *(esbozo)*. Nueva norma: el contravalor en euros (propuesta).
