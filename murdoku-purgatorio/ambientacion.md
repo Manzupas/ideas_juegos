@@ -21,6 +21,44 @@
 
 - Título definitivo: ¿*Office Work*?
 
+## La oficina por dentro (propuesta)
+
+La Gestoría Lindero, en Logroño. **El mismo plano sirve para tres cosas**: como referencia del diseño, para dibujar la oficina en el juego y como plano de un Murdoku (por ejemplo, **un caso del arquitecto en la oficina**). Está en el juego en `game/office/office_map.json`, con el formato de los planos de los casos (8×8, con puertas), y se edita en la pestaña «Oficina» del editor.
+
+```
+ ┌──────────────┬──────────────┬─────────┐
+ │ Despacho de  │ Despacho de  │ Archivo │
+ │ Julián       │ Luis         │         │
+ └──────────▯───┴▯─────────────┴──────▯──┘
+   Pasillo (de lado a lado y baja junto a la oficina)
+ ┌────────▯─────────────┐   ┌─────────┐
+ │ Oficina              │   ▯ Cocina  │
+ │ cuatro puestos:      │   ├─────────┤
+ │ el tuyo y el de      │   ▯ Baño    │
+ │ Rosario, uno junto   │   │         │
+ │ al otro, y dos más   │ ┌─▯─────────┤
+ │                      │ │ Recepción │
+ │                      │ │ (Maruja)  │
+ └──────────────────────┘ └────▯──────┘
+                            entrada (▯ = puerta)
+```
+
+- **La oficina** (sala común): cuatro puestos de trabajo. El del contable y, al lado, el de Rosario, «la de las plantas», rodeada de ellas. Los otros dos, por decidir quién los ocupa.
+- **Despacho de Luis**, el jefe; **despacho de Julián**, el fundador, que aún pasa por allí (y es donde muere: «en su despacho de la gestoría, a última hora, solo»). Tiene alfombra.
+- **Archivo**: archivadores y la fotocopiadora. Es por donde saldrían los papeles al «vender secretos» (fotocopias, disquetes, fax).
+- **Cocina**: la máquina de café («el café de la máquina es malo»).
+- **Baño**: lavabo y váter.
+- **Recepción**: el mostrador de Maruja y una silla de espera. Es la entrada desde la calle.
+- **Pasillo**: une todas las habitaciones; cada una tiene una puerta.
+- **Tomás no tiene mesa**: viene cuando se le llama.
+
+Preguntas abiertas:
+
+- ¿Quién se sienta en los otros dos puestos de la oficina?
+- ¿Qué hace el mapa dentro del juego (moverse por la oficina, ir a hablar con alguien, ver quién está)? ¿Cómo encaja con que todo pase en la pantalla del ordenador?
+- ¿Qué caso del arquitecto pasa en la oficina? ¿Y el del asesinato del contable o el de Tomás? El generador de casos llega de momento a 6×6; un caso en la oficina entera (8×8) necesita otro método, o usar solo una parte del plano.
+- ¿Las puertas cambian las reglas del Murdoku (pistas como «estaba junto a la puerta», o habitaciones que solo se comunican por una puerta)?
+
 ## El Diario del Ebro: cómo se ve
 
 Qué cuenta y cuándo llega: [historia.md](historia.md). Maqueta (diciembre de 1997): https://claude.ai/artifact/KgkBG1Jx4S8bP9fK9AqT2p
