@@ -44,6 +44,8 @@ En un *Murdoku* hay un plano de una casa dividido en cuadrícula y unos sospecho
 - **El frío**: hay radiadores en el plano; quien tenía frío estaba lejos de todos y quien tenía calor, junto a uno.
 - **El gato de la oficina**: el gato siempre se pone al lado de quien le da de comer; su casilla es una pista que cambia de un caso a otro.
 - **El plano de la vuelta anterior**: se ve en transparencia dónde estaba cada uno en la vuelta anterior, y algunas pistas hablan de quién se ha movido y quién no.
+- **Los pecados capitales**: cada sospechoso tiene un pecado y cada habitación atrae a uno (la gula, a la cocina; la avaricia, al archivo). Todos acaban en su habitación menos uno.
+- **La balanza**: el plano es una balanza; el peso de las almas de la mitad izquierda tiene que igualar el de la derecha.
 
 **Preguntas abiertas**:
 
