@@ -26,6 +26,11 @@ En un *Murdoku* hay un plano de una casa dividido en cuadrícula y unos sospecho
 - **El cuerpo tumbado**: la víctima ocupa dos casillas seguidas, así que su fila o su columna cuenta doble y nadie más puede usarla.
 - **Al revés**: se sabe quién es el asesino, pero no quién murió; hay que deducir cuál de los presentes era la víctima.
 - **Preguntas de sí o no**: además de las pistas, tres preguntas al purgatorio («¿Estaba Elena en la cocina?»); elegir qué preguntar es parte del puzle.
+- **Retrato robot**: cada sospechoso tiene rasgos (gafas, sombrero, bastón) y las pistas solo hablan de rasgos («alguien con gafas estaba en la cocina»).
+- **Cómplices**: en la habitación de la víctima hay dos personas y las dos son culpables; hay que acusar a la pareja.
+- **La habitación cerrada**: una habitación tiene llave y solo puede estar dentro quien la tenía; hay que deducir quién la llevaba.
+- **El pasillo no cuenta**: quien está en el pasillo va de paso y no comparte habitación con nadie.
+- **Fichas boca abajo**: primero se colocan fichas sin nombre (las posiciones) y después se descubre quién es cada una.
 
 **Preguntas abiertas**:
 
