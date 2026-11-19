@@ -23,6 +23,9 @@ En un *Murdoku* hay un plano de una casa dividido en cuadrícula y unos sospecho
 - Un arma en el plano: el asesino tiene que estar junto a ella.
 - Una habitación cerrada o una casilla que solo se sabe que está vacía.
 - En la segunda parte, mecánicas que solo tienen sentido en el purgatorio (por ejemplo, un personaje que aparece dos veces).
+- **El cuerpo tumbado**: la víctima ocupa dos casillas seguidas, así que su fila o su columna cuenta doble y nadie más puede usarla.
+- **Al revés**: se sabe quién es el asesino, pero no quién murió; hay que deducir cuál de los presentes era la víctima.
+- **Preguntas de sí o no**: además de las pistas, tres preguntas al purgatorio («¿Estaba Elena en la cocina?»); elegir qué preguntar es parte del puzle.
 
 **Preguntas abiertas**:
 
