@@ -43,6 +43,7 @@ En un *Murdoku* hay un plano de una casa dividido en cuadrícula y unos sospecho
 - **Las extensiones**: cada habitación tiene un teléfono con su extensión y las pistas son llamadas («Isabel llamó a la extensión 3»). Enlaza con la centralita de las facturas.
 - **El frío**: hay radiadores en el plano; quien tenía frío estaba lejos de todos y quien tenía calor, junto a uno.
 - **El gato de la oficina**: el gato siempre se pone al lado de quien le da de comer; su casilla es una pista que cambia de un caso a otro.
+- **El plano de la vuelta anterior**: se ve en transparencia dónde estaba cada uno en la vuelta anterior, y algunas pistas hablan de quién se ha movido y quién no.
 
 **Preguntas abiertas**:
 
