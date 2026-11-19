@@ -122,6 +122,33 @@ Facturas en pesetas, con el IVA de 1997 (16 %) y el NIF o CIF de cada empresa, d
 
 Los correos de los Murdokus llegan al revisar 4, 11 y 17 facturas (cada uno, una vez resuelto el caso anterior). Al terminar la tanda, Luis manda un resumen con los errores; en el prototipo, ese correo enseña también la cuenta oculta.
 
+### Que revisar facturas sea divertido
+
+**Propuesta** (por revisar): la revisión tal cual, abrir y aceptar en GESTA, es demasiado real. Se hicieron maquetas jugables de varias ideas (noviembre de 2026); estas gustaron y pueden combinarse:
+
+- **La cinta de sellos** (la que más gustó): arcade. Las facturas pasan de una en una con el tiempo justo y se sellan ACEPTADA o RECHAZADA con dos sellos grandes (o deslizando la factura). Por rondas, Luis añade normas y al final una excepción que contradice las anteriores («las de Promociones Torres, siempre aceptadas»). Rachas que multiplican y tres vidas: la paciencia de Luis. Encaja con las reglas que se acumulan y con la complicidad: la excepción de Luis es justo lo que tapa algo.
+- **Busca las diferencias** (la que más gustó): el original del archivo al lado de la copia que ha llegado, retocada con Tipp-Ex; se tocan en la copia las líneas cambiadas (importe, fecha, cubiertos, firma) y cada fallo cuesta tiempo. Sirve para que el contable descubra por sí mismo quién infla las cuentas.
+- **La mesa del contable**: la factura sobre la mesa y herramientas de verdad: sello, Tipp-Ex, el cajón (guardar sin decidir) y la trituradora.
+- **A escondidas del jefe**: copiar para el hacker las facturas comprometedoras mientras Luis pasa por detrás; si te ve, hay que disimular. Sería la forma de jugar la venta al hacker.
+- **Leer entre líneas** (podría valer): de un grupo de facturas se eligen las que dan las pistas de un Murdoku; con las buenas, el caso tiene solución única. Une las facturas con los Murdokus.
+- **Cuadrar las cuentas** (podría valer): un puzle sobre el libro de cuentas: cada factura se coloca en su casilla (cuenta por mes) para que cada fila y cada columna sumen su total y se cumplan las notas de Luis. Podría ser el momento de cerrar cada tanda o cada mes.
+
+- **Esa factura miente**: un proveedor llama para defender su factura rechazada; se pasan sus frases y, al oír la mentira, se toca la línea de la factura que la desmiente (una fecha que no cuadra, un IVA mal calculado, una reforma que no era «solo la planta segunda»). Tocar una línea cuando dice la verdad cuesta credibilidad. Daría voz a los rechazos.
+- **El archivador**: Luis pide facturas con pistas vagas («la de la luz del bar, la rectificada») y hay que encontrarlas en los cajones, ordenados por emisor, antes de que se le acabe la paciencia. Lo que pide Luis también cuenta la historia: ¿para qué quiere justo esas?
+
+- **Seguir el dinero**: de un pago de Torres se sigue el dinero de factura en factura (la paga quien cobró la anterior, es posterior y se lleva casi todo, menos una comisión) entre facturas trampa, a través de empresas pantalla, hasta quien se lo queda. Una forma de jugar los círculos de corrupción con facturas.
+- **El cheque en letras**: el importe en letras se escribe con fichas de palabras; las trampas son las de la escuela («trescientos» con pesetas, «ciento mil», «veinte y cuatro»). Luis puede pedir que no se cierre la línea con rayas, y luego aparece algo añadido.
+- **La factura triturada**: recomponer las tiras de lo que Luis ha pasado por la trituradora, guiándose por lo que cruza de una tira a otra. Lo reconstruido es lo que quería esconder.
+
+- **La centralita** (puede estar bien): suenan varias líneas a la vez y cada llamada se pasa a su extensión según la nota de Luis («si llama Hacienda, no estoy»; «Torres, siempre conmigo»), con trampas como el «amigo de la delegación». Las llamadas que van a Luis se pueden escuchar a escondidas, a riesgo de que se oiga el clic: así se entera el contable de lo que no está en los papeles.
+Descartadas: las cuatro barras al estilo *Reigns*, el ordenador que se cuelga, el tablón de corcho, la firma de Luis (calcarla con el dedo), la caja (dar el cambio en pesetas), de memoria (recordar una factura antes de que la trituren), la tesorería (repartir los pagos de la semana), la inspección de Hacienda (elegir qué documento se enseña) y conciliar el banco (emparejar cargos con facturas).
+
+**Preguntas abiertas**:
+
+- La mesa (Tipp-Ex, trituradora) choca con «no se modifican» y con «sin botones nuevos»; *A escondidas del jefe* añade «hacer una copia». ¿Se reabre esa decisión?
+- ¿La cinta es el modo normal de revisar o un momento puntual (el cierre del ejercicio, una tanda con prisas)?
+- ¿Busca las diferencias va con todas las facturas o solo con las que Luis ha retocado?
+
 ## Correos
 
 **Decidido**:
