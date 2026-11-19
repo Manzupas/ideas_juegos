@@ -21,6 +21,14 @@ En un *Murdoku* hay un plano de una casa dividido en cuadrícula y unos sospecho
 - Puertas y ventanas: «X estaba junto a una puerta».
 - Planos más grandes (7×7, 8×8) y más sospechosos.
 - Un arma en el plano: el asesino tiene que estar junto a ella.
+- **Ideas del arma del crimen**:
+  - **Cada arma tiene su alcance**: el abrecartas, al lado de la víctima; el cable del teléfono, en la misma habitación; el pisapapeles lanzado, en la misma fila o columna sin paredes en medio. La regla de quién pudo matar cambia con el arma.
+  - **Varias armas, una usada**: varios objetos que pudieron servir (grapadora, cenicero, perforadora); además del asesino hay que deducir el arma, como en el *Cluedo*.
+  - **Veneno en el café**: el asesino no tuvo que estar con la víctima; es quien pasó junto a la cafetera.
+  - **El arma se movió**: el asesino se la llevó y la dejó en otra habitación, en un sitio por el que pudo pasar.
+  - **El arma tiene dueño** (el abrecartas de Luis, la pluma de Ramón): el dueño no tiene por qué ser el asesino, pero cuenta dónde la dejó.
+  - **El arma desaparecida**: no está en el plano porque el asesino aún la lleva encima («quien la tenga no pudo pasar por el detector del vestíbulo»).
+  - **El sello de la gestoría**: en la muerte del contable, el arma sale de su propia mesa (el sello, la calculadora, un archivador de sus facturas). Cierra el tema de la complicidad.
 - Una habitación cerrada o una casilla que solo se sabe que está vacía.
 - En la segunda parte, mecánicas que solo tienen sentido en el purgatorio (por ejemplo, un personaje que aparece dos veces).
 - **El cuerpo tumbado**: la víctima ocupa dos casillas seguidas, así que su fila o su columna cuenta doble y nadie más puede usarla.
