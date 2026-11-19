@@ -33,6 +33,7 @@ En un *Murdoku* hay un plano de una casa dividido en cuadrícula y unos sospecho
 - **Fichas boca abajo**: primero se colocan fichas sin nombre (las posiciones) y después se descubre quién es cada una.
 - **Ventanas**: algunas paredes tienen ventanas que dejan ver la habitación de al lado («Elena vio a Diego por la ventana»).
 - **Las extensiones**: cada habitación tiene un teléfono con su extensión y las pistas son llamadas («Isabel llamó a la extensión 3»). Enlaza con la centralita de las facturas.
+- **El frío**: hay radiadores en el plano; quien tenía frío estaba lejos de todos y quien tenía calor, junto a uno.
 
 **Preguntas abiertas**:
 
