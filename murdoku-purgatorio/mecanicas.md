@@ -48,6 +48,13 @@ En un *Murdoku* hay un plano de una casa dividido en cuadrícula y unos sospecho
 - **La balanza**: el plano es una balanza; el peso de las almas de la mitad izquierda tiene que igualar el de la derecha.
 - **El inspector de Hacienda**: una ficha de inspector; nadie comparte fila, columna ni habitación con él (como la dama del ajedrez), y deja casillas prohibidas.
 - **Cada alma se mueve a su manera** (gusta, pero pide cambiar las reglas del Murdoku enteras en esos niveles): las almas empiezan en un sitio conocido y se mueven como piezas de ajedrez (una en línea recta, otra en diagonal, otra saltando); hay que deducir adónde llegaron.
+- **El sereno**: el sereno tiene las llaves de todas las puertas y hace su ronda; las puertas que abrió dicen por dónde pudo pasar cada uno.
+- **Niveles con reglas propias** (cambian las reglas del Murdoku enteras):
+  - **Murdoku de ajedrez**: no hay regla de fila y columna; cada alma es una pieza de ajedrez y ninguna puede «atacar» a otra.
+  - **Murdoku buscaminas**: algunas casillas vacías dicen cuántas almas hay a su alrededor.
+  - **La procesión**: todas las almas van en fila, por casillas seguidas y en un orden conocido, recorriendo las habitaciones; hay que encontrar el recorrido.
+  - **Recuentos en los bordes**: puede haber varias almas por fila; los números del borde dicen cuántas hay en cada fila y columna, como en un nonograma.
+  - **Empujar almas**: las almas no se colocan, se empujan, como en *Sokoban*.
 
 **Preguntas abiertas**:
 
