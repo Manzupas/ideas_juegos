@@ -46,6 +46,8 @@ En un *Murdoku* hay un plano de una casa dividido en cuadrícula y unos sospecho
 - **El plano de la vuelta anterior**: se ve en transparencia dónde estaba cada uno en la vuelta anterior, y algunas pistas hablan de quién se ha movido y quién no.
 - **Los pecados capitales**: cada sospechoso tiene un pecado y cada habitación atrae a uno (la gula, a la cocina; la avaricia, al archivo). Todos acaban en su habitación menos uno.
 - **La balanza**: el plano es una balanza; el peso de las almas de la mitad izquierda tiene que igualar el de la derecha.
+- **El inspector de Hacienda**: una ficha de inspector; nadie comparte fila, columna ni habitación con él (como la dama del ajedrez), y deja casillas prohibidas.
+- **Cada alma se mueve a su manera** (gusta, pero pide cambiar las reglas del Murdoku enteras en esos niveles): las almas empiezan en un sitio conocido y se mueven como piezas de ajedrez (una en línea recta, otra en diagonal, otra saltando); hay que deducir adónde llegaron.
 
 **Preguntas abiertas**:
 
