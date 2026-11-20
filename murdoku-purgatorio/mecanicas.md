@@ -71,6 +71,8 @@ En un *Murdoku* hay un plano de una casa dividido en cuadrícula y unos sospecho
   - **Las condenas** (como *KenKen*): grupos de casillas con una cuenta («30 años, suma»); años de condena sin repetir en fila ni columna.
   - **Más culpable que** (como *Futoshiki*): signos de mayor y menor entre casillas para repartir los grados de culpa.
   - **Las tuberías** (como *Pipes*): girar tuberías para que la contaminación llegue de la Química del Ebro al Residencial Ebro.
+  - **El interrogatorio** (como *Mastermind*): se propone dónde estaba cada uno y el purgatorio dice cuántos están bien y cuántos en la habitación buena pero en otra casilla; hay que acertar en pocos intentos.
+  - **El archivador** (como *Rush Hour*): deslizar los archivadores que bloquean el pasillo para sacar el expediente de la víctima; cada uno solo se mueve a lo largo.
 
 **Preguntas abiertas**:
 
