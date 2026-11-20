@@ -55,6 +55,14 @@ En un *Murdoku* hay un plano de una casa dividido en cuadrícula y unos sospecho
   - **La procesión**: todas las almas van en fila, por casillas seguidas y en un orden conocido, recorriendo las habitaciones; hay que encontrar el recorrido.
   - **Recuentos en los bordes**: puede haber varias almas por fila; los números del borde dicen cuántas hay en cada fila y columna, como en un nonograma.
   - **Empujar almas**: las almas no se colocan, se empujan, como en *Sokoban*.
+  - **Dos por fila** (como *Star Battle*): dos almas en cada fila, columna y habitación, sin tocarse ni en diagonal.
+  - **Una por habitación**: exactamente un alma por habitación, menos la de la víctima, que tiene dos.
+  - **Las velas** (como *Akari*): colocar velas para iluminar todo el plano sin que ninguna alumbre a otra; los muebles con número dicen cuántas tienen al lado.
+  - **Las tumbas** (como *Tents*): cada alma tiene su tumba al lado; las tumbas no se tocan; números en el borde.
+  - **Los ataúdes** (como *Hundir la flota*): ataúdes de varios tamaños escondidos; los números del borde dicen cuántas casillas ocupan por fila y columna.
+  - **La culpa tapa** (como *Skyscrapers*): mirando desde un borde, las almas más culpables tapan a las de detrás; el número dice cuántas se ven.
+  - **El paseo del asesino** (como *Slitherlink*): dibujar el recorrido cerrado del asesino; los números dicen cuántos lados de la casilla toca.
+  - **Almas grandes** (como *LITS*): cada alma ocupa varias casillas con forma de pieza de *Tetris*, una por habitación, sin tocarse dos iguales.
 
 **Preguntas abiertas**:
 
