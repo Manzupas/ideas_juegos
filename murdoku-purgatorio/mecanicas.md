@@ -63,6 +63,14 @@ En un *Murdoku* hay un plano de una casa dividido en cuadrícula y unos sospecho
   - **La culpa tapa** (como *Skyscrapers*): mirando desde un borde, las almas más culpables tapan a las de detrás; el número dice cuántas se ven.
   - **El paseo del asesino** (como *Slitherlink*): dibujar el recorrido cerrado del asesino; los números dicen cuántos lados de la casilla toca.
   - **Almas grandes** (como *LITS*): cada alma ocupa varias casillas con forma de pieza de *Tetris*, una por habitación, sin tocarse dos iguales.
+  - **Repartir la oficina** (como *Shikaku*): dibujar las habitaciones, rectángulos; cada número dice cuántas casillas tiene la suya, y en cada una hay un alma.
+  - **Los muros del purgatorio** (como *Nurikabe*): levantar muros hasta dejar islas del tamaño de su número; los muros, todos unidos.
+  - **Los repetidos** (como *Hitori*): tachar las almas repetidas para que cada nombre salga una vez por fila y columna; dos tachadas no se tocan.
+  - **Los hilos** (como *Flow*): unir cada alma con su tumba (o cada deudor con su acreedor) sin cruzarse y llenando el plano.
+  - **Vivos y muertos** (como *Binairo*): cada casilla es un vivo o un muerto; los mismos de cada en cada fila y nunca tres iguales seguidos.
+  - **Las condenas** (como *KenKen*): grupos de casillas con una cuenta («30 años, suma»); años de condena sin repetir en fila ni columna.
+  - **Más culpable que** (como *Futoshiki*): signos de mayor y menor entre casillas para repartir los grados de culpa.
+  - **Las tuberías** (como *Pipes*): girar tuberías para que la contaminación llegue de la Química del Ebro al Residencial Ebro.
 
 **Preguntas abiertas**:
 
