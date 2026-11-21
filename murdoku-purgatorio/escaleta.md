@@ -58,7 +58,7 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
 - **Historia**: la Rosario de verdad contesta al agradecimiento: no sabe de qué le habla. Aparecen los clientes de los tres círculos como gente corriente: Ramón, que no paga; las cuentas trimestrales de la Residencia Pombo; las nóminas de Promociones Torres *(esbozo)*.
 - **Hacker**: suplanta a Tomás para seguir mandando casos. El jugador puede pedirle explicaciones al Tomás de verdad, que viene a la oficina a arreglar el ordenador. **Tomás lo quita, pero sin darle importancia** («es un programa de chat, mucha gente lo usa»): borra el IRC y deja GESTA como estaba. **Al día siguiente todo vuelve a estar instalado**: es el primer aviso de que el hacker controla el ordenador, y Tomás queda como alguien poco fiable. Con el último caso, el jugador puede descargar un **.bat** que instala el **IRC** y **modifica GESTA 2000 para que muestre los Murdokus**.
 - **Documentos**: las primeras facturas de los personajes, todavía sin nada raro *(esbozo)*.
-- **Mecánica nueva**: por decidir.
+- **Mecánica nueva**: pistas en negativo (propuesta, ver la progresión en [mecanicas.md](mecanicas.md)).
 - **Periódico**: por decidir.
 
 ### 1997, primer semestre: lo que no cuadra
@@ -67,7 +67,7 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
 - **Historia**: **entra como cliente el arquitecto del Residencial Ebro.** Empiezan los primeros detalles raros: el embargo de los Domínguez, los menús de la residencia *(esbozo)*.
 - **Hacker**: aparece en el IRC **sin pedir nada**: hace de compañero de pasatiempo, comenta los casos, presume de que el GESTA modificado es cosa suya y deja caer que sabe cosas de los clientes.
 - **Documentos**: las primeras facturas contra la conciencia *(esbozo)*.
-- **Mecánica nueva**: por decidir.
+- **Mecánica nueva**: pistas entre personas (izquierda, arriba, misma habitación) (propuesta, ver la progresión en [mecanicas.md](mecanicas.md)).
 - **Periódico**: por decidir.
 
 ### 1997, segundo semestre: el cierre
@@ -76,7 +76,7 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
 - **Historia**: por decidir.
 - **Hacker**: con la tanda de diciembre, **le pide la primera factura**. Es la primera ocasión de vender.
 - **Documentos**: la tanda de diciembre del prototipo: asoman los tres círculos (el embargo de los Domínguez, la residencia Pombo, el informe del suelo sin anexo C, la recalificación); ver [mecanicas.md](mecanicas.md).
-- **Mecánica nueva**: por decidir.
+- **Mecánica nueva**: puertas y ventanas (propuesta, ver la progresión en [mecanicas.md](mecanicas.md)).
 - **Periódico**: por decidir.
 
 ### 1998, primer semestre: el arquitecto
@@ -85,7 +85,7 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
 - **Historia**: por decidir.
 - **Hacker**: por decidir.
 - **Documentos**: las primeras escrituras: los embargos de Ramón *(esbozo)*.
-- **Mecánica nueva**: por decidir.
+- **Mecánica nueva**: planos de 7×7 y la habitación cerrada con llave, con los casos del arquitecto (propuesta, ver la progresión en [mecanicas.md](mecanicas.md)).
 - **Periódico**: por decidir.
 
 ### 1998, segundo semestre: Hacienda
@@ -94,7 +94,7 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
 - **Historia**: **puede morir Bernardo** (si el contable no aceptó las facturas del lío): pilla al arquitecto con Elena y los dos lo empujan desde un andamio de una de sus obras. Oficialmente, un accidente. El contable lo puede intuir por los papeles (el informe de la obra, el seguro, alguna factura que no cuadra) *(esbozo)*.
 - **Hacker**: le pone la web de Hacienda y se la bloquea cuando no vende; Tomás se la arregla *(esbozo)*.
 - **Documentos**: las facturas de hotel o de cenas del arquitecto y Elena, pasadas como «visitas de obra». Lo que haga el contable con ellas decide cómo se entera Bernardo. Por decidir si llegan en este semestre o antes.
-- **Mecánica nueva**: por decidir.
+- **Mecánica nueva**: el inspector de Hacienda (propuesta, ver la progresión en [mecanicas.md](mecanicas.md)).
 - **Periódico**: por decidir.
 
 ### 1999, primer semestre: el euro y la primera muerte
@@ -103,7 +103,7 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
 - **Historia**: los vecinos del Residencial Ebro empiezan a enfermar *(esbozo)*.
 - **Hacker**: **muere Tomás**, su contacto en la oficina, si el contable no le ayuda cuando se lo pide. No se sabe bien qué ha pasado.
 - **Documentos**: entra el euro el 1 de enero (propuesta). Las escrituras clave del terreno: la compra y la venta de los cuarenta pisos *(esbozo)*. Nueva norma: el contravalor en euros (propuesta).
-- **Mecánica nueva**: por decidir.
+- **Mecánica nueva**: el arma del crimen: el asesino junto a ella; después, varias armas (propuesta, ver la progresión en [mecanicas.md](mecanicas.md)).
 - **Periódico**: si muere Tomás, una noticia breve y poco clara sobre su muerte.
 
 ### 1999, segundo semestre: el final
@@ -112,7 +112,7 @@ Lo que no se ha hablado queda como «Por decidir». Lo marcado *(esbozo)* viene 
 - **Historia**: el contable ya puede denunciar. Según el camino, sale en la prensa (Nicolás), llega la citación al juicio (Gloria) o Luis se da cuenta de lo que sabe. Muere el 31/12/1999 (propuesta).
 - **Hacker**: por decidir.
 - **Documentos**: nueva norma del efecto 2000 (propuesta).
-- **Mecánica nueva**: por decidir.
+- **Mecánica nueva**: el arma tiene dueño y el arma se movió; en su asesinato, el arma desaparecida (propuesta, ver la progresión en [mecanicas.md](mecanicas.md)).
 - **Periódico**: por decidir.
 
 ## Segunda parte: el purgatorio

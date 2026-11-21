@@ -74,6 +74,33 @@ En un *Murdoku* hay un plano de una casa dividido en cuadrícula y unos sospecho
   - **El interrogatorio** (como *Mastermind*): se propone dónde estaba cada uno y el purgatorio dice cuántos están bien y cuántos en la habitación buena pero en otra casilla; hay que acertar en pocos intentos.
   - **El archivador** (como *Rush Hour*): deslizar los archivadores que bloquean el pasillo para sacar el expediente de la víctima; cada uno solo se mueve a lo largo.
 
+### Progresión: cómo entran las mecánicas
+
+**Propuesta** (por revisar), de más sencillas a más complejas:
+
+- **Una mecánica nueva por bloque** (cada semestre y cada vuelta). Se presenta en el primer caso del bloque, que es fácil y solo usa esa mecánica; los siguientes la mezclan con las anteriores.
+- **Como mucho dos o tres mecánicas a la vez** en un caso, aparte de las reglas básicas.
+- **Primera parte: solo lo que podría pasar de verdad** (objetos, personas, la oficina). Lo del purgatorio y lo que tuerce las reglas se guarda para la segunda parte.
+- **Los niveles con reglas propias van en los 30 casos extra**, en grupos de 3 a 5 casos por cada regla, entre vuelta y vuelta. No se mezclan con la historia.
+
+| Bloque | Casos | Mecánica nueva | Por qué ahí |
+|--------|-------|----------------|-------------|
+| 1996, 1.er semestre | 1 | Reglas básicas; pistas de habitación, fila y columna | Tutorial |
+| 1996, 2.º semestre | 2 | Pistas en negativo | La más sencilla de añadir |
+| 1997, 1.er semestre | 2 | Pistas entre personas (izquierda, arriba, misma habitación) | Primer salto de razonamiento |
+| 1997, 2.º semestre | 2 | Puertas y ventanas | Primeros elementos del plano |
+| 1998, 1.er semestre | 3 | Planos de 7×7 y la habitación cerrada con llave | Llega el arquitecto con sus planos |
+| 1998, 2.º semestre | 3 | El inspector de Hacienda | El semestre de Hacienda |
+| 1999, 1.er semestre | 3 | El arma: el asesino junto a ella; después, varias armas | Primera muerte |
+| 1999, 2.º semestre | 4 | El arma tiene dueño y el arma se movió; el último, el arma desaparecida | Su asesinato, sin asesino visible |
+| Vuelta 1 | 6 | Retrato robot | En el purgatorio no recuerdan los nombres |
+| Vuelta 2 | 8 | El plano de la vuelta anterior | Cambian detalles: se compara con la vuelta anterior |
+| Vuelta 3 | 10 | Los pecados capitales | Salen las barbaridades de cada uno |
+| Vuelta 4 | 12 | Cómplices y el pasillo no cuenta (las reglas empiezan a torcerse) | Descubre su complicidad |
+| Vuelta 5 | 14 | Al revés y el cuerpo tumbado; el último caso, el sello de la gestoría | Su asesinato: la víctima es él |
+
+Mecánicas menores, para variar dentro de los bloques sin contar como nuevas: el gato de la oficina (desde 1997), las extensiones (con la centralita), el frío (inviernos), el sereno (casos de noche), preguntas de sí o no (vuelta 2 en adelante), fichas boca abajo y la balanza (vueltas 3 a 5).
+
 **Preguntas abiertas**:
 
 - ¿Qué mecánicas nuevas y en qué orden?
