@@ -24,4 +24,7 @@ Un tower defense al estilo de *Plantas contra zombis*: defensas colocadas en un 
 - En qué dispositivos se juega.
 - Recursos (equivalente a los soles), tipos de defensas y de enemigos.
 - Estructura: niveles, oleadas, modos de juego.
-- Qué mecánicas concretas de riesgo y recompensa tiene.
+- Qué mecánicas concretas de riesgo y recompensa tiene. El usuario quiere **mecánicas propias**. Le parecen ideas válidas como punto de partida, sin decidir todavía:
+  - Dejar pasar enemigos: cuanto más se acercan a la base, más botín sueltan.
+  - Llamar a la siguiente oleada antes de tiempo, a cambio de más recursos.
+  - Defensas que se sobrecargan: disparan más, pero pueden romperse.
