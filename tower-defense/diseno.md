@@ -28,3 +28,6 @@ Un tower defense al estilo de *Plantas contra zombis*: defensas colocadas en un 
   - Dejar pasar enemigos: cuanto más se acercan a la base, más botín sueltan.
   - Llamar a la siguiente oleada antes de tiempo, a cambio de más recursos.
   - Defensas que se sobrecargan: disparan más, pero pueden romperse.
+- Mecánicas propias que le gustan al usuario (propuestas, falta concretarlas):
+  - **El cebo**: se coloca un cebo que atrae a los enemigos de los carriles vecinos hacia uno solo. Así se concentra el botín en ese carril, pero también el peligro.
+  - **Defensas que maduran**: una defensa que aguanta varias oleadas sin recibir daño evoluciona en una versión mucho mejor. Mientras madura es un punto débil que hay que proteger.
