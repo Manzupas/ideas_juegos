@@ -14,6 +14,9 @@ Un tower defense al estilo de *Plantas contra zombis*: defensas colocadas en un 
 ## Decidido
 
 - Se juega **siempre en apaisado** (horizontal), en cualquier dispositivo. Al principio se planteó que el tablero fuese vertical u horizontal según el dispositivo, pero se descartó.
+- **El tablero es fijo**: cabe entero en la pantalla y no se hace scroll.
+- El juego se basa en **mecánicas de riesgo y recompensa**.
+- **Los niveles no son puzles**: no hay una solución concreta que encontrar.
 
 ## Preguntas abiertas
 
@@ -21,3 +24,4 @@ Un tower defense al estilo de *Plantas contra zombis*: defensas colocadas en un 
 - En qué dispositivos se juega.
 - Recursos (equivalente a los soles), tipos de defensas y de enemigos.
 - Estructura: niveles, oleadas, modos de juego.
+- Qué mecánicas concretas de riesgo y recompensa tiene.
