@@ -13,13 +13,11 @@ Un tower defense al estilo de *Plantas contra zombis*: defensas colocadas en un 
 
 ## Decidido
 
-- El tablero se juega **en vertical o en horizontal según el dispositivo** donde se juegue.
+- Se juega **siempre en apaisado** (horizontal), en cualquier dispositivo. Al principio se planteó que el tablero fuese vertical u horizontal según el dispositivo, pero se descartó.
 
 ## Preguntas abiertas
 
 - Título definitivo y temática (qué se defiende, quiénes atacan).
-- En qué dispositivos se juega y en qué orientación va cada uno.
-- Cómo se adapta el tablero al girar: si los enemigos avanzan de arriba abajo en vertical y de derecha a izquierda en horizontal, y si cambian el número de carriles y su longitud.
-- Si se puede girar el dispositivo en mitad de una partida.
+- En qué dispositivos se juega.
 - Recursos (equivalente a los soles), tipos de defensas y de enemigos.
 - Estructura: niveles, oleadas, modos de juego.
