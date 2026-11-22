@@ -23,6 +23,7 @@ Un tower defense al estilo de *Plantas contra zombis*: defensas colocadas en un 
 ## Preguntas abiertas
 
 - Título definitivo y ambientación: dónde está el azúcar (por ejemplo, una mesa o una cocina), quiénes lo defienden y qué bichos atacan.
+  - Defensores: el usuario se inclina por **juguetes**, sin decidir todavía.
 - En qué dispositivos se juega.
 - Recursos (equivalente a los soles), tipos de defensas y de enemigos.
 - Estructura: niveles, oleadas, modos de juego.
