@@ -35,6 +35,6 @@ Un tower defense al estilo de *Plantas contra zombis*: defensas colocadas en un 
   - **El cebo**: se coloca un cebo que atrae a los enemigos de los carriles vecinos hacia uno solo. Así se concentra el botín en ese carril, pero también el peligro.
   - **Defensas que maduran**: una defensa que aguanta varias oleadas sin recibir daño evoluciona en una versión mucho mejor. Mientras madura es un punto débil que hay que proteger.
     - Con juguetes, cada tipo de torre madura a su manera (el usuario quiere las tres formas propuestas, como tipos de torre distintos):
-      - **Juguetes de cuerda**: acumulan cuerda mientras nadie los toca y atacan más fuerte; si un bicho los golpea, pierden la cuerda y vuelven a empezar.
-      - **Piezas de construcción**: por cada oleada que aguantan se les añade un bloque, hasta convertirse en una torre o un castillo.
-      - **Soldaditos**: suben de rango (cabo, sargento, general…) por cada oleada que sobreviven.
+      - **Juguetes de cuerda**: acumulan cuerda mientras nadie los toca y atacan más fuerte; si un bicho los golpea, pierden la cuerda y vuelven a empezar. Papel: **atacante frágil**; le conviene estar lejos de los bichos, por eso se combina con el cebo.
+      - **Piezas de construcción**: por cada oleada que aguantan se les añade un bloque, hasta convertirse en una torre o un castillo. Basta con que aguanten la oleada, aunque reciban golpes. Papel: **muro**.
+      - **Soldaditos**: suben de rango (cabo, sargento, general…) por cada oleada que sobreviven. Pueden recibir daño, pero si los destruyen pierden el rango. Papel: **torre equilibrada**.
