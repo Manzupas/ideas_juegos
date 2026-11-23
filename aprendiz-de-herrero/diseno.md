@@ -20,6 +20,7 @@ Eres un aprendiz de herrero. Un noble le encarga armas a tu maestro.
 - **Al principio solo se rebela el maestro; después el aprendiz puede influir**: el maestro le da la opción de elegir.
 - **Las elecciones llevan a finales distintos.**
 - **Rebelarse tiene consecuencias.**
+- **Estética**: pixel art sencillo. Idea: una imagen completamente negra en la que solo se ve la fragua, de un solo color.
 
 ## Preguntas abiertas
 
@@ -32,3 +33,4 @@ Eres un aprendiz de herrero. Un noble le encarga armas a tu maestro.
 - El noble: ¿para qué quiere las armas? ¿Una guerra, un torneo, una rebelión? ¿Hay un dilema en hacerlas?
 - ¿Un solo encargo largo o muchos encargos pequeños?
 - Época y tono: ¿medieval realista, fantasía, humor?
+- La estética de negro y un color: ¿qué color (el naranja del fuego)? ¿Solo en la fragua o en todo el juego, iluminando lo que está cerca del fuego? ¿Cambia el color en otros sitios o momentos?
