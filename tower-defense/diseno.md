@@ -25,7 +25,7 @@ Un tower defense al estilo de *Plantas contra zombis*: defensas colocadas en un 
 - Título definitivo y ambientación: dónde está el azúcar (por ejemplo, una mesa o una cocina), quiénes lo defienden y qué bichos atacan.
   - Defensores: el usuario se inclina por **juguetes**, sin decidir todavía.
 - En qué dispositivos se juega.
-- Recursos (equivalente a los soles), tipos de defensas y de enemigos.
+- Recursos (equivalente a los soles), tipos de defensas y de enemigos. Las torres **no se pagan con el azúcar** que se defiende: hay que buscar otro recurso.
 - Estructura: niveles, oleadas, modos de juego.
 - Qué mecánicas concretas de riesgo y recompensa tiene. El usuario quiere **mecánicas propias**. Le parecen ideas válidas como punto de partida, sin decidir todavía:
   - Dejar pasar enemigos: cuanto más se acercan a la base, más botín sueltan.
