@@ -21,7 +21,7 @@ Eres un aprendiz de herrero. Un noble le encarga armas a tu maestro.
 - **Las elecciones llevan a finales distintos.**
 - **Rebelarse tiene consecuencias.**
 - **Estética**: pixel art sencillo. Idea: una imagen completamente negra en la que solo se ve la fragua, de un solo color.
-- **La luz influye en lo que se ve y en cómo se ve** (idea que le gusta, sin concretar).
+- **La luz influye en lo que se ve y en cómo se ve**: cambia el ambiente, y puede que con más luz se vean más cosas. El detalle, más adelante.
 
 ## Preguntas abiertas
 
@@ -35,4 +35,4 @@ Eres un aprendiz de herrero. Un noble le encarga armas a tu maestro.
 - ¿Un solo encargo largo o muchos encargos pequeños?
 - Época y tono: ¿medieval realista, fantasía, humor?
 - La estética de negro y un color: ¿qué color (el naranja del fuego)? ¿Cambia el color en otros sitios o momentos?
-- La luz: ¿es una mecánica (avivar la fragua, llevar una vela o un farol para ver) o solo cambia el ambiente? ¿Qué se ve distinto según la luz: detalles de las armas, personajes, cosas escondidas?
+- La luz (más adelante): ¿qué se ve de más con luz: detalles de las armas, personajes, cosas escondidas?
