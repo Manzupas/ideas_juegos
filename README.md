@@ -25,6 +25,7 @@ Cuando una idea empieza a desarrollarse, se mueve al repositorio de su plataform
 | [Ciudad subterránea](ciudad-subterranea/diseno.md) | Por decidir | Idea nueva |
 | [Caperucita](caperucita/diseno.md) | Playdate | Prototipo para Playdate (2023) |
 | [Tower defense](tower-defense/diseno.md) | Por decidir | Idea nueva, al estilo de *Plantas contra zombis* |
+| [Aprendiz de herrero](aprendiz-de-herrero/diseno.md) | Por decidir | Idea nueva |
 
 ## Definiendo
 
