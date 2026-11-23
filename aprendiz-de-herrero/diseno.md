@@ -15,13 +15,15 @@ Eres un aprendiz de herrero. Un noble le encarga armas a tu maestro.
 
 - **Género**: aventura narrativa, con mecánicas variadas (cuáles, por decidir).
 - **El maestro te va enseñando** el oficio.
-- **Se puede rebelar contra lo que le encargan.**
+- **Se puede rebelar contra lo que le encargan.** Puede que se rebelen los dos, el aprendiz y el maestro.
+- **Formas de rebelarse**: podrían darse las tres: negarse, sabotear las armas o avisar a alguien.
 
 ## Preguntas abiertas
 
 - Título definitivo.
 - ¿Qué mecánicas? Por ejemplo: forjar con minijuegos (calentar, martillear, templar), llevar el taller, recoger materiales, hablar con los clientes.
-- ¿Quién se rebela: el aprendiz, el maestro o los dos? ¿Cómo se rebela (negarse, sabotear las armas, avisar a alguien) y qué pasa después?
+- ¿Las formas de rebelarse son caminos que elige el jugador (con finales distintos) o pasan en momentos distintos de la historia? ¿Qué pasa después de cada una?
+- Si se rebelan los dos, ¿a la vez, o uno arrastra al otro?
 - ¿Quién hace el trabajo del encargo: el maestro, el aprendiz o los dos?
 - El noble: ¿para qué quiere las armas? ¿Una guerra, un torneo, una rebelión? ¿Hay un dilema en hacerlas?
 - ¿Un solo encargo largo o muchos encargos pequeños?
