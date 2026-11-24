@@ -15,7 +15,7 @@ Un juego basado en *Henry Hatsworth in the Puzzling Adventure*. En el original, 
 
 - **Combate**: un *hack and slash* "estiloso" en 2D. Se lucha encadenando combos, al estilo de los juegos de acción que premian luchar con estilo.
 - **El puzle está por decidir**: puede que el juego lo tenga o puede que no.
-- El puzle de este tipo de juego se ha apuntado aparte como juego de Game Boy: [Puzle Hatsworth](https://github.com/Manzupas/gameboy/blob/main/juegos/puzle-hatsworth/diseno.md), tipo *Dr. Mario* con el estilo del puzle de *Henry Hatsworth*.
+- El puzle de este tipo de juego se desarrolla aparte como juego de Game Boy con identidad propia: [Top Hat](https://github.com/Manzupas/gameboy/tree/main/juegos/top-hat) (antes "Puzle Hatsworth"), un puzle de intercambio con el tablero que sube por turnos. Ver [su ficha](../puzle-hatsworth/diseno.md).
 
 ## Preguntas abiertas
 

@@ -43,7 +43,7 @@ Ninguna todavía.
 |------|------------|-------|
 | [Batalla de Genios](batalla-genios/diseno.md) | Game Boy | [gameboy/juegos/batalla-genios](https://github.com/Manzupas/gameboy/tree/main/juegos/batalla-genios) |
 | [Sokoban](sokoban/diseno.md) | Game Boy | [gameboy/juegos/sokoban](https://github.com/Manzupas/gameboy/tree/main/juegos/sokoban) |
-| [Puzle Hatsworth](puzle-hatsworth/diseno.md) | Game Boy | [gameboy/juegos/puzle-hatsworth](https://github.com/Manzupas/gameboy/tree/main/juegos/puzle-hatsworth) |
+| [Top Hat](puzle-hatsworth/diseno.md) (antes Puzle Hatsworth) | Game Boy | [gameboy/juegos/top-hat](https://github.com/Manzupas/gameboy/tree/main/juegos/top-hat) |
 | [Buscaminas](buscaminas/diseno.md) | Game Boy | [gameboy/juegos/buscaminas](https://github.com/Manzupas/gameboy/tree/main/juegos/buscaminas) |
 | [Atasco](atasco/diseno.md) | Game Boy | [gameboy/juegos/atasco](https://github.com/Manzupas/gameboy/tree/main/juegos/atasco) |
 | [Murdoku del purgatorio](murdoku-purgatorio/diseno.md) (¿*Office Work*?) | Godot (PC) | [murdokus](https://github.com/Manzupas/murdokus) (el diseño sigue aquí) |
