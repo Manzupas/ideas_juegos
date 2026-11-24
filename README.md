@@ -4,6 +4,8 @@ Ideas de juegos que todavía no se están desarrollando: conceptos nuevos y prot
 
 Cuando una idea empieza a desarrollarse, se mueve al repositorio de su plataforma (por ejemplo, [gameboy](https://github.com/Manzupas/gameboy)).
 
+A partir de **lista para prototipo**, cada idea sigue el [plan de desarrollo](plan-desarrollo.md): Plan A (prototipo) y, si funciona, Plan B (juego completo), con su [ficha de seguimiento](_plantilla/seguimiento.md).
+
 ## Semilla
 
 | Idea | Plataforma candidata | Origen |

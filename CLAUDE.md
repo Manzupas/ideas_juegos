@@ -34,6 +34,10 @@ No se inventan datos: lo que no haya dicho el usuario queda como "Por decidir" o
 | lista para prototipo | Hay suficiente definido para empezar a programar. |
 | movida | Ya se desarrolla en otro repositorio. Se deja la carpeta solo con un `diseno.md` mínimo que enlaza al nuevo sitio. |
 
+## Plan de desarrollo
+
+Desde **lista para prototipo**, la idea sigue el [plan de desarrollo](plan-desarrollo.md): Plan A (prototipo, empezando por la fase 0 «Rescate» si es un prototipo antiguo) y, si el prototipo funciona, Plan B (juego completo). Al mover una idea a su repositorio se copia allí la [ficha de seguimiento](_plantilla/seguimiento.md) y se actualiza al cerrar cada fase. Publicación: Game Boy solo en itch.io; Playdate en itch.io y opcionalmente Catalog; Godot en itch.io y opcionalmente Steam. Marketing y Steam son opcionales.
+
 ## Conversaciones
 
 El usuario trabaja desde varias conversaciones y quiere que todo lo que se habla de una idea esté disponible en las demás. **GitHub (`Manzupas/ideas_juegos`) es la fuente de verdad**:
