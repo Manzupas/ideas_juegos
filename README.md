@@ -46,4 +46,4 @@ Ninguna todavía.
 | [Top Hat](puzle-hatsworth/diseno.md) (antes Puzle Hatsworth) | Game Boy | [gameboy/juegos/top-hat](https://github.com/Manzupas/gameboy/tree/main/juegos/top-hat) |
 | [Buscaminas](buscaminas/diseno.md) | Game Boy | [gameboy/juegos/buscaminas](https://github.com/Manzupas/gameboy/tree/main/juegos/buscaminas) |
 | [Atasco](atasco/diseno.md) | Game Boy | [gameboy/juegos/atasco](https://github.com/Manzupas/gameboy/tree/main/juegos/atasco) |
-| [Murdoku del purgatorio](murdoku-purgatorio/diseno.md) (¿*Office Work*?) | Godot (PC) | [murdokus](https://github.com/Manzupas/murdokus) (el diseño sigue aquí) |
+| [Murdoku del purgatorio](murdoku-purgatorio/diseno.md) (¿*Office Work*?) | Godot (PC) | [murdokus](https://github.com/Manzupas/murdokus) (el diseño sigue aquí; **en pausa** desde el 25/11/2026) |
