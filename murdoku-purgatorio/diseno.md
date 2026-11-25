@@ -9,6 +9,8 @@
 
 Ya se desarrolla en el repo [murdokus](https://github.com/Manzupas/murdokus) (Godot 4.7, desde el 17/11/2026). Aun así, **el diseño se sigue actualizando aquí** hasta que exista el GDD (que se hará en Markdown, en este repo, cuando se haya hablado más): es una excepción a la regla de las ideas movidas (ver [CLAUDE.md](../CLAUDE.md)).
 
+> **En pausa desde el 25/11/2026**: el desarrollo se para de momento porque el proyecto es demasiado grande por ahora. Todo lo decidido hasta aquí se conserva; el GDD (en Markdown, en este repo) queda pendiente para cuando se retome.
+
 ## Concepto
 
 Un juego de puzles tipo *Murdoku* metido en la vida de un contable de una gestoría española de finales de los 90. En la primera parte revisa facturas, y lo que decide tiene consecuencias; al final lo asesinan. En la segunda, en el purgatorio, resolviendo Murdokus tortura a sus antiguos clientes.
