@@ -14,6 +14,7 @@
 - Drakulin y [Caperucita](../caperucita/diseno.md) pasan a ser **un solo juego**, para **Playdate**. Es el siguiente juego pequeño que se quiere **publicar para vender** (itch.io y, opcionalmente, el Catalog de Playdate).
 - De Drakulin se toma la mecánica: un tablero con flechas que se colocan y un personaje que camina solo y gira al pisarlas.
 - De Caperucita se toma la **manivela**, que mueve el tiempo de la simulación hacia delante y hacia atrás.
+- **La manivela controla el tiempo** (de momento). Según el nivel, más adelante podría controlar otra cosa: **rotar un objeto** (por ejemplo, una flecha) o incluso **mover al personaje principal**.
 - **Temática: Caperucita y otros cuentos clásicos** (de dominio público, así que no hay problemas para venderlo).
 - Entra en el [plan de desarrollo](../plan-desarrollo.md) como **prototipo (Plan A)**. Según el plan, puede ir en paralelo al juego completo activo (Top Hat) y pasaría a juego completo cuando ese termine.
 
@@ -34,7 +35,8 @@
 - **Qué cuentos y cómo se reparten**. Propuesta: un mundo por cuento, cada uno con su personaje, su destino, su peligro y una regla propia. Por ejemplo: Caperucita (llegar a casa de la abuela sin cruzarse con el lobo), Hansel y Gretel (volver a casa siguiendo las migas antes de que se las coman los pájaros), Los tres cerditos (llegar a la casa de ladrillo), Pulgarcito o Ricitos de Oro. El prototipo, solo con Caperucita.
 - Título definitivo (ya no Drakulin).
 - **¿Qué papel tiene el lobo** (o el peligro equivalente)? ¿Un segundo personaje que también sigue las flechas, uno que se mueve por su cuenta, o nada en el prototipo?
-- **¿Se puede cambiar el tablero en mitad del tiempo**, o la manivela solo sirve para mirar adelante y atrás y luego se recoloca?
+- Mientras la manivela controla el tiempo, ¿se pueden cambiar las flechas a mitad de la simulación, o solo se mira adelante y atrás y luego se recoloca?
+- Los otros usos de la manivela (rotar una flecha, mover al personaje): ¿entran en el prototipo o se dejan para el juego completo?
 - Fecha límite del prototipo.
 
 ## Concepto (Drakulin original)
