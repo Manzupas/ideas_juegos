@@ -31,7 +31,7 @@ A partir de **lista para prototipo**, cada idea sigue el [plan de desarrollo](pl
 
 | Idea | Plataforma candidata | Origen |
 |------|----------------------|--------|
-| [Drakulin + Caperucita](drakulin/diseno.md) | Playdate | Port de *Drakulin* (Symbian) fusionado con [Caperucita](caperucita/diseno.md) (prototipo para Playdate, 2023) |
+| [Drakulin + Caperucita](drakulin/diseno.md) (cuentos clásicos) | Playdate | Port de *Drakulin* (Symbian) fusionado con [Caperucita](caperucita/diseno.md) (prototipo para Playdate, 2023) |
 
 ## Lista para prototipo
 
