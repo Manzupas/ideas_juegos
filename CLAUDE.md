@@ -33,6 +33,7 @@ No se inventan datos: lo que no haya dicho el usuario queda como "Por decidir" o
 | definiendo | Se están cerrando reglas, mecánicas y alcance. |
 | lista para prototipo | Hay suficiente definido para empezar a programar. |
 | movida | Ya se desarrolla en otro repositorio. Se deja la carpeta solo con un `diseno.md` mínimo que enlaza al nuevo sitio. |
+| fusionada | Se ha unido a otra idea. Su `diseno.md` enlaza a la idea con la que se fusionó, donde sigue el diseño; su `material/` se queda en su carpeta. No aparece en el índice salvo como origen de la otra. |
 
 ## Plan de desarrollo
 

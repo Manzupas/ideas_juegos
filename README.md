@@ -12,7 +12,6 @@ A partir de **lista para prototipo**, cada idea sigue el [plan de desarrollo](pl
 |------|----------------------|--------|
 | [Mediador de monstruos](mediador-de-monstruos/diseno.md) | Por decidir | Por apuntar |
 | [Diario encantado](diario-encantado/diseno.md) | Por decidir | Por apuntar |
-| [Drakulin](drakulin/diseno.md) | Por decidir | Port de *Drakulin* (Symbian) |
 | [Shmup matemático](shmup-matematico/diseno.md) | Por decidir | Prototipo en Unity (2025) |
 | [Juegos de palabras](juegos-de-palabras/diseno.md) | Por decidir | Prototipos web (2024) |
 | [Castle](castillo/diseno.md) | Por decidir | Prototipo en Unity (2025) |
@@ -25,13 +24,14 @@ A partir de **lista para prototipo**, cada idea sigue el [plan de desarrollo](pl
 | [Henry Hatsworth y la aventura rompecabezas](henry-hatsworth/diseno.md) | Por decidir | Port de *Henry Hatsworth in the Puzzling Adventure* (DS) |
 | [Salvar el poblado](salvar-el-poblado/diseno.md) | Por decidir | Original, inspirado en *Star Wars* (Boba Fett con los tusken; capítulos de *The Mandalorian* y *The Clone Wars*) |
 | [Ciudad subterránea](ciudad-subterranea/diseno.md) | Por decidir | Idea nueva |
-| [Caperucita](caperucita/diseno.md) | Playdate | Prototipo para Playdate (2023) |
 | [Tower defense](tower-defense/diseno.md) | Por decidir | Idea nueva, al estilo de *Plantas contra zombis* |
 | [Aprendiz de herrero](aprendiz-de-herrero/diseno.md) | Por decidir | Idea antigua (más de 10 años) |
 
 ## Definiendo
 
-Ninguna todavía.
+| Idea | Plataforma candidata | Origen |
+|------|----------------------|--------|
+| [Drakulin + Caperucita](drakulin/diseno.md) | Playdate | Port de *Drakulin* (Symbian) fusionado con [Caperucita](caperucita/diseno.md) (prototipo para Playdate, 2023) |
 
 ## Lista para prototipo
 

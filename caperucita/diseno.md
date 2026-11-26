@@ -2,10 +2,12 @@
 
 | Ficha | |
 |-------|---|
-| Estado | semilla |
+| Estado | fusionada en [Drakulin](../drakulin/diseno.md) |
 | Plataforma candidata | Playdate (por la manivela) |
 | Origen | Prototipo antiguo para Playdate, guardado en [material/](material/) |
 | Año | 2023 (según las fechas de los archivos, octubre de 2023) |
+
+> **26/11/2026: fusionada con [Drakulin](../drakulin/diseno.md)** en un solo juego para Playdate: la mecánica de flechas de Drakulin y la manivela de Caperucita para mover el tiempo. El diseño sigue en la carpeta de Drakulin; aquí queda el prototipo antiguo.
 
 ## Concepto
 
