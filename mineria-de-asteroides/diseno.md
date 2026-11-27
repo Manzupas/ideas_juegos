@@ -27,6 +27,13 @@ Un juego de minería de asteroides en el espacio con una historia de ciencia fic
   - algún otro tema (por concretar).
 - **Puede que haya que minar «a mano»**, guiando a la IA.
 
+## Propuestas (sin decidir)
+
+- **Gráficos en 3D.**
+- **Control al estilo de un juego de estrategia**: se seleccionan los elementos (asteroides, estaciones, sondas…) y se les dan órdenes, en vez de pilotar la nave directamente.
+- **Warp** para saltar hasta una estación u otros sitios.
+- **En las estaciones se compran y venden mejoras** para la nave y para el personaje.
+
 ## Preguntas abiertas
 
 - Título definitivo.
@@ -36,5 +43,6 @@ Un juego de minería de asteroides en el espacio con una historia de ciencia fic
 - ¿Quiénes son las otras personas con las que nos comunicamos y cómo: mensajes, correos, señales?
 - ¿De qué va el misterio y qué papel tienen en él la corporación y la IA?
 - ¿Qué se hace con el mineral: venderlo, entregarlo a la corporación o mejorar la nave?
-- Plataforma.
-- Estética.
+- ¿Qué mejoras tiene el personaje, además de la nave?
+- Plataforma: si es en 3D, ¿Godot para PC?
+- Estilo concreto de los gráficos en 3D.
