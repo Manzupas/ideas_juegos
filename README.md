@@ -26,7 +26,7 @@ A partir de **lista para prototipo**, cada idea sigue el [plan de desarrollo](pl
 | [Ciudad subterránea](ciudad-subterranea/diseno.md) | Por decidir | Idea nueva |
 | [Tower defense](tower-defense/diseno.md) | Por decidir | Idea nueva, al estilo de *Plantas contra zombis* |
 | [Aprendiz de herrero](aprendiz-de-herrero/diseno.md) | Por decidir | Idea antigua (más de 10 años) |
-| [Minería de asteroides](mineria-de-asteroides/diseno.md) | Por decidir | Idea nueva |
+| [Minería de asteroides](mineria-de-asteroides/diseno.md) | Godot (PC) | Idea nueva |
 
 ## Definiendo
 

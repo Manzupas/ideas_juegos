@@ -3,7 +3,7 @@
 | Ficha | |
 |-------|---|
 | Estado | semilla |
-| Plataforma candidata | Por decidir |
+| Plataforma candidata | Godot (PC) |
 | Origen | Idea nueva |
 | Año | 2026 |
 
@@ -18,6 +18,7 @@ Un juego de minería de asteroides en el espacio con una historia de ciencia fic
 - **Tono**: ciencia ficción con algo de misterio.
 - **Se mina con una nave pequeña** que tiene un **depósito relativamente grande**.
 - **Vamos solos, con una IA** a bordo.
+- **Plataforma**: Godot, para PC.
 - **Referencia**: nos inspiraremos en ideas del sistema de minería de *EVE Online*.
 - **Bucle principal**: lanzar sondas, obtener información, ir a los sitios que se han encontrado y **esperar** mientras se mina.
 - **En las esperas** a veces pasan cosas:
@@ -44,5 +45,4 @@ Un juego de minería de asteroides en el espacio con una historia de ciencia fic
 - ¿De qué va el misterio y qué papel tienen en él la corporación y la IA?
 - ¿Qué se hace con el mineral: venderlo, entregarlo a la corporación o mejorar la nave?
 - ¿Qué mejoras tiene el personaje, además de la nave?
-- Plataforma: si es en 3D, ¿Godot para PC?
 - Estilo concreto de los gráficos en 3D.
