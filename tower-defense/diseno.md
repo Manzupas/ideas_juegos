@@ -3,7 +3,7 @@
 | Ficha | |
 |-------|---|
 | Estado | semilla |
-| Plataforma candidata | Por decidir |
+| Plataforma candidata | Godot |
 | Origen | Idea nueva: tower defense al estilo de *Plantas contra zombis* |
 | Año | 2026 |
 
@@ -13,6 +13,7 @@ Un tower defense al estilo de *Plantas contra zombis*: defensas colocadas en un 
 
 ## Decidido
 
+- **Plataforma: Godot.** El proyecto tiene su repo privado, `Manzupas/tower-defense`, con la ficha de seguimiento del plan de desarrollo (Plan A, fase 1 sin empezar). El diseño sigue aquí.
 - Se juega **siempre en apaisado** (horizontal), en cualquier dispositivo. Al principio se planteó que el tablero fuese vertical u horizontal según el dispositivo, pero se descartó.
 - **El tablero es fijo**: cabe entero en la pantalla y no se hace scroll.
 - El juego se basa en **mecánicas de riesgo y recompensa**.
@@ -24,7 +25,7 @@ Un tower defense al estilo de *Plantas contra zombis*: defensas colocadas en un 
 
 - Título definitivo y ambientación: dónde está el azúcar (por ejemplo, una mesa o una cocina), quiénes lo defienden y qué bichos atacan.
   - Defensores: el usuario se inclina por **juguetes**, sin decidir todavía.
-- En qué dispositivos se juega.
+- En qué dispositivos se juega: PC, web o móvil (Godot exporta a todos).
 - Recursos (equivalente a los soles), tipos de defensas y de enemigos. Las torres **no se pagan con el azúcar** que se defiende: hay que buscar otro recurso.
 - Estructura: niveles, oleadas, modos de juego.
 - Qué mecánicas concretas de riesgo y recompensa tiene. El usuario quiere **mecánicas propias**. Le parecen ideas válidas como punto de partida, sin decidir todavía:
