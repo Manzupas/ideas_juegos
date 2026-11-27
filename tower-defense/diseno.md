@@ -2,7 +2,7 @@
 
 | Ficha | |
 |-------|---|
-| Estado | semilla |
+| Estado | definiendo |
 | Plataforma candidata | Godot |
 | Origen | Idea nueva: tower defense al estilo de *Plantas contra zombis* |
 | Año | 2026 |

@@ -24,7 +24,6 @@ A partir de **lista para prototipo**, cada idea sigue el [plan de desarrollo](pl
 | [Henry Hatsworth y la aventura rompecabezas](henry-hatsworth/diseno.md) | Por decidir | Port de *Henry Hatsworth in the Puzzling Adventure* (DS) |
 | [Salvar el poblado](salvar-el-poblado/diseno.md) | Por decidir | Original, inspirado en *Star Wars* (Boba Fett con los tusken; capítulos de *The Mandalorian* y *The Clone Wars*) |
 | [Ciudad subterránea](ciudad-subterranea/diseno.md) | Por decidir | Idea nueva |
-| [Tower defense](tower-defense/diseno.md) | Godot | Idea nueva, al estilo de *Plantas contra zombis* |
 | [Aprendiz de herrero](aprendiz-de-herrero/diseno.md) | Por decidir | Idea antigua (más de 10 años) |
 | [Minería de asteroides](mineria-de-asteroides/diseno.md) | Godot (PC) | Idea nueva |
 
@@ -33,6 +32,7 @@ A partir de **lista para prototipo**, cada idea sigue el [plan de desarrollo](pl
 | Idea | Plataforma candidata | Origen |
 |------|----------------------|--------|
 | [Drakulin + Caperucita](drakulin/diseno.md) (cuentos clásicos) | Playdate | Port de *Drakulin* (Symbian) fusionado con [Caperucita](caperucita/diseno.md) (prototipo para Playdate, 2023) |
+| [Tower defense](tower-defense/diseno.md) | Godot | Idea nueva, al estilo de *Plantas contra zombis* |
 
 ## Lista para prototipo
 
