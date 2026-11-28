@@ -15,9 +15,9 @@ Por decidir:
 
 - Cómo y quién modifica el recorrido en los niveles que cambian durante la partida.
 - Número de carriles y de casillas en los niveles de carriles; tamaño de la cuadrícula en los laberínticos.
-- Cómo funciona el cebo en los niveles laberínticos (se pensó para atraer bichos de carriles vecinos).
+- Cómo funciona el cebo en los niveles laberínticos (se pensó para atraer enemigos de carriles vecinos).
 - Si el tamaño del tablero cambia entre niveles.
-- Desde qué lado entran los bichos y dónde está el azúcar.
+- Desde qué lado entran los enemigos y dónde están las chuches.
 - Si hay casillas especiales (obstáculos, casillas donde no se puede construir…).
 - Si una casilla admite una sola defensa.
 
@@ -27,11 +27,11 @@ Decidido:
 
 - Las torres **no se pagan con el azúcar** que se defiende: hay otro recurso.
 
-- El recurso se consigue de **dos fuentes**: un **goteo** pequeño y constante con el tiempo, más el **botín** que sueltan los bichos al eliminarlos.
+- El recurso se consigue de **dos fuentes**: un **goteo** pequeño y constante con el tiempo, más el **botín** que sueltan los enemigos al eliminarlos.
 
 Propuestas (al usuario le parecen bien, sin cerrar):
 
-- **Canicas** como recurso principal: ruedan desde un bote volcado (goteo) y los bichos las empujan como escarabajos peloteros con su bola (botín). Se eligieron frente a migas (se confunden con el azúcar), pilas y botones.
+- **Canicas** como recurso principal: ruedan desde un bote volcado (goteo) y los enemigos las sueltan al derrotarlos (botín). Se eligieron frente a migas, pilas y botones.
 - **Pilas** como segundo recurso, solo para algunas torres o juguetes.
 
 Por decidir:
@@ -39,10 +39,10 @@ Por decidir:
 - Confirmar las canicas.
 - Pilas (aceptado «de momento»):
   - **Consumo**: los juguetes a pilas son potentes, pero gastan pila mientras funcionan; si se quedan sin pila, se paran. Contrastan con los de cuerda, que no gastan nada.
-  - **No gotean**: solo las sueltan algunos bichos concretos.
+  - **No gotean**: solo las sueltan algunos enemigos concretos (encaja con juguetes enemigos a pilas).
   - Descartadas por ahora: pila como potenciador temporal y pila como coste de construcción.
-  - Por decidir: cuánta pila gasta cada juguete, cómo se recarga un juguete parado y qué bichos sueltan pilas.
-- Cuánto da el goteo y cuánto el botín de cada bicho (valores iniciales).
+  - Por decidir: cuánta pila gasta cada juguete, cómo se recarga un juguete parado y qué enemigos sueltan pilas.
+- Cuánto da el goteo y cuánto el botín de cada enemigo (valores iniciales).
 - Con qué recurso se empieza cada nivel.
 - Si se puede vender o retirar una defensa y qué se recupera.
 
@@ -57,22 +57,23 @@ Por decidir:
 
 Decidido:
 
-- **Los bichos roban el azúcar y se puede recuperar**: un bicho que llega al azúcar coge una parte y huye; si se le aplasta durante la huida, el azúcar se recupera.
+- **Se defienden chuches** (antes azúcar).
+- **Los enemigos roban chuches y se pueden recuperar**: un enemigo que llega a las chuches coge una parte y huye; si se le derrota durante la huida, las chuches se recuperan.
 
 Por decidir:
 
-- Si el azúcar es un solo montón o hay varios (propuesta: un montón único).
-- Cuánto azúcar coge cada bicho y por dónde huye.
+- Si las chuches son un solo montón o hay varios (propuesta: un montón único).
+- Cuántas chuches coge cada enemigo y por dónde huye.
 - Cuándo se pierde.
 - Cuándo se gana el nivel.
-- Si el azúcar que queda al final cuenta para algo (puntuación, estrellas…).
+- Si las chuches que quedan al final cuenta para algo (puntuación, estrellas…).
 
 ## Bloque 3: riesgo y recompensa
 
 ### Mecánicas propias (propuestas, falta concretarlas)
 
 - **El cebo**: se coloca un cebo que atrae a los enemigos de los carriles vecinos hacia uno solo. Así se concentra el botín en ese carril, pero también el peligro.
-  - Por decidir: alcance (cuántos carriles), duración, coste, si se gasta, si los bichos se lo comen.
+  - Por decidir: alcance (cuántos carriles), duración, coste, si se gasta, si los enemigos lo destruyen.
 - **Defensas que maduran**: una defensa que aguanta varias oleadas sin recibir daño evoluciona en una versión mucho mejor. Mientras madura es un punto débil que hay que proteger.
   - Cada tipo de torre madura a su manera; ver [defensas.md](defensas.md).
 

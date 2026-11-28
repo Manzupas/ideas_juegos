@@ -4,13 +4,11 @@ Bloque 2, junto con [defensas.md](defensas.md). Ver el índice en [diseno.md](di
 
 Decidido:
 
-- **Los enemigos son bichos.**
-
-Propuesta del usuario (sin decidir): cambiar los bichos por **juguetes de otro niño**; ver [ambientacion.md](ambientacion.md).
+- **Los enemigos son los juguetes de otro niño** (sustituyen a los bichos de la idea inicial); ver [ambientacion.md](ambientacion.md).
 
 ## Plantilla de ficha
 
-Cada bicho tiene esta ficha. Los números son **valores iniciales**.
+Cada juguete enemigo tiene esta ficha. Los números son **valores iniciales**.
 
 | Campo | Valor |
 |-------|-------|
@@ -18,13 +16,13 @@ Cada bicho tiene esta ficha. Los números son **valores iniciales**.
 | Vida | |
 | Velocidad | |
 | Daño a defensas | |
-| Cuánto azúcar se lleva | |
+| Cuántas chuches se lleva | |
 | Comportamiento | |
 | Botín | |
 | Aparece desde | |
 
 ## Por decidir
 
-- Qué bichos hay y cuántos.
-- Si hay bichos especiales (voladores, que saltan defensas, que cambian de carril, jefes…).
-- Cómo afecta el cebo a cada bicho.
+- Qué juguetes enemigos hay y cuántos.
+- Si hay enemigos especiales (voladores, que saltan defensas, que cambian de carril, jefes…).
+- Cómo afecta el cebo a cada enemigo.

@@ -4,21 +4,20 @@ Bloque 5. Ver el índice en [diseno.md](diseno.md).
 
 Decidido:
 
-- **Los enemigos son bichos** y **lo que se defiende es azúcar**.
+- **Juguetes contra juguetes**: los defensores son los juguetes de un niño y los enemigos, los de otro. (Sustituye a la idea anterior de bichos contra azúcar.)
+- **Lo que se defiende son chuches.**
 - Estética **sencilla**.
 
-## Propuesta del usuario (sin decidir): juguetes contra juguetes
+Propuesta del usuario (sin decidir):
 
-Cambiar los bichos por **juguetes de otro niño**: los defensores son los juguetes de un niño y los atacantes, los de otro. Si se adopta, deja abierto:
-
-- Qué se defiende: el azúcar tiene sentido con bichos, pero no tanto con juguetes (podrían ser chuches, la caja de juguetes, el cuarto…).
-- Cómo se distinguen a simple vista los dos bandos (estilo, color, tipo de juguete).
-- Encaja bien con las pilas: los juguetes enemigos a pilas las soltarían al derrotarlos.
+- Cada bando es una **temática de juguetes** enfrentada a otra, al estilo de vaqueros contra otro tipo de juguete.
 
 ## Por decidir
 
 - Título definitivo.
-- Dónde está el azúcar (por ejemplo, una mesa o una cocina).
-- Quiénes lo defienden. El usuario se inclina por **juguetes**, sin decidir todavía.
+- Qué temática tiene cada bando.
+- Cómo se distinguen a simple vista los dos bandos (estilo, color, forma de moverse).
+- Quiénes son los dos niños y dónde ocurre (el cuarto, la casa…).
+- Dónde están las chuches.
 - Estilo visual concreto (pixel art, vectorial, resolución de los sprites, paleta).
 - Música y efectos de sonido.

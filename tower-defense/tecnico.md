@@ -13,4 +13,4 @@ Decidido:
 - Resolución base y cómo se escala.
 - Plataformas de exportación: PC, web o móvil.
 - Estructura de escenas.
-- Cómo se guardan los datos de defensas, bichos y oleadas (recursos de Godot, JSON…).
+- Cómo se guardan los datos de defensas, enemigos y oleadas (recursos de Godot, JSON…).

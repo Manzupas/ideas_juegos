@@ -15,7 +15,7 @@ Propuesta:
 
 - Estructura: cuántos niveles, si hay mundos o zonas.
 - Oleadas: cuántas por nivel, cómo se componen, cuánto dura cada una y qué pasa entre oleadas.
-- Progresión: qué defensas y bichos se desbloquean en cada nivel.
+- Progresión: qué defensas y enemigos se desbloquean en cada nivel.
 - Curva de dificultad.
 - Modos de juego además del principal (procedural, sin fin, retos…).
 - Si se guarda el progreso y qué se guarda.

@@ -9,6 +9,6 @@ Decidido:
 ## Por decidir
 
 - Pantallas: título, selección de nivel, partida, pausa, victoria, derrota, opciones, créditos.
-- HUD: dónde se ven el recurso, el azúcar, la oleada y la selección de defensas.
+- HUD: dónde se ven el recurso, las chuches, la oleada y la selección de defensas.
 - Controles en cada dispositivo (ratón, táctil, mando).
 - Idiomas.

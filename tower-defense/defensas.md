@@ -2,7 +2,7 @@
 
 Bloque 2, junto con [enemigos.md](enemigos.md). Ver el índice en [diseno.md](diseno.md).
 
-Los defensores serán probablemente **juguetes** (el usuario se inclina por ellos, sin decidir; ver [ambientacion.md](ambientacion.md)).
+Los defensores son **juguetes** de un niño; los enemigos, juguetes de otro (ver [ambientacion.md](ambientacion.md)).
 
 ## Plantilla de ficha
 
@@ -25,8 +25,8 @@ Cada defensa tiene esta ficha. Los números son **valores iniciales**.
 ### Juguetes de cuerda
 
 - **Papel: atacante frágil.**
-- Acumulan cuerda mientras nadie los toca y atacan más fuerte; si un bicho los golpea, pierden la cuerda y vuelven a empezar.
-- Les conviene estar lejos de los bichos, por eso se combinan con el cebo.
+- Acumulan cuerda mientras nadie los toca y atacan más fuerte; si un enemigo los golpea, pierden la cuerda y vuelven a empezar.
+- Les conviene estar lejos de los enemigos, por eso se combinan con el cebo.
 
 ### Piezas de construcción
 
