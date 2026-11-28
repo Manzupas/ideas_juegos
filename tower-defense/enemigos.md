@@ -6,6 +6,8 @@ Decidido:
 
 - **Los enemigos son bichos.**
 
+Propuesta del usuario (sin decidir): cambiar los bichos por **juguetes de otro niño**; ver [ambientacion.md](ambientacion.md).
+
 ## Plantilla de ficha
 
 Cada bicho tiene esta ficha. Los números son **valores iniciales**.
