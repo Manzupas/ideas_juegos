@@ -8,15 +8,15 @@ Decidido:
 - **Lo que se defiende son chuches.**
 - Estética **sencilla**.
 
-Propuesta del usuario (sin decidir):
-
-- Cada bando es una **temática de juguetes** enfrentada a otra, al estilo de vaqueros contra otro tipo de juguete.
+- **Temáticas fijas**: cada bando tiene una sola temática de juguetes durante todo el juego (no cambia por mundo). Se busca no complicarlo.
+- Descartado: un ejército enemigo distinto en cada mundo.
 - Descartado: dividir los bandos en juguetes clásicos contra modernos (a pilas), porque **los dos bandos usan pilas**.
 
 ## Por decidir
 
 - Título definitivo.
-- Qué temática tiene cada bando.
+- Qué dos temáticas son (candidatas propuestas: caballeros contra piratas, soldaditos contra robots, granja contra dinosaurios).
+- Cómo encajan en la temática del jugador los juguetes de cuerda, las piezas de construcción y los soldaditos.
 - Cómo se distinguen a simple vista los dos bandos (estilo, color, forma de moverse).
 - Quiénes son los dos niños y dónde ocurre (el cuarto, la casa…).
 - Dónde están las chuches.
