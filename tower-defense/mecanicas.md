@@ -10,11 +10,10 @@ Decidido:
 
 - Se juega **siempre en apaisado** (horizontal), en cualquier dispositivo. Al principio se planteó que el tablero fuese vertical u horizontal según el dispositivo, pero se descartó.
 - **El tablero es fijo**: cabe entero en la pantalla y no se hace scroll.
-- Hay **carriles** por los que avanzan los bichos hacia el azúcar.
-
 Por decidir:
 
-- Número de carriles y de casillas por carril.
+- **Carriles o mapa generado por nivel.** El usuario aún no lo tiene claro: puede ser un tablero por carriles (como *Plantas contra zombis*) o un mapa distinto que se genere en cada nivel. Afecta al cebo (que se pensó para atraer bichos de carriles vecinos) y a dónde está el azúcar.
+- Si son carriles: número de carriles y de casillas por carril.
 - Si el tamaño del tablero cambia entre niveles.
 - Desde qué lado entran los bichos y dónde está el azúcar.
 - Si hay casillas especiales (obstáculos, casillas donde no se puede construir…).
@@ -54,9 +53,14 @@ Por decidir:
 
 ### Victoria y derrota
 
+Decidido:
+
+- **Los bichos roban el azúcar y se puede recuperar**: un bicho que llega al azúcar coge una parte y huye; si se le aplasta durante la huida, el azúcar se recupera.
+
 Por decidir:
 
-- Cómo funciona el azúcar: si es una cantidad que los bichos van robando o comiendo, una por carril o una común.
+- Si el azúcar es un solo montón o hay varios (propuesta: un montón único).
+- Cuánto azúcar coge cada bicho y por dónde huye.
 - Cuándo se pierde.
 - Cuándo se gana el nivel.
 - Si el azúcar que queda al final cuenta para algo (puntuación, estrellas…).
