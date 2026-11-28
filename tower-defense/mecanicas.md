@@ -28,9 +28,15 @@ Decidido:
 
 - El recurso se consigue de **dos fuentes**: un **goteo** pequeño y constante con el tiempo, más el **botín** que sueltan los bichos al eliminarlos.
 
+Propuestas (al usuario le parecen bien, sin cerrar):
+
+- **Canicas** como recurso principal: ruedan desde un bote volcado (goteo) y los bichos las empujan como escarabajos peloteros con su bola (botín). Se eligieron frente a migas (se confunden con el azúcar), pilas y botones.
+- **Pilas** como segundo recurso, solo para algunas torres o juguetes.
+
 Por decidir:
 
-- Qué es el recurso y cómo se llama.
+- Confirmar las canicas.
+- Pilas: de dónde salen, qué juguetes las usan y para qué (pagar la torre, mantenerla funcionando, potenciarla…).
 - Cuánto da el goteo y cuánto el botín de cada bicho (valores iniciales).
 - Con qué recurso se empieza cada nivel.
 - Si se puede vender o retirar una defensa y qué se recupera.
