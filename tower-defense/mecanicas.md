@@ -25,7 +25,7 @@ Por decidir:
 
 Decidido:
 
-- Las torres **no se pagan con el azúcar** que se defiende: hay otro recurso.
+- Las torres **no se pagan con las chuches** que se defienden: hay otro recurso.
 
 - El recurso se consigue de **dos fuentes**: un **goteo** pequeño y constante con el tiempo, más el **botín** que sueltan los enemigos al eliminarlos.
 
