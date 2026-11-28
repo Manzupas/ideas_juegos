@@ -26,10 +26,12 @@ Decidido:
 
 - Las torres **no se pagan con el azúcar** que se defiende: hay otro recurso.
 
+- El recurso se consigue de **dos fuentes**: un **goteo** pequeño y constante con el tiempo, más el **botín** que sueltan los bichos al eliminarlos.
+
 Por decidir:
 
 - Qué es el recurso y cómo se llama.
-- Cómo se consigue (botín de los bichos, generación con el tiempo, defensas que lo producen…).
+- Cuánto da el goteo y cuánto el botín de cada bicho (valores iniciales).
 - Con qué recurso se empieza cada nivel.
 - Si se puede vender o retirar una defensa y qué se recupera.
 
