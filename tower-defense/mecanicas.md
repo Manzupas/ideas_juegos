@@ -11,9 +11,12 @@ Decidido:
 - Se juega **siempre en apaisado** (horizontal), en cualquier dispositivo. Al principio se planteó que el tablero fuese vertical u horizontal según el dispositivo, pero se descartó.
 - **El tablero es fijo**: cabe entero en la pantalla y no se hace scroll.
 - **La forma del recorrido es mixta y cambia según el nivel**: unos niveles tienen carriles rectos, otros son laberínticos y alguno puede modificarse durante la partida.
+- **Los cambios de recorrido durante la partida se introducen poco a poco**: al principio el recorrido no cambia; más adelante lo cambia el propio nivel en momentos marcados, y más adelante aún el jugador también puede cambiarlo.
 Por decidir:
 
-- Cómo y quién modifica el recorrido en los niveles que cambian durante la partida.
+- Cómo cambia el recorrido exactamente en los niveles del nivel y qué herramienta usa el jugador para cambiarlo (¿las piezas de construcción?).
+- Si el jugador puede bloquear del todo el camino o siempre tiene que quedar una salida.
+- Si algún enemigo especial también puede modificar el recorrido (propuesta, sin decidir).
 - Número de carriles y de casillas en los niveles de carriles; tamaño de la cuadrícula en los laberínticos.
 - Cómo funciona el cebo en los niveles laberínticos (se pensó para atraer enemigos de carriles vecinos).
 - Si el tamaño del tablero cambia entre niveles.

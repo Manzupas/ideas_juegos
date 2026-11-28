@@ -6,6 +6,7 @@ Decidido:
 
 - **Los niveles no son puzles**: no hay una solución concreta que encontrar.
 - **Los niveles se diseñan a mano.**
+- **Progresión del recorrido**: primeros niveles con recorrido fijo, después niveles en los que el recorrido cambia solo, y más adelante niveles en los que el jugador puede cambiarlo (ver [mecanicas.md](mecanicas.md)).
 
 Propuesta:
 
