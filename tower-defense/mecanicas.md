@@ -12,10 +12,11 @@ Decidido:
 - **El tablero es fijo**: cabe entero en la pantalla y no se hace scroll.
 - **La forma del recorrido es mixta y cambia según el nivel**: unos niveles tienen carriles rectos, otros son laberínticos y alguno puede modificarse durante la partida.
 - **Los cambios de recorrido durante la partida se introducen poco a poco**: al principio el recorrido no cambia; más adelante lo cambia el propio nivel en momentos marcados, y más adelante aún el jugador también puede cambiarlo.
+- **El jugador cambia el recorrido con las piezas de construcción**: colocadas fuera de su casilla de defensa, bloquean el paso. Es un segundo uso de esa defensa que aparece cuando se desbloquea la mecánica.
+- **Siempre queda una salida**: el juego no deja colocar nada que encierre a los enemigos.
 Por decidir:
 
-- Cómo cambia el recorrido exactamente en los niveles del nivel y qué herramienta usa el jugador para cambiarlo (¿las piezas de construcción?).
-- Si el jugador puede bloquear del todo el camino o siempre tiene que quedar una salida.
+- Cómo cambia el recorrido exactamente en los niveles en que lo cambia el propio nivel.
 - Si algún enemigo especial también puede modificar el recorrido (propuesta, sin decidir).
 - Número de carriles y de casillas en los niveles de carriles; tamaño de la cuadrícula en los laberínticos.
 - Cómo funciona el cebo en los niveles laberínticos (se pensó para atraer enemigos de carriles vecinos).
