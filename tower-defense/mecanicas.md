@@ -39,6 +39,7 @@ Por decidir:
 - Confirmar las canicas.
 - Pilas (aceptado «de momento»):
   - **Consumo**: los juguetes a pilas son potentes, pero gastan pila mientras funcionan; si se quedan sin pila, se paran. Contrastan con los de cuerda, que no gastan nada.
+  - **Las usan los dos bandos**: hay juguetes a pilas entre los defensores y entre los enemigos.
   - **No gotean**: solo las sueltan algunos enemigos concretos (encaja con juguetes enemigos a pilas).
   - Descartadas por ahora: pila como potenciador temporal y pila como coste de construcción.
   - Por decidir: cuánta pila gasta cada juguete, cómo se recarga un juguete parado y qué enemigos sueltan pilas.

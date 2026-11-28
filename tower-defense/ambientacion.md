@@ -11,6 +11,7 @@ Decidido:
 Propuesta del usuario (sin decidir):
 
 - Cada bando es una **temática de juguetes** enfrentada a otra, al estilo de vaqueros contra otro tipo de juguete.
+- Descartado: dividir los bandos en juguetes clásicos contra modernos (a pilas), porque **los dos bandos usan pilas**.
 
 ## Por decidir
 
