@@ -36,7 +36,11 @@ Propuestas (al usuario le parecen bien, sin cerrar):
 Por decidir:
 
 - Confirmar las canicas.
-- Pilas: de dónde salen, qué juguetes las usan y para qué (pagar la torre, mantenerla funcionando, potenciarla…).
+- Pilas (aceptado «de momento»):
+  - **Consumo**: los juguetes a pilas son potentes, pero gastan pila mientras funcionan; si se quedan sin pila, se paran. Contrastan con los de cuerda, que no gastan nada.
+  - **No gotean**: solo las sueltan algunos bichos concretos.
+  - Descartadas por ahora: pila como potenciador temporal y pila como coste de construcción.
+  - Por decidir: cuánta pila gasta cada juguete, cómo se recarga un juguete parado y qué bichos sueltan pilas.
 - Cuánto da el goteo y cuánto el botín de cada bicho (valores iniciales).
 - Con qué recurso se empieza cada nivel.
 - Si se puede vender o retirar una defensa y qué se recupera.
