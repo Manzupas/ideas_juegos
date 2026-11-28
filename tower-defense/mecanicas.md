@@ -10,10 +10,12 @@ Decidido:
 
 - Se juega **siempre en apaisado** (horizontal), en cualquier dispositivo. Al principio se planteó que el tablero fuese vertical u horizontal según el dispositivo, pero se descartó.
 - **El tablero es fijo**: cabe entero en la pantalla y no se hace scroll.
+- **La forma del recorrido es mixta y cambia según el nivel**: unos niveles tienen carriles rectos, otros son laberínticos y alguno puede modificarse durante la partida.
 Por decidir:
 
-- **Carriles o mapa generado por nivel.** El usuario aún no lo tiene claro: puede ser un tablero por carriles (como *Plantas contra zombis*) o un mapa distinto que se genere en cada nivel. Afecta al cebo (que se pensó para atraer bichos de carriles vecinos) y a dónde está el azúcar.
-- Si son carriles: número de carriles y de casillas por carril.
+- Cómo y quién modifica el recorrido en los niveles que cambian durante la partida.
+- Número de carriles y de casillas en los niveles de carriles; tamaño de la cuadrícula en los laberínticos.
+- Cómo funciona el cebo en los niveles laberínticos (se pensó para atraer bichos de carriles vecinos).
 - Si el tamaño del tablero cambia entre niveles.
 - Desde qué lado entran los bichos y dónde está el azúcar.
 - Si hay casillas especiales (obstáculos, casillas donde no se puede construir…).

@@ -9,7 +9,7 @@
 
 ## Concepto
 
-Un tower defense al estilo de *Plantas contra zombis*: defensas colocadas en un tablero por carriles frente a oleadas de enemigos que avanzan. Los enemigos son bichos y lo que se defiende es azúcar. Se basa en mecánicas de riesgo y recompensa.
+Un tower defense al estilo de *Plantas contra zombis*: defensas colocadas en un tablero (de carriles rectos o laberíntico, según el nivel) frente a oleadas de enemigos que avanzan. Los enemigos son bichos y lo que se defiende es azúcar. Se basa en mecánicas de riesgo y recompensa.
 
 ## Cómo se organiza el diseño
 
